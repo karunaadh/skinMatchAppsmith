@@ -1,0 +1,59 @@
+{
+  "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+  "bottomRow": 37,
+  "boxShadow": "none",
+  "canEscapeKeyClose": true,
+  "canOutsideClickClose": true,
+  "children": [
+    {
+      "borderRadius": "0px",
+      "bottomRow": 240,
+      "boxShadow": "none",
+      "canExtend": true,
+      "detachFromLayout": true,
+      "dynamicBindingPathList": [],
+      "dynamicTriggerPathList": [],
+      "isDisabled": false,
+      "isLoading": false,
+      "isVisible": "true",
+      "labelTextSize": "0.875rem",
+      "leftColumn": 0,
+      "minHeight": 240,
+      "parentColumnSpace": 1,
+      "parentId": "i3whp03wf0",
+      "parentRowSpace": 1,
+      "rightColumn": 453.1875,
+      "shouldScrollContents": false,
+      "topRow": 0,
+      "type": "CANVAS_WIDGET",
+      "version": 1,
+      "widgetId": "zi8fjakv8o",
+      "widgetName": "Canvas3"
+    }
+  ],
+  "detachFromLayout": true,
+  "dynamicBindingPathList": [
+    {
+      "key": "borderRadius"
+    }
+  ],
+  "dynamicHeight": "FIXED",
+  "dynamicTriggerPathList": [],
+  "height": 240,
+  "isLoading": false,
+  "labelTextSize": "0.875rem",
+  "leftColumn": 21,
+  "maxDynamicHeight": 9000,
+  "minDynamicHeight": 4,
+  "parentColumnSpace": 18.8828125,
+  "parentId": "0",
+  "parentRowSpace": 10,
+  "rightColumn": 45,
+  "shouldScrollContents": true,
+  "topRow": 13,
+  "type": "MODAL_WIDGET",
+  "version": 2,
+  "widgetId": "i3whp03wf0",
+  "widgetName": "Delete_Modal",
+  "width": 456
+}

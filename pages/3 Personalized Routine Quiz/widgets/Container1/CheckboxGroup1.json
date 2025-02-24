@@ -1,0 +1,64 @@
+{
+  "accentColor": "#7e22ce",
+  "animateLoading": true,
+  "borderRadius": "0.375rem",
+  "bottomRow": 46,
+  "defaultSelectedValues": "",
+  "dynamicBindingPathList": [],
+  "dynamicHeight": "AUTO_HEIGHT",
+  "dynamicPropertyPathList": [
+    {
+      "key": "options"
+    },
+    {
+      "key": "isRequired"
+    },
+    {
+      "key": "onSelectionChange"
+    }
+  ],
+  "dynamicTriggerPathList": [
+    {
+      "key": "onSelectionChange"
+    }
+  ],
+  "flexVerticalAlignment": "start",
+  "isDisabled": false,
+  "isInline": true,
+  "isLoading": false,
+  "isRequired": "true",
+  "isSelectAll": false,
+  "isVisible": true,
+  "key": "mfibzpaouf",
+  "labelAlignment": "left",
+  "labelPosition": "Top",
+  "labelStyle": "BOLD",
+  "labelText": "",
+  "labelTextColor": "#3f3f46",
+  "labelTextSize": "3rem",
+  "labelTooltip": "",
+  "labelWidth": 5,
+  "leftColumn": 1,
+  "maxDynamicHeight": 9000,
+  "minDynamicHeight": 4,
+  "mobileBottomRow": 23,
+  "mobileLeftColumn": 11,
+  "mobileRightColumn": 34,
+  "mobileTopRow": 17,
+  "needsErrorInfo": false,
+  "onSelectionChange": "{{CheckboxGroup1.selectedValues.length > 3 ? showAlert(\"Length must be less than or equal to 3\", '') : null}}",
+  "optionAlignment": "space-between",
+  "options": "[\n  {\n    \"label\": \"Acne breakout 🌟\",\n    \"value\": \"Acne breakout\"\n  },\n\n  {\n    \"label\": \"Fine lines and wrinkles 👵\",\n    \"value\": \"Fine lines and wrinkles\"\n  },\n  {\n    \"label\": \"Dark spots and hyperpigmentation 🌒\",\n    \"value\": \"Dark spots and hyperpigmentation\"\n  }, \n\t{\n    \"label\": \"Pores🕳️\",\n    \"value\": \"Pores\"\n  },\n\t\t{\n    \"label\": \"Irritation🔥\",\n    \"value\": \"Irritation \"\n  },\n\t\t{\n    \"label\": \"Dull skin🌫️\",\n    \"value\": \"Dull skin\"\n  }\n]",
+  "originalBottomRow": 46,
+  "originalTopRow": 39,
+  "parentColumnSpace": 8.136962890625,
+  "parentId": "ph1hzl7620",
+  "parentRowSpace": 10,
+  "renderMode": "CANVAS",
+  "rightColumn": 59,
+  "topRow": 39,
+  "type": "CHECKBOX_GROUP_WIDGET",
+  "version": 2,
+  "widgetId": "xoapspf02v",
+  "widgetName": "CheckboxGroup1"
+}

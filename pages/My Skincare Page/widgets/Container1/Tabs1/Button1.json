@@ -1,0 +1,49 @@
+{
+  "animateLoading": true,
+  "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+  "bottomRow": 17,
+  "boxShadow": "none",
+  "buttonColor": "#7e22ce",
+  "buttonVariant": "PRIMARY",
+  "disabledWhenInvalid": false,
+  "dynamicBindingPathList": [
+    {
+      "key": "borderRadius"
+    }
+  ],
+  "dynamicTriggerPathList": [
+    {
+      "key": "onClick"
+    }
+  ],
+  "isDefaultClickDisabled": true,
+  "isDisabled": false,
+  "isLoading": false,
+  "isVisible": true,
+  "key": "vwk8ubtfm3",
+  "leftColumn": 22,
+  "minWidth": 120,
+  "mobileBottomRow": 15,
+  "mobileLeftColumn": 22,
+  "mobileRightColumn": 38,
+  "mobileTopRow": 11,
+  "needsErrorInfo": false,
+  "onClick": "{{navigateTo('1 Personalized Routine Quiz', {}, 'SAME_WINDOW');}}",
+  "originalBottomRow": 17,
+  "originalTopRow": 13,
+  "parentColumnSpace": 6.986328125,
+  "parentId": "x90b66s38p",
+  "parentRowSpace": 10,
+  "placement": "CENTER",
+  "recaptchaType": "V3",
+  "renderMode": "CANVAS",
+  "resetFormOnClick": false,
+  "responsiveBehavior": "hug",
+  "rightColumn": 58,
+  "text": "Retake Skincare Test",
+  "topRow": 13,
+  "type": "BUTTON_WIDGET",
+  "version": 1,
+  "widgetId": "kcsmf1p15m",
+  "widgetName": "Button1"
+}

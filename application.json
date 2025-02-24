@@ -1,0 +1,72 @@
+{
+  "appIsExample": false,
+  "appLayout": {
+    "type": "MOBILE"
+  },
+  "applicationVersion": 2,
+  "collapseInvisibleWidgets": true,
+  "color": "#FFDEDE",
+  "evaluationVersion": 2,
+  "icon": "plant",
+  "pages": [
+    {
+      "id": "Home Page",
+      "isDefault": false
+    },
+    {
+      "id": "Registration_Login Page",
+      "isDefault": true
+    },
+    {
+      "id": "Group and Search Products Page",
+      "isDefault": false
+    },
+    {
+      "id": "Individual Product Page",
+      "isDefault": false
+    },
+    {
+      "id": "1 Personalized Routine Quiz",
+      "isDefault": false
+    },
+    {
+      "id": "User Profile",
+      "isDefault": false
+    },
+    {
+      "id": "2 Personalized Routine Quiz",
+      "isDefault": false
+    },
+    {
+      "id": "My Skincare Page",
+      "isDefault": false
+    },
+    {
+      "id": "3 Personalized Routine Quiz",
+      "isDefault": false
+    },
+    {
+      "id": "5 Personalized Routine Quiz",
+      "isDefault": false
+    },
+    {
+      "id": "4 Personalized Routine Quiz",
+      "isDefault": false
+    },
+    {
+      "id": "Quiz Results Page",
+      "isDefault": false
+    },
+    {
+      "id": "Products",
+      "isDefault": false
+    },
+    {
+      "id": "Individual Product Page 2",
+      "isDefault": false
+    }
+  ],
+  "unpublishedAppLayout": {
+    "type": "MOBILE"
+  }
+}

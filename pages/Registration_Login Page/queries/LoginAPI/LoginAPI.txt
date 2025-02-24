@@ -1,0 +1,4 @@
+{
+	"userId" : "{{Login_Username.text}}",
+	"password" : "{{Login_Password.text}}"
+}

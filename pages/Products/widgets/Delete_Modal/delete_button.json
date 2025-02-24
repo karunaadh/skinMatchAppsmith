@@ -1,0 +1,38 @@
+{
+  "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+  "bottomRow": 22,
+  "boxShadow": "none",
+  "buttonColor": "#DD4B34",
+  "buttonVariant": "PRIMARY",
+  "dynamicBindingPathList": [
+    {
+      "key": "borderRadius"
+    }
+  ],
+  "dynamicPropertyPathList": [
+    {
+      "key": "onClick"
+    }
+  ],
+  "dynamicTriggerPathList": [
+    {
+      "key": "onClick"
+    }
+  ],
+  "isDefaultClickDisabled": true,
+  "isDisabled": false,
+  "isLoading": false,
+  "isVisible": "true",
+  "labelTextSize": "0.875rem",
+  "leftColumn": 48,
+  "onClick": "{{(function () {\nDeleteQuery.run(() =>{ showAlert('Row successfully deleted!','success');\tSelectQuery.run();\n}, () => showAlert('Something went wrong! Please check debugger for more info.','error'));\ncloseModal('Delete_Modal');\n})()}}",
+  "parentId": "zi8fjakv8o",
+  "recaptchaType": "V3",
+  "rightColumn": 64,
+  "text": "Confirm",
+  "topRow": 18,
+  "type": "BUTTON_WIDGET",
+  "version": 1,
+  "widgetId": "qq02lh7ust",
+  "widgetName": "delete_button"
+}
