@@ -1,7 +1,7 @@
 {
   "appIsExample": false,
   "appLayout": {
-    "type": "MOBILE"
+    "type": "FLUID"
   },
   "applicationVersion": 2,
   "collapseInvisibleWidgets": true,
@@ -67,6 +67,6 @@
     }
   ],
   "unpublishedAppLayout": {
-    "type": "MOBILE"
+    "type": "FLUID"
   }
 }
