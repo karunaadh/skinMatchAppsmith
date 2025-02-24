@@ -10,7 +10,7 @@
   "isAllowHalf": false,
   "isDisabled": false,
   "isLoading": false,
-  "isReadOnly": false,
+  "isReadOnly": true,
   "isRequired": false,
   "isVisible": true,
   "key": "tjbdqh73gl",
