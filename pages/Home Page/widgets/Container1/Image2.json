@@ -1,7 +1,7 @@
 {
   "animateLoading": true,
   "borderRadius": "0px",
-  "bottomRow": 96,
+  "bottomRow": 99,
   "boxShadow": "0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05)",
   "defaultImage": "https://previews.123rf.com/images/vdele/vdele2005/vdele200500031/149097857-seamless-border-natural-cosmetic-element-of-care-self-care-and-skin-care-pattern-isolated.jpg",
   "dynamicBindingPathList": [],
@@ -29,7 +29,7 @@
   "parentRowSpace": 10,
   "renderMode": "CANVAS",
   "rightColumn": 64,
-  "topRow": 87,
+  "topRow": 90,
   "type": "IMAGE_WIDGET",
   "version": 1,
   "widgetId": "28vsj54xm4",

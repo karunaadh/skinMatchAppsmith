@@ -4,7 +4,7 @@
   "borderColor": "#f4f4f5",
   "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
   "borderWidth": "2",
-  "bottomRow": 61,
+  "bottomRow": 64,
   "dynamicBindingPathList": [
     {
       "key": "truncateButtonColor"
@@ -46,7 +46,7 @@
   "text": "Karuna Adhikari\nEric (Jialuo) Chen\nAnna Wang\nAnoushka Paul\nAditi Ponemone\nPragya Prakash\nLea Kwon\nNaeer Khan \n",
   "textAlign": "CENTER",
   "textColor": "#7e22ce",
-  "topRow": 44,
+  "topRow": 47,
   "truncateButtonColor": "{{appsmith.theme.colors.primaryColor}}",
   "type": "TEXT_WIDGET",
   "version": 1,
