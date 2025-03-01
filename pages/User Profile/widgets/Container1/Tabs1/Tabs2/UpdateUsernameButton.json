@@ -1,7 +1,7 @@
 {
   "animateLoading": true,
   "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-  "bottomRow": 8,
+  "bottomRow": 10,
   "boxShadow": "none",
   "buttonColor": "#553de9",
   "buttonVariant": "PRIMARY",
@@ -21,11 +21,11 @@
   ],
   "dynamicTriggerPathList": [],
   "isDefaultClickDisabled": true,
-  "isDisabled": "{{!Email.isValid || !Username.isValid}}",
+  "isDisabled": "{{!UpdateEmail.isValid || !NewUsername.isValid}}",
   "isLoading": false,
   "isVisible": true,
   "key": "vwk8ubtfm3",
-  "leftColumn": 40,
+  "leftColumn": 36,
   "minWidth": 120,
   "mobileBottomRow": 8,
   "mobileLeftColumn": 40,
@@ -40,11 +40,11 @@
   "renderMode": "CANVAS",
   "resetFormOnClick": false,
   "responsiveBehavior": "hug",
-  "rightColumn": 56,
+  "rightColumn": 59,
   "text": "Update",
-  "topRow": 4,
+  "topRow": 6,
   "type": "BUTTON_WIDGET",
   "version": 1,
   "widgetId": "b62gl20jxu",
-  "widgetName": "Button3"
+  "widgetName": "UpdateUsernameButton"
 }

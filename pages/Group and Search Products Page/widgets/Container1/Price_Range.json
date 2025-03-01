@@ -2,7 +2,7 @@
   "accentColor": "{{appsmith.theme.colors.primaryColor}}",
   "animateLoading": true,
   "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-  "bottomRow": 18,
+  "bottomRow": 19,
   "boxShadow": "none",
   "defaultOptionValue": "",
   "dynamicBindingPathList": [
@@ -53,7 +53,7 @@
   "rightColumn": 64,
   "serverSideFiltering": false,
   "sourceData": "[\n  {\n    \"name\": \"Low to High\",\n    \"code\": \"Low to High\"\n  },\n  {\n    \"name\": \"High to Low\",\n    \"code\": \"High to Low\"\n  }\n]",
-  "topRow": 11,
+  "topRow": 12,
   "type": "SELECT_WIDGET",
   "version": 1,
   "widgetId": "h1wkuiv8pg",

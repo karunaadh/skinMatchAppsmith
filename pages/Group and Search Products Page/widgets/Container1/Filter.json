@@ -3,7 +3,7 @@
   "allowClear": false,
   "animateLoading": true,
   "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-  "bottomRow": 11,
+  "bottomRow": 12,
   "boxShadow": "none",
   "defaultOptionValue": [
     "GREEN"
@@ -47,7 +47,7 @@
   "renderMode": "CANVAS",
   "responsiveBehavior": "fill",
   "rightColumn": 64,
-  "topRow": 4,
+  "topRow": 5,
   "type": "MULTI_SELECT_TREE_WIDGET",
   "version": 1,
   "widgetId": "umo0ndbdiy",

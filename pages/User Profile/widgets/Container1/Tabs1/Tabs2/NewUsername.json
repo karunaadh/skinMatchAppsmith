@@ -3,7 +3,7 @@
   "animateLoading": true,
   "autoFocus": false,
   "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-  "bottomRow": 15,
+  "bottomRow": 7,
   "boxShadow": "none",
   "defaultText": "",
   "dynamicBindingPathList": [
@@ -12,11 +12,14 @@
     },
     {
       "key": "borderRadius"
+    },
+    {
+      "key": "validation"
     }
   ],
   "dynamicHeight": "FIXED",
   "dynamicTriggerPathList": [],
-  "errorMessage": "The email is not valid!",
+  "errorMessage": "Username must include letters and numbers only and be longer than 4 characters!",
   "iconAlign": "left",
   "inputType": "TEXT",
   "isDisabled": false,
@@ -24,14 +27,14 @@
   "isRequired": false,
   "isVisible": true,
   "key": "os2aoln61q",
-  "label": "Email",
+  "label": "New Username",
   "labelAlignment": "left",
   "labelPosition": "Top",
   "labelStyle": "",
   "labelTextSize": "0.875rem",
   "labelWidth": 5,
   "leftColumn": 2,
-  "maxChars": "40",
+  "maxChars": "20",
   "maxDynamicHeight": 9000,
   "minDynamicHeight": 4,
   "minWidth": 450,
@@ -43,16 +46,18 @@
   "parentColumnSpace": 7.4739227294921875,
   "parentId": "8jwe2r24gh",
   "parentRowSpace": 10,
-  "placeholderText": "Enter Email ",
-  "regex": "^(([^<>()\\[\\]\\\\.,;:\\s@\"]+(\\.[^<>()\\[\\]\\\\.,;:\\s@\"]+)*)|(\".+\"))@((\\[[0-9]{1,3}\\.[0-9]{1,3}\\.[0-9]{1,3}\\.[0-9]{1,3}])|(([a-zA-Z\\-0-9]+\\.)+[a-zA-Z]{2,}))$",
+  "placeholderText": "Enter Username",
+  "regex": "^[a-zA-Z0-9]*$",
   "renderMode": "CANVAS",
   "resetOnSubmit": true,
   "responsiveBehavior": "fill",
-  "rightColumn": 30,
+  "rightColumn": 31,
   "showStepArrows": false,
-  "topRow": 8,
+  "tooltip": "",
+  "topRow": 0,
   "type": "INPUT_WIDGET_V2",
+  "validation": "{{NewUsername.text.length>4}}",
   "version": 2,
-  "widgetId": "kiyzurzxw1",
-  "widgetName": "Email"
+  "widgetId": "d51nyb0vfc",
+  "widgetName": "NewUsername"
 }

@@ -1,7 +1,7 @@
 {
   "animateLoading": true,
   "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-  "bottomRow": 9,
+  "bottomRow": 6,
   "dynamicBindingPathList": [
     {
       "key": "truncateButtonColor"
@@ -30,7 +30,7 @@
   "mobileRightColumn": 37,
   "mobileTopRow": 2,
   "needsErrorInfo": false,
-  "originalBottomRow": 9,
+  "originalBottomRow": 6,
   "originalTopRow": 2,
   "overflow": "NONE",
   "parentColumnSpace": 6.986328125,
@@ -38,7 +38,7 @@
   "parentRowSpace": 10,
   "renderMode": "CANVAS",
   "responsiveBehavior": "fill",
-  "rightColumn": 38,
+  "rightColumn": 57,
   "shouldTruncate": false,
   "text": "**Skincare Test Results**",
   "textAlign": "LEFT",

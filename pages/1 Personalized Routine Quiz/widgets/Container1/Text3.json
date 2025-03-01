@@ -1,8 +1,8 @@
 {
   "animateLoading": true,
-  "backgroundColor": "{{appsmith.theme.colors.backgroundColor}}",
+  "backgroundColor": "#ffffff",
   "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-  "bottomRow": 41,
+  "bottomRow": 35,
   "dynamicBindingPathList": [
     {
       "key": "truncateButtonColor"
@@ -12,9 +12,6 @@
     },
     {
       "key": "borderRadius"
-    },
-    {
-      "key": "backgroundColor"
     }
   ],
   "dynamicHeight": "AUTO_HEIGHT",
@@ -47,7 +44,7 @@
   "text": "Ready to unlock your best skin? Take our Personalized Skincare Routine Quiz! In just a few fun questions, we'll help you discover the ideal products tailored to your unique skin needs.\n\nHow It Works:\n\n1. Take the Quiz 🎉: Answer quick questions about your skin type, concerns, and preferences.\n\n2. Get Recommendations ✨: Receive a customized routine, complete with product suggestions that your skin will love.\n\n               WHAT ARE YOU WAITING FOR? GET STARTED NOW 💖",
   "textAlign": "LEFT",
   "textColor": "#231F20",
-  "topRow": 18,
+  "topRow": 15,
   "truncateButtonColor": "{{appsmith.theme.colors.primaryColor}}",
   "type": "TEXT_WIDGET",
   "version": 1,

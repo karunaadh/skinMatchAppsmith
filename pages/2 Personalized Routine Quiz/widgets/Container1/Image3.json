@@ -1,0 +1,41 @@
+{
+  "animateLoading": true,
+  "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+  "bottomRow": 29,
+  "boxShadow": "none",
+  "defaultImage": "https://static.thenounproject.com/png/4739252-200.png",
+  "dynamicBindingPathList": [
+    {
+      "key": "borderRadius"
+    }
+  ],
+  "dynamicTriggerPathList": [],
+  "enableDownload": false,
+  "enableRotation": false,
+  "flexVerticalAlignment": "start",
+  "image": "",
+  "imageShape": "RECTANGLE",
+  "isLoading": false,
+  "isVisible": true,
+  "key": "dw677jm5dc",
+  "leftColumn": 43,
+  "maxZoomLevel": 1,
+  "mobileBottomRow": 31,
+  "mobileLeftColumn": 40,
+  "mobileRightColumn": 52,
+  "mobileTopRow": 19,
+  "needsErrorInfo": false,
+  "objectFit": "contain",
+  "originalBottomRow": 29,
+  "originalTopRow": 16,
+  "parentColumnSpace": 10.22021484375,
+  "parentId": "ph1hzl7620",
+  "parentRowSpace": 10,
+  "renderMode": "CANVAS",
+  "rightColumn": 57,
+  "topRow": 16,
+  "type": "IMAGE_WIDGET",
+  "version": 1,
+  "widgetId": "9jpbj8pznk",
+  "widgetName": "Image3"
+}

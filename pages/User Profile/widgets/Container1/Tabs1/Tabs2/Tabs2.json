@@ -1,16 +1,16 @@
 {
-  "accentColor": "#7e22ce",
+  "accentColor": "#553de9",
   "animateLoading": true,
   "backgroundColor": "#fee2e2",
   "borderColor": "#ffffff",
   "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
   "borderWidth": 1,
-  "bottomRow": 24,
+  "bottomRow": 21,
   "boxShadow": "{{appsmith.theme.boxShadow.appBoxShadow}}",
   "children": [
     {
       "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-      "bottomRow": 200,
+      "bottomRow": 170,
       "boxShadow": "{{appsmith.theme.boxShadow.appBoxShadow}}",
       "canExtend": true,
       "detachFromLayout": true,
@@ -47,7 +47,7 @@
       "rightColumn": 93.91259765625,
       "shouldScrollContents": false,
       "tabId": "tab1",
-      "tabName": "Update Details",
+      "tabName": "Update Username",
       "topRow": 0,
       "type": "CANVAS_WIDGET",
       "version": 1,
@@ -56,7 +56,7 @@
     },
     {
       "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-      "bottomRow": 200,
+      "bottomRow": 180,
       "boxShadow": "{{appsmith.theme.boxShadow.appBoxShadow}}",
       "canExtend": true,
       "detachFromLayout": true,
@@ -99,6 +99,51 @@
       "version": 1,
       "widgetId": "vks4uskteo",
       "widgetName": "Canvas5"
+    },
+    {
+      "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+      "bottomRow": 170,
+      "boxShadow": "{{appsmith.theme.boxShadow.appBoxShadow}}",
+      "canExtend": false,
+      "containerStyle": "none",
+      "detachFromLayout": true,
+      "dynamicBindingPathList": [
+        {
+          "key": "borderRadius"
+        },
+        {
+          "key": "boxShadow"
+        }
+      ],
+      "dynamicHeight": "AUTO_HEIGHT",
+      "dynamicTriggerPathList": [],
+      "flexLayers": [],
+      "isLoading": false,
+      "isVisible": true,
+      "key": "0fxf4y4dtc",
+      "leftColumn": 0,
+      "maxDynamicHeight": 9000,
+      "minDynamicHeight": 4,
+      "minHeight": 240,
+      "minWidth": 450,
+      "mobileBottomRow": 241,
+      "mobileLeftColumn": 0,
+      "mobileRightColumn": 250.43359375,
+      "mobileTopRow": 1,
+      "needsErrorInfo": false,
+      "parentColumnSpace": 1,
+      "parentId": "v68q1u6m5g",
+      "parentRowSpace": 1,
+      "renderMode": "CANVAS",
+      "responsiveBehavior": "fill",
+      "rightColumn": 250.43359375,
+      "tabId": "tabrnqbp3vrb4",
+      "tabName": "Update Email",
+      "topRow": 1,
+      "type": "CANVAS_WIDGET",
+      "version": 1,
+      "widgetId": "ouibos1jvo",
+      "widgetName": "Canvas15"
     }
   ],
   "defaultTab": "Update Username",
@@ -146,18 +191,28 @@
     "tab1": {
       "id": "tab1",
       "index": 0,
+      "isDuplicateLabel": false,
       "isVisible": true,
-      "label": "Update Details",
+      "label": "Update Username",
       "positioning": "vertical",
       "widgetId": "8jwe2r24gh"
     },
     "tab2": {
       "id": "tab2",
-      "index": 1,
+      "index": 2,
+      "isDuplicateLabel": false,
       "isVisible": true,
       "label": "Update Password",
       "positioning": "vertical",
       "widgetId": "vks4uskteo"
+    },
+    "tabrnqbp3vrb4": {
+      "id": "tabrnqbp3vrb4",
+      "index": 1,
+      "isDuplicateLabel": false,
+      "isVisible": true,
+      "label": "Update Email",
+      "widgetId": "ouibos1jvo"
     }
   },
   "topRow": 0,

@@ -1,0 +1,41 @@
+{
+  "animateLoading": true,
+  "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+  "bottomRow": 29,
+  "boxShadow": "none",
+  "defaultImage": "https://assets.appsmith.com/widgets/default.png",
+  "dynamicBindingPathList": [
+    {
+      "key": "borderRadius"
+    }
+  ],
+  "dynamicTriggerPathList": [],
+  "enableDownload": false,
+  "enableRotation": false,
+  "flexVerticalAlignment": "start",
+  "image": "https://static.thenounproject.com/png/5183677-200.png",
+  "imageShape": "RECTANGLE",
+  "isLoading": false,
+  "isVisible": true,
+  "key": "dw677jm5dc",
+  "leftColumn": 24,
+  "maxZoomLevel": 1,
+  "mobileBottomRow": 28,
+  "mobileLeftColumn": 23,
+  "mobileRightColumn": 35,
+  "mobileTopRow": 16,
+  "needsErrorInfo": false,
+  "objectFit": "contain",
+  "originalBottomRow": 29,
+  "originalTopRow": 16,
+  "parentColumnSpace": 10.22021484375,
+  "parentId": "ph1hzl7620",
+  "parentRowSpace": 10,
+  "renderMode": "CANVAS",
+  "rightColumn": 38,
+  "topRow": 16,
+  "type": "IMAGE_WIDGET",
+  "version": 1,
+  "widgetId": "rxj1gm1k86",
+  "widgetName": "Image2"
+}
