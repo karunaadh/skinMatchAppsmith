@@ -16,6 +16,9 @@
   "dynamicBindingPathList": [
     {
       "key": "borderRadius"
+    },
+    {
+      "key": "menuColor"
     }
   ],
   "dynamicTriggerPathList": [
@@ -36,7 +39,7 @@
   "key": "b213s5fxyx",
   "label": "☰",
   "leftColumn": 53,
-  "menuColor": "#7e22ce",
+  "menuColor": "{{appsmith.theme.colors.primaryColor}}",
   "menuItems": {
     "menuItem2": {
       "iconName": "search",

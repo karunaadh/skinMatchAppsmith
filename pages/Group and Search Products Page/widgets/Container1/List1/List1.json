@@ -9,7 +9,7 @@
   "animateLoading": true,
   "backgroundColor": "transparent",
   "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-  "bottomRow": 47,
+  "bottomRow": 48,
   "boxShadow": "{{appsmith.theme.boxShadow.appBoxShadow}}",
   "children": [
     {
@@ -94,23 +94,7 @@
   "itemSpacing": 8,
   "key": "tw60wnlxog",
   "leftColumn": 0,
-  "listData": [
-    {
-      "id": "001",
-      "img": "https://assets.appsmith.com/widgets/default.png",
-      "name": "Blue"
-    },
-    {
-      "id": "002",
-      "img": "https://assets.appsmith.com/widgets/default.png",
-      "name": "Green"
-    },
-    {
-      "id": "003",
-      "img": "https://assets.appsmith.com/widgets/default.png",
-      "name": "Red"
-    }
-  ],
+  "listData": "[\n  {\n    \"id\": \"001\",\n    \"name\": \"Blue\",\n    \"img\": \"https://assets.appsmith.com/widgets/default.png\"\n  },\n  {\n    \"id\": \"002\",\n    \"name\": \"Green\",\n    \"img\": \"https://assets.appsmith.com/widgets/default.png\"\n  },\n  {\n    \"id\": \"003\",\n    \"name\": \"Red\",\n    \"img\": \"https://assets.appsmith.com/widgets/default.png\"\n  }\n]",
   "mainCanvasId": "ohndu4d9ot",
   "mainContainerId": "lg10j0fat6",
   "minWidth": 450,
@@ -132,7 +116,7 @@
   "rightColumn": 64,
   "selectedItemView": "{{{}}}",
   "templateHeight": 160,
-  "topRow": 24,
+  "topRow": 25,
   "triggeredItemView": "{{{}}}",
   "type": "LIST_WIDGET_V2",
   "widgetId": "zwfnqaelvh",

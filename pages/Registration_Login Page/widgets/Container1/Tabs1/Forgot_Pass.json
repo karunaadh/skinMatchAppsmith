@@ -1,12 +1,16 @@
 {
   "animateLoading": true,
   "borderRadius": "1.5rem",
-  "bottomRow": 30,
+  "bottomRow": 28,
   "boxShadow": "none",
-  "buttonColor": "#7e22ce",
+  "buttonColor": "{{appsmith.theme.colors.primaryColor}}",
   "buttonVariant": "TERTIARY",
   "disabledWhenInvalid": false,
-  "dynamicBindingPathList": [],
+  "dynamicBindingPathList": [
+    {
+      "key": "buttonColor"
+    }
+  ],
   "dynamicPropertyPathList": [
     {
       "key": "onClick"
@@ -30,8 +34,8 @@
   "mobileTopRow": 31,
   "needsErrorInfo": false,
   "onClick": "{{Registration_Login.setDefaultTab('Registration')}}",
-  "originalBottomRow": 33,
-  "originalTopRow": 29,
+  "originalBottomRow": 30,
+  "originalTopRow": 26,
   "parentColumnSpace": 7.98388671875,
   "parentId": "kfs6wcs33p",
   "parentRowSpace": 10,
@@ -42,7 +46,7 @@
   "responsiveBehavior": "hug",
   "rightColumn": 48,
   "text": "Forgot Password?",
-  "topRow": 26,
+  "topRow": 24,
   "type": "BUTTON_WIDGET",
   "version": 1,
   "widgetId": "1ye7uawjgp",

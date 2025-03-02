@@ -3,9 +3,13 @@
   "borderRadius": "1.5rem",
   "bottomRow": 4,
   "boxShadow": "none",
-  "buttonColor": "#7e22ce",
+  "buttonColor": "{{appsmith.theme.colors.primaryColor}}",
   "buttonVariant": "SECONDARY",
-  "dynamicBindingPathList": [],
+  "dynamicBindingPathList": [
+    {
+      "key": "buttonColor"
+    }
+  ],
   "dynamicTriggerPathList": [],
   "iconName": "log-in",
   "isDisabled": false,

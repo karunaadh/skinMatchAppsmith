@@ -1,9 +1,9 @@
 {
   "animateLoading": true,
   "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-  "bottomRow": 41,
+  "bottomRow": 44,
   "boxShadow": "none",
-  "buttonColor": "#7e22ce",
+  "buttonColor": "{{appsmith.theme.colors.primaryColor}}",
   "buttonVariant": "PRIMARY",
   "disabledWhenInvalid": true,
   "dynamicBindingPathList": [
@@ -12,6 +12,9 @@
     },
     {
       "key": "isDisabled"
+    },
+    {
+      "key": "buttonColor"
     }
   ],
   "dynamicPropertyPathList": [
@@ -47,7 +50,7 @@
   "responsiveBehavior": "hug",
   "rightColumn": 63,
   "text": "Sign Up",
-  "topRow": 37,
+  "topRow": 40,
   "type": "BUTTON_WIDGET",
   "version": 1,
   "widgetId": "sk5vldhzqq",

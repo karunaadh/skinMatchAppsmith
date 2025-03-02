@@ -16,6 +16,9 @@
   "dynamicBindingPathList": [
     {
       "key": "borderRadius"
+    },
+    {
+      "key": "menuColor"
     }
   ],
   "dynamicTriggerPathList": [
@@ -32,8 +35,8 @@
   "isVisible": true,
   "key": "b213s5fxyx",
   "label": "☰",
-  "leftColumn": 50,
-  "menuColor": "#7e22ce",
+  "leftColumn": 52,
+  "menuColor": "{{appsmith.theme.colors.primaryColor}}",
   "menuItems": {
     "menuItem2": {
       "iconName": "search",
@@ -68,7 +71,7 @@
   "parentRowSpace": 10,
   "placement": "CENTER",
   "renderMode": "CANVAS",
-  "rightColumn": 56,
+  "rightColumn": 58,
   "sourceData": [],
   "topRow": 0,
   "type": "MENU_BUTTON_WIDGET",

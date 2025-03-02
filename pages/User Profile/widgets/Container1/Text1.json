@@ -1,6 +1,6 @@
 {
   "animateLoading": true,
-  "backgroundColor": "#fee2e2",
+  "backgroundColor": "{{appsmith.theme.colors.backgroundColor}}",
   "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
   "bottomRow": 11,
   "dynamicBindingPathList": [
@@ -9,11 +9,14 @@
     },
     {
       "key": "borderRadius"
+    },
+    {
+      "key": "backgroundColor"
     }
   ],
   "dynamicHeight": "AUTO_HEIGHT",
   "dynamicTriggerPathList": [],
-  "fontFamily": "Nunito Sans",
+  "fontFamily": "Rubik",
   "fontSize": "1.875rem",
   "fontStyle": "BOLD",
   "isLoading": false,

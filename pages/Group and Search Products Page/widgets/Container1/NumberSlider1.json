@@ -1,9 +1,13 @@
 {
-  "accentColor": "#7e22ce",
+  "accentColor": "{{appsmith.theme.colors.primaryColor}}",
   "animateLoading": true,
-  "bottomRow": 17,
+  "bottomRow": 21,
   "defaultValue": 10,
-  "dynamicBindingPathList": [],
+  "dynamicBindingPathList": [
+    {
+      "key": "accentColor"
+    }
+  ],
   "dynamicTriggerPathList": [],
   "isDisabled": false,
   "isLoading": false,
@@ -37,7 +41,7 @@
   "sliderSize": "m",
   "step": 1,
   "tooltipAlwaysOn": false,
-  "topRow": 9,
+  "topRow": 13,
   "type": "NUMBER_SLIDER_WIDGET",
   "version": 1,
   "widgetId": "nuf7wszpf4",

@@ -4,7 +4,7 @@
   "borderColor": "#ffffff",
   "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
   "borderWidth": "",
-  "bottomRow": 20,
+  "bottomRow": 13,
   "dynamicBindingPathList": [
     {
       "key": "truncateButtonColor"
@@ -15,9 +15,9 @@
   ],
   "dynamicHeight": "AUTO_HEIGHT",
   "dynamicTriggerPathList": [],
-  "fontFamily": "Nunito Sans",
+  "fontFamily": "Rubik",
   "fontSize": "1.875rem",
-  "fontStyle": "BOLD",
+  "fontStyle": "",
   "isLoading": false,
   "isVisible": true,
   "key": "45hr8mk4te",
@@ -40,7 +40,7 @@
   "responsiveBehavior": "fill",
   "rightColumn": 62,
   "shouldTruncate": false,
-  "text": "What's your budget for the good stuff? What's the max you wanna splurge on each product? 💰",
+  "text": " ",
   "textAlign": "CENTER",
   "textColor": "#3f3f46",
   "topRow": 8,

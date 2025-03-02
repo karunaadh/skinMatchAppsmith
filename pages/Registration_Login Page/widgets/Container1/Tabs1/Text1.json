@@ -1,19 +1,22 @@
 {
   "animateLoading": true,
-  "backgroundColor": "#fee2e2",
+  "backgroundColor": "{{appsmith.theme.colors.backgroundColor}}",
   "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-  "bottomRow": 6,
+  "bottomRow": 4,
   "dynamicBindingPathList": [
     {
       "key": "truncateButtonColor"
     },
     {
       "key": "borderRadius"
+    },
+    {
+      "key": "backgroundColor"
     }
   ],
   "dynamicHeight": "AUTO_HEIGHT",
   "dynamicTriggerPathList": [],
-  "fontFamily": "Noto Sans",
+  "fontFamily": "Rubik",
   "fontSize": "1.25rem",
   "fontStyle": "BOLD",
   "isLoading": false,
@@ -28,7 +31,7 @@
   "mobileRightColumn": 25.5,
   "mobileTopRow": 1,
   "needsErrorInfo": false,
-  "originalBottomRow": 8,
+  "originalBottomRow": 6,
   "originalTopRow": 0,
   "overflow": "NONE",
   "parentId": "kfs6wcs33p",
@@ -36,7 +39,7 @@
   "responsiveBehavior": "fill",
   "rightColumn": 64,
   "shouldTruncate": false,
-  "text": "Welcome!\nLogin to continue your skincare journey",
+  "text": "Login",
   "textAlign": "CENTER",
   "textColor": "#231F20",
   "topRow": 0,

@@ -1,14 +1,17 @@
 {
   "animateLoading": true,
   "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-  "bottomRow": 43,
+  "bottomRow": 44,
   "boxShadow": "0 1px 3px 0 rgba(0, 0, 0, 0.1), 0 1px 2px 0 rgba(0, 0, 0, 0.06)",
-  "buttonColor": "#7e22ce",
+  "buttonColor": "{{appsmith.theme.colors.primaryColor}}",
   "buttonVariant": "SECONDARY",
   "disabledWhenInvalid": false,
   "dynamicBindingPathList": [
     {
       "key": "borderRadius"
+    },
+    {
+      "key": "buttonColor"
     }
   ],
   "dynamicTriggerPathList": [
@@ -29,8 +32,8 @@
   "mobileTopRow": 44,
   "needsErrorInfo": false,
   "onClick": "{{navigateTo('My Skincare Page', {}, 'SAME_WINDOW');}}",
-  "originalBottomRow": 49,
-  "originalTopRow": 44,
+  "originalBottomRow": 44,
+  "originalTopRow": 39,
   "parentColumnSpace": 8.29638671875,
   "parentId": "ph1hzl7620",
   "parentRowSpace": 10,
@@ -41,7 +44,7 @@
   "responsiveBehavior": "hug",
   "rightColumn": 34,
   "text": "If quiz already taken, view results HERE",
-  "topRow": 38,
+  "topRow": 39,
   "type": "BUTTON_WIDGET",
   "version": 1,
   "widgetId": "dc5jqwoqux",

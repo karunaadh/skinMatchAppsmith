@@ -3,9 +3,13 @@
   "borderRadius": "0.375rem",
   "bottomRow": 4,
   "boxShadow": "none",
-  "buttonColor": "#7e22ce",
+  "buttonColor": "{{appsmith.theme.colors.primaryColor}}",
   "buttonVariant": "PRIMARY",
-  "dynamicBindingPathList": [],
+  "dynamicBindingPathList": [
+    {
+      "key": "buttonColor"
+    }
+  ],
   "dynamicTriggerPathList": [],
   "iconName": "heart",
   "isDisabled": false,

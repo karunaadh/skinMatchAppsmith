@@ -1,14 +1,17 @@
 {
   "animateLoading": true,
   "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-  "bottomRow": 38,
+  "bottomRow": 35,
   "boxShadow": "none",
-  "buttonColor": "#7e22ce",
+  "buttonColor": "{{appsmith.theme.colors.primaryColor}}",
   "buttonVariant": "PRIMARY",
   "disabledWhenInvalid": true,
   "dynamicBindingPathList": [
     {
       "key": "borderRadius"
+    },
+    {
+      "key": "buttonColor"
     }
   ],
   "dynamicTriggerPathList": [
@@ -21,7 +24,7 @@
   "isLoading": false,
   "isVisible": true,
   "key": "y4con8klt0",
-  "leftColumn": 47,
+  "leftColumn": 46,
   "minWidth": 120,
   "mobileBottomRow": 37,
   "mobileLeftColumn": 46,
@@ -29,17 +32,17 @@
   "mobileTopRow": 33,
   "needsErrorInfo": false,
   "onClick": "{{Registration_Login.signIn();}}",
-  "originalBottomRow": 40,
-  "originalTopRow": 36,
+  "originalBottomRow": 38,
+  "originalTopRow": 34,
   "parentId": "kfs6wcs33p",
   "placement": "CENTER",
   "recaptchaType": "V3",
   "renderMode": "CANVAS",
   "resetFormOnClick": true,
   "responsiveBehavior": "hug",
-  "rightColumn": 63,
+  "rightColumn": 62,
   "text": "Log In",
-  "topRow": 34,
+  "topRow": 31,
   "type": "BUTTON_WIDGET",
   "version": 1,
   "widgetId": "rjyebiqwun",

@@ -12,7 +12,11 @@
   ],
   "dynamicHeight": "FIXED",
   "dynamicPropertyPathList": [],
-  "dynamicTriggerPathList": [],
+  "dynamicTriggerPathList": [
+    {
+      "key": "onClick"
+    }
+  ],
   "iconName": "heart",
   "isDisabled": false,
   "isLoading": false,
@@ -25,7 +29,7 @@
   "mobileRightColumn": 47,
   "mobileTopRow": 3,
   "needsErrorInfo": false,
-  "onClick": "{{}}",
+  "onClick": "{{storeValue('saved', \"\");}}",
   "parentColumnSpace": 8.656005859375,
   "parentId": "lnx7o16kzu",
   "parentRowSpace": 10,

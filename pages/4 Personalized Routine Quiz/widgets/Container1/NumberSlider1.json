@@ -1,7 +1,7 @@
 {
   "accentColor": "#7e22ce",
   "animateLoading": true,
-  "bottomRow": 37,
+  "bottomRow": 30,
   "defaultValue": 10,
   "dynamicBindingPathList": [],
   "dynamicTriggerPathList": [],
@@ -39,7 +39,7 @@
   "sliderSize": "l",
   "step": 1,
   "tooltipAlwaysOn": false,
-  "topRow": 29,
+  "topRow": 22,
   "type": "NUMBER_SLIDER_WIDGET",
   "version": 1,
   "widgetId": "6ndbxqxbqq",

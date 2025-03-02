@@ -1,19 +1,23 @@
 {
   "animateLoading": true,
   "borderRadius": "1.5rem",
-  "bottomRow": 9,
+  "bottomRow": 8,
   "boxShadow": "none",
-  "buttonColor": "#7e22ce",
-  "buttonVariant": "PRIMARY",
+  "buttonColor": "{{appsmith.theme.colors.primaryColor}}",
+  "buttonVariant": "SECONDARY",
   "disabledWhenInvalid": false,
-  "dynamicBindingPathList": [],
+  "dynamicBindingPathList": [
+    {
+      "key": "buttonColor"
+    }
+  ],
   "dynamicTriggerPathList": [
     {
       "key": "onClick"
     }
   ],
   "iconAlign": "left",
-  "iconName": "crown",
+  "iconName": "cog",
   "isDefaultClickDisabled": true,
   "isDisabled": false,
   "isLoading": false,
@@ -39,7 +43,7 @@
   "responsiveBehavior": "hug",
   "rightColumn": 64,
   "text": "Personalized Routine Quiz",
-  "topRow": 5,
+  "topRow": 4,
   "type": "BUTTON_WIDGET",
   "version": 1,
   "widgetId": "yzadbhz9ov",
