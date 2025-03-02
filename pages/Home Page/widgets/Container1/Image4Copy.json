@@ -1,13 +1,10 @@
 {
   "animateLoading": true,
   "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-  "bottomRow": 10,
+  "bottomRow": 65,
   "boxShadow": "none",
   "defaultImage": "https://assets.appsmith.com/widgets/default.png",
   "dynamicBindingPathList": [
-    {
-      "key": "image"
-    },
     {
       "key": "borderRadius"
     }
@@ -16,27 +13,29 @@
   "enableDownload": false,
   "enableRotation": false,
   "flexVerticalAlignment": "start",
-  "image": "https://png.pngtree.com/png-clipart/20231004/original/pngtree-vector-illustration-of-womans-skin-care-routine-with-cosmetics-vector-png-image_12953943.png",
+  "image": "https://img.freepik.com/premium-vector/vertical-seamless-border-with-green-leaves-botanical-flower-illustration-wedding-design_555489-628.jpg",
   "imageShape": "RECTANGLE",
   "isLoading": false,
   "isVisible": true,
-  "key": "v7qceyczx9",
-  "leftColumn": 1,
-  "maxZoomLevel": 1,
-  "mobileBottomRow": 13,
-  "mobileLeftColumn": 5,
-  "mobileRightColumn": 17,
-  "mobileTopRow": 1,
+  "key": "s7b1xwsv4h",
+  "leftColumn": 46,
+  "maxZoomLevel": 2,
+  "mobileBottomRow": 56,
+  "mobileLeftColumn": 4,
+  "mobileRightColumn": 16,
+  "mobileTopRow": 44,
   "needsErrorInfo": false,
   "objectFit": "cover",
-  "parentColumnSpace": 6.986328125,
-  "parentId": "x90b66s38p",
+  "originalBottomRow": 65,
+  "originalTopRow": 47,
+  "parentColumnSpace": 8.136962890625,
+  "parentId": "stv28fkt7e",
   "parentRowSpace": 10,
   "renderMode": "CANVAS",
-  "rightColumn": 13,
-  "topRow": 1,
+  "rightColumn": 55,
+  "topRow": 47,
   "type": "IMAGE_WIDGET",
   "version": 1,
-  "widgetId": "qq2v6g01k5",
-  "widgetName": "Image1"
+  "widgetId": "tq93jv2spd",
+  "widgetName": "Image4Copy"
 }
