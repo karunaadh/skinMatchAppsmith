@@ -1,6 +1,6 @@
 {
-  "gitSyncId": "67906837865ed33a5eadb121_1ad978ad-7197-498c-8eb8-0e04c9af93fb",
-  "id": "Registration_Login Page_RegistrationUserEmailIsValid",
+  "gitSyncId": "67c00a2c6956ae692cbe5d5c_f7d8f3de-6ca4-42d2-9377-198d80be155e",
+  "id": "Registration_Login Page_RegistrationEmailIsValid",
   "pluginId": "restapi-plugin",
   "pluginType": "API",
   "unpublishedAction": {
@@ -16,7 +16,7 @@
       "httpMethod": "GET",
       "httpVersion": "HTTP11",
       "paginationType": "NONE",
-      "path": "/signup/{{SignUp_Username.text}}/{{SignUp_Email.text}}",
+      "path": "/signup/email/{{SignUp_Email.text}}",
       "pluginSpecifiedTemplates": [
         {
           "value": true
@@ -37,8 +37,8 @@
         "key": "path"
       }
     ],
-    "executeOnLoad": false,
-    "name": "RegistrationUserEmailIsValid",
+    "executeOnLoad": true,
+    "name": "RegistrationEmailIsValid",
     "pageId": "Registration_Login Page",
     "userSetOnLoad": false
   }

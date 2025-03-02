@@ -28,7 +28,7 @@
     }
   ],
   "isDefaultClickDisabled": true,
-  "isDisabled": "{{!RegistrationUserEmailIsValid.data}}",
+  "isDisabled": "{{!RegistrationUserIsValid.data || !RegistrationEmailIsValid.data}}",
   "isLoading": false,
   "isVisible": true,
   "key": "y4con8klt0",
@@ -39,7 +39,7 @@
   "mobileRightColumn": 62,
   "mobileTopRow": 33,
   "needsErrorInfo": false,
-  "onClick": "{{navigateTo('Home Page', {}, 'SAME_WINDOW');\nRegistration_Login.register();}}",
+  "onClick": "{{Registration_Login.register();\nnavigateTo('Home Page', {}, 'SAME_WINDOW');}}",
   "originalBottomRow": 43,
   "originalTopRow": 39,
   "parentId": "86diw5oqho",

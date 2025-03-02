@@ -18,6 +18,9 @@
   "dynamicTriggerPathList": [
     {
       "key": "onSubmit"
+    },
+    {
+      "key": "onTextChanged"
     }
   ],
   "errorMessage": "Please enter a valid email address!",
@@ -45,8 +48,9 @@
   "mobileTopRow": 11,
   "needsErrorInfo": false,
   "onSubmit": "",
-  "originalBottomRow": 23,
-  "originalTopRow": 17,
+  "onTextChanged": "{{RegistrationEmailIsValid.run()}}",
+  "originalBottomRow": 21,
+  "originalTopRow": 15,
   "parentColumnSpace": 4.790229797363281,
   "parentId": "86diw5oqho",
   "parentRowSpace": 10,

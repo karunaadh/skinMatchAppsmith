@@ -3,7 +3,7 @@
   "animateLoading": true,
   "autoFocus": false,
   "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-  "bottomRow": 13,
+  "bottomRow": 11,
   "boxShadow": "none",
   "defaultText": "",
   "dynamicBindingPathList": [
@@ -12,15 +12,21 @@
     },
     {
       "key": "borderRadius"
+    },
+    {
+      "key": "validation"
     }
   ],
   "dynamicHeight": "FIXED",
   "dynamicTriggerPathList": [
     {
       "key": "onSubmit"
+    },
+    {
+      "key": "onTextChanged"
     }
   ],
-  "errorMessage": "Invalid username format. Username must contain only letters or numbers and must be at least x length!",
+  "errorMessage": "Username must contain only letters or numbers and must be at least 4 characters!",
   "iconAlign": "left",
   "inputType": "TEXT",
   "isDisabled": false,
@@ -45,6 +51,7 @@
   "mobileTopRow": 11,
   "needsErrorInfo": false,
   "onSubmit": "",
+  "onTextChanged": "{{RegistrationUserIsValid.run()}}",
   "originalBottomRow": 15,
   "originalTopRow": 9,
   "parentColumnSpace": 4.790229797363281,
@@ -59,9 +66,9 @@
   "shouldAllowAutofill": false,
   "showStepArrows": false,
   "tooltip": "Value must only include letters or numbers",
-  "topRow": 7,
+  "topRow": 5,
   "type": "INPUT_WIDGET_V2",
-  "validation": "",
+  "validation": "{{SignUp_Username.text.length > 3}}",
   "version": 2,
   "widgetId": "lu9hozkgy5",
   "widgetName": "SignUp_Username"
