@@ -4,7 +4,7 @@
   "borderColor": "#ffffff",
   "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
   "borderWidth": "",
-  "bottomRow": 11,
+  "bottomRow": 10,
   "dynamicBindingPathList": [
     {
       "key": "truncateButtonColor"
@@ -33,8 +33,8 @@
   "mobileRightColumn": 35,
   "mobileTopRow": 7,
   "needsErrorInfo": false,
-  "originalBottomRow": 11,
-  "originalTopRow": 6,
+  "originalBottomRow": 10,
+  "originalTopRow": 5,
   "overflow": "NONE",
   "parentColumnSpace": 8.29638671875,
   "parentId": "ph1hzl7620",
@@ -46,7 +46,7 @@
   "text": "Select 2- 3 of your main concerns",
   "textAlign": "CENTER",
   "textColor": "#3f3f46",
-  "topRow": 6,
+  "topRow": 5,
   "truncateButtonColor": "{{appsmith.theme.colors.primaryColor}}",
   "type": "TEXT_WIDGET",
   "version": 1,
