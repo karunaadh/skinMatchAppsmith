@@ -8,7 +8,16 @@
       "key": "accentColor"
     }
   ],
-  "dynamicTriggerPathList": [],
+  "dynamicPropertyPathList": [
+    {
+      "key": "onChange"
+    }
+  ],
+  "dynamicTriggerPathList": [
+    {
+      "key": "onChange"
+    }
+  ],
   "isDisabled": false,
   "isLoading": false,
   "isVisible": true,
@@ -27,6 +36,7 @@
   "mobileRightColumn": 51,
   "mobileTopRow": 29,
   "needsErrorInfo": false,
+  "onChange": "{{ utils.updatePriceRange(self.value);}}",
   "originalBottomRow": 40,
   "originalTopRow": 32,
   "parentColumnSpace": 14.8125,
@@ -45,5 +55,5 @@
   "type": "NUMBER_SLIDER_WIDGET",
   "version": 1,
   "widgetId": "nuf7wszpf4",
-  "widgetName": "NumberSlider1"
+  "widgetName": "sld_priceRange"
 }

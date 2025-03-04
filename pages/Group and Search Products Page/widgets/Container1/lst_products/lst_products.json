@@ -61,25 +61,16 @@
   "currentItemsView": "{{[]}}",
   "dynamicBindingPathList": [
     {
-      "key": "currentItemsView"
-    },
-    {
-      "key": "selectedItemView"
-    },
-    {
-      "key": "triggeredItemView"
-    },
-    {
       "key": "primaryKeys"
-    },
-    {
-      "key": "accentColor"
     },
     {
       "key": "borderRadius"
     },
     {
       "key": "boxShadow"
+    },
+    {
+      "key": "listData"
     }
   ],
   "dynamicTriggerPathList": [],
@@ -94,7 +85,7 @@
   "itemSpacing": 8,
   "key": "tw60wnlxog",
   "leftColumn": 0,
-  "listData": "[\n  {\n    \"id\": \"001\",\n    \"name\": \"Blue\",\n    \"img\": \"https://assets.appsmith.com/widgets/default.png\"\n  },\n  {\n    \"id\": \"002\",\n    \"name\": \"Green\",\n    \"img\": \"https://assets.appsmith.com/widgets/default.png\"\n  },\n  {\n    \"id\": \"003\",\n    \"name\": \"Red\",\n    \"img\": \"https://assets.appsmith.com/widgets/default.png\"\n  }\n]",
+  "listData": "{{ appsmith.store.filteredProducts }}",
   "mainCanvasId": "ohndu4d9ot",
   "mainContainerId": "lg10j0fat6",
   "minWidth": 450,
@@ -109,7 +100,7 @@
   "parentColumnSpace": 9.093505859375,
   "parentId": "1h7mpupqwc",
   "parentRowSpace": 10,
-  "primaryKeys": "{{List1.listData.map((currentItem, currentIndex) => currentItem[\"id\"] )}}",
+  "primaryKeys": "{{lst_products.listData.map((currentItem, currentIndex) => currentItem[\"id\"] )}}",
   "renderMode": "CANVAS",
   "requiresFlatWidgetChildren": true,
   "responsiveBehavior": "fill",
@@ -120,5 +111,5 @@
   "triggeredItemView": "{{{}}}",
   "type": "LIST_WIDGET_V2",
   "widgetId": "zwfnqaelvh",
-  "widgetName": "List1"
+  "widgetName": "lst_products"
 }

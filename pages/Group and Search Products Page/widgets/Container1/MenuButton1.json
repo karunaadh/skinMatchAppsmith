@@ -15,10 +15,10 @@
   },
   "dynamicBindingPathList": [
     {
-      "key": "borderRadius"
+      "key": "menuColor"
     },
     {
-      "key": "menuColor"
+      "key": "borderRadius"
     }
   ],
   "dynamicTriggerPathList": [

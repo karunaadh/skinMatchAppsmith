@@ -15,7 +15,16 @@
     }
   ],
   "dynamicHeight": "FIXED",
-  "dynamicTriggerPathList": [],
+  "dynamicPropertyPathList": [
+    {
+      "key": "onTextChanged"
+    }
+  ],
+  "dynamicTriggerPathList": [
+    {
+      "key": "onTextChanged"
+    }
+  ],
   "iconAlign": "left",
   "iconName": "search",
   "inputType": "TEXT",
@@ -40,9 +49,11 @@
   "mobileRightColumn": 26,
   "mobileTopRow": 3,
   "needsErrorInfo": false,
+  "onTextChanged": "{{ storeValue('search', self.text); utils.fetchFilteredProducts(); }}\n",
   "parentColumnSpace": 5.586181640625,
   "parentId": "1h7mpupqwc",
   "parentRowSpace": 10,
+  "placeholderText": "Find Products",
   "renderMode": "CANVAS",
   "resetOnSubmit": true,
   "responsiveBehavior": "fill",
@@ -52,5 +63,5 @@
   "type": "INPUT_WIDGET_V2",
   "version": 2,
   "widgetId": "yl2t3kxkgw",
-  "widgetName": "Input1"
+  "widgetName": "inp_search"
 }

@@ -7,9 +7,6 @@
   "defaultOptionValue": "",
   "dynamicBindingPathList": [
     {
-      "key": "accentColor"
-    },
-    {
       "key": "borderRadius"
     }
   ],
@@ -17,11 +14,18 @@
   "dynamicPropertyPathList": [
     {
       "key": "sourceData"
+    },
+    {
+      "key": "onOptionChange"
     }
   ],
-  "dynamicTriggerPathList": [],
+  "dynamicTriggerPathList": [
+    {
+      "key": "onOptionChange"
+    }
+  ],
   "isDisabled": false,
-  "isFilterable": true,
+  "isFilterable": false,
   "isLoading": false,
   "isRequired": false,
   "isVisible": true,
@@ -40,6 +44,7 @@
   "mobileRightColumn": 39,
   "mobileTopRow": 39,
   "needsErrorInfo": false,
+  "onOptionChange": "{{utils.updateSortOption(self.selectedOptionValue);\n}}",
   "optionLabel": "name",
   "optionValue": "code",
   "originalBottomRow": 46,
@@ -57,5 +62,5 @@
   "type": "SELECT_WIDGET",
   "version": 1,
   "widgetId": "h1wkuiv8pg",
-  "widgetName": "Price_Range"
+  "widgetName": "sel_sortByPrice"
 }

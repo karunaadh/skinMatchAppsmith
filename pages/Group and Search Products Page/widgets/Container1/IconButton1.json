@@ -6,7 +6,16 @@
   "buttonColor": "#7e22ce",
   "buttonVariant": "SECONDARY",
   "dynamicBindingPathList": [],
-  "dynamicTriggerPathList": [],
+  "dynamicPropertyPathList": [
+    {
+      "key": "onClick"
+    }
+  ],
+  "dynamicTriggerPathList": [
+    {
+      "key": "onClick"
+    }
+  ],
   "iconName": "reset",
   "isDisabled": false,
   "isLoading": false,
@@ -19,6 +28,7 @@
   "mobileRightColumn": 7,
   "mobileTopRow": 18,
   "needsErrorInfo": false,
+  "onClick": "utils.resetFilters();",
   "parentColumnSpace": 9.093505859375,
   "parentId": "1h7mpupqwc",
   "parentRowSpace": 10,
