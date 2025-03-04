@@ -10,6 +10,9 @@
     },
     {
       "key": "boxShadow"
+    },
+    {
+      "key": "labelTextColor"
     }
   ],
   "dynamicHeight": "FIXED",
@@ -25,6 +28,7 @@
   "labelAlignment": "left",
   "labelPosition": "Top",
   "labelText": "",
+  "labelTextColor": "{{appsmith.theme.colors.primaryColor}}",
   "labelWidth": 5,
   "leftColumn": 0,
   "maxDynamicHeight": 9000,

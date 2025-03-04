@@ -12,6 +12,9 @@
     },
     {
       "key": "borderRadius"
+    },
+    {
+      "key": "labelTextColor"
     }
   ],
   "dynamicHeight": "FIXED",
@@ -34,6 +37,7 @@
   "labelAlignment": "left",
   "labelPosition": "Top",
   "labelText": "Filter",
+  "labelTextColor": "{{appsmith.theme.colors.primaryColor}}",
   "labelTextSize": "1rem",
   "labelWidth": 5,
   "leftColumn": 41,

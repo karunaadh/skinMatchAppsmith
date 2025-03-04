@@ -1,6 +1,6 @@
 {
   "animateLoading": true,
-  "backgroundColor": "#fee2e2",
+  "backgroundColor": "{{appsmith.theme.colors.backgroundColor}}",
   "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
   "bottomRow": 6,
   "dynamicBindingPathList": [
@@ -9,6 +9,12 @@
     },
     {
       "key": "borderRadius"
+    },
+    {
+      "key": "textColor"
+    },
+    {
+      "key": "backgroundColor"
     }
   ],
   "dynamicHeight": "AUTO_HEIGHT",
@@ -40,7 +46,7 @@
   "shouldTruncate": false,
   "text": "A clinically backed, barrier-boosting cream powered by Korean skincare technology that delivers intense, long-lasting hydration.",
   "textAlign": "LEFT",
-  "textColor": "#231F20",
+  "textColor": "{{appsmith.theme.colors.primaryColor}}",
   "topRow": 1,
   "truncateButtonColor": "{{appsmith.theme.colors.primaryColor}}",
   "type": "TEXT_WIDGET",

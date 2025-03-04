@@ -8,6 +8,9 @@
   "dynamicBindingPathList": [
     {
       "key": "borderRadius"
+    },
+    {
+      "key": "labelTextColor"
     }
   ],
   "dynamicHeight": "FIXED",
@@ -33,6 +36,7 @@
   "labelAlignment": "left",
   "labelPosition": "Top",
   "labelText": "Sort by Price",
+  "labelTextColor": "{{appsmith.theme.colors.primaryColor}}",
   "labelTextSize": "1rem",
   "labelWidth": 5,
   "leftColumn": 41,

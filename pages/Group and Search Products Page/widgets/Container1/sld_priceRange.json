@@ -6,6 +6,9 @@
   "dynamicBindingPathList": [
     {
       "key": "accentColor"
+    },
+    {
+      "key": "labelTextColor"
     }
   ],
   "dynamicPropertyPathList": [
@@ -25,6 +28,7 @@
   "labelAlignment": "left",
   "labelPosition": "Top",
   "labelText": "Filter by Budget",
+  "labelTextColor": "{{appsmith.theme.colors.primaryColor}}",
   "labelTextSize": "0.875rem",
   "labelWidth": 8,
   "leftColumn": 0,

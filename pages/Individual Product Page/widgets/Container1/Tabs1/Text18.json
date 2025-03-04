@@ -8,6 +8,9 @@
     },
     {
       "key": "borderRadius"
+    },
+    {
+      "key": "textColor"
     }
   ],
   "dynamicHeight": "AUTO_HEIGHT",
@@ -39,7 +42,7 @@
   "shouldTruncate": false,
   "text": "Ingredients:\n\n-Blue Hyaluronic Acid (Blue HA): Delivers effective, long-lasting hydration.\n\n-Pepta-Panthenol Complex™: Visibly firms, soothes, and fortifies skin's moisture barrier.\n\n-Squalane: Mimics skin's natural lipids.",
   "textAlign": "LEFT",
-  "textColor": "#231F20",
+  "textColor": "{{appsmith.theme.colors.primaryColor}}",
   "topRow": 1,
   "truncateButtonColor": "{{appsmith.theme.colors.primaryColor}}",
   "type": "TEXT_WIDGET",

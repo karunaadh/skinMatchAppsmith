@@ -12,6 +12,9 @@
     },
     {
       "key": "borderRadius"
+    },
+    {
+      "key": "textColor"
     }
   ],
   "dynamicHeight": "AUTO_HEIGHT",
@@ -31,7 +34,7 @@
   "mobileRightColumn": 43,
   "mobileTopRow": 0,
   "needsErrorInfo": false,
-  "originalBottomRow": 13,
+  "originalBottomRow": 10,
   "originalTopRow": 5,
   "overflow": "NONE",
   "parentColumnSpace": 3.513671875,
@@ -43,7 +46,7 @@
   "shouldTruncate": false,
   "text": "Can't find skincare routine that works?",
   "textAlign": "LEFT",
-  "textColor": "#231F20",
+  "textColor": "{{appsmith.theme.colors.primaryColor}}",
   "topRow": 5,
   "truncateButtonColor": "{{appsmith.theme.colors.primaryColor}}",
   "type": "TEXT_WIDGET",

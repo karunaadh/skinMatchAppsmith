@@ -1,9 +1,13 @@
 {
-  "activeColor": "#eab308",
+  "activeColor": "{{appsmith.theme.colors.primaryColor}}",
   "animateLoading": true,
   "bottomRow": 9,
   "defaultRate": 3,
-  "dynamicBindingPathList": [],
+  "dynamicBindingPathList": [
+    {
+      "key": "activeColor"
+    }
+  ],
   "dynamicHeight": "AUTO_HEIGHT",
   "dynamicTriggerPathList": [],
   "inactiveColor": "#d4d4d8",
@@ -23,8 +27,8 @@
   "mobileRightColumn": 28,
   "mobileTopRow": 41,
   "needsErrorInfo": false,
-  "originalBottomRow": 10,
-  "originalTopRow": 6,
+  "originalBottomRow": 9,
+  "originalTopRow": 5,
   "parentColumnSpace": 14.8125,
   "parentId": "y4hg2xh4fe",
   "parentRowSpace": 10,
