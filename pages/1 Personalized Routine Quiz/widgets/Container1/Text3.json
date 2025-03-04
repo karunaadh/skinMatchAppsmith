@@ -2,7 +2,7 @@
   "animateLoading": true,
   "backgroundColor": "#ffffff",
   "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-  "bottomRow": 41,
+  "bottomRow": 36,
   "dynamicBindingPathList": [
     {
       "key": "truncateButtonColor"
@@ -31,8 +31,8 @@
   "mobileRightColumn": 23,
   "mobileTopRow": 19,
   "needsErrorInfo": false,
-  "originalBottomRow": 36,
-  "originalTopRow": 15,
+  "originalBottomRow": 41,
+  "originalTopRow": 18,
   "overflow": "NONE",
   "parentColumnSpace": 8.29638671875,
   "parentId": "ph1hzl7620",
@@ -41,10 +41,10 @@
   "responsiveBehavior": "fill",
   "rightColumn": 60,
   "shouldTruncate": false,
-  "text": "Ready to unlock your best skin? Take our Personalized Skincare Routine Quiz! In just a few fun questions, we'll help you discover the ideal products tailored to your unique skin needs.\n\nHow It Works:\n\n1. Take the Quiz 🎉: Answer quick questions about your skin type, concerns, and preferences.\n\n2. Get Recommendations ✨: Receive a customized routine, complete with product suggestions that your skin will love.\n\n               WHAT ARE YOU WAITING FOR? GET STARTED NOW 💖",
+  "text": "Ready to unlock your best skin? Take our Personalized Skincare Routine Quiz! In just a few fun questions, we'll help you discover the ideal products tailored to your unique skin needs.\n\nHow It Works:\n\n1. Take the Quiz 🎉: Answer quick questions about your skin type, concerns, and preferences.\n\n2. Get Recommendations ✨: Receive a customized routine, complete with product suggestions that your skin will love.\n\n               WHAT ARE YOU WAITING FOR? GET STARTED NOW",
   "textAlign": "LEFT",
   "textColor": "#231F20",
-  "topRow": 18,
+  "topRow": 15,
   "truncateButtonColor": "{{appsmith.theme.colors.primaryColor}}",
   "type": "TEXT_WIDGET",
   "version": 1,

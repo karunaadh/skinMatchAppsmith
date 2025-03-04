@@ -14,11 +14,7 @@
       "key": "borderRadius"
     }
   ],
-  "dynamicPropertyPathList": [
-    {
-      "key": "onClick"
-    }
-  ],
+  "dynamicPropertyPathList": [],
   "dynamicTriggerPathList": [
     {
       "key": "onClick"
@@ -31,14 +27,14 @@
   "isLoading": false,
   "isVisible": true,
   "key": "m28xyfqd7x",
-  "leftColumn": 1,
+  "leftColumn": 10,
   "minWidth": 120,
   "mobileBottomRow": 6,
   "mobileLeftColumn": 27,
   "mobileRightColumn": 43,
   "mobileTopRow": 2,
   "needsErrorInfo": false,
-  "onClick": "{{storeValue(\"skinType\", \"Dry Skin\");\nnavigateTo('3 Personalized Routine Quiz', {}, 'SAME_WINDOW');}}",
+  "onClick": "{{storeValue(\"skinType\", \"Dry Skin\");}}",
   "originalBottomRow": 35,
   "originalTopRow": 27,
   "parentColumnSpace": 4.45703125,
@@ -49,7 +45,7 @@
   "renderMode": "CANVAS",
   "resetFormOnClick": false,
   "responsiveBehavior": "hug",
-  "rightColumn": 15,
+  "rightColumn": 24,
   "text": "Dry Skin",
   "topRow": 27,
   "type": "BUTTON_WIDGET",

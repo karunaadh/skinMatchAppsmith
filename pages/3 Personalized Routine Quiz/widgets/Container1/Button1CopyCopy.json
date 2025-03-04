@@ -1,7 +1,7 @@
 {
   "animateLoading": true,
   "borderRadius": "1.5rem",
-  "bottomRow": 44,
+  "bottomRow": 34,
   "boxShadow": "0 1px 3px 0 rgba(0, 0, 0, 0.1), 0 1px 2px 0 rgba(0, 0, 0, 0.06)",
   "buttonColor": "{{appsmith.theme.colors.primaryColor}}",
   "buttonVariant": "PRIMARY",
@@ -11,6 +11,7 @@
       "key": "buttonColor"
     }
   ],
+  "dynamicPropertyPathList": [],
   "dynamicTriggerPathList": [
     {
       "key": "onClick"
@@ -21,7 +22,7 @@
   "isLoading": false,
   "isVisible": true,
   "key": "jqb4zxaxe5",
-  "leftColumn": 44,
+  "leftColumn": 1,
   "minWidth": 120,
   "mobileBottomRow": 29,
   "mobileLeftColumn": 16,
@@ -29,8 +30,8 @@
   "mobileTopRow": 25,
   "needsErrorInfo": false,
   "onClick": "{{navigateTo('2 Personalized Routine Quiz', {}, 'SAME_WINDOW');}}",
-  "originalBottomRow": 49,
-  "originalTopRow": 45,
+  "originalBottomRow": 40,
+  "originalTopRow": 36,
   "parentColumnSpace": 8.29638671875,
   "parentId": "ph1hzl7620",
   "parentRowSpace": 10,
@@ -39,11 +40,11 @@
   "renderMode": "CANVAS",
   "resetFormOnClick": false,
   "responsiveBehavior": "hug",
-  "rightColumn": 57,
-  "text": "Start",
-  "topRow": 40,
+  "rightColumn": 9,
+  "text": "Back",
+  "topRow": 30,
   "type": "BUTTON_WIDGET",
   "version": 1,
-  "widgetId": "rkcn3spyo0",
-  "widgetName": "Button1"
+  "widgetId": "yeqiw0zus9",
+  "widgetName": "Button1CopyCopy"
 }
