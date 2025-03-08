@@ -1,6 +1,6 @@
 {
   "animateLoading": true,
-  "backgroundColor": "#fee2e2",
+  "backgroundColor": "{{appsmith.theme.colors.backgroundColor}}",
   "borderRadius": "1.5rem",
   "bottomRow": 251,
   "boxShadow": "none",
@@ -52,7 +52,11 @@
     }
   ],
   "detachFromLayout": true,
-  "dynamicBindingPathList": [],
+  "dynamicBindingPathList": [
+    {
+      "key": "backgroundColor"
+    }
+  ],
   "dynamicHeight": "AUTO_HEIGHT",
   "dynamicPropertyPathList": [
     {
@@ -84,6 +88,6 @@
   "type": "MODAL_WIDGET",
   "version": 2,
   "widgetId": "a51j9xtjpv",
-  "widgetName": "Modal1",
+  "widgetName": "DeleteModal",
   "width": 456
 }

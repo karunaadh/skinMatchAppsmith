@@ -40,7 +40,7 @@
   "responsiveBehavior": "fill",
   "rightColumn": 58,
   "shouldTruncate": false,
-  "text": "Are you sure you want to delete? Once you delete, all your saved routines and products will also be deleted.",
+  "text": "Are you sure you want to delete? Once you delete, all your saved routines and products will be permanently deleted.",
   "textAlign": "LEFT",
   "textColor": "#231F20",
   "topRow": 8,

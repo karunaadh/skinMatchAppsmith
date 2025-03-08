@@ -28,7 +28,7 @@
   "mobileRightColumn": 56,
   "mobileTopRow": 4,
   "needsErrorInfo": false,
-  "onClick": "{{showModal(Modal1.name);}}",
+  "onClick": "{{showModal(DeleteModal.name);}}",
   "originalBottomRow": 20,
   "originalTopRow": 16,
   "parentColumnSpace": 7.4739227294921875,
