@@ -11,9 +11,6 @@
       "key": "borderRadius"
     },
     {
-      "key": "isDisabled"
-    },
-    {
       "key": "buttonColor"
     }
   ],
@@ -28,7 +25,7 @@
     }
   ],
   "isDefaultClickDisabled": true,
-  "isDisabled": "{{!RegistrationUserIsValid.data || !RegistrationEmailIsValid.data || !SignUp_Username.isValid || !SignUp_Email.isValid || !SignUp_Password.isValid || !SignUp_PasswordCopy.isValid}}",
+  "isDisabled": "{{!RegistrationUserIsValid.data || !RegistrationEmailIsValid.data || !SignUp_Username.isValid || !SignUp_Email.isValid || !SignUp_Password.isValid || !SignUp_PasswordCopy.isValid || SignUp_Username.text.length < 1 || SignUp_Email.text.length < 1 || SignUp_Password.text.length < 1 || SignUp_PasswordCopy.text.length < 1}",
   "isLoading": false,
   "isVisible": true,
   "key": "y4con8klt0",

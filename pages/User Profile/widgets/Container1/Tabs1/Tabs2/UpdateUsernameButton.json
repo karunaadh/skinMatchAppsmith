@@ -24,7 +24,7 @@
   ],
   "dynamicTriggerPathList": [],
   "isDefaultClickDisabled": true,
-  "isDisabled": "{{!NewUsernameCopy.isValid || !NewUsername.isValid || !UsernameIsValid.data || NewUsername.text.length < 1}}",
+  "isDisabled": "{{!NewUsernameCopy.isValid || !NewUsername.isValid || !UsernameIsValid.data || NewUsername.text.length < 1 || NewUsernameCopy.text.length < 1 }}",
   "isLoading": false,
   "isVisible": true,
   "key": "vwk8ubtfm3",

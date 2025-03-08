@@ -24,7 +24,7 @@
   ],
   "dynamicTriggerPathList": [],
   "isDefaultClickDisabled": true,
-  "isDisabled": "{{!ConfirmPassword.isValid || !New_Password.isValid}}",
+  "isDisabled": "{{!ConfirmPassword.isValid || !New_Password.isValid || New_Password.text.length < 1 || ConfirmPassword.text.length < 1}}",
   "isLoading": false,
   "isVisible": true,
   "key": "vwk8ubtfm3",

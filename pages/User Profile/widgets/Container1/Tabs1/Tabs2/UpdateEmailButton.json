@@ -24,7 +24,7 @@
   ],
   "dynamicTriggerPathList": [],
   "isDefaultClickDisabled": true,
-  "isDisabled": "{{!UpdateEmail.isValid || !UpdateEmailCopy.isValid || !EmailIsValid.data || UpdateEmail.text.length < 1}}",
+  "isDisabled": "{{!UpdateEmail.isValid || !UpdateEmailCopy.isValid || !EmailIsValid.data || UpdateEmail.text.length < 1 || UpdateEmailCopy.text.length < 1}}",
   "isLoading": false,
   "isVisible": true,
   "key": "vwk8ubtfm3",
