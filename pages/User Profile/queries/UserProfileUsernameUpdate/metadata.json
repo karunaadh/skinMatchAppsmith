@@ -18,7 +18,7 @@
         "apiContentType": "application/json"
       },
       "headers": [],
-      "httpMethod": "GET",
+      "httpMethod": "PUT",
       "httpVersion": "HTTP11",
       "paginationType": "NONE",
       "path": "/users/{{appsmith.store.loggedUser}}/id",

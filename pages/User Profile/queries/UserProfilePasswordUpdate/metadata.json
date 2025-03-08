@@ -1,6 +1,6 @@
 {
-  "gitSyncId": "67c40ff148d8e76645e0658f_ad649ea8-6cd2-4fee-8112-f819c1527fbb",
-  "id": "User Profile_UserProfileEmailUpdate",
+  "gitSyncId": "67c40ff148d8e76645e0658f_00a80485-52d3-4497-917c-ebf9470f5e24",
+  "id": "User Profile_UserProfilePasswordUpdate",
   "pluginId": "restapi-plugin",
   "pluginType": "API",
   "unpublishedAction": {
@@ -11,7 +11,7 @@
           "value": "application/json"
         }
       ],
-      "body": "{\n\t\"email\" : \"{{UpdateEmail.text}}\"\n}",
+      "body": "{\n\t\"password\" : \"{{New_Password.text}}\"\n}",
       "bodyFormData": [],
       "encodeParamsToggle": true,
       "formData": {
@@ -21,7 +21,7 @@
       "httpMethod": "PUT",
       "httpVersion": "HTTP11",
       "paginationType": "NONE",
-      "path": "/users/{{appsmith.store.loggedUser}}/email",
+      "path": "/users/{{appsmith.store.loggedUser}}/password",
       "pluginSpecifiedTemplates": [
         {
           "value": true
@@ -46,7 +46,7 @@
       }
     ],
     "executeOnLoad": false,
-    "name": "UserProfileEmailUpdate",
+    "name": "UserProfilePasswordUpdate",
     "pageId": "User Profile",
     "userSetOnLoad": false
   }
