@@ -1,7 +1,7 @@
 {
   "animateLoading": true,
   "borderRadius": "1.5rem",
-  "bottomRow": 0,
+  "bottomRow": 4,
   "bottomRowBeforeCollapse": 4,
   "boxShadow": "none",
   "buttonColor": "{{appsmith.theme.colors.primaryColor}}",
@@ -24,7 +24,7 @@
   "mobileRightColumn": 60,
   "mobileTopRow": 0,
   "needsErrorInfo": false,
-  "originalBottomRow": 4,
+  "originalBottomRow": 0,
   "originalTopRow": 0,
   "parentColumnSpace": 8.29638671875,
   "parentId": "u5yyx9inye",

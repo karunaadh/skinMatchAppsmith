@@ -22,7 +22,11 @@
       "key": "isDisabled"
     }
   ],
-  "dynamicTriggerPathList": [],
+  "dynamicTriggerPathList": [
+    {
+      "key": "onClick"
+    }
+  ],
   "isDefaultClickDisabled": true,
   "isDisabled": "{{!ConfirmPassword.isValid || !New_Password.isValid || New_Password.text.length < 1 || ConfirmPassword.text.length < 1}}",
   "isLoading": false,
@@ -35,6 +39,7 @@
   "mobileRightColumn": 57,
   "mobileTopRow": 6,
   "needsErrorInfo": false,
+  "onClick": "{{UserProfilePasswordUpdate.run().then(() => {\n  showAlert('Password successfully updated!', 'success');\n  ClearForm.clearForm(New_Password, ConfirmPassword);\n}).catch(() => {\n  showAlert('Password update failed, please try again!', 'error');\n});}}",
   "parentColumnSpace": 8.354240417480469,
   "parentId": "vks4uskteo",
   "parentRowSpace": 10,

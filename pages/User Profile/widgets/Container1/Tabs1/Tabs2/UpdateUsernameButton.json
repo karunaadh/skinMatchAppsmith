@@ -22,7 +22,11 @@
       "key": "isDisabled"
     }
   ],
-  "dynamicTriggerPathList": [],
+  "dynamicTriggerPathList": [
+    {
+      "key": "onClick"
+    }
+  ],
   "isDefaultClickDisabled": true,
   "isDisabled": "{{!NewUsernameCopy.isValid || !NewUsername.isValid || !UsernameIsValid.data || NewUsername.text.length < 1 || NewUsernameCopy.text.length < 1 }}",
   "isLoading": false,
@@ -35,6 +39,7 @@
   "mobileRightColumn": 56,
   "mobileTopRow": 4,
   "needsErrorInfo": false,
+  "onClick": "{{UserProfileUsernameUpdate.run().then(() => {\n  showAlert('Successful update!', 'success');\n  storeValue('loggedUser', NewUsername.text);\n  ClearForm.clearForm(NewUsername, NewUsernameCopy);\n}).catch(() => {\n  showAlert('Error updating username, try again!', 'error');\n});}}",
   "originalBottomRow": 11,
   "originalTopRow": 7,
   "parentColumnSpace": 7.4739227294921875,

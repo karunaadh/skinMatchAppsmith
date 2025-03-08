@@ -15,6 +15,9 @@
     },
     {
       "key": "textColor"
+    },
+    {
+      "key": "text"
     }
   ],
   "dynamicHeight": "AUTO_HEIGHT",
@@ -25,7 +28,7 @@
   "isLoading": false,
   "isVisible": true,
   "key": "9qchq3rkgi",
-  "leftColumn": 19,
+  "leftColumn": 7,
   "maxDynamicHeight": 9000,
   "minDynamicHeight": 4,
   "minWidth": 450,
@@ -40,9 +43,9 @@
   "parentId": "mu32m1er9t",
   "renderMode": "CANVAS",
   "responsiveBehavior": "fill",
-  "rightColumn": 59,
+  "rightColumn": 47,
   "shouldTruncate": false,
-  "text": "**Username's** Profile\n",
+  "text": "{{appsmith.store.loggedUser}}'s Profile\n",
   "textAlign": "LEFT",
   "textColor": "{{appsmith.theme.colors.primaryColor}}",
   "topRow": 6,
