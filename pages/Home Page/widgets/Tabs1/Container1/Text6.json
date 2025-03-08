@@ -1,10 +1,8 @@
 {
   "animateLoading": true,
-  "backgroundColor": "{{appsmith.theme.colors.backgroundColor}}",
-  "borderColor": "#f4f4f5",
+  "backgroundColor": "#f4f4f5",
   "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-  "borderWidth": "2",
-  "bottomRow": 35,
+  "bottomRow": 90,
   "dynamicBindingPathList": [
     {
       "key": "truncateButtonColor"
@@ -14,48 +12,42 @@
     },
     {
       "key": "borderRadius"
-    },
-    {
-      "key": "backgroundColor"
-    },
-    {
-      "key": "textColor"
     }
   ],
   "dynamicHeight": "AUTO_HEIGHT",
   "dynamicTriggerPathList": [],
   "fontFamily": "{{appsmith.theme.fontFamily.appFont}}",
-  "fontSize": "0.875rem",
-  "fontStyle": "",
+  "fontSize": "1rem",
+  "fontStyle": "BOLD",
   "isLoading": false,
   "isVisible": true,
   "key": "hzoskyteo2",
-  "leftColumn": 1,
+  "leftColumn": 0,
   "maxDynamicHeight": 9000,
   "minDynamicHeight": 4,
   "minWidth": 450,
-  "mobileBottomRow": 30,
-  "mobileLeftColumn": 24,
-  "mobileRightColumn": 40,
-  "mobileTopRow": 26,
+  "mobileBottomRow": 46,
+  "mobileLeftColumn": 2,
+  "mobileRightColumn": 18,
+  "mobileTopRow": 42,
   "needsErrorInfo": false,
-  "originalBottomRow": 35,
-  "originalTopRow": 18,
+  "originalBottomRow": 93,
+  "originalTopRow": 89,
   "overflow": "NONE",
   "parentColumnSpace": 8.29638671875,
   "parentId": "stv28fkt7e",
   "parentRowSpace": 10,
   "renderMode": "CANVAS",
   "responsiveBehavior": "fill",
-  "rightColumn": 14,
+  "rightColumn": 52,
   "shouldTruncate": false,
-  "text": "CONTRIBUTORS: \nKaruna Adhikari\nEric (Jialuo) Chen\nNaeer Khan \nLea Kwon\nAnoushka Paul\nAditi Ponemone\nPragya Prakash\nAnna Wang",
+  "text": "...",
   "textAlign": "LEFT",
-  "textColor": "{{appsmith.theme.colors.primaryColor}}",
-  "topRow": 18,
+  "textColor": "#ef4444",
+  "topRow": 86,
   "truncateButtonColor": "{{appsmith.theme.colors.primaryColor}}",
   "type": "TEXT_WIDGET",
   "version": 1,
-  "widgetId": "ros1rnhzwx",
-  "widgetName": "Text3"
+  "widgetId": "zkv4z284i9",
+  "widgetName": "Text6"
 }

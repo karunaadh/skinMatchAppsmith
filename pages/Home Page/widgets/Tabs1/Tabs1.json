@@ -1,16 +1,16 @@
 {
   "accentColor": "{{appsmith.theme.colors.primaryColor}}",
   "animateLoading": true,
-  "backgroundColor": "{{appsmith.theme.colors.backgroundColor}}",
+  "backgroundColor": "#FFFFFF",
   "borderColor": "#E0DEDE",
   "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
   "borderWidth": 1,
-  "bottomRow": 50,
+  "bottomRow": 70,
   "boxShadow": "{{appsmith.theme.boxShadow.appBoxShadow}}",
   "children": [
     {
       "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-      "bottomRow": 460,
+      "bottomRow": 1060,
       "boxShadow": "{{appsmith.theme.boxShadow.appBoxShadow}}",
       "canExtend": true,
       "detachFromLayout": true,
@@ -28,7 +28,7 @@
       "isDisabled": false,
       "isLoading": false,
       "isVisible": true,
-      "key": "izbokmsn82",
+      "key": "5pp16oiyc2",
       "leftColumn": 0,
       "maxDynamicHeight": 9000,
       "minDynamicHeight": 4,
@@ -36,27 +36,27 @@
       "minWidth": 450,
       "mobileBottomRow": 150,
       "mobileLeftColumn": 0,
-      "mobileRightColumn": 24.88916015625,
+      "mobileRightColumn": 34.6875,
       "mobileTopRow": 0,
       "needsErrorInfo": false,
       "parentColumnSpace": 1,
-      "parentId": "v89xv8ck3c",
+      "parentId": "7qj0ln10yo",
       "parentRowSpace": 1,
       "renderMode": "CANVAS",
       "responsiveBehavior": "fill",
-      "rightColumn": 24.88916015625,
+      "rightColumn": 34.6875,
       "shouldScrollContents": false,
       "tabId": "tab1",
-      "tabName": "Login",
+      "tabName": "Homepage",
       "topRow": 0,
       "type": "CANVAS_WIDGET",
       "version": 1,
-      "widgetId": "kfs6wcs33p",
+      "widgetId": "ddmpoq555u",
       "widgetName": "Canvas3"
     },
     {
       "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-      "bottomRow": 460,
+      "bottomRow": 160,
       "boxShadow": "{{appsmith.theme.boxShadow.appBoxShadow}}",
       "canExtend": true,
       "detachFromLayout": true,
@@ -74,7 +74,7 @@
       "isDisabled": false,
       "isLoading": false,
       "isVisible": true,
-      "key": "izbokmsn82",
+      "key": "5pp16oiyc2",
       "leftColumn": 0,
       "maxDynamicHeight": 9000,
       "minDynamicHeight": 4,
@@ -82,43 +82,35 @@
       "minWidth": 450,
       "mobileBottomRow": 150,
       "mobileLeftColumn": 0,
-      "mobileRightColumn": 24.88916015625,
+      "mobileRightColumn": 34.6875,
       "mobileTopRow": 0,
       "needsErrorInfo": false,
-      "originalBottomRow": 410,
-      "originalTopRow": 0,
       "parentColumnSpace": 1,
-      "parentId": "v89xv8ck3c",
+      "parentId": "7qj0ln10yo",
       "parentRowSpace": 1,
       "renderMode": "CANVAS",
       "responsiveBehavior": "fill",
-      "rightColumn": 24.88916015625,
-      "shouldScrollContents": true,
+      "rightColumn": 34.6875,
+      "shouldScrollContents": false,
       "tabId": "tab2",
-      "tabName": "Registration",
+      "tabName": "Login",
       "topRow": 0,
       "type": "CANVAS_WIDGET",
       "version": 1,
-      "widgetId": "86diw5oqho",
+      "widgetId": "gj71p3lmek",
       "widgetName": "Canvas4"
     }
   ],
-  "defaultTab": "{{UpdateTab.defaultTab}}",
+  "defaultTab": "Tab 1",
   "dynamicBindingPathList": [
+    {
+      "key": "accentColor"
+    },
     {
       "key": "borderRadius"
     },
     {
       "key": "boxShadow"
-    },
-    {
-      "key": "defaultTab"
-    },
-    {
-      "key": "accentColor"
-    },
-    {
-      "key": "backgroundColor"
     }
   ],
   "dynamicHeight": "AUTO_HEIGHT",
@@ -127,47 +119,47 @@
   "isCanvas": true,
   "isLoading": false,
   "isVisible": true,
-  "key": "r84cxqldcx",
+  "key": "hrvh0u4tcn",
   "leftColumn": 0,
   "maxDynamicHeight": 9000,
   "minDynamicHeight": 15,
   "minWidth": 450,
-  "mobileBottomRow": 66,
+  "mobileBottomRow": 92,
   "mobileLeftColumn": 0,
   "mobileRightColumn": 3,
-  "mobileTopRow": 51,
+  "mobileTopRow": 77,
   "needsErrorInfo": false,
-  "originalBottomRow": 41,
-  "originalTopRow": 4,
-  "parentColumnSpace": 8.29638671875,
-  "parentId": "u5yyx9inye",
+  "originalBottomRow": 69,
+  "originalTopRow": 50,
+  "parentColumnSpace": 11.5625,
+  "parentId": "0",
   "parentRowSpace": 10,
   "renderMode": "CANVAS",
   "responsiveBehavior": "fill",
   "rightColumn": 64,
   "shouldScrollContents": true,
-  "shouldShowTabs": false,
+  "shouldShowTabs": true,
   "tabsObj": {
     "tab1": {
       "id": "tab1",
       "index": 0,
       "isVisible": true,
-      "label": "Login",
+      "label": "Homepage",
       "positioning": "vertical",
-      "widgetId": "kfs6wcs33p"
+      "widgetId": "ddmpoq555u"
     },
     "tab2": {
       "id": "tab2",
       "index": 1,
       "isVisible": true,
-      "label": "Registration",
+      "label": "Login",
       "positioning": "vertical",
-      "widgetId": "86diw5oqho"
+      "widgetId": "gj71p3lmek"
     }
   },
-  "topRow": 4,
+  "topRow": 50,
   "type": "TABS_WIDGET",
   "version": 3,
-  "widgetId": "v89xv8ck3c",
+  "widgetId": "7qj0ln10yo",
   "widgetName": "Tabs1"
 }

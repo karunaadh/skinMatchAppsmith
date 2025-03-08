@@ -31,7 +31,7 @@
   "mobileRightColumn": 62,
   "mobileTopRow": 33,
   "needsErrorInfo": false,
-  "onClick": "{{LoginAPI.run().then(() => {\n  showAlert('Login successful!', 'success');\n  navigateTo('Home Page', {}, 'SAME_WINDOW');\n}).catch(() => {\n  showAlert('Incorrect login details!', 'error');\n});}}",
+  "onClick": "{{LoginAPI.run().then(() => {\n  StoreUsername.Log_InonClick();\n  showAlert('Login successful!', '');\n  navigateTo('Home Page', {}, 'SAME_WINDOW');\n}).catch(() => {\n  showAlert('Incorrect login details!', 'error');\n});}}",
   "originalBottomRow": 38,
   "originalTopRow": 34,
   "parentId": "kfs6wcs33p",

@@ -51,7 +51,7 @@
           "widgetId": "u2eprfwv90"
         }
       },
-      "onClick": "{{navigateTo('Registration_Login Page', {}, 'SAME_WINDOW');}}",
+      "onClick": "{{removeValue('loggedUser');\nnavigateTo('Registration_Login Page', {}, 'SAME_WINDOW');}}",
       "placement": "START",
       "widgetId": ""
     },

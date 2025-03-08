@@ -1,10 +1,10 @@
 {
-  "animateLoading": true,
+  "animateLoading": "true",
   "backgroundColor": "{{appsmith.theme.colors.backgroundColor}}",
   "borderColor": "{{appsmith.theme.colors.backgroundColor}}",
   "borderRadius": "1.5rem",
   "borderWidth": "",
-  "bottomRow": 152,
+  "bottomRow": 106,
   "boxShadow": "{{appsmith.theme.boxShadow.appBoxShadow}}",
   "children": [
     {
@@ -60,16 +60,27 @@
     },
     {
       "key": "backgroundColor"
+    },
+    {
+      "key": "isVisible"
     }
   ],
   "dynamicHeight": "AUTO_HEIGHT",
+  "dynamicPropertyPathList": [
+    {
+      "key": "isVisible"
+    },
+    {
+      "key": "animateLoading"
+    }
+  ],
   "dynamicTriggerPathList": [],
   "flexVerticalAlignment": "stretch",
   "isCanvas": true,
   "isLoading": false,
-  "isVisible": true,
+  "isVisible": "{{appsmith.store.loggedUser != '' || appsmith.store.loggedUser != undefined}}",
   "key": "08q5z1i363",
-  "leftColumn": 3,
+  "leftColumn": 0,
   "maxDynamicHeight": 9000,
   "minDynamicHeight": 10,
   "minWidth": 450,
@@ -78,16 +89,16 @@
   "mobileRightColumn": 38,
   "mobileTopRow": 13,
   "needsErrorInfo": false,
-  "originalBottomRow": 152,
-  "originalTopRow": 47,
+  "originalBottomRow": 106,
+  "originalTopRow": 1,
   "parentColumnSpace": 10.203125,
-  "parentId": "0",
+  "parentId": "ddmpoq555u",
   "parentRowSpace": 10,
   "renderMode": "CANVAS",
   "responsiveBehavior": "fill",
   "rightColumn": 64,
   "shouldScrollContents": true,
-  "topRow": 47,
+  "topRow": 1,
   "type": "CONTAINER_WIDGET",
   "version": 1,
   "widgetId": "06i284i7n6",

@@ -36,7 +36,7 @@
   "mobileRightColumn": 17,
   "mobileTopRow": 31,
   "needsErrorInfo": false,
-  "onClick": "{{NOTUSED_Registration_Login.setDefaultTab('Login')}}",
+  "onClick": "{{UpdateTab.setDefaultTab('Login')}}",
   "originalBottomRow": 44,
   "originalTopRow": 40,
   "parentColumnSpace": 6.643531799316406,
