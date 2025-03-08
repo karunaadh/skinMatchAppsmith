@@ -58,7 +58,7 @@
   "parentId": "86diw5oqho",
   "parentRowSpace": 10,
   "placeholderText": "Enter Username",
-  "regex": "^[a-zA-Z ]*$",
+  "regex": "^[a-zA-Z0-9 ]*$",
   "renderMode": "CANVAS",
   "resetOnSubmit": true,
   "responsiveBehavior": "fill",

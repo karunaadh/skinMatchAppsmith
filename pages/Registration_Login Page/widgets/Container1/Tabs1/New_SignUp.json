@@ -39,7 +39,7 @@
   "mobileRightColumn": 62,
   "mobileTopRow": 33,
   "needsErrorInfo": false,
-  "onClick": "{{Registration_Login.register();\nnavigateTo('Home Page', {}, 'SAME_WINDOW');}}",
+  "onClick": "",
   "originalBottomRow": 43,
   "originalTopRow": 39,
   "parentId": "86diw5oqho",

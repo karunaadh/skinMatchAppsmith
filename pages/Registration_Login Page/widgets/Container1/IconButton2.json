@@ -14,7 +14,7 @@
   "iconName": "log-in",
   "isDisabled": false,
   "isLoading": false,
-  "isVisible": true,
+  "isVisible": false,
   "key": "xph4pro7nz",
   "leftColumn": 59,
   "minWidth": 50,
