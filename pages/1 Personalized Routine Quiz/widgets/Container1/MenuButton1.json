@@ -15,10 +15,10 @@
   },
   "dynamicBindingPathList": [
     {
-      "key": "menuColor"
+      "key": "borderRadius"
     },
     {
-      "key": "borderRadius"
+      "key": "menuColor"
     }
   ],
   "dynamicTriggerPathList": [
@@ -27,6 +27,9 @@
     },
     {
       "key": "menuItems.menuItemg9hd2cv63p.onClick"
+    },
+    {
+      "key": "menuItems.menuItem53gzx5ddsz.onClick"
     }
   ],
   "isCompact": false,
@@ -35,7 +38,7 @@
   "isVisible": true,
   "key": "b213s5fxyx",
   "label": "☰",
-  "leftColumn": 52,
+  "leftColumn": 7,
   "menuColor": "{{appsmith.theme.colors.primaryColor}}",
   "menuItems": {
     "menuItem2": {
@@ -47,6 +50,16 @@
       "label": "Explore",
       "onClick": "{{navigateTo('Group and Search Products Page', {}, 'SAME_WINDOW');}}",
       "widgetId": ""
+    },
+    "menuItem53gzx5ddsz": {
+      "iconName": "user",
+      "id": "menuItem53gzx5ddsz",
+      "index": 2,
+      "isDisabled": false,
+      "isVisible": true,
+      "label": "My Profile",
+      "onClick": "{{navigateTo('User Profile', {}, 'SAME_WINDOW');}}",
+      "widgetId": "yxesxon2uo"
     },
     "menuItemg9hd2cv63p": {
       "iconName": "heart",
@@ -67,15 +80,15 @@
   "mobileTopRow": 0,
   "needsErrorInfo": false,
   "parentColumnSpace": 5.586181640625,
-  "parentId": "1h7mpupqwc",
+  "parentId": "ph1hzl7620",
   "parentRowSpace": 10,
   "placement": "CENTER",
   "renderMode": "CANVAS",
-  "rightColumn": 58,
+  "rightColumn": 12,
   "sourceData": [],
   "topRow": 0,
   "type": "MENU_BUTTON_WIDGET",
   "version": 1,
-  "widgetId": "ve5d7njsww",
+  "widgetId": "scpi15axjt",
   "widgetName": "MenuButton1"
 }
