@@ -48,7 +48,7 @@
   "mobileTopRow": 11,
   "needsErrorInfo": false,
   "onSubmit": "",
-  "onTextChanged": "{{RegistrationEmailIsValid.run()}}",
+  "onTextChanged": "{{SignupEmailOnChange.SignUp_EmailonTextChanged();}}",
   "originalBottomRow": 21,
   "originalTopRow": 15,
   "parentColumnSpace": 4.790229797363281,

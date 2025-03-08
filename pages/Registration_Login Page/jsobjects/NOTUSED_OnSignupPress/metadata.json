@@ -1,8 +1,8 @@
 {
   "gitSyncId": "67c00a2c6956ae692cbe5d5c_3628589c-5eda-41fb-a695-b7d878263a97",
-  "id": "Registration_Login Page_OnSignupPress",
+  "id": "Registration_Login Page_NOTUSED_OnSignupPress",
   "unpublishedCollection": {
-    "name": "OnSignupPress",
+    "name": "NOTUSED_OnSignupPress",
     "pageId": "Registration_Login Page",
     "pluginId": "js-plugin",
     "pluginType": "JS",

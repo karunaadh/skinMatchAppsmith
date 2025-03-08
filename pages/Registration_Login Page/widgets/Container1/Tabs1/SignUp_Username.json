@@ -51,7 +51,7 @@
   "mobileTopRow": 11,
   "needsErrorInfo": false,
   "onSubmit": "",
-  "onTextChanged": "{{RegistrationUserIsValid.run()}}",
+  "onTextChanged": "{{SignupUserOnChange.SignUp_UsernameonTextChanged();}}",
   "originalBottomRow": 15,
   "originalTopRow": 9,
   "parentColumnSpace": 4.790229797363281,
