@@ -5,12 +5,12 @@
   "borderColor": "#E0DEDE",
   "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
   "borderWidth": 1,
-  "bottomRow": 70,
+  "bottomRow": 162,
   "boxShadow": "{{appsmith.theme.boxShadow.appBoxShadow}}",
   "children": [
     {
       "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-      "bottomRow": 1060,
+      "bottomRow": 1080,
       "boxShadow": "{{appsmith.theme.boxShadow.appBoxShadow}}",
       "canExtend": true,
       "detachFromLayout": true,
@@ -53,55 +53,9 @@
       "version": 1,
       "widgetId": "ddmpoq555u",
       "widgetName": "Canvas3"
-    },
-    {
-      "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-      "bottomRow": 160,
-      "boxShadow": "{{appsmith.theme.boxShadow.appBoxShadow}}",
-      "canExtend": true,
-      "detachFromLayout": true,
-      "dynamicBindingPathList": [
-        {
-          "key": "borderRadius"
-        },
-        {
-          "key": "boxShadow"
-        }
-      ],
-      "dynamicHeight": "AUTO_HEIGHT",
-      "dynamicTriggerPathList": [],
-      "flexLayers": [],
-      "isDisabled": false,
-      "isLoading": false,
-      "isVisible": true,
-      "key": "5pp16oiyc2",
-      "leftColumn": 0,
-      "maxDynamicHeight": 9000,
-      "minDynamicHeight": 4,
-      "minHeight": 150,
-      "minWidth": 450,
-      "mobileBottomRow": 150,
-      "mobileLeftColumn": 0,
-      "mobileRightColumn": 34.6875,
-      "mobileTopRow": 0,
-      "needsErrorInfo": false,
-      "parentColumnSpace": 1,
-      "parentId": "7qj0ln10yo",
-      "parentRowSpace": 1,
-      "renderMode": "CANVAS",
-      "responsiveBehavior": "fill",
-      "rightColumn": 34.6875,
-      "shouldScrollContents": false,
-      "tabId": "tab2",
-      "tabName": "Login",
-      "topRow": 0,
-      "type": "CANVAS_WIDGET",
-      "version": 1,
-      "widgetId": "gj71p3lmek",
-      "widgetName": "Canvas4"
     }
   ],
-  "defaultTab": "Tab 1",
+  "defaultTab": "",
   "dynamicBindingPathList": [
     {
       "key": "accentColor"
@@ -129,7 +83,7 @@
   "mobileRightColumn": 3,
   "mobileTopRow": 77,
   "needsErrorInfo": false,
-  "originalBottomRow": 69,
+  "originalBottomRow": 162,
   "originalTopRow": 50,
   "parentColumnSpace": 11.5625,
   "parentId": "0",
@@ -147,14 +101,6 @@
       "label": "Homepage",
       "positioning": "vertical",
       "widgetId": "ddmpoq555u"
-    },
-    "tab2": {
-      "id": "tab2",
-      "index": 1,
-      "isVisible": true,
-      "label": "Login",
-      "positioning": "vertical",
-      "widgetId": "gj71p3lmek"
     }
   },
   "topRow": 50,
