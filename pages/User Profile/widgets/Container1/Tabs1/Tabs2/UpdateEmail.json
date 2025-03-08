@@ -15,7 +15,11 @@
     }
   ],
   "dynamicHeight": "FIXED",
-  "dynamicTriggerPathList": [],
+  "dynamicTriggerPathList": [
+    {
+      "key": "onTextChanged"
+    }
+  ],
   "errorMessage": "The email is not valid!",
   "iconAlign": "left",
   "inputType": "EMAIL",
@@ -40,6 +44,7 @@
   "mobileRightColumn": 26,
   "mobileTopRow": 0,
   "needsErrorInfo": false,
+  "onTextChanged": "{{EmailOnChange.UpdateEmailonTextChanged();}}",
   "originalBottomRow": 112,
   "originalTopRow": 105,
   "parentColumnSpace": 7.4739227294921875,

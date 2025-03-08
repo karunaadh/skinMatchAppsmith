@@ -18,8 +18,13 @@
     }
   ],
   "dynamicHeight": "FIXED",
-  "dynamicTriggerPathList": [],
-  "errorMessage": "Username must include letters and numbers only and be longer than 4 characters!",
+  "dynamicPropertyPathList": [],
+  "dynamicTriggerPathList": [
+    {
+      "key": "onTextChanged"
+    }
+  ],
+  "errorMessage": "Username must contain only letters or numbers and must be at least 4 characters!",
   "iconAlign": "left",
   "inputType": "TEXT",
   "isDisabled": false,
@@ -43,20 +48,21 @@
   "mobileRightColumn": 26,
   "mobileTopRow": 0,
   "needsErrorInfo": false,
+  "onTextChanged": "{{UsernameOnChange.NewUsernameonTextChanged();}}",
   "parentColumnSpace": 7.4739227294921875,
   "parentId": "8jwe2r24gh",
   "parentRowSpace": 10,
   "placeholderText": "Enter Username",
-  "regex": "^[a-zA-Z0-9]*$",
+  "regex": "^[a-zA-Z0-9 ]*$",
   "renderMode": "CANVAS",
   "resetOnSubmit": true,
   "responsiveBehavior": "fill",
   "rightColumn": 31,
   "showStepArrows": false,
-  "tooltip": "",
+  "tooltip": "Value must only include letters or numbers",
   "topRow": 0,
   "type": "INPUT_WIDGET_V2",
-  "validation": "{{NewUsername.text.length>4}}",
+  "validation": "{{NewUsername.text.length>3}}",
   "version": 2,
   "widgetId": "d51nyb0vfc",
   "widgetName": "NewUsername"

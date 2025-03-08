@@ -1,0 +1,11 @@
+{
+  "gitSyncId": "67c40ff148d8e76645e0658f_1a4718fa-29e9-463c-8c28-61dbfbb46986",
+  "id": "User Profile_UsernameOnChange",
+  "unpublishedCollection": {
+    "name": "UsernameOnChange",
+    "pageId": "User Profile",
+    "pluginId": "js-plugin",
+    "pluginType": "JS",
+    "variables": []
+  }
+}
