@@ -1,0 +1,41 @@
+{
+  "animateLoading": true,
+  "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+  "bottomRow": 18,
+  "boxShadow": "none",
+  "defaultImage": "https://mdskinshop.com/cdn/shop/files/water-aesthetic-md.jpg?v=1724704395&width=3000",
+  "dynamicBindingPathList": [
+    {
+      "key": "borderRadius"
+    }
+  ],
+  "dynamicTriggerPathList": [],
+  "enableDownload": false,
+  "enableRotation": false,
+  "flexVerticalAlignment": "start",
+  "image": "",
+  "imageShape": "RECTANGLE",
+  "isLoading": false,
+  "isVisible": true,
+  "key": "5hgpkerqu6",
+  "leftColumn": 0,
+  "maxZoomLevel": 1,
+  "mobileBottomRow": 27,
+  "mobileLeftColumn": 1,
+  "mobileRightColumn": 13,
+  "mobileTopRow": 15,
+  "needsErrorInfo": false,
+  "objectFit": "cover",
+  "originalBottomRow": 27,
+  "originalTopRow": 15,
+  "parentColumnSpace": 12.267578125,
+  "parentId": "stv28fkt7e",
+  "parentRowSpace": 10,
+  "renderMode": "CANVAS",
+  "rightColumn": 64,
+  "topRow": 4,
+  "type": "IMAGE_WIDGET",
+  "version": 1,
+  "widgetId": "bmp0ic0xms",
+  "widgetName": "Image1"
+}
