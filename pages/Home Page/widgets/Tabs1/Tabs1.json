@@ -5,7 +5,7 @@
   "borderColor": "#E0DEDE",
   "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
   "borderWidth": 1,
-  "bottomRow": 101,
+  "bottomRow": 97,
   "boxShadow": "{{appsmith.theme.boxShadow.appBoxShadow}}",
   "children": [
     {
@@ -56,7 +56,7 @@
     },
     {
       "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-      "bottomRow": 490,
+      "bottomRow": 450,
       "boxShadow": "{{appsmith.theme.boxShadow.appBoxShadow}}",
       "canExtend": false,
       "containerStyle": "none",
@@ -98,51 +98,6 @@
       "version": 1,
       "widgetId": "k56vv90gai",
       "widgetName": "Canvas4"
-    },
-    {
-      "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-      "bottomRow": 490,
-      "boxShadow": "{{appsmith.theme.boxShadow.appBoxShadow}}",
-      "canExtend": false,
-      "containerStyle": "none",
-      "detachFromLayout": true,
-      "dynamicBindingPathList": [
-        {
-          "key": "borderRadius"
-        },
-        {
-          "key": "boxShadow"
-        }
-      ],
-      "dynamicHeight": "AUTO_HEIGHT",
-      "dynamicTriggerPathList": [],
-      "flexLayers": [],
-      "isLoading": false,
-      "isVisible": true,
-      "key": "7e8y2erzjh",
-      "leftColumn": 0,
-      "maxDynamicHeight": 9000,
-      "minDynamicHeight": 4,
-      "minHeight": 1150,
-      "minWidth": 450,
-      "mobileBottomRow": 1151,
-      "mobileLeftColumn": 0,
-      "mobileRightColumn": 740,
-      "mobileTopRow": 1,
-      "needsErrorInfo": false,
-      "parentColumnSpace": 1,
-      "parentId": "7qj0ln10yo",
-      "parentRowSpace": 1,
-      "renderMode": "CANVAS",
-      "responsiveBehavior": "fill",
-      "rightColumn": 740,
-      "tabId": "tabxd7zr1qtox",
-      "tabName": "Contact ",
-      "topRow": 1,
-      "type": "CANVAS_WIDGET",
-      "version": 1,
-      "widgetId": "zxcf91thil",
-      "widgetName": "Canvas5"
     }
   ],
   "defaultTab": "",
@@ -173,7 +128,7 @@
   "mobileRightColumn": 3,
   "mobileTopRow": 77,
   "needsErrorInfo": false,
-  "originalBottomRow": 101,
+  "originalBottomRow": 92,
   "originalTopRow": 48,
   "parentColumnSpace": 11.5625,
   "parentId": "0",
@@ -198,13 +153,6 @@
       "isVisible": true,
       "label": "About Us",
       "widgetId": "k56vv90gai"
-    },
-    "tabxd7zr1qtox": {
-      "id": "tabxd7zr1qtox",
-      "index": 2,
-      "isVisible": true,
-      "label": "Contact ",
-      "widgetId": "zxcf91thil"
     }
   },
   "topRow": 48,
