@@ -11,6 +11,9 @@
     },
     {
       "key": "borderRadius"
+    },
+    {
+      "key": "labelTextColor"
     }
   ],
   "dynamicHeight": "FIXED",
@@ -24,7 +27,7 @@
   "labelAlignment": "left",
   "labelPosition": "Top",
   "labelText": "Select skin concerns",
-  "labelTextColor": "#231f20",
+  "labelTextColor": "{{appsmith.theme.colors.primaryColor}}",
   "labelTextSize": "1rem",
   "labelWidth": 5,
   "leftColumn": 3,

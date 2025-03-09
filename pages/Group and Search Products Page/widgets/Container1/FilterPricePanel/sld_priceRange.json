@@ -1,0 +1,63 @@
+{
+  "accentColor": "{{appsmith.theme.colors.primaryColor}}",
+  "animateLoading": true,
+  "bottomRow": 22,
+  "defaultValue": 10,
+  "dynamicBindingPathList": [
+    {
+      "key": "accentColor"
+    },
+    {
+      "key": "labelTextColor"
+    }
+  ],
+  "dynamicPropertyPathList": [
+    {
+      "key": "onChange"
+    }
+  ],
+  "dynamicTriggerPathList": [
+    {
+      "key": "onChange"
+    }
+  ],
+  "isDisabled": false,
+  "isLoading": false,
+  "isVisible": true,
+  "key": "9oyazuk6f2",
+  "labelAlignment": "left",
+  "labelPosition": "Top",
+  "labelText": "Budget",
+  "labelTextColor": "{{appsmith.theme.colors.primaryColor}}",
+  "labelTextSize": "0.875rem",
+  "labelWidth": 8,
+  "leftColumn": 0,
+  "marks": "[\n  {\n    \"value\": 15,\n    \"label\": \"< $15\"\n  },\n  {\n    \"value\": 50,\n    \"label\": \"$50\"\n  },\n  {\n    \"value\": 100,\n    \"label\": \"$100\"\n  },\n\t{\n    \"value\": 150,\n    \"label\": \"$150+\"\n  }\n]",
+  "max": "150",
+  "min": 0,
+  "mobileBottomRow": 37,
+  "mobileLeftColumn": 11,
+  "mobileRightColumn": 51,
+  "mobileTopRow": 29,
+  "needsErrorInfo": false,
+  "onChange": "{{ utils.updatePriceRange(self.value);}}",
+  "originalBottomRow": 40,
+  "originalTopRow": 32,
+  "parentColumnSpace": 14.8125,
+  "parentId": "z5ssxdeaxc",
+  "parentRowSpace": 10,
+  "renderMode": "CANVAS",
+  "responsiveBehavior": "fill",
+  "rightColumn": 62,
+  "shouldScroll": false,
+  "shouldTruncate": false,
+  "showMarksLabel": true,
+  "sliderSize": "m",
+  "step": 1,
+  "tooltipAlwaysOn": false,
+  "topRow": 14,
+  "type": "NUMBER_SLIDER_WIDGET",
+  "version": 1,
+  "widgetId": "nuf7wszpf4",
+  "widgetName": "sld_priceRange"
+}

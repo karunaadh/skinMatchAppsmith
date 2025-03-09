@@ -1,0 +1,5 @@
+{
+	"userId" : "{{SignUp_Username.text}}",
+	"password" : "{{SignUp_Password.text}}",
+	"email" : "{{SignUp_Email.text}}"
+}

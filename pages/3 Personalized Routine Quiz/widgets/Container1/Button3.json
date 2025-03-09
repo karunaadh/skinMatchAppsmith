@@ -14,6 +14,7 @@
       "key": "borderRadius"
     }
   ],
+  "dynamicPropertyPathList": [],
   "dynamicTriggerPathList": [
     {
       "key": "onClick"
@@ -31,9 +32,9 @@
   "mobileRightColumn": 61,
   "mobileTopRow": 39,
   "needsErrorInfo": false,
-  "onClick": "{{navigateTo(\"\", {}, 'SAME_WINDOW')}}",
-  "originalBottomRow": 38,
-  "originalTopRow": 34,
+  "onClick": "{{navigateTo('4 Personalized Routine Quiz', {}, 'SAME_WINDOW');\nstoreValue('concerns', MultiSelect1.selectedOptionValues);}}",
+  "originalBottomRow": 29,
+  "originalTopRow": 25,
   "parentColumnSpace": 10.22021484375,
   "parentId": "ph1hzl7620",
   "parentRowSpace": 10,

@@ -3,7 +3,7 @@
   "backgroundColor": "",
   "borderColor": "{{appsmith.theme.colors.backgroundColor}}",
   "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-  "bottomRow": 14,
+  "bottomRow": 17,
   "dynamicBindingPathList": [
     {
       "key": "truncateButtonColor"
@@ -16,6 +16,9 @@
     },
     {
       "key": "borderColor"
+    },
+    {
+      "key": "textColor"
     }
   ],
   "dynamicHeight": "AUTO_HEIGHT",
@@ -47,8 +50,8 @@
   "shouldTruncate": false,
   "text": "Build your personalized skincare routine now 🌟",
   "textAlign": "LEFT",
-  "textColor": "#231F20",
-  "topRow": 10,
+  "textColor": "{{appsmith.theme.colors.primaryColor}}",
+  "topRow": 13,
   "truncateButtonColor": "{{appsmith.theme.colors.primaryColor}}",
   "type": "TEXT_WIDGET",
   "version": 1,

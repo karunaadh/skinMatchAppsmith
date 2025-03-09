@@ -12,11 +12,14 @@
     },
     {
       "key": "borderRadius"
+    },
+    {
+      "key": "labelTextColor"
     }
   ],
   "dynamicHeight": "FIXED",
   "dynamicTriggerPathList": [],
-  "errorMessage": "Please enter only letters or numbers",
+  "errorMessage": "Please enter only letters or numbers!",
   "iconAlign": "left",
   "inputType": "TEXT",
   "isDisabled": false,
@@ -28,7 +31,7 @@
   "labelAlignment": "left",
   "labelPosition": "Top",
   "labelStyle": "BOLD",
-  "labelTextColor": "#231f20",
+  "labelTextColor": "{{appsmith.theme.colors.primaryColor}}",
   "labelTextSize": "0.875rem",
   "labelWidth": 5,
   "leftColumn": 9,
@@ -47,7 +50,7 @@
   "parentId": "kfs6wcs33p",
   "parentRowSpace": 10,
   "placeholderText": "Enter Username",
-  "regex": "^[a-zA-Z ]*$",
+  "regex": "^[a-zA-Z0-9 ]*$",
   "renderMode": "CANVAS",
   "resetOnSubmit": true,
   "responsiveBehavior": "fill",
@@ -56,6 +59,7 @@
   "showStepArrows": false,
   "topRow": 8,
   "type": "INPUT_WIDGET_V2",
+  "validation": "",
   "version": 2,
   "widgetId": "ymzopc2c10",
   "widgetName": "Login_Username"

@@ -3,7 +3,7 @@
   "animateLoading": true,
   "autoFocus": false,
   "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-  "bottomRow": 16,
+  "bottomRow": 19,
   "boxShadow": "none",
   "defaultText": "",
   "dynamicBindingPathList": [
@@ -12,11 +12,14 @@
     },
     {
       "key": "borderRadius"
+    },
+    {
+      "key": "validation"
     }
   ],
   "dynamicHeight": "FIXED",
   "dynamicTriggerPathList": [],
-  "errorMessage": "The email is not valid!",
+  "errorMessage": "Emails do not match!",
   "iconAlign": "left",
   "inputType": "EMAIL",
   "isDisabled": false,
@@ -46,15 +49,16 @@
   "parentId": "ouibos1jvo",
   "parentRowSpace": 10,
   "placeholderText": "Re-enter Email ",
-  "regex": "^(([^<>()\\[\\]\\\\.,;:\\s@\"]+(\\.[^<>()\\[\\]\\\\.,;:\\s@\"]+)*)|(\".+\"))@((\\[[0-9]{1,3}\\.[0-9]{1,3}\\.[0-9]{1,3}\\.[0-9]{1,3}])|(([a-zA-Z\\-0-9]+\\.)+[a-zA-Z]{2,}))$",
+  "regex": "",
   "renderMode": "CANVAS",
   "resetOnSubmit": true,
   "responsiveBehavior": "fill",
   "rightColumn": 30,
   "shouldAllowAutofill": true,
   "showStepArrows": false,
-  "topRow": 9,
+  "topRow": 12,
   "type": "INPUT_WIDGET_V2",
+  "validation": "{{UpdateEmailCopy.text == UpdateEmail.text}}",
   "version": 2,
   "widgetId": "fdwy3k18zz",
   "widgetName": "UpdateEmailCopy"

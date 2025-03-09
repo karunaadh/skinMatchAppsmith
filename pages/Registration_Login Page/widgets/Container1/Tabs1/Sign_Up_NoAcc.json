@@ -33,7 +33,7 @@
   "mobileRightColumn": 20,
   "mobileTopRow": 32,
   "needsErrorInfo": false,
-  "onClick": "{{Registration_Login.setDefaultTab('Registration')}}",
+  "onClick": "{{UpdateTab.setDefaultTab('Registration')}}",
   "originalBottomRow": 38,
   "originalTopRow": 34,
   "parentColumnSpace": 15.23956298828125,

@@ -1,0 +1,94 @@
+{
+  "animateLoading": true,
+  "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+  "bottomRow": 4,
+  "boxShadow": "none",
+  "configureMenuItems": {
+    "config": {
+      "id": "config",
+      "isDisabled": false,
+      "isVisible": true,
+      "label": "Menu Item"
+    },
+    "id": "config",
+    "label": "Configure menu items"
+  },
+  "dynamicBindingPathList": [
+    {
+      "key": "borderRadius"
+    },
+    {
+      "key": "menuColor"
+    }
+  ],
+  "dynamicTriggerPathList": [
+    {
+      "key": "menuItems.menuItem2.onClick"
+    },
+    {
+      "key": "menuItems.menuItemg9hd2cv63p.onClick"
+    },
+    {
+      "key": "menuItems.menuItem53gzx5ddsz.onClick"
+    }
+  ],
+  "isCompact": false,
+  "isDisabled": false,
+  "isLoading": false,
+  "isVisible": true,
+  "key": "b213s5fxyx",
+  "label": "☰",
+  "leftColumn": 50,
+  "menuColor": "{{appsmith.theme.colors.primaryColor}}",
+  "menuItems": {
+    "menuItem2": {
+      "iconName": "search",
+      "id": "menuItem2",
+      "index": 0,
+      "isDisabled": false,
+      "isVisible": true,
+      "label": "Explore",
+      "onClick": "{{navigateTo('Group and Search Products Page', {}, 'SAME_WINDOW');}}",
+      "widgetId": ""
+    },
+    "menuItem53gzx5ddsz": {
+      "iconName": "user",
+      "id": "menuItem53gzx5ddsz",
+      "index": 2,
+      "isDisabled": false,
+      "isVisible": true,
+      "label": "My Profile",
+      "onClick": "{{navigateTo('User Profile', {}, 'SAME_WINDOW');}}",
+      "widgetId": "yxesxon2uo"
+    },
+    "menuItemg9hd2cv63p": {
+      "iconName": "heart",
+      "id": "menuItemg9hd2cv63p",
+      "index": 1,
+      "isDisabled": false,
+      "isVisible": true,
+      "label": "My Skincare",
+      "onClick": "{{navigateTo('My Skincare Page', {}, 'SAME_WINDOW');}}",
+      "widgetId": "e4lp6ksm5z"
+    }
+  },
+  "menuItemsSource": "STATIC",
+  "menuVariant": "PRIMARY",
+  "mobileBottomRow": 4,
+  "mobileLeftColumn": 0,
+  "mobileRightColumn": 8,
+  "mobileTopRow": 0,
+  "needsErrorInfo": false,
+  "parentColumnSpace": 5.586181640625,
+  "parentId": "1h7mpupqwc",
+  "parentRowSpace": 10,
+  "placement": "CENTER",
+  "renderMode": "CANVAS",
+  "rightColumn": 55,
+  "sourceData": [],
+  "topRow": 0,
+  "type": "MENU_BUTTON_WIDGET",
+  "version": 1,
+  "widgetId": "ziuhxn0nom",
+  "widgetName": "MenuButton1Copy"
+}

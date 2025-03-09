@@ -1,0 +1,11 @@
+{
+  "gitSyncId": "67c40ff148d8e76645e0658f_f1d8512f-0048-4844-8290-771cb43c5d7b",
+  "id": "Registration_Login Page_RedirectLoginAfterSignup",
+  "unpublishedCollection": {
+    "name": "RedirectLoginAfterSignup",
+    "pageId": "Registration_Login Page",
+    "pluginId": "js-plugin",
+    "pluginType": "JS",
+    "variables": []
+  }
+}

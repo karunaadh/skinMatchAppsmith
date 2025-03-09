@@ -1,0 +1,11 @@
+{
+  "gitSyncId": "67c40ff148d8e76645e0658f_bbb33109-4e9c-4caf-95cf-7cdc6515b618",
+  "id": "Registration_Login Page_StoreUsername",
+  "unpublishedCollection": {
+    "name": "StoreUsername",
+    "pageId": "Registration_Login Page",
+    "pluginId": "js-plugin",
+    "pluginType": "JS",
+    "variables": []
+  }
+}

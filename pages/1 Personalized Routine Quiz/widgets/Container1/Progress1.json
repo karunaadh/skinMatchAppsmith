@@ -5,10 +5,13 @@
   "dynamicBindingPathList": [
     {
       "key": "borderRadius"
+    },
+    {
+      "key": "fillColor"
     }
   ],
   "dynamicTriggerPathList": [],
-  "fillColor": "#7e22ce",
+  "fillColor": "{{appsmith.theme.colors.primaryColor}}",
   "isCanvas": false,
   "isIndeterminate": false,
   "isLoading": false,
@@ -31,7 +34,7 @@
   "responsiveBehavior": "fill",
   "rightColumn": 63,
   "showResult": true,
-  "steps": "6",
+  "steps": "4",
   "topRow": 1,
   "type": "PROGRESS_WIDGET",
   "version": 1,

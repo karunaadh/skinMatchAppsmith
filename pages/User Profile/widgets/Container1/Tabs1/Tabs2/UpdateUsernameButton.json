@@ -1,7 +1,7 @@
 {
   "animateLoading": true,
   "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-  "bottomRow": 10,
+  "bottomRow": 11,
   "boxShadow": "none",
   "buttonColor": "{{appsmith.theme.colors.primaryColor}}",
   "buttonVariant": "PRIMARY",
@@ -11,10 +11,10 @@
       "key": "borderRadius"
     },
     {
-      "key": "isDisabled"
+      "key": "buttonColor"
     },
     {
-      "key": "buttonColor"
+      "key": "isDisabled"
     }
   ],
   "dynamicPropertyPathList": [
@@ -22,9 +22,13 @@
       "key": "isDisabled"
     }
   ],
-  "dynamicTriggerPathList": [],
+  "dynamicTriggerPathList": [
+    {
+      "key": "onClick"
+    }
+  ],
   "isDefaultClickDisabled": true,
-  "isDisabled": "{{!UpdateEmail.isValid || !NewUsername.isValid}}",
+  "isDisabled": "{{!NewUsernameCopy.isValid || !NewUsername.isValid || !UsernameIsValid.data || NewUsername.text.length < 1 || NewUsernameCopy.text.length < 1 }}",
   "isLoading": false,
   "isVisible": true,
   "key": "vwk8ubtfm3",
@@ -35,6 +39,9 @@
   "mobileRightColumn": 56,
   "mobileTopRow": 4,
   "needsErrorInfo": false,
+  "onClick": "{{UserProfileUsernameUpdate.run().then(() => {\n  showAlert('Successful update!', 'success');\n  storeValue('loggedUser', NewUsername.text);\n  ClearForm.clearForm(NewUsername, NewUsernameCopy);\n}).catch(() => {\n  showAlert('Error updating username, try again!', 'error');\n});}}",
+  "originalBottomRow": 11,
+  "originalTopRow": 7,
   "parentColumnSpace": 7.4739227294921875,
   "parentId": "8jwe2r24gh",
   "parentRowSpace": 10,
@@ -45,7 +52,7 @@
   "responsiveBehavior": "hug",
   "rightColumn": 59,
   "text": "Update",
-  "topRow": 6,
+  "topRow": 7,
   "type": "BUTTON_WIDGET",
   "version": 1,
   "widgetId": "b62gl20jxu",

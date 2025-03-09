@@ -1,0 +1,11 @@
+{
+  "gitSyncId": "67c40ff148d8e76645e0658f_43f42eac-59f3-451e-9993-33726cc0f787",
+  "id": "Registration_Login Page_SignupUserOnChange",
+  "unpublishedCollection": {
+    "name": "SignupUserOnChange",
+    "pageId": "Registration_Login Page",
+    "pluginId": "js-plugin",
+    "pluginType": "JS",
+    "variables": []
+  }
+}

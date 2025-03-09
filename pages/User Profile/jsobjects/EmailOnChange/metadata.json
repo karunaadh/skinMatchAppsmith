@@ -1,0 +1,11 @@
+{
+  "gitSyncId": "67c40ff148d8e76645e0658f_b87d99f5-b9a5-437d-97fc-3169960033e3",
+  "id": "User Profile_EmailOnChange",
+  "unpublishedCollection": {
+    "name": "EmailOnChange",
+    "pageId": "User Profile",
+    "pluginId": "js-plugin",
+    "pluginType": "JS",
+    "variables": []
+  }
+}

@@ -103,7 +103,7 @@
       "widgetName": "Canvas4"
     }
   ],
-  "defaultTab": "{{Registration_Login.defaultTab}}",
+  "defaultTab": "{{UpdateTab.defaultTab}}",
   "dynamicBindingPathList": [
     {
       "key": "borderRadius"
