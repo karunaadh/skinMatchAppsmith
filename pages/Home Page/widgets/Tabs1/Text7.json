@@ -1,55 +1,52 @@
 {
   "animateLoading": true,
-  "backgroundColor": "{{appsmith.theme.colors.backgroundColor}}",
-  "borderColor": "#ffffff",
   "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-  "borderWidth": "",
-  "bottomRow": 19,
+  "bottomRow": 6,
   "dynamicBindingPathList": [
     {
       "key": "truncateButtonColor"
     },
     {
-      "key": "borderRadius"
+      "key": "fontFamily"
     },
     {
-      "key": "backgroundColor"
+      "key": "borderRadius"
     }
   ],
   "dynamicHeight": "AUTO_HEIGHT",
   "dynamicTriggerPathList": [],
-  "fontFamily": "Nunito Sans",
-  "fontSize": "1.875rem",
+  "fontFamily": "{{appsmith.theme.fontFamily.appFont}}",
+  "fontSize": "1.25rem",
   "fontStyle": "BOLD",
   "isLoading": false,
   "isVisible": true,
-  "key": "45hr8mk4te",
-  "leftColumn": 1,
+  "key": "snvpb9xecb",
+  "leftColumn": 5,
   "maxDynamicHeight": 9000,
   "minDynamicHeight": 4,
   "minWidth": 450,
-  "mobileBottomRow": 11,
-  "mobileLeftColumn": 19,
-  "mobileRightColumn": 35,
-  "mobileTopRow": 7,
+  "mobileBottomRow": 6,
+  "mobileLeftColumn": 5,
+  "mobileRightColumn": 21,
+  "mobileTopRow": 2,
   "needsErrorInfo": false,
-  "originalBottomRow": 19,
-  "originalTopRow": 7,
+  "originalBottomRow": 9,
+  "originalTopRow": 2,
   "overflow": "NONE",
-  "parentColumnSpace": 8.29638671875,
-  "parentId": "ph1hzl7620",
+  "parentColumnSpace": 9.0390625,
+  "parentId": "k56vv90gai",
   "parentRowSpace": 10,
   "renderMode": "CANVAS",
   "responsiveBehavior": "fill",
-  "rightColumn": 62,
+  "rightColumn": 53,
   "shouldTruncate": false,
-  "text": "Lastly, Any no-gos? Which ingredients do you wanna skip? 🚫",
+  "text": "Our Story ",
   "textAlign": "CENTER",
-  "textColor": "#3f3f46",
-  "topRow": 7,
+  "textColor": "#231F20",
+  "topRow": 2,
   "truncateButtonColor": "{{appsmith.theme.colors.primaryColor}}",
   "type": "TEXT_WIDGET",
   "version": 1,
-  "widgetId": "gtsynbmlki",
-  "widgetName": "Text1"
+  "widgetId": "gluj0bivhv",
+  "widgetName": "Text7"
 }

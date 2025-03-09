@@ -5,12 +5,12 @@
   "borderColor": "#E0DEDE",
   "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
   "borderWidth": 1,
-  "bottomRow": 162,
+  "bottomRow": 101,
   "boxShadow": "{{appsmith.theme.boxShadow.appBoxShadow}}",
   "children": [
     {
       "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-      "bottomRow": 1080,
+      "bottomRow": 1140,
       "boxShadow": "{{appsmith.theme.boxShadow.appBoxShadow}}",
       "canExtend": true,
       "detachFromLayout": true,
@@ -53,6 +53,96 @@
       "version": 1,
       "widgetId": "ddmpoq555u",
       "widgetName": "Canvas3"
+    },
+    {
+      "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+      "bottomRow": 490,
+      "boxShadow": "{{appsmith.theme.boxShadow.appBoxShadow}}",
+      "canExtend": false,
+      "containerStyle": "none",
+      "detachFromLayout": true,
+      "dynamicBindingPathList": [
+        {
+          "key": "borderRadius"
+        },
+        {
+          "key": "boxShadow"
+        }
+      ],
+      "dynamicHeight": "AUTO_HEIGHT",
+      "dynamicTriggerPathList": [],
+      "flexLayers": [],
+      "isLoading": false,
+      "isVisible": true,
+      "key": "7e8y2erzjh",
+      "leftColumn": 0,
+      "maxDynamicHeight": 9000,
+      "minDynamicHeight": 4,
+      "minHeight": 1150,
+      "minWidth": 450,
+      "mobileBottomRow": 1151,
+      "mobileLeftColumn": 0,
+      "mobileRightColumn": 740,
+      "mobileTopRow": 1,
+      "needsErrorInfo": false,
+      "parentColumnSpace": 1,
+      "parentId": "7qj0ln10yo",
+      "parentRowSpace": 1,
+      "renderMode": "CANVAS",
+      "responsiveBehavior": "fill",
+      "rightColumn": 740,
+      "tabId": "tab4nwauenq0v",
+      "tabName": "About Us",
+      "topRow": 1,
+      "type": "CANVAS_WIDGET",
+      "version": 1,
+      "widgetId": "k56vv90gai",
+      "widgetName": "Canvas4"
+    },
+    {
+      "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+      "bottomRow": 490,
+      "boxShadow": "{{appsmith.theme.boxShadow.appBoxShadow}}",
+      "canExtend": false,
+      "containerStyle": "none",
+      "detachFromLayout": true,
+      "dynamicBindingPathList": [
+        {
+          "key": "borderRadius"
+        },
+        {
+          "key": "boxShadow"
+        }
+      ],
+      "dynamicHeight": "AUTO_HEIGHT",
+      "dynamicTriggerPathList": [],
+      "flexLayers": [],
+      "isLoading": false,
+      "isVisible": true,
+      "key": "7e8y2erzjh",
+      "leftColumn": 0,
+      "maxDynamicHeight": 9000,
+      "minDynamicHeight": 4,
+      "minHeight": 1150,
+      "minWidth": 450,
+      "mobileBottomRow": 1151,
+      "mobileLeftColumn": 0,
+      "mobileRightColumn": 740,
+      "mobileTopRow": 1,
+      "needsErrorInfo": false,
+      "parentColumnSpace": 1,
+      "parentId": "7qj0ln10yo",
+      "parentRowSpace": 1,
+      "renderMode": "CANVAS",
+      "responsiveBehavior": "fill",
+      "rightColumn": 740,
+      "tabId": "tabxd7zr1qtox",
+      "tabName": "Contact ",
+      "topRow": 1,
+      "type": "CANVAS_WIDGET",
+      "version": 1,
+      "widgetId": "zxcf91thil",
+      "widgetName": "Canvas5"
     }
   ],
   "defaultTab": "",
@@ -74,7 +164,7 @@
   "isLoading": false,
   "isVisible": true,
   "key": "hrvh0u4tcn",
-  "leftColumn": 0,
+  "leftColumn": 3,
   "maxDynamicHeight": 9000,
   "minDynamicHeight": 15,
   "minWidth": 450,
@@ -83,8 +173,8 @@
   "mobileRightColumn": 3,
   "mobileTopRow": 77,
   "needsErrorInfo": false,
-  "originalBottomRow": 162,
-  "originalTopRow": 50,
+  "originalBottomRow": 101,
+  "originalTopRow": 48,
   "parentColumnSpace": 11.5625,
   "parentId": "0",
   "parentRowSpace": 10,
@@ -101,9 +191,23 @@
       "label": "Homepage",
       "positioning": "vertical",
       "widgetId": "ddmpoq555u"
+    },
+    "tab4nwauenq0v": {
+      "id": "tab4nwauenq0v",
+      "index": 1,
+      "isVisible": true,
+      "label": "About Us",
+      "widgetId": "k56vv90gai"
+    },
+    "tabxd7zr1qtox": {
+      "id": "tabxd7zr1qtox",
+      "index": 2,
+      "isVisible": true,
+      "label": "Contact ",
+      "widgetId": "zxcf91thil"
     }
   },
-  "topRow": 50,
+  "topRow": 48,
   "type": "TABS_WIDGET",
   "version": 3,
   "widgetId": "7qj0ln10yo",

@@ -1,7 +1,7 @@
 {
   "activeColor": "{{appsmith.theme.colors.primaryColor}}",
   "animateLoading": true,
-  "bottomRow": 8,
+  "bottomRow": 9,
   "defaultRate": 3,
   "dynamicBindingPathList": [
     {
@@ -27,8 +27,8 @@
   "mobileRightColumn": 63,
   "mobileTopRow": 0,
   "needsErrorInfo": false,
-  "originalBottomRow": 11,
-  "originalTopRow": 7,
+  "originalBottomRow": 9,
+  "originalTopRow": 5,
   "parentColumnSpace": 2.7414512634277344,
   "parentId": "u8udywawff",
   "parentRowSpace": 10,
@@ -43,7 +43,7 @@
     "Good",
     "Great"
   ],
-  "topRow": 4,
+  "topRow": 5,
   "type": "RATE_WIDGET",
   "widgetId": "jvhl8tteej",
   "widgetName": "Rating1Copy2"

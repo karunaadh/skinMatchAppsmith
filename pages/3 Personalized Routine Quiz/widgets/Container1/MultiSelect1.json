@@ -3,7 +3,7 @@
   "allowSelectAll": false,
   "animateLoading": true,
   "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-  "bottomRow": 19,
+  "bottomRow": 22,
   "boxShadow": "none",
   "defaultOptionValue": "",
   "dynamicBindingPathList": [
@@ -75,7 +75,7 @@
   "rightColumn": 63,
   "serverSideFiltering": false,
   "sourceData": "{{getConcerns.data}}",
-  "topRow": 12,
+  "topRow": 15,
   "type": "MULTI_SELECT_WIDGET_V2",
   "version": 1,
   "widgetId": "xlmyf31zcq",
