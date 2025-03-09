@@ -3,7 +3,7 @@
   "backgroundColor": "{{appsmith.theme.colors.primaryColor}}",
   "borderColor": "#f4f4f5",
   "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-  "bottomRow": 26,
+  "bottomRow": 24,
   "disableLink": false,
   "dynamicBindingPathList": [
     {
@@ -43,7 +43,7 @@
   "text": "Laniege Water Bank Blue Hyaluronic Acid Cream",
   "textAlign": "CENTER",
   "textColor": "{{appsmith.theme.colors.backgroundColor}}",
-  "topRow": 20,
+  "topRow": 19,
   "truncateButtonColor": "{{appsmith.theme.colors.primaryColor}}",
   "type": "TEXT_WIDGET",
   "version": 1,

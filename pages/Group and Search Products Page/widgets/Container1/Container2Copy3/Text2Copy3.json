@@ -3,7 +3,7 @@
   "backgroundColor": "{{appsmith.theme.colors.backgroundColor}}",
   "borderColor": "#f4f4f5",
   "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-  "bottomRow": 30,
+  "bottomRow": 24,
   "disableLink": false,
   "dynamicBindingPathList": [
     {
@@ -30,8 +30,8 @@
   "mobileRightColumn": 42,
   "mobileTopRow": 16,
   "needsErrorInfo": false,
-  "originalBottomRow": 39,
-  "originalTopRow": 14,
+  "originalBottomRow": 30,
+  "originalTopRow": 12,
   "overflow": "NONE",
   "parentColumnSpace": 2.7414512634277344,
   "parentId": "lzlll9jh4h",
@@ -43,7 +43,7 @@
   "text": "The Ordinary Hyaluronic Acid2% + B5 Hydrating Serum",
   "textAlign": "CENTER",
   "textColor": "{{appsmith.theme.colors.primaryColor}}",
-  "topRow": 12,
+  "topRow": 11,
   "truncateButtonColor": "{{appsmith.theme.colors.primaryColor}}",
   "type": "TEXT_WIDGET",
   "version": 1,
