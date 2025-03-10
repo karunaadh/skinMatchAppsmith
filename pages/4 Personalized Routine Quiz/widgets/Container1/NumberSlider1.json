@@ -1,9 +1,13 @@
 {
-  "accentColor": "#7e22ce",
+  "accentColor": "{{appsmith.theme.colors.primaryColor}}",
   "animateLoading": true,
-  "bottomRow": 30,
+  "bottomRow": 26,
   "defaultValue": 10,
-  "dynamicBindingPathList": [],
+  "dynamicBindingPathList": [
+    {
+      "key": "accentColor"
+    }
+  ],
   "dynamicTriggerPathList": [],
   "isDisabled": false,
   "isLoading": false,
@@ -16,7 +20,7 @@
   "labelTextColor": "#3f3f46",
   "labelTextSize": "1.25rem",
   "labelWidth": 8,
-  "leftColumn": 3,
+  "leftColumn": 6,
   "marks": "[\n  {\n    \"value\": 2,\n    \"label\": \"Under $25\"\n  },\n  {\n    \"value\": 50,\n    \"label\": \"$50\"\n  },\n  {\n    \"value\": 100,\n    \"label\": \"$100\"\n  },\n\t{\n    \"value\": 150,\n    \"label\": \"$150\"\n  },\n\t{\n    \"value\": 200,\n    \"label\": \"$200+\"\n  }\n]",
   "max": "200",
   "min": 0,
@@ -25,8 +29,8 @@
   "mobileRightColumn": 51,
   "mobileTopRow": 29,
   "needsErrorInfo": false,
-  "originalBottomRow": 30,
-  "originalTopRow": 22,
+  "originalBottomRow": 26,
+  "originalTopRow": 19,
   "parentColumnSpace": 14.8125,
   "parentId": "ph1hzl7620",
   "parentRowSpace": 10,
@@ -39,7 +43,7 @@
   "sliderSize": "l",
   "step": 1,
   "tooltipAlwaysOn": false,
-  "topRow": 22,
+  "topRow": 19,
   "type": "NUMBER_SLIDER_WIDGET",
   "version": 1,
   "widgetId": "6ndbxqxbqq",

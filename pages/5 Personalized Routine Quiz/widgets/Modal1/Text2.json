@@ -33,10 +33,10 @@
   "originalBottomRow": 8,
   "originalTopRow": 4,
   "overflow": "NONE",
-  "parentId": "8p47fp0ul1",
+  "parentId": "sk1w4cuhmz",
   "renderMode": "CANVAS",
   "responsiveBehavior": "fill",
-  "rightColumn": 61,
+  "rightColumn": 62,
   "shouldTruncate": false,
   "text": "Are you sure you want to exit? You will lose your progress ",
   "textAlign": "CENTER",
@@ -45,6 +45,6 @@
   "truncateButtonColor": "{{appsmith.theme.colors.primaryColor}}",
   "type": "TEXT_WIDGET",
   "version": 1,
-  "widgetId": "vz56ncef34",
+  "widgetId": "2vvz674n26",
   "widgetName": "Text2"
 }

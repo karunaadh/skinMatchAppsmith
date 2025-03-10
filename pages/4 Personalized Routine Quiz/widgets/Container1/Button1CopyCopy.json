@@ -1,12 +1,16 @@
 {
   "animateLoading": true,
   "borderRadius": "1.5rem",
-  "bottomRow": 50,
+  "bottomRow": 33,
   "boxShadow": "0 1px 3px 0 rgba(0, 0, 0, 0.1), 0 1px 2px 0 rgba(0, 0, 0, 0.06)",
-  "buttonColor": "#7e22ce",
+  "buttonColor": "{{appsmith.theme.colors.primaryColor}}",
   "buttonVariant": "PRIMARY",
   "disabledWhenInvalid": false,
-  "dynamicBindingPathList": [],
+  "dynamicBindingPathList": [
+    {
+      "key": "buttonColor"
+    }
+  ],
   "dynamicPropertyPathList": [],
   "dynamicTriggerPathList": [
     {
@@ -26,8 +30,8 @@
   "mobileTopRow": 25,
   "needsErrorInfo": false,
   "onClick": "{{navigateTo('3 Personalized Routine Quiz', {}, 'SAME_WINDOW');}}",
-  "originalBottomRow": 50,
-  "originalTopRow": 46,
+  "originalBottomRow": 33,
+  "originalTopRow": 29,
   "parentColumnSpace": 8.29638671875,
   "parentId": "ph1hzl7620",
   "parentRowSpace": 10,
@@ -38,7 +42,7 @@
   "responsiveBehavior": "hug",
   "rightColumn": 10,
   "text": "Back",
-  "topRow": 46,
+  "topRow": 29,
   "type": "BUTTON_WIDGET",
   "version": 1,
   "widgetId": "yeqiw0zus9",

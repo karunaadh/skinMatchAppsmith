@@ -1,12 +1,21 @@
 {
   "animateLoading": true,
   "borderRadius": "1.5rem",
-  "bottomRow": 60,
+  "bottomRow": 27,
   "boxShadow": "0 1px 3px 0 rgba(0, 0, 0, 0.1), 0 1px 2px 0 rgba(0, 0, 0, 0.06)",
-  "buttonColor": "#7e22ce",
+  "buttonColor": "{{appsmith.theme.colors.primaryColor}}",
   "buttonVariant": "PRIMARY",
   "disabledWhenInvalid": false,
-  "dynamicBindingPathList": [],
+  "dynamicBindingPathList": [
+    {
+      "key": "buttonColor"
+    }
+  ],
+  "dynamicPropertyPathList": [
+    {
+      "key": "onClick"
+    }
+  ],
   "dynamicTriggerPathList": [
     {
       "key": "onClick"
@@ -17,16 +26,16 @@
   "isLoading": false,
   "isVisible": true,
   "key": "jqb4zxaxe5",
-  "leftColumn": 43,
+  "leftColumn": 53,
   "minWidth": 120,
   "mobileBottomRow": 29,
   "mobileLeftColumn": 16,
   "mobileRightColumn": 32,
   "mobileTopRow": 25,
   "needsErrorInfo": false,
-  "onClick": "{{navigateTo('Quiz Results Page', {}, 'SAME_WINDOW');}}",
-  "originalBottomRow": 60,
-  "originalTopRow": 56,
+  "onClick": "{{storeValue(\"Irritants\", MultiTreeSelect1.selectedOptionValues);\nnavigateTo('Quiz Results Page', {}, 'SAME_WINDOW')}}",
+  "originalBottomRow": 27,
+  "originalTopRow": 23,
   "parentColumnSpace": 8.29638671875,
   "parentId": "ph1hzl7620",
   "parentRowSpace": 10,
@@ -35,10 +44,10 @@
   "renderMode": "CANVAS",
   "resetFormOnClick": false,
   "responsiveBehavior": "hug",
-  "rightColumn": 61,
+  "rightColumn": 63,
   "text": "Submit Quiz",
   "tooltip": "/Submits Form",
-  "topRow": 56,
+  "topRow": 23,
   "type": "BUTTON_WIDGET",
   "version": 1,
   "widgetId": "rkcn3spyo0",

@@ -1,7 +1,7 @@
 {
   "animateLoading": true,
   "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-  "bottomRow": 22,
+  "bottomRow": 13,
   "boxShadow": "none",
   "buttonColor": "{{appsmith.theme.colors.primaryColor}}",
   "buttonStyle": "PRIMARY",
@@ -15,6 +15,11 @@
       "key": "borderRadius"
     }
   ],
+  "dynamicPropertyPathList": [
+    {
+      "key": "onClick"
+    }
+  ],
   "dynamicTriggerPathList": [
     {
       "key": "onClick"
@@ -25,25 +30,27 @@
   "isLoading": false,
   "isVisible": true,
   "key": "jmejp376ci",
-  "leftColumn": 31,
+  "leftColumn": 22,
   "minWidth": 120,
   "mobileBottomRow": 22,
   "mobileLeftColumn": 31,
   "mobileRightColumn": 47,
   "mobileTopRow": 18,
   "needsErrorInfo": false,
-  "onClick": "{{closeModal(Modal1.name);}}",
+  "onClick": "{{removeValue('skinType');\nremoveValue('concerns', MultiSelect1.selectedOptionValues);\nnavigateTo('Home Page', {}, 'SAME_WINDOW');}}",
+  "originalBottomRow": 12,
+  "originalTopRow": 8,
   "parentId": "rpzezpt7b1",
   "placement": "CENTER",
   "recaptchaType": "V3",
   "renderMode": "CANVAS",
   "resetFormOnClick": false,
   "responsiveBehavior": "hug",
-  "rightColumn": 47,
-  "text": "Close",
-  "topRow": 18,
+  "rightColumn": 31,
+  "text": "Yes",
+  "topRow": 9,
   "type": "BUTTON_WIDGET",
   "version": 1,
-  "widgetId": "n1dez6yjqh",
+  "widgetId": "o5kqnvuo4r",
   "widgetName": "Button4"
 }

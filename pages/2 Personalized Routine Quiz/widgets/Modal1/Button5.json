@@ -1,7 +1,7 @@
 {
   "animateLoading": true,
   "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-  "bottomRow": 12,
+  "bottomRow": 13,
   "boxShadow": "none",
   "buttonColor": "{{appsmith.theme.colors.primaryColor}}",
   "buttonStyle": "PRIMARY_BUTTON",
@@ -30,7 +30,7 @@
   "isLoading": false,
   "isVisible": true,
   "key": "jmejp376ci",
-  "leftColumn": 34,
+  "leftColumn": 33,
   "minWidth": 120,
   "mobileBottomRow": 22,
   "mobileLeftColumn": 47,
@@ -46,11 +46,11 @@
   "renderMode": "CANVAS",
   "resetFormOnClick": false,
   "responsiveBehavior": "hug",
-  "rightColumn": 43,
+  "rightColumn": 42,
   "text": "No",
-  "topRow": 8,
+  "topRow": 9,
   "type": "BUTTON_WIDGET",
   "version": 1,
-  "widgetId": "dvctptvcqx",
+  "widgetId": "sdy1chxly0",
   "widgetName": "Button5"
 }

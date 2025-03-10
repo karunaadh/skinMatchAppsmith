@@ -4,7 +4,7 @@
   "borderColor": "#ffffff",
   "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
   "borderWidth": "",
-  "bottomRow": 19,
+  "bottomRow": 12,
   "dynamicBindingPathList": [
     {
       "key": "truncateButtonColor"
@@ -14,11 +14,14 @@
     },
     {
       "key": "backgroundColor"
+    },
+    {
+      "key": "textColor"
     }
   ],
   "dynamicHeight": "AUTO_HEIGHT",
   "dynamicTriggerPathList": [],
-  "fontFamily": "Nunito Sans",
+  "fontFamily": "Rubik",
   "fontSize": "1.875rem",
   "fontStyle": "BOLD",
   "isLoading": false,
@@ -33,7 +36,7 @@
   "mobileRightColumn": 35,
   "mobileTopRow": 7,
   "needsErrorInfo": false,
-  "originalBottomRow": 19,
+  "originalBottomRow": 12,
   "originalTopRow": 7,
   "overflow": "NONE",
   "parentColumnSpace": 8.29638671875,
@@ -43,9 +46,9 @@
   "responsiveBehavior": "fill",
   "rightColumn": 62,
   "shouldTruncate": false,
-  "text": "Lastly, Any no-gos? Which ingredients do you wanna skip? 🚫",
+  "text": "Any ingredients you want to stay away from?",
   "textAlign": "CENTER",
-  "textColor": "#3f3f46",
+  "textColor": "{{appsmith.theme.colors.primaryColor}}",
   "topRow": 7,
   "truncateButtonColor": "{{appsmith.theme.colors.primaryColor}}",
   "type": "TEXT_WIDGET",

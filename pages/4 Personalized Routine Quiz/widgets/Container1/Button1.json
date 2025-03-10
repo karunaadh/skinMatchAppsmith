@@ -1,12 +1,21 @@
 {
   "animateLoading": true,
   "borderRadius": "1.5rem",
-  "bottomRow": 50,
+  "bottomRow": 33,
   "boxShadow": "0 1px 3px 0 rgba(0, 0, 0, 0.1), 0 1px 2px 0 rgba(0, 0, 0, 0.06)",
-  "buttonColor": "#7e22ce",
+  "buttonColor": "{{appsmith.theme.colors.primaryColor}}",
   "buttonVariant": "PRIMARY",
   "disabledWhenInvalid": false,
-  "dynamicBindingPathList": [],
+  "dynamicBindingPathList": [
+    {
+      "key": "buttonColor"
+    }
+  ],
+  "dynamicPropertyPathList": [
+    {
+      "key": "onClick"
+    }
+  ],
   "dynamicTriggerPathList": [
     {
       "key": "onClick"
@@ -17,16 +26,16 @@
   "isLoading": false,
   "isVisible": true,
   "key": "jqb4zxaxe5",
-  "leftColumn": 52,
+  "leftColumn": 54,
   "minWidth": 120,
   "mobileBottomRow": 29,
   "mobileLeftColumn": 16,
   "mobileRightColumn": 32,
   "mobileTopRow": 25,
   "needsErrorInfo": false,
-  "onClick": "{{navigateTo('5 Personalized Routine Quiz', {}, 'SAME_WINDOW');}}",
-  "originalBottomRow": 50,
-  "originalTopRow": 46,
+  "onClick": "{{navigateTo('5 Personalized Routine Quiz', {}, 'SAME_WINDOW');\nstoreValue('budget', NumberSlider1.value);}}",
+  "originalBottomRow": 33,
+  "originalTopRow": 29,
   "parentColumnSpace": 8.29638671875,
   "parentId": "ph1hzl7620",
   "parentRowSpace": 10,
@@ -35,9 +44,9 @@
   "renderMode": "CANVAS",
   "resetFormOnClick": false,
   "responsiveBehavior": "hug",
-  "rightColumn": 62,
+  "rightColumn": 63,
   "text": "Next",
-  "topRow": 46,
+  "topRow": 29,
   "type": "BUTTON_WIDGET",
   "version": 1,
   "widgetId": "rkcn3spyo0",

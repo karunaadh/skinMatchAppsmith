@@ -1,6 +1,6 @@
 {
   "animateLoading": true,
-  "backgroundColor": "#ffffff",
+  "backgroundColor": "{{appsmith.theme.colors.backgroundColor}}",
   "borderColor": "#ffffff",
   "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
   "borderWidth": "",
@@ -11,13 +11,19 @@
     },
     {
       "key": "borderRadius"
+    },
+    {
+      "key": "textColor"
+    },
+    {
+      "key": "backgroundColor"
     }
   ],
   "dynamicHeight": "AUTO_HEIGHT",
   "dynamicTriggerPathList": [],
   "fontFamily": "Rubik",
   "fontSize": "1.875rem",
-  "fontStyle": "",
+  "fontStyle": "BOLD",
   "isLoading": false,
   "isVisible": true,
   "key": "45hr8mk4te",
@@ -38,11 +44,11 @@
   "parentRowSpace": 10,
   "renderMode": "CANVAS",
   "responsiveBehavior": "fill",
-  "rightColumn": 62,
+  "rightColumn": 59,
   "shouldTruncate": false,
-  "text": " ",
+  "text": " What is your spending budget?",
   "textAlign": "CENTER",
-  "textColor": "#3f3f46",
+  "textColor": "{{appsmith.theme.colors.primaryColor}}",
   "topRow": 8,
   "truncateButtonColor": "{{appsmith.theme.colors.primaryColor}}",
   "type": "TEXT_WIDGET",

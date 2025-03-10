@@ -1,7 +1,7 @@
 {
   "animateLoading": true,
   "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-  "bottomRow": 9,
+  "bottomRow": 8,
   "dynamicBindingPathList": [
     {
       "key": "truncateButtonColor"
@@ -33,18 +33,18 @@
   "originalBottomRow": 8,
   "originalTopRow": 4,
   "overflow": "NONE",
-  "parentId": "8p47fp0ul1",
+  "parentId": "qigwmijth2",
   "renderMode": "CANVAS",
   "responsiveBehavior": "fill",
-  "rightColumn": 61,
+  "rightColumn": 62,
   "shouldTruncate": false,
   "text": "Are you sure you want to exit? You will lose your progress ",
-  "textAlign": "CENTER",
+  "textAlign": "LEFT",
   "textColor": "#18181b",
-  "topRow": 5,
+  "topRow": 4,
   "truncateButtonColor": "{{appsmith.theme.colors.primaryColor}}",
   "type": "TEXT_WIDGET",
   "version": 1,
-  "widgetId": "vz56ncef34",
-  "widgetName": "Text2"
+  "widgetId": "5mhtc9ril6",
+  "widgetName": "Text2Copy1"
 }

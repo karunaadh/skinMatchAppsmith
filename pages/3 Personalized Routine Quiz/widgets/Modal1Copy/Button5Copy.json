@@ -1,7 +1,7 @@
 {
   "animateLoading": true,
   "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-  "bottomRow": 13,
+  "bottomRow": 12,
   "boxShadow": "none",
   "buttonColor": "{{appsmith.theme.colors.primaryColor}}",
   "buttonStyle": "PRIMARY_BUTTON",
@@ -37,10 +37,10 @@
   "mobileRightColumn": 63,
   "mobileTopRow": 18,
   "needsErrorInfo": false,
-  "onClick": "{{closeModal(Modal1.name)}}",
+  "onClick": "{{closeModal(Modal1Copy.name)}}",
   "originalBottomRow": 12,
   "originalTopRow": 8,
-  "parentId": "rpzezpt7b1",
+  "parentId": "5t306iqdwq",
   "placement": "CENTER",
   "recaptchaType": "V3",
   "renderMode": "CANVAS",
@@ -48,9 +48,9 @@
   "responsiveBehavior": "hug",
   "rightColumn": 43,
   "text": "No",
-  "topRow": 9,
+  "topRow": 8,
   "type": "BUTTON_WIDGET",
   "version": 1,
-  "widgetId": "1ofb0b446k",
-  "widgetName": "Button5"
+  "widgetId": "eir16k9nal",
+  "widgetName": "Button5Copy"
 }
