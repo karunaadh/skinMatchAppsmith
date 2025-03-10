@@ -46,7 +46,7 @@
   "responsiveBehavior": "fill",
   "rightColumn": 62,
   "shouldTruncate": false,
-  "text": "1. Which of the below best describes your skin type?",
+  "text": "Which of the below best describes your skin type?",
   "textAlign": "CENTER",
   "textColor": "{{appsmith.theme.colors.primaryColor}}",
   "topRow": 8,

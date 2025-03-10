@@ -1,7 +1,7 @@
 {
   "animateLoading": true,
   "borderRadius": "1.5rem",
-  "bottomRow": 28,
+  "bottomRow": 27,
   "boxShadow": "none",
   "buttonColor": "{{appsmith.theme.colors.primaryColor}}",
   "buttonVariant": "PRIMARY",
@@ -46,7 +46,7 @@
   "responsiveBehavior": "hug",
   "rightColumn": 63,
   "text": "Next",
-  "topRow": 24,
+  "topRow": 23,
   "type": "BUTTON_WIDGET",
   "version": 1,
   "widgetId": "jn542229zf",

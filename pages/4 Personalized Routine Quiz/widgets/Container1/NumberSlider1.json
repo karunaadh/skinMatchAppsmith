@@ -1,7 +1,7 @@
 {
   "accentColor": "{{appsmith.theme.colors.primaryColor}}",
   "animateLoading": true,
-  "bottomRow": 26,
+  "bottomRow": 25,
   "defaultValue": 10,
   "dynamicBindingPathList": [
     {
@@ -43,7 +43,7 @@
   "sliderSize": "l",
   "step": 1,
   "tooltipAlwaysOn": false,
-  "topRow": 19,
+  "topRow": 18,
   "type": "NUMBER_SLIDER_WIDGET",
   "version": 1,
   "widgetId": "6ndbxqxbqq",

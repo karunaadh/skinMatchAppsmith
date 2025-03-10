@@ -15,7 +15,11 @@
       "key": "borderRadius"
     }
   ],
-  "dynamicPropertyPathList": [],
+  "dynamicPropertyPathList": [
+    {
+      "key": "onClick"
+    }
+  ],
   "dynamicTriggerPathList": [
     {
       "key": "onClick"
@@ -33,7 +37,7 @@
   "mobileRightColumn": 47,
   "mobileTopRow": 18,
   "needsErrorInfo": false,
-  "onClick": "{{removeValue('skinType');\nnavigateTo('Home Page', {}, 'SAME_WINDOW');}}",
+  "onClick": "{{removeValue('skinType');\nremoveValue('concerns');\nremoveValue('budget');\nremoveValue('irritants')\nnavigateTo('Home Page', {}, 'SAME_WINDOW');}}",
   "originalBottomRow": 12,
   "originalTopRow": 8,
   "parentId": "8p47fp0ul1",
