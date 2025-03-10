@@ -12,6 +12,9 @@
     },
     {
       "key": "borderRadius"
+    },
+    {
+      "key": "text"
     }
   ],
   "dynamicHeight": "FIXED",
@@ -37,7 +40,7 @@
   "responsiveBehavior": "fill",
   "rightColumn": 39,
   "shouldTruncate": false,
-  "text": "Synthetic dyes",
+  "text": "{{appsmith.store.irritants}}",
   "textAlign": "LEFT",
   "textColor": "#231F20",
   "textStyle": "HEADING",
