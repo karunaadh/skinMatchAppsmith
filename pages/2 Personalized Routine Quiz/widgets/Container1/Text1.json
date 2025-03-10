@@ -4,7 +4,7 @@
   "borderColor": "#ffffff",
   "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
   "borderWidth": "",
-  "bottomRow": 16,
+  "bottomRow": 12,
   "dynamicBindingPathList": [
     {
       "key": "truncateButtonColor"
@@ -22,7 +22,7 @@
   "dynamicHeight": "AUTO_HEIGHT",
   "dynamicTriggerPathList": [],
   "fontFamily": "Rubik",
-  "fontSize": "1.875rem",
+  "fontSize": "1rem",
   "fontStyle": "BOLD",
   "isLoading": false,
   "isVisible": true,
@@ -36,7 +36,7 @@
   "mobileRightColumn": 35,
   "mobileTopRow": 7,
   "needsErrorInfo": false,
-  "originalBottomRow": 16,
+  "originalBottomRow": 13,
   "originalTopRow": 8,
   "overflow": "NONE",
   "parentColumnSpace": 8.29638671875,
@@ -46,7 +46,7 @@
   "responsiveBehavior": "fill",
   "rightColumn": 62,
   "shouldTruncate": false,
-  "text": "Which of the below best describes your skin type?",
+  "text": "1. Which of the below best describes your skin type?",
   "textAlign": "CENTER",
   "textColor": "{{appsmith.theme.colors.primaryColor}}",
   "topRow": 8,

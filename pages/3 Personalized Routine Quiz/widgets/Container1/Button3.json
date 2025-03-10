@@ -1,7 +1,7 @@
 {
   "animateLoading": true,
-  "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-  "bottomRow": 32,
+  "borderRadius": "1.5rem",
+  "bottomRow": 28,
   "boxShadow": "none",
   "buttonColor": "{{appsmith.theme.colors.primaryColor}}",
   "buttonVariant": "PRIMARY",
@@ -9,9 +9,6 @@
   "dynamicBindingPathList": [
     {
       "key": "buttonColor"
-    },
-    {
-      "key": "borderRadius"
     }
   ],
   "dynamicPropertyPathList": [],
@@ -25,14 +22,14 @@
   "isLoading": false,
   "isVisible": true,
   "key": "if8qjdnh3h",
-  "leftColumn": 54,
+  "leftColumn": 55,
   "minWidth": 120,
   "mobileBottomRow": 43,
   "mobileLeftColumn": 45,
   "mobileRightColumn": 61,
   "mobileTopRow": 39,
   "needsErrorInfo": false,
-  "onClick": "{{navigateTo('4 Personalized Routine Quiz', {}, 'SAME_WINDOW');\nstoreValue('concerns', MultiSelect1.selectedOptionValues);}}",
+  "onClick": "{{storeValue('concerns', MultiSelect1.selectedOptionValues);\nnavigateTo('4 Personalized Routine Quiz', {}, 'SAME_WINDOW');\n}}",
   "originalBottomRow": 29,
   "originalTopRow": 25,
   "parentColumnSpace": 10.22021484375,
@@ -43,9 +40,9 @@
   "renderMode": "CANVAS",
   "resetFormOnClick": false,
   "responsiveBehavior": "hug",
-  "rightColumn": 62,
+  "rightColumn": 63,
   "text": "Next",
-  "topRow": 28,
+  "topRow": 24,
   "type": "BUTTON_WIDGET",
   "version": 1,
   "widgetId": "jn542229zf",

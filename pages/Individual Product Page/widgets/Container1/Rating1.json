@@ -1,7 +1,7 @@
 {
   "activeColor": "{{appsmith.theme.colors.primaryColor}}",
   "animateLoading": true,
-  "bottomRow": 10,
+  "bottomRow": 9,
   "defaultRate": 3,
   "dynamicBindingPathList": [
     {
@@ -42,7 +42,7 @@
     "Good",
     "Great"
   ],
-  "topRow": 6,
+  "topRow": 5,
   "type": "RATE_WIDGET",
   "widgetId": "g61qp3mug5",
   "widgetName": "Rating1"

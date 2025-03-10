@@ -1,10 +1,11 @@
 {
   "animateLoading": true,
   "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-  "bottomRow": 31,
+  "bottomRow": 22,
   "boxShadow": "none",
   "buttonColor": "{{appsmith.theme.colors.primaryColor}}",
-  "buttonVariant": "SECONDARY",
+  "buttonStyle": "PRIMARY_BUTTON",
+  "buttonVariant": "PRIMARY",
   "disabledWhenInvalid": false,
   "dynamicBindingPathList": [
     {
@@ -14,42 +15,29 @@
       "key": "borderRadius"
     }
   ],
-  "dynamicPropertyPathList": [],
-  "dynamicTriggerPathList": [
-    {
-      "key": "onClick"
-    }
-  ],
-  "iconAlign": "left",
-  "iconName": "",
   "isDefaultClickDisabled": true,
   "isDisabled": false,
   "isLoading": false,
   "isVisible": true,
-  "key": "m28xyfqd7x",
-  "leftColumn": 10,
+  "key": "jmejp376ci",
+  "leftColumn": 47,
   "minWidth": 120,
-  "mobileBottomRow": 6,
-  "mobileLeftColumn": 27,
-  "mobileRightColumn": 43,
-  "mobileTopRow": 2,
+  "mobileBottomRow": 22,
+  "mobileLeftColumn": 47,
+  "mobileRightColumn": 63,
+  "mobileTopRow": 18,
   "needsErrorInfo": false,
-  "onClick": "{{storeValue(\"skinType\", \"Dry Skin\");}}",
-  "originalBottomRow": 32,
-  "originalTopRow": 24,
-  "parentColumnSpace": 4.45703125,
-  "parentId": "ph1hzl7620",
-  "parentRowSpace": 10,
+  "parentId": "rpzezpt7b1",
   "placement": "CENTER",
   "recaptchaType": "V3",
   "renderMode": "CANVAS",
   "resetFormOnClick": false,
   "responsiveBehavior": "hug",
-  "rightColumn": 24,
-  "text": "Dry Skin",
-  "topRow": 23,
+  "rightColumn": 63,
+  "text": "Confirm",
+  "topRow": 18,
   "type": "BUTTON_WIDGET",
   "version": 1,
-  "widgetId": "5d8419kchp",
-  "widgetName": "Button2"
+  "widgetId": "wj3qe2kwfz",
+  "widgetName": "Button5"
 }

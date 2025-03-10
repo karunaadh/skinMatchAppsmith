@@ -1,9 +1,7 @@
 {
   "animateLoading": true,
-  "backgroundColor": "",
-  "borderColor": "{{appsmith.theme.colors.backgroundColor}}",
   "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-  "bottomRow": 14,
+  "bottomRow": 4,
   "dynamicBindingPathList": [
     {
       "key": "truncateButtonColor"
@@ -13,48 +11,40 @@
     },
     {
       "key": "borderRadius"
-    },
-    {
-      "key": "borderColor"
-    },
-    {
-      "key": "textColor"
     }
   ],
   "dynamicHeight": "AUTO_HEIGHT",
   "dynamicTriggerPathList": [],
   "fontFamily": "{{appsmith.theme.fontFamily.appFont}}",
   "fontSize": "1rem",
-  "fontStyle": "ITALIC",
+  "fontStyle": "",
   "isLoading": false,
   "isVisible": true,
-  "key": "45hr8mk4te",
-  "leftColumn": 2,
+  "key": "rye7ht7ahm",
+  "leftColumn": 0,
   "maxDynamicHeight": 9000,
   "minDynamicHeight": 4,
   "minWidth": 450,
-  "mobileBottomRow": 11,
-  "mobileLeftColumn": 6,
-  "mobileRightColumn": 22,
-  "mobileTopRow": 7,
+  "mobileBottomRow": 4,
+  "mobileLeftColumn": 0,
+  "mobileRightColumn": 15,
+  "mobileTopRow": 0,
   "needsErrorInfo": false,
-  "originalBottomRow": 14,
-  "originalTopRow": 10,
   "overflow": "NONE",
-  "parentColumnSpace": 8.29638671875,
-  "parentId": "ph1hzl7620",
+  "parentColumnSpace": 10.28125,
+  "parentId": "8p47fp0ul1",
   "parentRowSpace": 10,
   "renderMode": "CANVAS",
   "responsiveBehavior": "fill",
-  "rightColumn": 50,
+  "rightColumn": 15,
   "shouldTruncate": false,
-  "text": "Build your personalized skincare routine now",
+  "text": "WARNING",
   "textAlign": "LEFT",
-  "textColor": "{{appsmith.theme.colors.primaryColor}}",
-  "topRow": 10,
+  "textColor": "#231F20",
+  "topRow": 0,
   "truncateButtonColor": "{{appsmith.theme.colors.primaryColor}}",
   "type": "TEXT_WIDGET",
   "version": 1,
-  "widgetId": "rzbt5jkvs0",
-  "widgetName": "Text2"
+  "widgetId": "w5omuio46t",
+  "widgetName": "Text3"
 }

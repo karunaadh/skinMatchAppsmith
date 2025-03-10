@@ -4,7 +4,7 @@
   "borderColor": "#ffffff",
   "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
   "borderWidth": "",
-  "bottomRow": 13,
+  "bottomRow": 10,
   "dynamicBindingPathList": [
     {
       "key": "truncateButtonColor"
@@ -14,6 +14,9 @@
     },
     {
       "key": "backgroundColor"
+    },
+    {
+      "key": "textColor"
     }
   ],
   "dynamicHeight": "AUTO_HEIGHT",
@@ -45,7 +48,7 @@
   "shouldTruncate": false,
   "text": "Select 2- 3 of your main concerns",
   "textAlign": "CENTER",
-  "textColor": "#3f3f46",
+  "textColor": "{{appsmith.theme.colors.primaryColor}}",
   "topRow": 5,
   "truncateButtonColor": "{{appsmith.theme.colors.primaryColor}}",
   "type": "TEXT_WIDGET",
