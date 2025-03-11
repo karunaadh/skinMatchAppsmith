@@ -46,7 +46,7 @@
   "responsiveBehavior": "fill",
   "rightColumn": 62,
   "shouldTruncate": false,
-  "text": "Select 1- 3 of your main concerns",
+  "text": "Select 1 - 3 of your main concerns",
   "textAlign": "CENTER",
   "textColor": "{{appsmith.theme.colors.primaryColor}}",
   "topRow": 10,
