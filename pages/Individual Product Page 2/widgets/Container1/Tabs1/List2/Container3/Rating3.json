@@ -1,0 +1,44 @@
+{
+  "activeColor": "{{appsmith.theme.colors.primaryColor}}",
+  "animateLoading": true,
+  "bottomRow": 4,
+  "defaultRate": "{{currentItem.score}}",
+  "dynamicBindingPathList": [
+    {
+      "key": "activeColor"
+    },
+    {
+      "key": "defaultRate"
+    }
+  ],
+  "dynamicHeight": "FIXED",
+  "dynamicTriggerPathList": [],
+  "inactiveColor": "#E0DEDE",
+  "isAllowHalf": false,
+  "isDisabled": false,
+  "isLoading": false,
+  "isReadOnly": true,
+  "isRequired": false,
+  "isVisible": true,
+  "key": "6st8wqgsig",
+  "leftColumn": 42,
+  "maxCount": "5",
+  "maxDynamicHeight": 9000,
+  "minDynamicHeight": 4,
+  "mobileBottomRow": 4,
+  "mobileLeftColumn": 42,
+  "mobileRightColumn": 62,
+  "mobileTopRow": 0,
+  "needsErrorInfo": false,
+  "parentColumnSpace": 9.721588134765625,
+  "parentId": "3jazt5fj2a",
+  "parentRowSpace": 10,
+  "renderMode": "CANVAS",
+  "rightColumn": 62,
+  "size": "LARGE",
+  "tooltips": "[\n  \"Terrible\",\n  \"Bad\",\n  \"Neutral\",\n  \"Good\",\n  \"Great\"\n]",
+  "topRow": 0,
+  "type": "RATE_WIDGET",
+  "widgetId": "jn55vd1g51",
+  "widgetName": "Rating3"
+}
