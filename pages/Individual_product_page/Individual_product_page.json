@@ -1,23 +1,23 @@
 {
-  "gitSyncId": "67906837865ed33a5eadb121_68cd96c1-722e-4778-bb2b-133a14e7e675",
+  "gitSyncId": "67906837865ed33a5eadb121_c66fd176-66da-4a12-ba6a-2574317c9a7e",
   "unpublishedPage": {
     "isHidden": true,
     "layouts": [
       {
         "dsl": {
           "backgroundColor": "none",
-          "bottomRow": 890,
+          "bottomRow": 1070,
           "canExtend": true,
           "containerStyle": "none",
           "detachFromLayout": true,
           "dynamicBindingPathList": [],
           "leftColumn": 0,
-          "minHeight": 680,
+          "minHeight": 640,
           "parentColumnSpace": 1,
           "parentRowSpace": 1,
           "rightColumn": 1224,
           "snapColumns": 64,
-          "snapRows": 66,
+          "snapRows": 62,
           "topRow": 0,
           "type": "CANVAS_WIDGET",
           "version": 92,
@@ -26,7 +26,7 @@
         }
       }
     ],
-    "name": "User Profile",
-    "slug": "user-profile"
+    "name": "Individual_product_page",
+    "slug": "individual-product-page"
   }
 }

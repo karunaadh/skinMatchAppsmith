@@ -22,7 +22,7 @@
       "isDefault": false
     },
     {
-      "id": "Individual Product Page",
+      "id": "Individual_product_page",
       "isDefault": false
     },
     {
@@ -55,10 +55,6 @@
     },
     {
       "id": "Products",
-      "isDefault": false
-    },
-    {
-      "id": "Individual Product Page 2",
       "isDefault": false
     },
     {

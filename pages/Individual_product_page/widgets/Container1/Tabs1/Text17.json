@@ -1,59 +1,59 @@
 {
   "animateLoading": true,
+  "backgroundColor": "{{appsmith.theme.colors.backgroundColor}}",
   "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-  "bottomRow": 14,
-  "boxShadow": "none",
+  "bottomRow": 5,
   "dynamicBindingPathList": [
     {
-      "key": "text"
-    },
-    {
       "key": "truncateButtonColor"
-    },
-    {
-      "key": "fontFamily"
     },
     {
       "key": "borderRadius"
     },
     {
-      "key": "text"
+      "key": "textColor"
     },
     {
-      "key": "textColor"
+      "key": "backgroundColor"
+    },
+    {
+      "key": "text"
     }
   ],
-  "dynamicHeight": "FIXED",
+  "dynamicHeight": "AUTO_HEIGHT",
   "dynamicTriggerPathList": [],
-  "fontFamily": "{{appsmith.theme.fontFamily.appFont}}",
+  "fontFamily": "Nunito Sans",
   "fontSize": "1rem",
-  "fontStyle": "",
+  "fontStyle": "BOLD",
   "isLoading": false,
   "isVisible": true,
-  "key": "34rdi81szq",
-  "leftColumn": 4,
+  "key": "92q9izs9w8",
+  "leftColumn": 1,
   "maxDynamicHeight": 9000,
   "minDynamicHeight": 4,
   "minWidth": 450,
-  "mobileBottomRow": 8,
-  "mobileLeftColumn": 16,
-  "mobileRightColumn": 24,
-  "mobileTopRow": 4,
+  "mobileBottomRow": 5,
+  "mobileLeftColumn": 5,
+  "mobileRightColumn": 21,
+  "mobileTopRow": 1,
   "needsErrorInfo": false,
+  "originalBottomRow": 6,
+  "originalTopRow": 1,
   "overflow": "NONE",
-  "parentId": "7sdfta492k",
+  "parentColumnSpace": 3.5190391540527344,
+  "parentId": "bb8v3vdzkk",
+  "parentRowSpace": 10,
   "renderMode": "CANVAS",
   "responsiveBehavior": "fill",
-  "rightColumn": 17,
+  "rightColumn": 9,
   "shouldTruncate": false,
-  "text": "${{currentItem.price}}",
+  "text": "{{getItem.data.category}}",
   "textAlign": "LEFT",
   "textColor": "{{appsmith.theme.colors.primaryColor}}",
-  "textStyle": "BODY",
-  "topRow": 10,
+  "topRow": 1,
   "truncateButtonColor": "{{appsmith.theme.colors.primaryColor}}",
   "type": "TEXT_WIDGET",
   "version": 1,
-  "widgetId": "o1b7eemc2i",
-  "widgetName": "Text4"
+  "widgetId": "yxkh90p4ms",
+  "widgetName": "Text17"
 }

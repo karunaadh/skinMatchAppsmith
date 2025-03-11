@@ -1,10 +1,11 @@
 {
   "animateLoading": true,
   "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-  "bottomRow": 13,
+  "bottomRow": 24,
   "boxShadow": "none",
   "buttonColor": "{{appsmith.theme.colors.primaryColor}}",
-  "buttonVariant": "TERTIARY",
+  "buttonStyle": "PRIMARY",
+  "buttonVariant": "SECONDARY",
   "disabledWhenInvalid": false,
   "dynamicBindingPathList": [
     {
@@ -12,13 +13,8 @@
     },
     {
       "key": "borderRadius"
-    },
-    {
-      "key": "text"
     }
   ],
-  "dynamicHeight": "FIXED",
-  "dynamicPropertyPathList": [],
   "dynamicTriggerPathList": [
     {
       "key": "onClick"
@@ -29,27 +25,27 @@
   "isLoading": false,
   "isVisible": true,
   "key": "tampkfi4vd",
-  "leftColumn": 22,
+  "leftColumn": 31,
   "minWidth": 120,
-  "mobileBottomRow": 8,
-  "mobileLeftColumn": 38,
-  "mobileRightColumn": 54,
-  "mobileTopRow": 4,
+  "mobileBottomRow": 22,
+  "mobileLeftColumn": 31,
+  "mobileRightColumn": 47,
+  "mobileTopRow": 18,
   "needsErrorInfo": false,
-  "onClick": "{{navigateTo('Individual_product_page', navigateTo(String(\"Individual_product_page\"), {\n  item: currentItem.id\n}), 'SAME_WINDOW');}}",
-  "parentColumnSpace": 5.45941162109375,
-  "parentId": "7sdfta492k",
-  "parentRowSpace": 10,
+  "onClick": "{{closeModal(Modal1.name);}}",
+  "originalBottomRow": 22,
+  "originalTopRow": 18,
+  "parentId": "nngjhq1z5f",
   "placement": "CENTER",
   "recaptchaType": "V3",
   "renderMode": "CANVAS",
   "resetFormOnClick": false,
   "responsiveBehavior": "hug",
-  "rightColumn": 63,
-  "text": "{{currentItem.brand}}\n{{currentItem.name}}",
-  "topRow": 4,
+  "rightColumn": 47,
+  "text": "Close",
+  "topRow": 20,
   "type": "BUTTON_WIDGET",
   "version": 1,
-  "widgetId": "s40wqiyavh",
-  "widgetName": "Button3"
+  "widgetId": "vh9thdi3e7",
+  "widgetName": "Button4"
 }
