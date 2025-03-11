@@ -1,9 +1,7 @@
 {
   "animateLoading": true,
-  "borderColor": "{{appsmith.theme.colors.backgroundColor}}",
   "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-  "borderWidth": "",
-  "bottomRow": 29,
+  "bottomRow": 9,
   "dynamicBindingPathList": [
     {
       "key": "truncateButtonColor"
@@ -15,7 +13,7 @@
       "key": "borderRadius"
     },
     {
-      "key": "borderColor"
+      "key": "text"
     }
   ],
   "dynamicHeight": "AUTO_HEIGHT",
@@ -35,8 +33,8 @@
   "mobileRightColumn": 22,
   "mobileTopRow": 10,
   "needsErrorInfo": false,
-  "originalBottomRow": 31,
-  "originalTopRow": 26,
+  "originalBottomRow": 11,
+  "originalTopRow": 6,
   "overflow": "NONE",
   "parentColumnSpace": 7.529387712478638,
   "parentId": "cc097kjn6x",
@@ -45,13 +43,13 @@
   "responsiveBehavior": "fill",
   "rightColumn": 52,
   "shouldTruncate": false,
-  "text": "Irritants: ",
+  "text": "Your budget: ${{appsmith.store.budget.toString()}}",
   "textAlign": "LEFT",
   "textColor": "#231F20",
-  "topRow": 25,
+  "topRow": 5,
   "truncateButtonColor": "{{appsmith.theme.colors.primaryColor}}",
   "type": "TEXT_WIDGET",
   "version": 1,
-  "widgetId": "sisnkgml58",
-  "widgetName": "Text10Copy"
+  "widgetId": "dfayip714g",
+  "widgetName": "Text10Copy5"
 }
