@@ -1,0 +1,7 @@
+{
+ "userId": "{{appsmith.store.loggedUser}}",
+	"productId": "{{appsmith.URL.queryParams.item}}",
+	"reviewBody" : "{{RichTextEditor1.text}}",
+	"score": "{{Rating2.value}}",
+	"date": {{DatePicker1.selectedDate.slice(0,10)}}
+}

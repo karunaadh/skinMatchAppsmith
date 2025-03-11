@@ -1,12 +1,9 @@
 {
-  "activeColor": "{{appsmith.theme.colors.primaryColor}}",
+  "activeColor": "#eab308",
   "animateLoading": true,
   "bottomRow": 4,
   "defaultRate": "{{currentItem.score}}",
   "dynamicBindingPathList": [
-    {
-      "key": "activeColor"
-    },
     {
       "key": "defaultRate"
     }
@@ -21,7 +18,7 @@
   "isRequired": false,
   "isVisible": true,
   "key": "s0vanus9w0",
-  "leftColumn": 43,
+  "leftColumn": 44,
   "maxCount": 5,
   "maxDynamicHeight": 9000,
   "minDynamicHeight": 4,
@@ -34,7 +31,7 @@
   "parentId": "yyj5o3q84r",
   "parentRowSpace": 10,
   "renderMode": "CANVAS",
-  "rightColumn": 63,
+  "rightColumn": 62,
   "size": "LARGE",
   "tooltips": [
     "Terrible",

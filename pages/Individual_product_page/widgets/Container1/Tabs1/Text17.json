@@ -47,7 +47,7 @@
   "responsiveBehavior": "fill",
   "rightColumn": 9,
   "shouldTruncate": false,
-  "text": "{{getItem.data.category}}",
+  "text": "{{getProduct.data.category}}",
   "textAlign": "LEFT",
   "textColor": "{{appsmith.theme.colors.primaryColor}}",
   "topRow": 1,

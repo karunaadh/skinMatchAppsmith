@@ -1,7 +1,7 @@
 {
   "animateLoading": true,
   "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-  "bottomRow": 9,
+  "bottomRow": 11,
   "boxShadow": "none",
   "dynamicBindingPathList": [
     {
@@ -20,12 +20,12 @@
   "dynamicHeight": "FIXED",
   "dynamicTriggerPathList": [],
   "fontFamily": "{{appsmith.theme.fontFamily.appFont}}",
-  "fontSize": "1rem",
+  "fontSize": "0.875rem",
   "fontStyle": "",
   "isLoading": false,
   "isVisible": true,
   "key": "hoqhlnkiih",
-  "leftColumn": 13,
+  "leftColumn": 1,
   "maxDynamicHeight": 9000,
   "minDynamicHeight": 4,
   "minWidth": 450,
@@ -38,7 +38,7 @@
   "parentId": "yyj5o3q84r",
   "renderMode": "CANVAS",
   "responsiveBehavior": "fill",
-  "rightColumn": 60,
+  "rightColumn": 62,
   "shouldTruncate": false,
   "text": "\n{{currentItem.reviewBody}}\n",
   "textAlign": "LEFT",

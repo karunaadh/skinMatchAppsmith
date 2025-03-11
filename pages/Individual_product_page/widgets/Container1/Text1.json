@@ -46,7 +46,7 @@
   "responsiveBehavior": "fill",
   "rightColumn": 42,
   "shouldTruncate": false,
-  "text": "{{getItem.data.brand}} {{getItem.data.name}}\n",
+  "text": "{{getProduct.data.brand}} {{getProduct.data.name}}\n",
   "textAlign": "LEFT",
   "textColor": "{{appsmith.theme.colors.primaryColor}}",
   "topRow": 1,

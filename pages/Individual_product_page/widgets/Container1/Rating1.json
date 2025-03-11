@@ -2,8 +2,12 @@
   "activeColor": "#eab308",
   "animateLoading": true,
   "bottomRow": 9,
-  "defaultRate": "",
-  "dynamicBindingPathList": [],
+  "defaultRate": "{{getAverageScore.data}}",
+  "dynamicBindingPathList": [
+    {
+      "key": "defaultRate"
+    }
+  ],
   "dynamicHeight": "AUTO_HEIGHT",
   "dynamicPropertyPathList": [],
   "dynamicTriggerPathList": [],
