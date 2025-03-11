@@ -1,21 +1,24 @@
 {
   "animateLoading": true,
-  "backgroundColor": "#fee2e2",
+  "backgroundColor": "{{appsmith.theme.colors.backgroundColor}}",
   "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-  "bottomRow": 12,
+  "bottomRow": 8,
   "dynamicBindingPathList": [
     {
       "key": "truncateButtonColor"
     },
     {
       "key": "borderRadius"
+    },
+    {
+      "key": "backgroundColor"
     }
   ],
   "dynamicHeight": "AUTO_HEIGHT",
   "dynamicTriggerPathList": [],
   "fontFamily": "Nunito Sans",
   "fontSize": "1rem",
-  "fontStyle": "BOLD",
+  "fontStyle": "",
   "isLoading": false,
   "isVisible": true,
   "key": "92q9izs9w8",
@@ -28,7 +31,7 @@
   "mobileRightColumn": 21,
   "mobileTopRow": 1,
   "needsErrorInfo": false,
-  "originalBottomRow": 14,
+  "originalBottomRow": 8,
   "originalTopRow": 1,
   "overflow": "NONE",
   "parentColumnSpace": 3.5190391540527344,
@@ -40,7 +43,7 @@
   "shouldTruncate": false,
   "text": "A reformulation of our most-loved hydration serum that instantly hydrates and plumps, while smoothing texture and wrinkles. This new formula has a slight yellow tinge when compared to our previous formula due to the addition of a ceramide blend. This is the natural colour of this new raw material.",
   "textAlign": "LEFT",
-  "textColor": "#231F20",
+  "textColor": "#71717a",
   "topRow": 1,
   "truncateButtonColor": "{{appsmith.theme.colors.primaryColor}}",
   "type": "TEXT_WIDGET",

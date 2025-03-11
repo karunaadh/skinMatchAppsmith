@@ -4,7 +4,7 @@
   "borderColor": "",
   "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
   "borderWidth": "2",
-  "bottomRow": 18,
+  "bottomRow": 17,
   "dynamicBindingPathList": [
     {
       "key": "truncateButtonColor"
@@ -30,8 +30,8 @@
   "mobileRightColumn": 18,
   "mobileTopRow": 0,
   "needsErrorInfo": false,
-  "originalBottomRow": 18,
-  "originalTopRow": 13,
+  "originalBottomRow": 17,
+  "originalTopRow": 12,
   "overflow": "NONE",
   "parentColumnSpace": 2.7414512634277344,
   "parentId": "y4hg2xh4fe",
@@ -43,7 +43,7 @@
   "text": "$20.50",
   "textAlign": "CENTER",
   "textColor": "#231F20",
-  "topRow": 13,
+  "topRow": 12,
   "truncateButtonColor": "{{appsmith.theme.colors.primaryColor}}",
   "type": "TEXT_WIDGET",
   "version": 1,

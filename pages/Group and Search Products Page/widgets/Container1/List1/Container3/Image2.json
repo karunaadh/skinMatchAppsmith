@@ -1,10 +1,13 @@
 {
   "animateLoading": true,
   "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-  "bottomRow": 18,
+  "bottomRow": 10,
   "boxShadow": "none",
   "defaultImage": "https://assets.appsmith.com/widgets/default.png",
   "dynamicBindingPathList": [
+    {
+      "key": "image"
+    },
     {
       "key": "borderRadius"
     }
@@ -13,29 +16,25 @@
   "enableDownload": false,
   "enableRotation": false,
   "flexVerticalAlignment": "start",
-  "image": "https://www.sephora.com/productimages/sku/s2735132-main-zoom.jpg?imwidth=612",
+  "image": "{{currentItem.imageURL}}",
   "imageShape": "RECTANGLE",
   "isLoading": false,
   "isVisible": true,
-  "key": "c4q203pkae",
+  "key": "nzdutre0tk",
   "leftColumn": 0,
   "maxZoomLevel": 1,
-  "mobileBottomRow": 12,
-  "mobileLeftColumn": 26,
-  "mobileRightColumn": 38,
+  "mobileBottomRow": 8,
+  "mobileLeftColumn": 0,
+  "mobileRightColumn": 16,
   "mobileTopRow": 0,
   "needsErrorInfo": false,
   "objectFit": "contain",
-  "originalBottomRow": 19,
-  "originalTopRow": 9,
-  "parentColumnSpace": 2.3749771118164062,
-  "parentId": "lzlll9jh4h",
-  "parentRowSpace": 10,
+  "parentId": "7sdfta492k",
   "renderMode": "CANVAS",
-  "rightColumn": 31,
-  "topRow": 8,
+  "rightColumn": 21,
+  "topRow": 0,
   "type": "IMAGE_WIDGET",
   "version": 1,
-  "widgetId": "adzlgg7p3l",
-  "widgetName": "Image1Copy3"
+  "widgetId": "u4gk61j149",
+  "widgetName": "Image2"
 }

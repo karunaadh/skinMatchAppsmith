@@ -124,15 +124,6 @@
       "key": "borderRadius"
     },
     {
-      "key": "schema.__root_schema__.children.productId.defaultValue"
-    },
-    {
-      "key": "schema.__root_schema__.children.productId.borderRadius"
-    },
-    {
-      "key": "schema.__root_schema__.children.productId.accentColor"
-    },
-    {
       "key": "schema.__root_schema__.children.name.defaultValue"
     },
     {
@@ -151,85 +142,31 @@
       "key": "schema.__root_schema__.children.brand.accentColor"
     },
     {
-      "key": "schema.__root_schema__.children.Price.defaultValue"
+      "key": "schema.__root_schema__.children.id.defaultValue"
     },
     {
-      "key": "schema.__root_schema__.children.Price.borderRadius"
+      "key": "schema.__root_schema__.children.id.borderRadius"
     },
     {
-      "key": "schema.__root_schema__.children.Price.accentColor"
+      "key": "schema.__root_schema__.children.id.accentColor"
     },
     {
-      "key": "schema.__root_schema__.children.Size__ml_.defaultValue"
+      "key": "schema.__root_schema__.children.price.defaultValue"
     },
     {
-      "key": "schema.__root_schema__.children.Size__ml_.borderRadius"
+      "key": "schema.__root_schema__.children.price.borderRadius"
     },
     {
-      "key": "schema.__root_schema__.children.Size__ml_.accentColor"
+      "key": "schema.__root_schema__.children.price.accentColor"
     },
     {
-      "key": "schema.__root_schema__.children.Cost_per_ml.defaultValue"
+      "key": "schema.__root_schema__.children.imageURL.defaultValue"
     },
     {
-      "key": "schema.__root_schema__.children.Cost_per_ml.borderRadius"
+      "key": "schema.__root_schema__.children.imageURL.borderRadius"
     },
     {
-      "key": "schema.__root_schema__.children.Cost_per_ml.accentColor"
-    },
-    {
-      "key": "schema.__root_schema__.children.category.defaultValue"
-    },
-    {
-      "key": "schema.__root_schema__.children.category.borderRadius"
-    },
-    {
-      "key": "schema.__root_schema__.children.category.accentColor"
-    },
-    {
-      "key": "schema.__root_schema__.children.texture.defaultValue"
-    },
-    {
-      "key": "schema.__root_schema__.children.texture.borderRadius"
-    },
-    {
-      "key": "schema.__root_schema__.children.texture.accentColor"
-    },
-    {
-      "key": "schema.__root_schema__.children.SkinType.defaultValue"
-    },
-    {
-      "key": "schema.__root_schema__.children.SkinType.borderRadius"
-    },
-    {
-      "key": "schema.__root_schema__.children.SkinType.accentColor"
-    },
-    {
-      "key": "schema.__root_schema__.children.Ingredients.defaultValue"
-    },
-    {
-      "key": "schema.__root_schema__.children.Ingredients.borderRadius"
-    },
-    {
-      "key": "schema.__root_schema__.children.Ingredients.accentColor"
-    },
-    {
-      "key": "schema.__root_schema__.children.SkinConcern.defaultValue"
-    },
-    {
-      "key": "schema.__root_schema__.children.SkinConcern.borderRadius"
-    },
-    {
-      "key": "schema.__root_schema__.children.SkinConcern.accentColor"
-    },
-    {
-      "key": "schema.__root_schema__.children.Photo_link.defaultValue"
-    },
-    {
-      "key": "schema.__root_schema__.children.Photo_link.borderRadius"
-    },
-    {
-      "key": "schema.__root_schema__.children.Photo_link.accentColor"
+      "key": "schema.__root_schema__.children.imageURL.accentColor"
     }
   ],
   "dynamicHeight": "FIXED",
@@ -287,160 +224,6 @@
       "cellBorderRadius": "{{((sourceData, formData, fieldState) => (appsmith.theme.borderRadius.appBorderRadius))(update_form.sourceData, update_form.formData, update_form.fieldState)}}",
       "cellBoxShadow": "none",
       "children": {
-        "Cost_per_ml": {
-          "accentColor": "{{((sourceData, formData, fieldState) => ((appsmith.theme.colors.primaryColor)))(update_form.sourceData, update_form.formData, update_form.fieldState)}}",
-          "accessor": "Cost per ml",
-          "borderRadius": "{{((sourceData, formData, fieldState) => ((appsmith.theme.borderRadius.appBorderRadius)))(update_form.sourceData, update_form.formData, update_form.fieldState)}}",
-          "boxShadow": "none",
-          "children": {},
-          "dataType": "number",
-          "defaultValue": "{{((sourceData, formData, fieldState) => (sourceData[\"Cost per ml\"]))(update_form.sourceData, update_form.formData, update_form.fieldState)}}",
-          "fieldType": "Number Input",
-          "iconAlign": "left",
-          "identifier": "Cost_per_ml",
-          "isCustomField": false,
-          "isDisabled": false,
-          "isRequired": false,
-          "isSpellCheck": false,
-          "isVisible": true,
-          "label": "Cost Per Ml",
-          "labelTextSize": "0.875rem",
-          "originalIdentifier": "Cost per ml",
-          "position": 5,
-          "sourceData": 2.6
-        },
-        "Ingredients": {
-          "accentColor": "{{((sourceData, formData, fieldState) => ((appsmith.theme.colors.primaryColor)))(update_form.sourceData, update_form.formData, update_form.fieldState)}}",
-          "accessor": "Ingredients",
-          "borderRadius": "{{((sourceData, formData, fieldState) => ((appsmith.theme.borderRadius.appBorderRadius)))(update_form.sourceData, update_form.formData, update_form.fieldState)}}",
-          "boxShadow": "none",
-          "children": {},
-          "dataType": "string",
-          "defaultValue": "{{((sourceData, formData, fieldState) => (sourceData.Ingredients))(update_form.sourceData, update_form.formData, update_form.fieldState)}}",
-          "fieldType": "Text Input",
-          "iconAlign": "left",
-          "identifier": "Ingredients",
-          "isCustomField": false,
-          "isDisabled": false,
-          "isRequired": false,
-          "isSpellCheck": false,
-          "isVisible": true,
-          "label": "Ingredients",
-          "labelTextSize": "0.875rem",
-          "originalIdentifier": "Ingredients",
-          "position": 9,
-          "sourceData": ""
-        },
-        "Photo_link": {
-          "accentColor": "{{((sourceData, formData, fieldState) => ((appsmith.theme.colors.primaryColor)))(update_form.sourceData, update_form.formData, update_form.fieldState)}}",
-          "accessor": "Photo link",
-          "borderRadius": "{{((sourceData, formData, fieldState) => ((appsmith.theme.borderRadius.appBorderRadius)))(update_form.sourceData, update_form.formData, update_form.fieldState)}}",
-          "boxShadow": "none",
-          "children": {},
-          "dataType": "string",
-          "defaultValue": "{{((sourceData, formData, fieldState) => (sourceData[\"Photo link\"]))(update_form.sourceData, update_form.formData, update_form.fieldState)}}",
-          "fieldType": "Text Input",
-          "iconAlign": "left",
-          "identifier": "Photo_link",
-          "isCustomField": false,
-          "isDisabled": false,
-          "isRequired": false,
-          "isSpellCheck": false,
-          "isVisible": true,
-          "label": "Photo Link",
-          "labelTextSize": "0.875rem",
-          "originalIdentifier": "Photo link",
-          "position": 11,
-          "sourceData": "https://supergoop.com/cdn/shop/files/Glowscreen_Sunrise_50ml_Img1_0a3d82aa-1cf5-4e4d-997f-994d03dcf94c.jpg?v=1728308058"
-        },
-        "Price": {
-          "accentColor": "{{((sourceData, formData, fieldState) => ((appsmith.theme.colors.primaryColor)))(update_form.sourceData, update_form.formData, update_form.fieldState)}}",
-          "accessor": "Price",
-          "borderRadius": "{{((sourceData, formData, fieldState) => ((appsmith.theme.borderRadius.appBorderRadius)))(update_form.sourceData, update_form.formData, update_form.fieldState)}}",
-          "boxShadow": "none",
-          "children": {},
-          "dataType": "number",
-          "defaultValue": "{{((sourceData, formData, fieldState) => (sourceData.Price))(update_form.sourceData, update_form.formData, update_form.fieldState)}}",
-          "fieldType": "Number Input",
-          "iconAlign": "left",
-          "identifier": "Price",
-          "isCustomField": false,
-          "isDisabled": false,
-          "isRequired": false,
-          "isSpellCheck": false,
-          "isVisible": true,
-          "label": "Price",
-          "labelTextSize": "0.875rem",
-          "originalIdentifier": "Price",
-          "position": 3,
-          "sourceData": 21
-        },
-        "Size__ml_": {
-          "accentColor": "{{((sourceData, formData, fieldState) => ((appsmith.theme.colors.primaryColor)))(update_form.sourceData, update_form.formData, update_form.fieldState)}}",
-          "accessor": "Size (ml)",
-          "borderRadius": "{{((sourceData, formData, fieldState) => ((appsmith.theme.borderRadius.appBorderRadius)))(update_form.sourceData, update_form.formData, update_form.fieldState)}}",
-          "boxShadow": "none",
-          "children": {},
-          "dataType": "number",
-          "defaultValue": "{{((sourceData, formData, fieldState) => (sourceData[\"Size (ml)\"]))(update_form.sourceData, update_form.formData, update_form.fieldState)}}",
-          "fieldType": "Number Input",
-          "iconAlign": "left",
-          "identifier": "Size__ml_",
-          "isCustomField": false,
-          "isDisabled": false,
-          "isRequired": false,
-          "isSpellCheck": false,
-          "isVisible": true,
-          "label": "Size Ml",
-          "labelTextSize": "0.875rem",
-          "originalIdentifier": "Size (ml)",
-          "position": 4,
-          "sourceData": 20
-        },
-        "SkinConcern": {
-          "accentColor": "{{((sourceData, formData, fieldState) => ((appsmith.theme.colors.primaryColor)))(update_form.sourceData, update_form.formData, update_form.fieldState)}}",
-          "accessor": "SkinConcern",
-          "borderRadius": "{{((sourceData, formData, fieldState) => ((appsmith.theme.borderRadius.appBorderRadius)))(update_form.sourceData, update_form.formData, update_form.fieldState)}}",
-          "boxShadow": "none",
-          "children": {},
-          "dataType": "string",
-          "defaultValue": "{{((sourceData, formData, fieldState) => (sourceData.SkinConcern))(update_form.sourceData, update_form.formData, update_form.fieldState)}}",
-          "fieldType": "Text Input",
-          "iconAlign": "left",
-          "identifier": "SkinConcern",
-          "isCustomField": false,
-          "isDisabled": false,
-          "isRequired": false,
-          "isSpellCheck": false,
-          "isVisible": true,
-          "label": "Skin Concern",
-          "labelTextSize": "0.875rem",
-          "originalIdentifier": "SkinConcern",
-          "position": 10,
-          "sourceData": "Sun Damage"
-        },
-        "SkinType": {
-          "accentColor": "{{((sourceData, formData, fieldState) => ((appsmith.theme.colors.primaryColor)))(update_form.sourceData, update_form.formData, update_form.fieldState)}}",
-          "accessor": "SkinType",
-          "borderRadius": "{{((sourceData, formData, fieldState) => ((appsmith.theme.borderRadius.appBorderRadius)))(update_form.sourceData, update_form.formData, update_form.fieldState)}}",
-          "boxShadow": "none",
-          "children": {},
-          "dataType": "string",
-          "defaultValue": "{{((sourceData, formData, fieldState) => (sourceData.SkinType))(update_form.sourceData, update_form.formData, update_form.fieldState)}}",
-          "fieldType": "Text Input",
-          "iconAlign": "left",
-          "identifier": "SkinType",
-          "isCustomField": false,
-          "isDisabled": false,
-          "isRequired": false,
-          "isSpellCheck": false,
-          "isVisible": true,
-          "label": "Skin Type",
-          "labelTextSize": "0.875rem",
-          "originalIdentifier": "SkinType",
-          "position": 8,
-          "sourceData": "All"
-        },
         "brand": {
           "accentColor": "{{((sourceData, formData, fieldState) => ((appsmith.theme.colors.primaryColor)))(update_form.sourceData, update_form.formData, update_form.fieldState)}}",
           "accessor": "brand",
@@ -463,27 +246,49 @@
           "position": 2,
           "sourceData": "Supergoop"
         },
-        "category": {
+        "id": {
           "accentColor": "{{((sourceData, formData, fieldState) => ((appsmith.theme.colors.primaryColor)))(update_form.sourceData, update_form.formData, update_form.fieldState)}}",
-          "accessor": "category",
+          "accessor": "id",
           "borderRadius": "{{((sourceData, formData, fieldState) => ((appsmith.theme.borderRadius.appBorderRadius)))(update_form.sourceData, update_form.formData, update_form.fieldState)}}",
           "boxShadow": "none",
           "children": {},
-          "dataType": "string",
-          "defaultValue": "{{((sourceData, formData, fieldState) => (sourceData.category))(update_form.sourceData, update_form.formData, update_form.fieldState)}}",
-          "fieldType": "Text Input",
+          "dataType": "number",
+          "defaultValue": "{{((sourceData, formData, fieldState) => (sourceData.id))(update_form.sourceData, update_form.formData, update_form.fieldState)}}",
+          "fieldType": "Number Input",
           "iconAlign": "left",
-          "identifier": "category",
+          "identifier": "id",
           "isCustomField": false,
           "isDisabled": false,
           "isRequired": false,
           "isSpellCheck": false,
           "isVisible": true,
-          "label": "Category",
+          "label": "Id",
           "labelTextSize": "0.875rem",
-          "originalIdentifier": "category",
-          "position": 6,
-          "sourceData": "Sunscreen"
+          "originalIdentifier": "id",
+          "position": 2,
+          "sourceData": 1
+        },
+        "imageURL": {
+          "accentColor": "{{((sourceData, formData, fieldState) => ((appsmith.theme.colors.primaryColor)))(update_form.sourceData, update_form.formData, update_form.fieldState)}}",
+          "accessor": "imageURL",
+          "borderRadius": "{{((sourceData, formData, fieldState) => ((appsmith.theme.borderRadius.appBorderRadius)))(update_form.sourceData, update_form.formData, update_form.fieldState)}}",
+          "boxShadow": "none",
+          "children": {},
+          "dataType": "string",
+          "defaultValue": "{{((sourceData, formData, fieldState) => (sourceData.imageURL))(update_form.sourceData, update_form.formData, update_form.fieldState)}}",
+          "fieldType": "Text Input",
+          "iconAlign": "left",
+          "identifier": "imageURL",
+          "isCustomField": false,
+          "isDisabled": false,
+          "isRequired": false,
+          "isSpellCheck": false,
+          "isVisible": true,
+          "label": "Image URL",
+          "labelTextSize": "0.875rem",
+          "originalIdentifier": "imageURL",
+          "position": 4,
+          "sourceData": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSF_fMJvHqqHsq-E9ehEZCZtF82DAsztreSLw&s"
         },
         "name": {
           "accentColor": "{{((sourceData, formData, fieldState) => ((appsmith.theme.colors.primaryColor)))(update_form.sourceData, update_form.formData, update_form.fieldState)}}",
@@ -507,49 +312,27 @@
           "position": 1,
           "sourceData": "Glowscreen SPF 40"
         },
-        "productId": {
+        "price": {
           "accentColor": "{{((sourceData, formData, fieldState) => ((appsmith.theme.colors.primaryColor)))(update_form.sourceData, update_form.formData, update_form.fieldState)}}",
-          "accessor": "productId",
+          "accessor": "price",
           "borderRadius": "{{((sourceData, formData, fieldState) => ((appsmith.theme.borderRadius.appBorderRadius)))(update_form.sourceData, update_form.formData, update_form.fieldState)}}",
           "boxShadow": "none",
           "children": {},
           "dataType": "number",
-          "defaultValue": "{{((sourceData, formData, fieldState) => (sourceData.productId))(update_form.sourceData, update_form.formData, update_form.fieldState)}}",
+          "defaultValue": "{{((sourceData, formData, fieldState) => (sourceData.price))(update_form.sourceData, update_form.formData, update_form.fieldState)}}",
           "fieldType": "Number Input",
           "iconAlign": "left",
-          "identifier": "productId",
+          "identifier": "price",
           "isCustomField": false,
           "isDisabled": false,
           "isRequired": false,
           "isSpellCheck": false,
           "isVisible": true,
-          "label": "Product Id",
+          "label": "Price",
           "labelTextSize": "0.875rem",
-          "originalIdentifier": "productId",
-          "position": 0,
-          "sourceData": 2
-        },
-        "texture": {
-          "accentColor": "{{((sourceData, formData, fieldState) => ((appsmith.theme.colors.primaryColor)))(update_form.sourceData, update_form.formData, update_form.fieldState)}}",
-          "accessor": "texture",
-          "borderRadius": "{{((sourceData, formData, fieldState) => ((appsmith.theme.borderRadius.appBorderRadius)))(update_form.sourceData, update_form.formData, update_form.fieldState)}}",
-          "boxShadow": "none",
-          "children": {},
-          "dataType": "string",
-          "defaultValue": "{{((sourceData, formData, fieldState) => (sourceData.texture))(update_form.sourceData, update_form.formData, update_form.fieldState)}}",
-          "fieldType": "Text Input",
-          "iconAlign": "left",
-          "identifier": "texture",
-          "isCustomField": false,
-          "isDisabled": false,
-          "isRequired": false,
-          "isSpellCheck": false,
-          "isVisible": true,
-          "label": "Texture",
-          "labelTextSize": "0.875rem",
-          "originalIdentifier": "texture",
-          "position": 7,
-          "sourceData": ""
+          "originalIdentifier": "price",
+          "position": 3,
+          "sourceData": 30.5
         }
       },
       "dataType": "object",

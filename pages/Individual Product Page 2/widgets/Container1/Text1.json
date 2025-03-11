@@ -1,7 +1,7 @@
 {
   "animateLoading": true,
   "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-  "bottomRow": 5,
+  "bottomRow": 4,
   "dynamicBindingPathList": [
     {
       "key": "truncateButtonColor"
@@ -11,6 +11,9 @@
     },
     {
       "key": "borderRadius"
+    },
+    {
+      "key": "textColor"
     }
   ],
   "dynamicHeight": "AUTO_HEIGHT",
@@ -42,7 +45,7 @@
   "shouldTruncate": false,
   "text": "The Ordinary Hyaluronic Acid2% + B5 Hydrating Serum\n",
   "textAlign": "CENTER",
-  "textColor": "#231F20",
+  "textColor": "{{appsmith.theme.colors.primaryColor}}",
   "topRow": 0,
   "truncateButtonColor": "{{appsmith.theme.colors.primaryColor}}",
   "type": "TEXT_WIDGET",
