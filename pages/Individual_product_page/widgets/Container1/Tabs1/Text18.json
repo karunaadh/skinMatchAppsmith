@@ -43,7 +43,7 @@
   "responsiveBehavior": "fill",
   "rightColumn": 63,
   "shouldTruncate": false,
-  "text": "{{getItem.data.ingredients}}",
+  "text": "{{getItem.data.map((item)=>{return{ ingredients: item.ingredients\n\t\t\t\t\n};\n  });\n}}",
   "textAlign": "LEFT",
   "textColor": "{{appsmith.theme.colors.primaryColor}}",
   "topRow": 0,
