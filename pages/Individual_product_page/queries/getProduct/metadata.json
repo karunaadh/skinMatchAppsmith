@@ -1,6 +1,6 @@
 {
-  "gitSyncId": "67c77e8497527c2134c46e49_3fb62214-de42-4490-b5f5-f33cc4545085",
-  "id": "Individual_product_page_getReviews",
+  "gitSyncId": "67c77e8497527c2134c46e49_411cad0f-b93e-4c0e-bd24-35c1824a4eeb",
+  "id": "Individual_product_page_getProduct",
   "pluginId": "restapi-plugin",
   "pluginType": "API",
   "unpublishedAction": {
@@ -16,7 +16,7 @@
       "httpMethod": "GET",
       "httpVersion": "HTTP11",
       "paginationType": "NONE",
-      "path": "/reviews/{{appsmith.URL.queryParams.item}}/{{appsmith.store.loggedUser}}",
+      "path": "/products/{{appsmith.URL.queryParams.item}}",
       "pluginSpecifiedTemplates": [
         {
           "value": true
@@ -38,7 +38,7 @@
       }
     ],
     "executeOnLoad": true,
-    "name": "getReviews",
+    "name": "getProduct",
     "pageId": "Individual_product_page",
     "userSetOnLoad": false
   }

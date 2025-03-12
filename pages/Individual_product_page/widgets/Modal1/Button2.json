@@ -1,7 +1,7 @@
 {
   "animateLoading": true,
   "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-  "bottomRow": 36,
+  "bottomRow": 39,
   "boxShadow": "none",
   "buttonColor": "{{appsmith.theme.colors.primaryColor}}",
   "buttonStyle": "PRIMARY_BUTTON",
@@ -15,7 +15,8 @@
       "key": "borderRadius"
     }
   ],
-  "dynamicPropertyPathList": [
+  "dynamicPropertyPathList": [],
+  "dynamicTriggerPathList": [
     {
       "key": "onClick"
     }
@@ -32,7 +33,9 @@
   "mobileRightColumn": 63,
   "mobileTopRow": 18,
   "needsErrorInfo": false,
-  "onClick": "{{}}",
+  "onClick": "{{postReview.run();\ngetReviews.run();\ncloseModal(Modal1.name);\ngetAverageScore.run()}}",
+  "originalBottomRow": 39,
+  "originalTopRow": 35,
   "parentId": "5g4sbqz3pu",
   "placement": "CENTER",
   "recaptchaType": "V3",
@@ -40,8 +43,8 @@
   "resetFormOnClick": false,
   "responsiveBehavior": "hug",
   "rightColumn": 62,
-  "text": "Confirm",
-  "topRow": 32,
+  "text": "Share Review",
+  "topRow": 35,
   "type": "BUTTON_WIDGET",
   "version": 1,
   "widgetId": "fd6wzj8t7r",

@@ -20,7 +20,7 @@
   "imageShape": "RECTANGLE",
   "isLoading": false,
   "isVisible": true,
-  "key": "75nva8bku6",
+  "key": "s6df9y5sao",
   "leftColumn": 0,
   "maxZoomLevel": 1,
   "mobileBottomRow": 8,
@@ -29,12 +29,12 @@
   "mobileTopRow": 0,
   "needsErrorInfo": false,
   "objectFit": "cover",
-  "parentId": "yyj5o3q84r",
+  "parentId": "e35dhszyvw",
   "renderMode": "CANVAS",
   "rightColumn": 16,
   "topRow": 0,
   "type": "IMAGE_WIDGET",
   "version": 1,
-  "widgetId": "3pbai7pio9",
-  "widgetName": "Image5"
+  "widgetId": "nu55b2yqn2",
+  "widgetName": "Image6"
 }

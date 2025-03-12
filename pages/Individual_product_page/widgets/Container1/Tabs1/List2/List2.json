@@ -9,12 +9,12 @@
   "animateLoading": true,
   "backgroundColor": "transparent",
   "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-  "bottomRow": 40,
+  "bottomRow": 36,
   "boxShadow": "{{appsmith.theme.boxShadow.appBoxShadow}}",
   "children": [
     {
       "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-      "bottomRow": 400,
+      "bottomRow": 350,
       "boxShadow": "{{appsmith.theme.boxShadow.appBoxShadow}}",
       "canExtend": false,
       "containerStyle": "none",
@@ -80,8 +80,12 @@
     },
     {
       "key": "boxShadow"
+    },
+    {
+      "key": "listData"
     }
   ],
+  "dynamicTriggerPathList": [],
   "enhancements": true,
   "flexVerticalAlignment": "start",
   "gridType": "vertical",
@@ -93,23 +97,7 @@
   "itemSpacing": 8,
   "key": "ky2p6h6gjj",
   "leftColumn": 2,
-  "listData": [
-    {
-      "id": "001",
-      "img": "https://assets.appsmith.com/widgets/default.png",
-      "name": "Blue"
-    },
-    {
-      "id": "002",
-      "img": "https://assets.appsmith.com/widgets/default.png",
-      "name": "Green"
-    },
-    {
-      "id": "003",
-      "img": "https://assets.appsmith.com/widgets/default.png",
-      "name": "Red"
-    }
-  ],
+  "listData": "{{getReviews.data.map((item)=>{return{ score : item.score,\n\t\t\t\t\treviewBody:item.reviewBody,\nuser: item.user.userId,\ndate: item.date,\nproduct: item.product\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n};\n  });\n}}",
   "mainCanvasId": "cebucnfze3",
   "mainContainerId": "3mse5sy4uf",
   "minWidth": 450,
@@ -118,18 +106,18 @@
   "mobileRightColumn": 26,
   "mobileTopRow": 0,
   "needsErrorInfo": false,
-  "pageSize": 3,
+  "pageSize": 2,
   "parentColumnSpace": 12.267578125,
   "parentId": "uq8i53azjd",
   "parentRowSpace": 10,
-  "primaryKeys": "{{List2.listData.map((currentItem, currentIndex) => currentItem[\"id\"] )}}",
+  "primaryKeys": "{{List2.listData.map((currentItem, currentIndex) => currentItem[\"user\"] )}}",
   "renderMode": "CANVAS",
   "requiresFlatWidgetChildren": true,
   "responsiveBehavior": "fill",
-  "rightColumn": 52,
+  "rightColumn": 54,
   "selectedItemView": "{{{}}}",
   "templateHeight": 160,
-  "topRow": 0,
+  "topRow": 1,
   "triggeredItemView": "{{{}}}",
   "type": "LIST_WIDGET_V2",
   "widgetId": "ssl6prtf9l",
