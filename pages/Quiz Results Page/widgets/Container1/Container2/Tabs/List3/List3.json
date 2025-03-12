@@ -80,6 +80,9 @@
     },
     {
       "key": "boxShadow"
+    },
+    {
+      "key": "listData"
     }
   ],
   "dynamicTriggerPathList": [],
@@ -94,7 +97,7 @@
   "itemSpacing": 8,
   "key": "560p4j9c19",
   "leftColumn": 0,
-  "listData": "[\n  {\n    \"id\": \"001\",\n    \"name\": \"Blue\",\n    \"img\": \"https://www.sephora.com/productimages/sku/s2735132-main-zoom.jpg?imwidth=612\"\n  },\n  {\n    \"id\": \"002\",\n    \"name\": \"Green\",\n    \"img\": \"https://assets.appsmith.com/widgets/default.png\"\n  },\n  {\n    \"id\": \"003\",\n    \"name\": \"Red\",\n    \"img\": \"https://assets.appsmith.com/widgets/default.png\"\n  }\n]",
+  "listData": "{{}}",
   "mainCanvasId": "nkhhl3y1cw",
   "mainContainerId": "x3l9xvubud",
   "minWidth": 450,
