@@ -1,10 +1,11 @@
 {
   "animateLoading": true,
   "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-  "bottomRow": 4,
+  "bottomRow": 21,
   "boxShadow": "none",
   "buttonColor": "{{appsmith.theme.colors.primaryColor}}",
-  "buttonVariant": "TERTIARY",
+  "buttonStyle": "PRIMARY",
+  "buttonVariant": "PRIMARY",
   "disabledWhenInvalid": false,
   "dynamicBindingPathList": [
     {
@@ -14,32 +15,37 @@
       "key": "borderRadius"
     }
   ],
-  "dynamicTriggerPathList": [],
+  "dynamicTriggerPathList": [
+    {
+      "key": "onClick"
+    }
+  ],
   "isDefaultClickDisabled": true,
   "isDisabled": false,
   "isLoading": false,
   "isVisible": true,
-  "key": "jmejp376ci",
-  "leftColumn": 5,
+  "key": "z29bodkf9s",
+  "leftColumn": 17,
   "minWidth": 120,
-  "mobileBottomRow": 17,
-  "mobileLeftColumn": 7,
-  "mobileRightColumn": 23,
-  "mobileTopRow": 13,
+  "mobileBottomRow": 22,
+  "mobileLeftColumn": 31,
+  "mobileRightColumn": 47,
+  "mobileTopRow": 18,
   "needsErrorInfo": false,
-  "parentColumnSpace": 8.33984375,
-  "parentId": "stv28fkt7e",
-  "parentRowSpace": 10,
+  "onClick": "{{navigateTo('Registration_Login Page', {}, 'SAME_WINDOW');}}",
+  "originalBottomRow": 21,
+  "originalTopRow": 17,
+  "parentId": "9vm18lc3a3",
   "placement": "CENTER",
   "recaptchaType": "V3",
   "renderMode": "CANVAS",
   "resetFormOnClick": false,
   "responsiveBehavior": "hug",
-  "rightColumn": 14,
-  "text": "SkinMatch",
-  "topRow": 0,
+  "rightColumn": 44,
+  "text": "Login Now",
+  "topRow": 17,
   "type": "BUTTON_WIDGET",
   "version": 1,
-  "widgetId": "fu227xruhc",
-  "widgetName": "Button2"
+  "widgetId": "ktjas50llh",
+  "widgetName": "Button4"
 }

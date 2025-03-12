@@ -14,37 +14,32 @@
       "key": "borderRadius"
     }
   ],
-  "dynamicTriggerPathList": [
-    {
-      "key": "onClick"
-    }
-  ],
+  "dynamicTriggerPathList": [],
   "isDefaultClickDisabled": true,
   "isDisabled": false,
   "isLoading": false,
   "isVisible": true,
   "key": "jmejp376ci",
-  "leftColumn": 0,
+  "leftColumn": 5,
   "minWidth": 120,
-  "mobileBottomRow": 4,
-  "mobileLeftColumn": 5,
-  "mobileRightColumn": 21,
-  "mobileTopRow": 0,
+  "mobileBottomRow": 17,
+  "mobileLeftColumn": 7,
+  "mobileRightColumn": 23,
+  "mobileTopRow": 13,
   "needsErrorInfo": false,
-  "onClick": "{{navigateTo('Home Page', {}, 'SAME_WINDOW');}}",
-  "parentColumnSpace": 14.822265625,
-  "parentId": "u5yyx9inye",
+  "parentColumnSpace": 8.33984375,
+  "parentId": "stv28fkt7e",
   "parentRowSpace": 10,
   "placement": "CENTER",
   "recaptchaType": "V3",
   "renderMode": "CANVAS",
   "resetFormOnClick": false,
   "responsiveBehavior": "hug",
-  "rightColumn": 13,
+  "rightColumn": 18,
   "text": "SkinMatch",
   "topRow": 0,
   "type": "BUTTON_WIDGET",
   "version": 1,
-  "widgetId": "mjyvrcjhix",
-  "widgetName": "Button1"
+  "widgetId": "fu227xruhc",
+  "widgetName": "Button2"
 }

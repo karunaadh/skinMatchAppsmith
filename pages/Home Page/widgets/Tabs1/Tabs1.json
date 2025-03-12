@@ -5,12 +5,12 @@
   "borderColor": "#E0DEDE",
   "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
   "borderWidth": 1,
-  "bottomRow": 53,
+  "bottomRow": 49,
   "boxShadow": "{{appsmith.theme.boxShadow.appBoxShadow}}",
   "children": [
     {
       "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-      "bottomRow": 420,
+      "bottomRow": 380,
       "boxShadow": "{{appsmith.theme.boxShadow.appBoxShadow}}",
       "canExtend": true,
       "detachFromLayout": true,
@@ -28,7 +28,7 @@
       "isDisabled": false,
       "isLoading": false,
       "isVisible": true,
-      "key": "3cqkkru594",
+      "key": "5pp16oiyc2",
       "leftColumn": 0,
       "maxDynamicHeight": 9000,
       "minDynamicHeight": 4,
@@ -36,29 +36,30 @@
       "minWidth": 450,
       "mobileBottomRow": 150,
       "mobileLeftColumn": 0,
-      "mobileRightColumn": 430.5,
+      "mobileRightColumn": 34.6875,
       "mobileTopRow": 0,
       "needsErrorInfo": false,
       "parentColumnSpace": 1,
-      "parentId": "wqrsq88zh5",
+      "parentId": "7qj0ln10yo",
       "parentRowSpace": 1,
       "renderMode": "CANVAS",
       "responsiveBehavior": "fill",
-      "rightColumn": 430.5,
+      "rightColumn": 34.6875,
       "shouldScrollContents": false,
       "tabId": "tab1",
-      "tabName": "Main",
+      "tabName": "Homepage",
       "topRow": 0,
       "type": "CANVAS_WIDGET",
       "version": 1,
-      "widgetId": "3snewow32u",
-      "widgetName": "Canvas5"
+      "widgetId": "ddmpoq555u",
+      "widgetName": "Canvas3"
     },
     {
       "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-      "bottomRow": 420,
+      "bottomRow": 430,
       "boxShadow": "{{appsmith.theme.boxShadow.appBoxShadow}}",
-      "canExtend": true,
+      "canExtend": false,
+      "containerStyle": "none",
       "detachFromLayout": true,
       "dynamicBindingPathList": [
         {
@@ -71,37 +72,35 @@
       "dynamicHeight": "AUTO_HEIGHT",
       "dynamicTriggerPathList": [],
       "flexLayers": [],
-      "isDisabled": false,
       "isLoading": false,
       "isVisible": true,
-      "key": "3cqkkru594",
+      "key": "7e8y2erzjh",
       "leftColumn": 0,
       "maxDynamicHeight": 9000,
       "minDynamicHeight": 4,
-      "minHeight": 150,
+      "minHeight": 1150,
       "minWidth": 450,
-      "mobileBottomRow": 150,
+      "mobileBottomRow": 1151,
       "mobileLeftColumn": 0,
-      "mobileRightColumn": 430.5,
-      "mobileTopRow": 0,
+      "mobileRightColumn": 740,
+      "mobileTopRow": 1,
       "needsErrorInfo": false,
       "parentColumnSpace": 1,
-      "parentId": "wqrsq88zh5",
+      "parentId": "7qj0ln10yo",
       "parentRowSpace": 1,
       "renderMode": "CANVAS",
       "responsiveBehavior": "fill",
-      "rightColumn": 430.5,
-      "shouldScrollContents": false,
-      "tabId": "tab2",
-      "tabName": "Login",
-      "topRow": 0,
+      "rightColumn": 740,
+      "tabId": "tab4nwauenq0v",
+      "tabName": "About Us",
+      "topRow": 1,
       "type": "CANVAS_WIDGET",
       "version": 1,
-      "widgetId": "3zj6vvr2m2",
-      "widgetName": "Canvas6"
+      "widgetId": "k56vv90gai",
+      "widgetName": "Canvas4"
     }
   ],
-  "defaultTab": "{{appsmith.store.jwt?\"Main\":\"Login\"}}",
+  "defaultTab": "",
   "dynamicBindingPathList": [
     {
       "key": "accentColor"
@@ -113,33 +112,43 @@
       "key": "boxShadow"
     },
     {
-      "key": "defaultTab"
+      "key": "isVisible"
     }
   ],
   "dynamicHeight": "AUTO_HEIGHT",
-  "dynamicTriggerPathList": [],
+  "dynamicPropertyPathList": [
+    {
+      "key": "isVisible"
+    }
+  ],
+  "dynamicTriggerPathList": [
+    {
+      "key": "onTabSelected"
+    }
+  ],
   "flexVerticalAlignment": "stretch",
   "isCanvas": true,
   "isLoading": false,
-  "isVisible": true,
-  "key": "zbwtmoukyc",
-  "leftColumn": 2,
+  "isVisible": "{{LoginRequired}}",
+  "key": "hrvh0u4tcn",
+  "leftColumn": 10,
   "maxDynamicHeight": 9000,
   "minDynamicHeight": 15,
   "minWidth": 450,
-  "mobileBottomRow": 22,
-  "mobileLeftColumn": 8,
-  "mobileRightColumn": 32,
-  "mobileTopRow": 7,
+  "mobileBottomRow": 92,
+  "mobileLeftColumn": 0,
+  "mobileRightColumn": 3,
+  "mobileTopRow": 77,
   "needsErrorInfo": false,
-  "originalBottomRow": 53,
+  "onTabSelected": "",
+  "originalBottomRow": 353,
   "originalTopRow": 7,
-  "parentColumnSpace": 17.9375,
+  "parentColumnSpace": 11.5625,
   "parentId": "0",
   "parentRowSpace": 10,
   "renderMode": "CANVAS",
   "responsiveBehavior": "fill",
-  "rightColumn": 50,
+  "rightColumn": 54,
   "shouldScrollContents": true,
   "shouldShowTabs": true,
   "tabsObj": {
@@ -147,22 +156,21 @@
       "id": "tab1",
       "index": 0,
       "isVisible": true,
-      "label": "Main",
+      "label": "Homepage",
       "positioning": "vertical",
-      "widgetId": "3snewow32u"
+      "widgetId": "ddmpoq555u"
     },
-    "tab2": {
-      "id": "tab2",
+    "tab4nwauenq0v": {
+      "id": "tab4nwauenq0v",
       "index": 1,
       "isVisible": true,
-      "label": "Login",
-      "positioning": "vertical",
-      "widgetId": "3zj6vvr2m2"
+      "label": "About Us",
+      "widgetId": "k56vv90gai"
     }
   },
   "topRow": 7,
   "type": "TABS_WIDGET",
   "version": 3,
-  "widgetId": "wqrsq88zh5",
-  "widgetName": "Tabs2"
+  "widgetId": "7qj0ln10yo",
+  "widgetName": "Tabs1"
 }
