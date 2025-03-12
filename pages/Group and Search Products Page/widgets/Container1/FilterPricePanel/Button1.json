@@ -14,7 +14,16 @@
       "key": "borderRadius"
     }
   ],
-  "dynamicTriggerPathList": [],
+  "dynamicPropertyPathList": [
+    {
+      "key": "onClick"
+    }
+  ],
+  "dynamicTriggerPathList": [
+    {
+      "key": "onClick"
+    }
+  ],
   "isDefaultClickDisabled": true,
   "isDisabled": false,
   "isLoading": false,
@@ -27,6 +36,7 @@
   "mobileRightColumn": 40,
   "mobileTopRow": 24,
   "needsErrorInfo": false,
+  "onClick": "{{utils.applyFilters()}}",
   "parentColumnSpace": 2.9864501953125,
   "parentId": "z5ssxdeaxc",
   "parentRowSpace": 10,

@@ -1,6 +1,6 @@
 {
-  "gitSyncId": "67906837865ed33a5eadb121_f19eafe7-176a-4f57-8387-9e731e266d37",
-  "id": "Group and Search Products Page_utils.updateSortOption",
+  "gitSyncId": "67c4a3c8d359781757520c3a_b0119fb3-7ac6-4a22-8cc3-d2e9ac17feb5",
+  "id": "Group and Search Products Page_utils.getSelectOptions",
   "pluginId": "js-plugin",
   "pluginType": "JS",
   "unpublishedAction": {
@@ -8,7 +8,14 @@
       "encodeParamsToggle": true,
       "jsArguments": [
         {
-          "name": "option"
+          "name": "data"
+        },
+        {
+          "name": "labelKey"
+        },
+        {
+          "name": "valueKey",
+          "value": "value"
         }
       ],
       "paginationType": "NONE",
@@ -27,8 +34,8 @@
       }
     ],
     "executeOnLoad": false,
-    "fullyQualifiedName": "utils.updateSortOption",
-    "name": "updateSortOption",
+    "fullyQualifiedName": "utils.getSelectOptions",
+    "name": "getSelectOptions",
     "pageId": "Group and Search Products Page",
     "userSetOnLoad": false
   }

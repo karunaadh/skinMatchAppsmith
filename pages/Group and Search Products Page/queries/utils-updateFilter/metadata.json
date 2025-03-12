@@ -1,6 +1,6 @@
 {
-  "gitSyncId": "67906837865ed33a5eadb121_74c8bfc2-8eb1-4e38-b33e-89589c5a2f98",
-  "id": "Group and Search Products Page_utils.updateFilters",
+  "gitSyncId": "67c4a3c8d359781757520c3a_2f7609ae-bbda-4e03-9550-5eae47d79661",
+  "id": "Group and Search Products Page_utils.updateFilter",
   "pluginId": "js-plugin",
   "pluginType": "JS",
   "unpublishedAction": {
@@ -8,10 +8,10 @@
       "encodeParamsToggle": true,
       "jsArguments": [
         {
-          "name": "category"
+          "name": "filterType"
         },
         {
-          "name": "value"
+          "name": "selectedValues"
         }
       ],
       "paginationType": "NONE",
@@ -30,8 +30,8 @@
       }
     ],
     "executeOnLoad": false,
-    "fullyQualifiedName": "utils.updateFilters",
-    "name": "updateFilters",
+    "fullyQualifiedName": "utils.updateFilter",
+    "name": "updateFilter",
     "pageId": "Group and Search Products Page",
     "userSetOnLoad": false
   }

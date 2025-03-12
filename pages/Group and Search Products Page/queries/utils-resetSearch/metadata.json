@@ -1,6 +1,6 @@
 {
-  "gitSyncId": "67906837865ed33a5eadb121_c6c6d3f5-a313-4ff0-9e8c-abb1190c4442",
-  "id": "Group and Search Products Page_utils.onOpen",
+  "gitSyncId": "67c4a3c8d359781757520c3a_f3ca7418-2129-48de-8b2f-f032325a1611",
+  "id": "Group and Search Products Page_utils.resetSearch",
   "pluginId": "js-plugin",
   "pluginType": "JS",
   "unpublishedAction": {
@@ -23,8 +23,8 @@
       }
     ],
     "executeOnLoad": false,
-    "fullyQualifiedName": "utils.onOpen",
-    "name": "onOpen",
+    "fullyQualifiedName": "utils.resetSearch",
+    "name": "resetSearch",
     "pageId": "Group and Search Products Page",
     "userSetOnLoad": false
   }

@@ -1,6 +1,6 @@
 {
-  "gitSyncId": "67c4a3c8d359781757520c3a_42e3f481-5943-4ad9-84fd-2059d088ee94",
-  "id": "Group and Search Products Page_utils.fetchFilteredProducts",
+  "gitSyncId": "67c4a3c8d359781757520c3a_3504c6ae-d250-4ba8-b82a-3b6902b5d89b",
+  "id": "Group and Search Products Page_utils.getProcessedFilterOptions",
   "pluginId": "js-plugin",
   "pluginType": "JS",
   "unpublishedAction": {
@@ -23,8 +23,8 @@
       }
     ],
     "executeOnLoad": false,
-    "fullyQualifiedName": "utils.fetchFilteredProducts",
-    "name": "fetchFilteredProducts",
+    "fullyQualifiedName": "utils.getProcessedFilterOptions",
+    "name": "getProcessedFilterOptions",
     "pageId": "Group and Search Products Page",
     "userSetOnLoad": false
   }

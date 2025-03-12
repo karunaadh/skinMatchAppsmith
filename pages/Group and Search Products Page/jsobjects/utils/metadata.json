@@ -6,6 +6,11 @@
     "pageId": "Group and Search Products Page",
     "pluginId": "js-plugin",
     "pluginType": "JS",
-    "variables": []
+    "variables": [
+      {
+        "name": "filterOptions",
+        "value": "[{\n  \"label\": \"Category\",\n  \"value\": \"categories\",\n  \"children\": [{\n    \"label\": \"Toner\",\n    \"value\": \"Toner\"\n  }, {\n    \"label\": \"Sunscreen\",\n    \"value\": \"Sunscreen\"\n  }, {\n    \"label\": \"Cleanser\",\n    \"value\": \"Cleanser\"\n  }, {\n    \"label\": \"Exofoliator\",\n    \"value\": \"Exofoliator\"\n  }, {\n    \"label\": \"Moisturizer\",\n    \"value\": \"Moisturizer\"\n  }]\n}, {\n  \"label\": \"Brand\",\n  \"value\": \"brands\",\n  \"children\": [{\n    \"label\": \"La Roche-Posay\",\n    \"value\": \"La Roche-Posay\"\n  }, {\n    \"label\": \"CeraVe\",\n    \"value\": \"CeraVe\"\n  }, {\n    \"label\": \"The Ordinary\",\n    \"value\": \"The Ordinary\"\n  }, {\n    \"label\": \"Neutrogena\",\n    \"value\": \"Neutrogena\"\n  }, {\n    \"label\": \"Paula's Choice\",\n    \"value\": \"Paula's Choice\"\n  }, {\n    \"label\": \"Supergoop!\",\n    \"value\": \"Supergoop!\"\n  }, {\n    \"label\": \"Dermalogica\",\n    \"value\": \"Dermalogica\"\n  }]\n}, {\n  \"label\": \"Skin Concern\",\n  \"value\": \"concerns\",\n  \"children\": [{\n    \"label\": \"Wrinkles\",\n    \"value\": \"wrinkles\"\n  }, {\n    \"label\": \"Pores\",\n    \"value\": \"pores\"\n  }, {\n    \"label\": \"Hyperpigmentation\",\n    \"value\": \"hyperpigmentation\"\n  }, {\n    \"label\": \"Acne\",\n    \"value\": \"acne\"\n  }, {\n    \"label\": \"Irritation\",\n    \"value\": \"irritation\"\n  }, {\n    \"label\": \"Dullness\",\n    \"value\": \"dull skin\"\n  }]\n}, {\n  \"label\": \"Allergy\",\n  \"value\": \"avoidIngredients\",\n  \"children\": [{\n    \"label\": \"Fragrance\",\n    \"value\": \"Fragrance\"\n  }, {\n    \"label\": \"Parabens\",\n    \"value\": \"Parabens\"\n  }]\n}, {\n  \"label\": \"Skin Types\",\n  \"value\": \"Types\",\n  \"children\": [{\n    \"label\": \"Dry\",\n    \"value\": \"dry\"\n  }, {\n    \"label\": \"Oily\",\n    \"value\": \"oily\"\n  }, {\n    \"label\": \"Combination\",\n    \"value\": \"combination\"\n  }]\n}]"
+      }
+    ]
   }
 }

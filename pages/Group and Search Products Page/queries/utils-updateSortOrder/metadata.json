@@ -1,12 +1,16 @@
 {
-  "gitSyncId": "67906837865ed33a5eadb121_f12d7a8f-036c-4a7c-a247-064359c25c84",
-  "id": "Group and Search Products Page_utils.resetFilters",
+  "gitSyncId": "67c4a3c8d359781757520c3a_7d86bb7a-6963-40af-8c03-a83d8b64c11b",
+  "id": "Group and Search Products Page_utils.updateSortOrder",
   "pluginId": "js-plugin",
   "pluginType": "JS",
   "unpublishedAction": {
     "actionConfiguration": {
       "encodeParamsToggle": true,
-      "jsArguments": [],
+      "jsArguments": [
+        {
+          "name": "order"
+        }
+      ],
       "paginationType": "NONE",
       "timeoutInMillisecond": 10000
     },
@@ -23,8 +27,8 @@
       }
     ],
     "executeOnLoad": false,
-    "fullyQualifiedName": "utils.resetFilters",
-    "name": "resetFilters",
+    "fullyQualifiedName": "utils.updateSortOrder",
+    "name": "updateSortOrder",
     "pageId": "Group and Search Products Page",
     "userSetOnLoad": false
   }

@@ -48,7 +48,7 @@
   "mobileRightColumn": 39,
   "mobileTopRow": 39,
   "needsErrorInfo": false,
-  "onOptionChange": "{{utils.updateSortOption(self.selectedOptionValue);\n}}",
+  "onOptionChange": "{{utils.updateSortOrder(sortBy.selectedOptionValue)}}",
   "optionLabel": "name",
   "optionValue": "code",
   "originalBottomRow": 27,
@@ -66,5 +66,5 @@
   "type": "SELECT_WIDGET",
   "version": 1,
   "widgetId": "h1wkuiv8pg",
-  "widgetName": "sel_sortByPrice"
+  "widgetName": "sortBy"
 }
