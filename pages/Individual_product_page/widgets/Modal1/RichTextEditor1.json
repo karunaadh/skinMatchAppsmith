@@ -1,9 +1,9 @@
 {
   "animateLoading": true,
   "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-  "bottomRow": 35,
+  "bottomRow": 32,
   "boxShadow": "{{appsmith.theme.boxShadow.appBoxShadow}}",
-  "defaultText": "This is the initial <b>content</b> of the editor",
+  "defaultText": "Enter your text here",
   "dynamicBindingPathList": [
     {
       "key": "borderRadius"
@@ -47,7 +47,7 @@
   "renderMode": "CANVAS",
   "responsiveBehavior": "fill",
   "rightColumn": 63,
-  "topRow": 9,
+  "topRow": 6,
   "type": "RICH_TEXT_EDITOR_WIDGET",
   "version": 1,
   "widgetId": "a9kqxw8hwe",
