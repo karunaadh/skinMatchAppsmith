@@ -63,7 +63,7 @@
   "onDropdownClose": "",
   "onOptionChange": "",
   "optionLabel": "description",
-  "optionValue": "description",
+  "optionValue": "concernId",
   "originalBottomRow": 18,
   "originalTopRow": 11,
   "parentColumnSpace": 10.362548828125,
