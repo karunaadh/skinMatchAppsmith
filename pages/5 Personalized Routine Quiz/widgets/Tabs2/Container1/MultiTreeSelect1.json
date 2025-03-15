@@ -1,0 +1,69 @@
+{
+  "accentColor": "{{appsmith.theme.colors.primaryColor}}",
+  "allowClear": false,
+  "animateLoading": true,
+  "borderRadius": "1.5rem",
+  "bottomRow": 20,
+  "boxShadow": "none",
+  "defaultOptionValue": "",
+  "dynamicBindingPathList": [
+    {
+      "key": "accentColor"
+    },
+    {
+      "key": "options"
+    }
+  ],
+  "dynamicHeight": "FIXED",
+  "dynamicPropertyPathList": [
+    {
+      "key": "onDropdownClose"
+    },
+    {
+      "key": "isRequired"
+    }
+  ],
+  "dynamicTriggerPathList": [
+    {
+      "key": "onDropdownClose"
+    }
+  ],
+  "expandAll": false,
+  "isDisabled": false,
+  "isLoading": false,
+  "isRequired": "",
+  "isVisible": true,
+  "key": "edttysgmln",
+  "labelAlignment": "left",
+  "labelPosition": "Top",
+  "labelStyle": "BOLD",
+  "labelText": "",
+  "labelTextSize": "0.875rem",
+  "labelWidth": 5,
+  "leftColumn": 4,
+  "maxDynamicHeight": 9000,
+  "minDynamicHeight": 4,
+  "minWidth": 450,
+  "mobileBottomRow": 34,
+  "mobileLeftColumn": 19,
+  "mobileRightColumn": 39,
+  "mobileTopRow": 27,
+  "mode": "SHOW_ALL",
+  "needsErrorInfo": false,
+  "onDropdownClose": "\n",
+  "options": "[\n    { \"label\": \"{{getIngredients1.data.ingredientName}}\", \"value\": \"{{getIngredients1.data.ingredientId}}\" },\n   { \"label\": \"{{getIngredients2.data.ingredientName}}\", \"value\": \"{{getIngredients2.data.ingredientId}}\" },\n    { \"label\": \"{{getIngredients3.data.ingredientName}}\", \"value\": \"{{getIngredients3.data.ingredientId}}\" },\n\t\t{ \"label\": \"{{getIngredients4.data.ingredientName}}\", \"value\": \"{{getIngredients4.data.ingredientId}}\" },\n\t\t{ \"label\": \"{{getIngredients5.data.ingredientName}}\", \"value\": \"{{getIngredients5.data.ingredientId}}\" },\n\t\t{ \"label\": \"{{getIngredients6.data.ingredientName}}\", \"value\": \"{{getIngredients6.data.ingredientId}}\" },\n\t\t{ \"label\": \"{{getIngredients7.data.ingredientName}}\", \"value\": \"{{getIngredients7.data.ingredientId}}\" },\n\t\t{ \"label\": \"{{getIngredients8.data.ingredientName}}\", \"value\": \"{{getIngredients8.data.ingredientId}}\" },\n\t\t{ \"label\": \"{{getIngredients9.data.ingredientName}}\", \"value\": \"{{getIngredients9.data.ingredientId}}\" }\n]",
+  "originalBottomRow": 21,
+  "originalTopRow": 14,
+  "parentColumnSpace": 9.935546875,
+  "parentId": "ph1hzl7620",
+  "parentRowSpace": 10,
+  "placeholderText": "Select option(s)",
+  "renderMode": "CANVAS",
+  "responsiveBehavior": "fill",
+  "rightColumn": 59,
+  "topRow": 13,
+  "type": "MULTI_SELECT_TREE_WIDGET",
+  "version": 1,
+  "widgetId": "5l20ks4r6m",
+  "widgetName": "MultiTreeSelect1"
+}

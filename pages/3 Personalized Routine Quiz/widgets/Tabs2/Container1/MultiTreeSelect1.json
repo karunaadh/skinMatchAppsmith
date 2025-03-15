@@ -1,0 +1,56 @@
+{
+  "accentColor": "{{appsmith.theme.colors.primaryColor}}",
+  "allowClear": false,
+  "animateLoading": true,
+  "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+  "bottomRow": 23,
+  "boxShadow": "none",
+  "defaultOptionValue": "",
+  "dynamicBindingPathList": [
+    {
+      "key": "accentColor"
+    },
+    {
+      "key": "borderRadius"
+    },
+    {
+      "key": "options"
+    }
+  ],
+  "dynamicHeight": "FIXED",
+  "dynamicTriggerPathList": [],
+  "expandAll": false,
+  "isDisabled": false,
+  "isLoading": false,
+  "isRequired": false,
+  "isVisible": true,
+  "key": "54raerbzk8",
+  "labelAlignment": "left",
+  "labelPosition": "Top",
+  "labelText": "Select concern(s)",
+  "labelTextSize": "0.875rem",
+  "labelWidth": 5,
+  "leftColumn": 0,
+  "maxDynamicHeight": 9000,
+  "minDynamicHeight": 4,
+  "minWidth": 450,
+  "mobileBottomRow": 23,
+  "mobileLeftColumn": 14,
+  "mobileRightColumn": 34,
+  "mobileTopRow": 16,
+  "mode": "SHOW_ALL",
+  "needsErrorInfo": false,
+  "options": "[\n  {\n    \"label\": \"{{getConcerns1.data.description}}\",\n    \"value\": \"{{getConcerns1.data.concernId}}\"\n  },\n  {\n    \"label\": \"{{getConcerns2.data.description}}\",\n    \"value\": \"{{getConcerns2.data.concernId}}\"\n  },\n {\n    \"label\": \"{{getConcerns3.data.description}}\",\n    \"value\": \"{{getConcerns3.data.concernId}}\"\n  },\n\t{\n    \"label\": \"{{getConcerns4.data.description}}\",\n    \"value\": \"{{getConcerns4.data.concernId}}\"\n  },\n\t{\n    \"label\": \"{{getConcerns5.data.description}}\",\n    \"value\": \"{{getConcerns5.data.concernId}}\"\n  },\n\t{\n    \"label\": \"{{getConcerns6.data.description}}\",\n    \"value\": \"{{getConcerns6.data.concernId}}\"\n  }\n]",
+  "parentColumnSpace": 11.22802734375,
+  "parentId": "ph1hzl7620",
+  "parentRowSpace": 10,
+  "placeholderText": "",
+  "renderMode": "CANVAS",
+  "responsiveBehavior": "fill",
+  "rightColumn": 63,
+  "topRow": 16,
+  "type": "MULTI_SELECT_TREE_WIDGET",
+  "version": 1,
+  "widgetId": "ut83apppjg",
+  "widgetName": "MultiTreeSelect1"
+}

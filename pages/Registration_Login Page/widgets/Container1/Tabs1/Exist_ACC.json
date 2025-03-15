@@ -47,7 +47,7 @@
   "renderMode": "CANVAS",
   "resetFormOnClick": true,
   "responsiveBehavior": "hug",
-  "rightColumn": 31,
+  "rightColumn": 26,
   "text": "Already have account? Login now!",
   "topRow": 40,
   "type": "BUTTON_WIDGET",
