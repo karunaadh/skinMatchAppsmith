@@ -60,7 +60,7 @@
   "mobileRightColumn": 40,
   "mobileTopRow": 12,
   "needsErrorInfo": false,
-  "onDropdownClose": "{{storeValue('concerns', MultiSelect1.selectedOptionValues)}}",
+  "onDropdownClose": "",
   "onOptionChange": "",
   "optionLabel": "description",
   "optionValue": "description",

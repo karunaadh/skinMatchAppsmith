@@ -96,7 +96,7 @@
   "itemBackgroundColor": "#FFFFFF",
   "itemSpacing": 8,
   "key": "an8ydc0dmg",
-  "leftColumn": 43,
+  "leftColumn": 41,
   "listData": "{{appsmith.store.irritants}}",
   "mainCanvasId": "57d8dce6fb",
   "mainContainerId": "81erztxkwa",

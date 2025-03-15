@@ -4,7 +4,7 @@
   "bottomRow": 4,
   "boxShadow": "none",
   "buttonColor": "{{appsmith.theme.colors.primaryColor}}",
-  "buttonVariant": "PRIMARY",
+  "buttonVariant": "SECONDARY",
   "disabledWhenInvalid": false,
   "dynamicBindingPathList": [
     {
@@ -24,7 +24,7 @@
   "isLoading": false,
   "isVisible": true,
   "key": "vwk8ubtfm3",
-  "leftColumn": 40,
+  "leftColumn": 42,
   "minWidth": 120,
   "mobileBottomRow": 15,
   "mobileLeftColumn": 22,
@@ -42,7 +42,7 @@
   "renderMode": "CANVAS",
   "resetFormOnClick": false,
   "responsiveBehavior": "hug",
-  "rightColumn": 62,
+  "rightColumn": 64,
   "text": "Take Skincare Test",
   "topRow": 0,
   "type": "BUTTON_WIDGET",
