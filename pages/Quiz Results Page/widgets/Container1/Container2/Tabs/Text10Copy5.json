@@ -46,7 +46,7 @@
   "responsiveBehavior": "fill",
   "rightColumn": 48,
   "shouldTruncate": false,
-  "text": "Your budget: ${{appsmith.store.budget.toString()}}",
+  "text": "Your budget: ${{appsmith.store.budget}}",
   "textAlign": "LEFT",
   "textColor": "{{appsmith.theme.colors.primaryColor}}",
   "topRow": 1,

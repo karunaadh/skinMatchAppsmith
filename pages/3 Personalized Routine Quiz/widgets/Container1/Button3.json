@@ -33,7 +33,7 @@
   "mobileRightColumn": 61,
   "mobileTopRow": 39,
   "needsErrorInfo": false,
-  "onClick": "{{MultiSelect1.selectedOptionValues.length === 0 \n        ? showAlert(\"Please select at least one concern\", \"error\") \n        : (MultiSelect1.selectedOptionValues.length > 3? showAlert(\"Please select a maximum of 3 concerns\", \"error\") \n            : storeValue(\"concerns\", MultiSelect1.selectedOptionValues),\nnavigateTo(\"4 Personalized Routine Quiz\")\n          ) }}",
+  "onClick": "{{MultiSelect1.selectedOptionValues.length === 0 \n? showAlert(\"Please select at least one concern\", \"error\") \n: (MultiSelect1.selectedOptionValues.length > 3? showAlert(\"Please select a maximum of 3 concerns\", \"error\") \n\t : storeValue(\"concerns\", MultiSelect1.selectedOptionLabels), storeValue(\"concernIds\", MultiSelect1.selectedOptionValues),\n\t navigateTo(\"4 Personalized Routine Quiz\")\n\t) }}",
   "originalBottomRow": 25,
   "originalTopRow": 21,
   "parentColumnSpace": 10.22021484375,
