@@ -80,6 +80,9 @@
     },
     {
       "key": "boxShadow"
+    },
+    {
+      "key": "listData"
     }
   ],
   "dynamicTriggerPathList": [],
@@ -94,23 +97,7 @@
   "itemSpacing": 8,
   "key": "vavu25wlnu",
   "leftColumn": 0,
-  "listData": [
-    {
-      "id": "001",
-      "img": "https://assets.appsmith.com/widgets/default.png",
-      "name": "Blue"
-    },
-    {
-      "id": "002",
-      "img": "https://assets.appsmith.com/widgets/default.png",
-      "name": "Green"
-    },
-    {
-      "id": "003",
-      "img": "https://assets.appsmith.com/widgets/default.png",
-      "name": "Red"
-    }
-  ],
+  "listData": "{{getRecs.data}}",
   "mainCanvasId": "3e0l3j9bxg",
   "mainContainerId": "n6i5xke9mp",
   "minWidth": 450,

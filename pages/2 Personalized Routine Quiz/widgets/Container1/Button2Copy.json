@@ -38,7 +38,7 @@
   "mobileRightColumn": 43,
   "mobileTopRow": 2,
   "needsErrorInfo": false,
-  "onClick": "{{storeValue(\"skinType\", \"Oily Skin\");}}",
+  "onClick": "{{storeValue(\"skinType\", \"Oily Skin\"); storeValue('skinId', 1);}}",
   "originalBottomRow": 32,
   "originalTopRow": 24,
   "parentColumnSpace": 4.45703125,

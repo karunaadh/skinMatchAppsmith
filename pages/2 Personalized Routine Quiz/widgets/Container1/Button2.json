@@ -14,7 +14,11 @@
       "key": "borderRadius"
     }
   ],
-  "dynamicPropertyPathList": [],
+  "dynamicPropertyPathList": [
+    {
+      "key": "onClick"
+    }
+  ],
   "dynamicTriggerPathList": [
     {
       "key": "onClick"
@@ -34,7 +38,7 @@
   "mobileRightColumn": 43,
   "mobileTopRow": 2,
   "needsErrorInfo": false,
-  "onClick": "{{storeValue(\"skinType\", \"Dry Skin\");}}",
+  "onClick": "{{storeValue(\"skinType\", \"Dry Skin\");\nstoreValue('skinId', 2);}}",
   "originalBottomRow": 32,
   "originalTopRow": 24,
   "parentColumnSpace": 4.45703125,

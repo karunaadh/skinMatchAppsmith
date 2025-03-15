@@ -38,7 +38,7 @@
   "mobileRightColumn": 43,
   "mobileTopRow": 2,
   "needsErrorInfo": false,
-  "onClick": "{{storeValue(\"skinType\", \"Combo Skin\");}}",
+  "onClick": "{{storeValue(\"skinType\", \"Combonation Skin\");storeValue('skinId', 3);}}",
   "originalBottomRow": 32,
   "originalTopRow": 24,
   "parentColumnSpace": 4.45703125,

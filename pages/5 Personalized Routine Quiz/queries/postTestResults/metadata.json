@@ -1,6 +1,6 @@
 {
-  "gitSyncId": "67c77e8497527c2134c46e49_c3aed1c2-f90c-4c36-9cd9-8acff2672b57",
-  "id": "Individual_product_page_postReview",
+  "gitSyncId": "67c77e8497527c2134c46e49_45052077-004f-4e94-ad66-225ff26f5963",
+  "id": "5 Personalized Routine Quiz_postTestResults",
   "pluginId": "restapi-plugin",
   "pluginType": "API",
   "unpublishedAction": {
@@ -11,17 +11,17 @@
           "value": "application/json"
         }
       ],
-      "body": "{\n \"userId\": \"{{appsmith.store.loggedUser}}\",\n\t\"productId\": \"{{appsmith.URL.queryParams.item}}\",\n\t\"reviewBody\" : \"{{RichTextEditor1.text}}\",\n\t\"score\": \"{{Rating2.value}}\",\n\t\"date\": {{DatePicker1.selectedDate.slice(0,10)}}\n}",
+      "body": "{\n            \"skinType\" : {{appsmith.store.skinId}},\n            \"avoidIngredients\": {{MultiSelect1.selectedOptionValues}},\n            \"budget\" : {{appsmith.store.budget}},\n            \"user\" : {{appsmith.store.loggedUser}}\n        }",
       "bodyFormData": [],
       "encodeParamsToggle": true,
       "formData": {
         "apiContentType": "application/json"
       },
       "headers": [],
-      "httpMethod": "PUT",
+      "httpMethod": "POST",
       "httpVersion": "HTTP11",
       "paginationType": "NONE",
-      "path": "/reviews/{{appsmith.URL.queryParams.item}}/{{appsmith.store.loggedUser}}",
+      "path": "/test-results/",
       "pluginSpecifiedTemplates": [
         {
           "value": true
@@ -40,14 +40,11 @@
     "dynamicBindingPathList": [
       {
         "key": "body"
-      },
-      {
-        "key": "path"
       }
     ],
     "executeOnLoad": false,
-    "name": "postReview",
-    "pageId": "Individual_product_page",
+    "name": "postTestResults",
+    "pageId": "5 Personalized Routine Quiz",
     "userSetOnLoad": false
   }
 }

@@ -33,7 +33,7 @@
   "mobileRightColumn": 32,
   "mobileTopRow": 25,
   "needsErrorInfo": false,
-  "onClick": "{{storeValue(\"irritants\", MultiTreeSelect1.selectedOptionValues);\nnavigateTo('Quiz Results Page', {}, 'SAME_WINDOW')}}",
+  "onClick": "{{postTestResults.run();\nnavigateTo('Quiz Results Page', {}, 'SAME_WINDOW')\n}}",
   "originalBottomRow": 27,
   "originalTopRow": 23,
   "parentColumnSpace": 8.29638671875,

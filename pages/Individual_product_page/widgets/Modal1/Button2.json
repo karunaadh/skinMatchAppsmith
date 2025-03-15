@@ -33,7 +33,7 @@
   "mobileRightColumn": 63,
   "mobileTopRow": 18,
   "needsErrorInfo": false,
-  "onClick": "{{postReview.run();\ngetReviews.run();\ncloseModal(Modal1.name);\ngetAverageScore.run()}}",
+  "onClick": "{{putReview.run();\ngetReviews.run();\ncloseModal(Modal1.name);\ngetAverageScore.run()}}",
   "originalBottomRow": 39,
   "originalTopRow": 35,
   "parentId": "5g4sbqz3pu",
