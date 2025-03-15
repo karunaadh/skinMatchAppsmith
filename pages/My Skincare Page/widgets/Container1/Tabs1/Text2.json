@@ -43,7 +43,7 @@
   "responsiveBehavior": "fill",
   "rightColumn": 36,
   "shouldTruncate": false,
-  "text": "**Skincare Test Results**",
+  "text": "Skincare Test Results",
   "textAlign": "LEFT",
   "textColor": "{{appsmith.theme.colors.primaryColor}}",
   "topRow": 0,

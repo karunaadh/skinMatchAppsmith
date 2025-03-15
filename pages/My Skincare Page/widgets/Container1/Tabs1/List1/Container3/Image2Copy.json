@@ -1,10 +1,13 @@
 {
   "animateLoading": true,
   "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-  "bottomRow": 12,
+  "bottomRow": 10,
   "boxShadow": "none",
   "defaultImage": "https://assets.appsmith.com/widgets/default.png",
   "dynamicBindingPathList": [
+    {
+      "key": "image"
+    },
     {
       "key": "borderRadius"
     }
@@ -13,27 +16,25 @@
   "enableDownload": false,
   "enableRotation": false,
   "flexVerticalAlignment": "start",
-  "image": "https://cdn1.iconfinder.com/data/icons/beauty-and-cosmetic-line-color-aesthetics/512/skincare-1024.png",
+  "image": "{{currentItem.imageURL}}",
   "imageShape": "RECTANGLE",
   "isLoading": false,
   "isVisible": true,
-  "key": "v7qceyczx9",
-  "leftColumn": 2,
+  "key": "nzdutre0tk",
+  "leftColumn": 0,
   "maxZoomLevel": 1,
-  "mobileBottomRow": 13,
-  "mobileLeftColumn": 4,
+  "mobileBottomRow": 8,
+  "mobileLeftColumn": 0,
   "mobileRightColumn": 16,
-  "mobileTopRow": 1,
+  "mobileTopRow": 0,
   "needsErrorInfo": false,
-  "objectFit": "cover",
-  "parentColumnSpace": 6.986328125,
-  "parentId": "ksl4m1zhfb",
-  "parentRowSpace": 10,
+  "objectFit": "contain",
+  "parentId": "141b6oybjq",
   "renderMode": "CANVAS",
-  "rightColumn": 19,
+  "rightColumn": 21,
   "topRow": 0,
   "type": "IMAGE_WIDGET",
   "version": 1,
-  "widgetId": "jqiai8kpqk",
-  "widgetName": "Image2"
+  "widgetId": "4hxsqopgww",
+  "widgetName": "Image2Copy"
 }

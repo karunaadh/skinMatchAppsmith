@@ -1,7 +1,7 @@
 {
   "animateLoading": true,
   "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-  "bottomRow": 31,
+  "bottomRow": 14,
   "dynamicBindingPathList": [
     {
       "key": "truncateButtonColor"
@@ -11,6 +11,9 @@
     },
     {
       "key": "borderRadius"
+    },
+    {
+      "key": "textColor"
     }
   ],
   "dynamicHeight": "AUTO_HEIGHT",
@@ -20,33 +23,33 @@
   "fontStyle": "",
   "isLoading": false,
   "isVisible": true,
-  "key": "rye7ht7ahm",
+  "key": "sgojymgo3d",
   "leftColumn": 0,
   "maxDynamicHeight": 9000,
   "minDynamicHeight": 4,
   "minWidth": 450,
   "mobileBottomRow": 14,
-  "mobileLeftColumn": 1,
-  "mobileRightColumn": 17,
+  "mobileLeftColumn": 23,
+  "mobileRightColumn": 39,
   "mobileTopRow": 10,
   "needsErrorInfo": false,
-  "originalBottomRow": 31,
-  "originalTopRow": 18,
+  "originalBottomRow": 14,
+  "originalTopRow": 10,
   "overflow": "NONE",
-  "parentColumnSpace": 12.267578125,
-  "parentId": "stv28fkt7e",
+  "parentColumnSpace": 9.46484375,
+  "parentId": "x90b66s38p",
   "parentRowSpace": 10,
   "renderMode": "CANVAS",
   "responsiveBehavior": "fill",
-  "rightColumn": 40,
+  "rightColumn": 10,
   "shouldTruncate": false,
-  "text": "Its easy to get overwhelmed by the amount of skincare products in the market. \n\nOur misson at SkinMatch is to find the best skincare product for you! By identifying your needs and concerns and recommending products by ingredients that help you glow!\n\n",
+  "text": "Concerns:",
   "textAlign": "LEFT",
-  "textColor": "#231F20",
-  "topRow": 18,
+  "textColor": "{{appsmith.theme.colors.primaryColor}}",
+  "topRow": 10,
   "truncateButtonColor": "{{appsmith.theme.colors.primaryColor}}",
   "type": "TEXT_WIDGET",
   "version": 1,
-  "widgetId": "ogonguhj7y",
-  "widgetName": "Text1"
+  "widgetId": "zfaeooke31",
+  "widgetName": "Text8"
 }

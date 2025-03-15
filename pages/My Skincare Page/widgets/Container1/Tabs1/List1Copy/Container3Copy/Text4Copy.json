@@ -1,8 +1,12 @@
 {
   "animateLoading": true,
   "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-  "bottomRow": 31,
+  "bottomRow": 14,
+  "boxShadow": "none",
   "dynamicBindingPathList": [
+    {
+      "key": "text"
+    },
     {
       "key": "truncateButtonColor"
     },
@@ -11,42 +15,45 @@
     },
     {
       "key": "borderRadius"
+    },
+    {
+      "key": "text"
+    },
+    {
+      "key": "textColor"
     }
   ],
-  "dynamicHeight": "AUTO_HEIGHT",
+  "dynamicHeight": "FIXED",
   "dynamicTriggerPathList": [],
   "fontFamily": "{{appsmith.theme.fontFamily.appFont}}",
-  "fontSize": "0.875rem",
+  "fontSize": "1rem",
   "fontStyle": "",
   "isLoading": false,
   "isVisible": true,
-  "key": "rye7ht7ahm",
-  "leftColumn": 0,
+  "key": "34rdi81szq",
+  "leftColumn": 4,
   "maxDynamicHeight": 9000,
   "minDynamicHeight": 4,
   "minWidth": 450,
-  "mobileBottomRow": 14,
-  "mobileLeftColumn": 1,
-  "mobileRightColumn": 17,
-  "mobileTopRow": 10,
+  "mobileBottomRow": 8,
+  "mobileLeftColumn": 16,
+  "mobileRightColumn": 24,
+  "mobileTopRow": 4,
   "needsErrorInfo": false,
-  "originalBottomRow": 31,
-  "originalTopRow": 18,
   "overflow": "NONE",
-  "parentColumnSpace": 12.267578125,
-  "parentId": "stv28fkt7e",
-  "parentRowSpace": 10,
+  "parentId": "d63k4plmkt",
   "renderMode": "CANVAS",
   "responsiveBehavior": "fill",
-  "rightColumn": 40,
+  "rightColumn": 17,
   "shouldTruncate": false,
-  "text": "Its easy to get overwhelmed by the amount of skincare products in the market. \n\nOur misson at SkinMatch is to find the best skincare product for you! By identifying your needs and concerns and recommending products by ingredients that help you glow!\n\n",
+  "text": "${{currentItem.price}}",
   "textAlign": "LEFT",
-  "textColor": "#231F20",
-  "topRow": 18,
+  "textColor": "{{appsmith.theme.colors.primaryColor}}",
+  "textStyle": "BODY",
+  "topRow": 10,
   "truncateButtonColor": "{{appsmith.theme.colors.primaryColor}}",
   "type": "TEXT_WIDGET",
   "version": 1,
-  "widgetId": "ogonguhj7y",
-  "widgetName": "Text1"
+  "widgetId": "y9qrt93li8",
+  "widgetName": "Text4Copy"
 }

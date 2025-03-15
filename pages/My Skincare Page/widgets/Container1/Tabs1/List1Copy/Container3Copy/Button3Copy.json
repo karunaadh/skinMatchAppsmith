@@ -1,19 +1,24 @@
 {
   "animateLoading": true,
   "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-  "bottomRow": 4,
+  "bottomRow": 13,
   "boxShadow": "none",
   "buttonColor": "{{appsmith.theme.colors.primaryColor}}",
-  "buttonVariant": "PRIMARY",
+  "buttonVariant": "TERTIARY",
   "disabledWhenInvalid": false,
   "dynamicBindingPathList": [
+    {
+      "key": "buttonColor"
+    },
     {
       "key": "borderRadius"
     },
     {
-      "key": "buttonColor"
+      "key": "text"
     }
   ],
+  "dynamicHeight": "FIXED",
+  "dynamicPropertyPathList": [],
   "dynamicTriggerPathList": [
     {
       "key": "onClick"
@@ -23,30 +28,28 @@
   "isDisabled": false,
   "isLoading": false,
   "isVisible": true,
-  "key": "vwk8ubtfm3",
-  "leftColumn": 40,
+  "key": "tampkfi4vd",
+  "leftColumn": 22,
   "minWidth": 120,
-  "mobileBottomRow": 15,
-  "mobileLeftColumn": 22,
-  "mobileRightColumn": 38,
-  "mobileTopRow": 11,
+  "mobileBottomRow": 8,
+  "mobileLeftColumn": 38,
+  "mobileRightColumn": 54,
+  "mobileTopRow": 4,
   "needsErrorInfo": false,
-  "onClick": "{{navigateTo('1 Personalized Routine Quiz', {}, 'SAME_WINDOW');}}",
-  "originalBottomRow": 87,
-  "originalTopRow": 83,
-  "parentColumnSpace": 6.986328125,
-  "parentId": "x90b66s38p",
+  "onClick": "{{navigateTo('Individual_product_page', navigateTo(String(\"Individual_product_page\"), {\n  item: currentItem.id\n}), 'SAME_WINDOW');}}",
+  "parentColumnSpace": 5.45941162109375,
+  "parentId": "d63k4plmkt",
   "parentRowSpace": 10,
   "placement": "CENTER",
   "recaptchaType": "V3",
   "renderMode": "CANVAS",
   "resetFormOnClick": false,
   "responsiveBehavior": "hug",
-  "rightColumn": 62,
-  "text": "Take Skincare Test",
-  "topRow": 0,
+  "rightColumn": 63,
+  "text": "{{currentItem.brand}}\n{{currentItem.name}}",
+  "topRow": 4,
   "type": "BUTTON_WIDGET",
   "version": 1,
-  "widgetId": "kcsmf1p15m",
-  "widgetName": "Button1"
+  "widgetId": "e7eegq9asz",
+  "widgetName": "Button3Copy"
 }
