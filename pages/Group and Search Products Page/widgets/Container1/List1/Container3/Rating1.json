@@ -2,10 +2,13 @@
   "activeColor": "{{appsmith.theme.colors.primaryColor}}",
   "animateLoading": true,
   "bottomRow": 4,
-  "defaultRate": "",
+  "defaultRate": "{{getAverageScore.data}}",
   "dynamicBindingPathList": [
     {
       "key": "activeColor"
+    },
+    {
+      "key": "defaultRate"
     }
   ],
   "dynamicHeight": "FIXED",
