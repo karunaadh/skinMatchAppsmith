@@ -40,7 +40,7 @@
   "responsiveBehavior": "fill",
   "rightColumn": 62,
   "shouldTruncate": false,
-  "text": "{{currentItem.}}\n",
+  "text": "{{currentItem}}\n",
   "textAlign": "LEFT",
   "textColor": "#231F20",
   "textStyle": "HEADING",
