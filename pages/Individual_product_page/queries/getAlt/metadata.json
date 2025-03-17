@@ -1,6 +1,6 @@
 {
-  "gitSyncId": "67c77e8497527c2134c46e49_a6342312-be99-4f55-8dbd-312eff2f7669",
-  "id": "Group and Search Products Page_getAverageScore",
+  "gitSyncId": "67c77e8497527c2134c46e49_72baaca8-b0b1-48d2-a22e-41b77c130ca5",
+  "id": "Individual_product_page_getAlt",
   "pluginId": "restapi-plugin",
   "pluginType": "API",
   "unpublishedAction": {
@@ -16,7 +16,7 @@
       "httpMethod": "GET",
       "httpVersion": "HTTP11",
       "paginationType": "NONE",
-      "path": "reviews/{{currentItem.id}}/average",
+      "path": "/products/{{Number(appsmith.URL.queryParams.item)}}/alt",
       "pluginSpecifiedTemplates": [
         {
           "value": true
@@ -38,8 +38,8 @@
       }
     ],
     "executeOnLoad": true,
-    "name": "getAverageScore",
-    "pageId": "Group and Search Products Page",
+    "name": "getAlt",
+    "pageId": "Individual_product_page",
     "userSetOnLoad": false
   }
 }

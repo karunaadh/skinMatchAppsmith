@@ -16,7 +16,7 @@
       "httpMethod": "GET",
       "httpVersion": "HTTP11",
       "paginationType": "NONE",
-      "path": "/reviews/{{appsmith.URL.queryParams.item}}/average",
+      "path": "/reviews/{{currentItem.id}}/average",
       "pluginSpecifiedTemplates": [
         {
           "value": true
@@ -37,7 +37,7 @@
         "key": "path"
       }
     ],
-    "executeOnLoad": true,
+    "executeOnLoad": false,
     "name": "getAverageScore",
     "pageId": "Individual_product_page",
     "userSetOnLoad": false
