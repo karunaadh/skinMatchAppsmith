@@ -3,17 +3,15 @@
   "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
   "bottomRow": 4,
   "boxShadow": "none",
-  "buttonColor": "{{appsmith.theme.colors.primaryColor}}",
+  "buttonColor": "#16233b",
   "buttonVariant": "TERTIARY",
   "disabledWhenInvalid": false,
   "dynamicBindingPathList": [
     {
-      "key": "buttonColor"
-    },
-    {
       "key": "borderRadius"
     }
   ],
+  "dynamicPropertyPathList": [],
   "dynamicTriggerPathList": [
     {
       "key": "onClick"
@@ -23,16 +21,18 @@
   "isDisabled": false,
   "isLoading": false,
   "isVisible": true,
-  "key": "b8790111pb",
-  "leftColumn": 5,
+  "key": "jmejp376ci",
+  "leftColumn": 0,
   "minWidth": 120,
-  "mobileBottomRow": 4,
-  "mobileLeftColumn": 5,
-  "mobileRightColumn": 21,
-  "mobileTopRow": 0,
+  "mobileBottomRow": 17,
+  "mobileLeftColumn": 7,
+  "mobileRightColumn": 23,
+  "mobileTopRow": 13,
   "needsErrorInfo": false,
-  "onClick": "{{navigateTo('Home Page', {}, 'SAME_WINDOW');}}",
-  "parentColumnSpace": 17.064453125,
+  "onClick": "{{showModal(Modal1.name);}}",
+  "originalBottomRow": 42,
+  "originalTopRow": 38,
+  "parentColumnSpace": 8.33984375,
   "parentId": "ph1hzl7620",
   "parentRowSpace": 10,
   "placement": "CENTER",
@@ -45,6 +45,6 @@
   "topRow": 0,
   "type": "BUTTON_WIDGET",
   "version": 1,
-  "widgetId": "c8wh71yqyo",
-  "widgetName": "Button3"
+  "widgetId": "bpz43uxmse",
+  "widgetName": "Button2Copy2"
 }

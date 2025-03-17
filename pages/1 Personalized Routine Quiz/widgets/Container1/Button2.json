@@ -1,17 +1,14 @@
 {
   "animateLoading": true,
   "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-  "bottomRow": 41,
+  "bottomRow": 43,
   "boxShadow": "0 1px 3px 0 rgba(0, 0, 0, 0.1), 0 1px 2px 0 rgba(0, 0, 0, 0.06)",
-  "buttonColor": "{{appsmith.theme.colors.primaryColor}}",
+  "buttonColor": "#16233b",
   "buttonVariant": "SECONDARY",
   "disabledWhenInvalid": false,
   "dynamicBindingPathList": [
     {
       "key": "borderRadius"
-    },
-    {
-      "key": "buttonColor"
     }
   ],
   "dynamicTriggerPathList": [
@@ -24,7 +21,7 @@
   "isLoading": false,
   "isVisible": true,
   "key": "6uyzw8zhki",
-  "leftColumn": 0,
+  "leftColumn": 1,
   "minWidth": 120,
   "mobileBottomRow": 48,
   "mobileLeftColumn": 2,
@@ -42,9 +39,9 @@
   "renderMode": "CANVAS",
   "resetFormOnClick": false,
   "responsiveBehavior": "hug",
-  "rightColumn": 34,
+  "rightColumn": 35,
   "text": "If quiz already taken, view results HERE",
-  "topRow": 36,
+  "topRow": 38,
   "type": "BUTTON_WIDGET",
   "version": 1,
   "widgetId": "dc5jqwoqux",

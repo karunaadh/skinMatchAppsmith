@@ -7,7 +7,7 @@
     "metaWidgetId"
   ],
   "animateLoading": true,
-  "backgroundColor": "transparent",
+  "backgroundColor": "{{appsmith.theme.colors.backgroundColor}}",
   "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
   "bottomRow": 30,
   "boxShadow": "{{appsmith.theme.boxShadow.appBoxShadow}}",
@@ -83,6 +83,9 @@
     },
     {
       "key": "listData"
+    },
+    {
+      "key": "backgroundColor"
     }
   ],
   "dynamicTriggerPathList": [],

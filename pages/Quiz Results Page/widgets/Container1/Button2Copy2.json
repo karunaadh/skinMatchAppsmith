@@ -12,7 +12,11 @@
     }
   ],
   "dynamicPropertyPathList": [],
-  "dynamicTriggerPathList": [],
+  "dynamicTriggerPathList": [
+    {
+      "key": "onClick"
+    }
+  ],
   "isDefaultClickDisabled": true,
   "isDisabled": false,
   "isLoading": false,
@@ -25,19 +29,22 @@
   "mobileRightColumn": 23,
   "mobileTopRow": 13,
   "needsErrorInfo": false,
+  "onClick": "{{showModal(Modal1.name);}}",
+  "originalBottomRow": 51,
+  "originalTopRow": 47,
   "parentColumnSpace": 8.33984375,
-  "parentId": "stv28fkt7e",
+  "parentId": "ph1hzl7620",
   "parentRowSpace": 10,
   "placement": "CENTER",
   "recaptchaType": "V3",
   "renderMode": "CANVAS",
   "resetFormOnClick": false,
   "responsiveBehavior": "hug",
-  "rightColumn": 17,
+  "rightColumn": 15,
   "text": "SkinMatch",
   "topRow": 0,
   "type": "BUTTON_WIDGET",
   "version": 1,
-  "widgetId": "fu227xruhc",
-  "widgetName": "Button2"
+  "widgetId": "ggvxp4mvle",
+  "widgetName": "Button2Copy2"
 }

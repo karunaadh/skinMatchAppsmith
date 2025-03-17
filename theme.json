@@ -33,7 +33,7 @@
         "Ubuntu"
       ]
     },
-    "order": 8.0
+    "order": 8
   },
   "displayName": "Moon",
   "isSystemTheme": false,
@@ -46,7 +46,7 @@
       "appBoxShadow": "none"
     },
     "colors": {
-      "backgroundColor": "#f8fafc",
+      "backgroundColor": "#f3f4ed",
       "primaryColor": "#5f7491"
     },
     "fontFamily": {

@@ -11,7 +11,7 @@
           "value": "application/json"
         }
       ],
-      "body": "{\n            \"skinType\" : {{appsmith.store.skinId}},\n            \"avoidIngredients\": {{MultiSelect1.selectedOptionValues}},\n            \"budget\" : {{appsmith.store.budget}},\n            \"user\" : {{appsmith.store.loggedUser}}\n        }",
+      "body": "{\n            \"skinType\" : {{appsmith.store.skinId}},\n            \"avoidIngredients\": {{MultiSelect1.selectedOptionValues}},\n            \"budget\" : {{appsmith.store.budget}},\n            \"user\" : {{appsmith.store.loggedUser}},\n\t\t\t\t\t\t\"concerns\": {{appsmith.store.concernIds}}\n        }",
       "bodyFormData": [],
       "encodeParamsToggle": true,
       "formData": {
@@ -21,7 +21,7 @@
       "httpMethod": "POST",
       "httpVersion": "HTTP11",
       "paginationType": "NONE",
-      "path": "/test-results/",
+      "path": "/test-results",
       "pluginSpecifiedTemplates": [
         {
           "value": true

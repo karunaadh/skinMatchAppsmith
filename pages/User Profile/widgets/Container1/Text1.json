@@ -14,10 +14,10 @@
       "key": "backgroundColor"
     },
     {
-      "key": "textColor"
+      "key": "text"
     },
     {
-      "key": "text"
+      "key": "textColor"
     }
   ],
   "dynamicHeight": "AUTO_HEIGHT",

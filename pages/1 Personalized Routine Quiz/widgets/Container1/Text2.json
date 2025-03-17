@@ -3,13 +3,10 @@
   "backgroundColor": "",
   "borderColor": "{{appsmith.theme.colors.backgroundColor}}",
   "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-  "bottomRow": 14,
+  "bottomRow": 16,
   "dynamicBindingPathList": [
     {
       "key": "truncateButtonColor"
-    },
-    {
-      "key": "fontFamily"
     },
     {
       "key": "borderRadius"
@@ -23,7 +20,7 @@
   ],
   "dynamicHeight": "AUTO_HEIGHT",
   "dynamicTriggerPathList": [],
-  "fontFamily": "{{appsmith.theme.fontFamily.appFont}}",
+  "fontFamily": "Roboto",
   "fontSize": "1rem",
   "fontStyle": "ITALIC",
   "isLoading": false,
@@ -38,8 +35,8 @@
   "mobileRightColumn": 22,
   "mobileTopRow": 7,
   "needsErrorInfo": false,
-  "originalBottomRow": 14,
-  "originalTopRow": 10,
+  "originalBottomRow": 16,
+  "originalTopRow": 12,
   "overflow": "NONE",
   "parentColumnSpace": 8.29638671875,
   "parentId": "ph1hzl7620",
@@ -51,7 +48,7 @@
   "text": "Build your personalized skincare routine now",
   "textAlign": "LEFT",
   "textColor": "{{appsmith.theme.colors.primaryColor}}",
-  "topRow": 10,
+  "topRow": 12,
   "truncateButtonColor": "{{appsmith.theme.colors.primaryColor}}",
   "type": "TEXT_WIDGET",
   "version": 1,

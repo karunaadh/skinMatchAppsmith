@@ -2,5 +2,6 @@
             "skinType" : {{appsmith.store.skinId}},
             "avoidIngredients": {{MultiSelect1.selectedOptionValues}},
             "budget" : {{appsmith.store.budget}},
-            "user" : {{appsmith.store.loggedUser}}
+            "user" : {{appsmith.store.loggedUser}},
+						"concerns": {{appsmith.store.concernIds}}
         }

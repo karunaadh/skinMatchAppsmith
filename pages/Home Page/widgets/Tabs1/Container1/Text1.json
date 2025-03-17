@@ -7,15 +7,15 @@
       "key": "truncateButtonColor"
     },
     {
-      "key": "fontFamily"
+      "key": "borderRadius"
     },
     {
-      "key": "borderRadius"
+      "key": "textColor"
     }
   ],
   "dynamicHeight": "AUTO_HEIGHT",
   "dynamicTriggerPathList": [],
-  "fontFamily": "{{appsmith.theme.fontFamily.appFont}}",
+  "fontFamily": "Roboto",
   "fontSize": "0.875rem",
   "fontStyle": "",
   "isLoading": false,
@@ -42,7 +42,7 @@
   "shouldTruncate": false,
   "text": "Its easy to get overwhelmed by the amount of skincare products in the market. \n\nOur misson at SkinMatch is to find the best skincare product for you! By identifying your needs and concerns and recommending products by ingredients that help you glow!\n\n",
   "textAlign": "LEFT",
-  "textColor": "#231F20",
+  "textColor": "{{appsmith.theme.colors.primaryColor}}",
   "topRow": 18,
   "truncateButtonColor": "{{appsmith.theme.colors.primaryColor}}",
   "type": "TEXT_WIDGET",
