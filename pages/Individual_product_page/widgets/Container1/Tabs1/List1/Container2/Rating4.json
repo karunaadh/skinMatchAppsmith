@@ -2,7 +2,7 @@
   "activeColor": "#eab308",
   "animateLoading": true,
   "bottomRow": 4,
-  "defaultRate": "{{currentItem.}}/",
+  "defaultRate": "{{currentItem.averageScore}}",
   "dynamicBindingPathList": [
     {
       "key": "defaultRate"
