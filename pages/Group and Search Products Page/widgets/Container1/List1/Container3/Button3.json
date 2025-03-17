@@ -18,7 +18,11 @@
     }
   ],
   "dynamicHeight": "FIXED",
-  "dynamicPropertyPathList": [],
+  "dynamicPropertyPathList": [
+    {
+      "key": "onClick"
+    }
+  ],
   "dynamicTriggerPathList": [
     {
       "key": "onClick"
@@ -36,7 +40,7 @@
   "mobileRightColumn": 54,
   "mobileTopRow": 4,
   "needsErrorInfo": false,
-  "onClick": "{{navigateTo('Individual_product_page', navigateTo(String(\"Individual_product_page\"), {\n  item: currentItem.id\n}), 'SAME_WINDOW');}}",
+  "onClick": "{{navigateTo('Individual_product_page', {\n  item: currentItem.id\n}, 'SAME_WINDOW');}}",
   "parentColumnSpace": 5.45941162109375,
   "parentId": "7sdfta492k",
   "parentRowSpace": 10,

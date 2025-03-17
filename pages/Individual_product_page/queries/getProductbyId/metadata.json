@@ -1,6 +1,6 @@
 {
   "gitSyncId": "67c77e8497527c2134c46e49_411cad0f-b93e-4c0e-bd24-35c1824a4eeb",
-  "id": "Individual_product_page_getProduct",
+  "id": "Individual_product_page_getProductbyId",
   "pluginId": "restapi-plugin",
   "pluginType": "API",
   "unpublishedAction": {
@@ -16,7 +16,7 @@
       "httpMethod": "GET",
       "httpVersion": "HTTP11",
       "paginationType": "NONE",
-      "path": "/products/{{appsmith.URL.queryParams.item}}",
+      "path": "/products/{{Number(appsmith.URL.queryParams.item)}}",
       "pluginSpecifiedTemplates": [
         {
           "value": true
@@ -38,7 +38,7 @@
       }
     ],
     "executeOnLoad": true,
-    "name": "getProduct",
+    "name": "getProductbyId",
     "pageId": "Individual_product_page",
     "userSetOnLoad": false
   }

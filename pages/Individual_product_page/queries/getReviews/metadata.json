@@ -16,7 +16,7 @@
       "httpMethod": "GET",
       "httpVersion": "HTTP11",
       "paginationType": "NONE",
-      "path": "/reviews/{{appsmith.URL.queryParams.item}}/{{appsmith.store.loggedUser}}",
+      "path": "/reviews/{{Number(appsmith.URL.queryParams.item)}}",
       "pluginSpecifiedTemplates": [
         {
           "value": true

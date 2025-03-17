@@ -97,7 +97,7 @@
   "itemSpacing": 8,
   "key": "7tcnci711x",
   "leftColumn": 2,
-  "listData": "{{getProduct.data.ingredients\n}}",
+  "listData": "{{getProductbyId.data.ingredients\n}}",
   "mainCanvasId": "3vvcvddw5k",
   "mainContainerId": "cfd808pwd1",
   "minWidth": 450,
