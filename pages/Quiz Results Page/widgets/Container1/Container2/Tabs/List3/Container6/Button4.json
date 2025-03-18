@@ -18,7 +18,16 @@
     }
   ],
   "dynamicHeight": "FIXED",
-  "dynamicTriggerPathList": [],
+  "dynamicPropertyPathList": [
+    {
+      "key": "onClick"
+    }
+  ],
+  "dynamicTriggerPathList": [
+    {
+      "key": "onClick"
+    }
+  ],
   "isDefaultClickDisabled": true,
   "isDisabled": false,
   "isLoading": false,
@@ -31,6 +40,7 @@
   "mobileRightColumn": 27,
   "mobileTopRow": 5,
   "needsErrorInfo": false,
+  "onClick": "{{navigateTo('Individual_product_page', {item: }, 'SAME_WINDOW');}}",
   "parentColumnSpace": 11.117262840270996,
   "parentId": "kpympstpx2",
   "parentRowSpace": 10,

@@ -29,7 +29,7 @@
   "mobileRightColumn": 23,
   "mobileTopRow": 13,
   "needsErrorInfo": false,
-  "onClick": "{{showModal(Modal1.name);}}",
+  "onClick": "{{navigateTo('Home Page', {}, 'SAME_WINDOW');}}",
   "originalBottomRow": 51,
   "originalTopRow": 47,
   "parentColumnSpace": 8.33984375,

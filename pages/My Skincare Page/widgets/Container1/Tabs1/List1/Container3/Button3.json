@@ -1,7 +1,7 @@
 {
   "animateLoading": true,
   "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-  "bottomRow": 13,
+  "bottomRow": 9,
   "boxShadow": "none",
   "buttonColor": "{{appsmith.theme.colors.primaryColor}}",
   "buttonVariant": "TERTIARY",
@@ -18,7 +18,11 @@
     }
   ],
   "dynamicHeight": "FIXED",
-  "dynamicPropertyPathList": [],
+  "dynamicPropertyPathList": [
+    {
+      "key": "onClick"
+    }
+  ],
   "dynamicTriggerPathList": [
     {
       "key": "onClick"
@@ -29,14 +33,14 @@
   "isLoading": false,
   "isVisible": true,
   "key": "tampkfi4vd",
-  "leftColumn": 22,
+  "leftColumn": 21,
   "minWidth": 120,
   "mobileBottomRow": 8,
   "mobileLeftColumn": 38,
   "mobileRightColumn": 54,
   "mobileTopRow": 4,
   "needsErrorInfo": false,
-  "onClick": "{{navigateTo('Individual_product_page', navigateTo(String(\"Individual_product_page\"), {\n  item: currentItem.id\n}), 'SAME_WINDOW');}}",
+  "onClick": "{{navigateTo('Individual_product_page', {\n  item: currentItem.id\n}, 'SAME_WINDOW');}}",
   "parentColumnSpace": 5.45941162109375,
   "parentId": "141b6oybjq",
   "parentRowSpace": 10,
@@ -45,9 +49,9 @@
   "renderMode": "CANVAS",
   "resetFormOnClick": false,
   "responsiveBehavior": "hug",
-  "rightColumn": 63,
+  "rightColumn": 62,
   "text": "{{currentItem.brand}}\n{{currentItem.name}}",
-  "topRow": 4,
+  "topRow": 0,
   "type": "BUTTON_WIDGET",
   "version": 1,
   "widgetId": "i2h61ioelq",

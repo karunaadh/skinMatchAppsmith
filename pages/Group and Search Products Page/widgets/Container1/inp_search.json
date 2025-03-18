@@ -12,9 +12,6 @@
     },
     {
       "key": "borderRadius"
-    },
-    {
-      "key": "labelTextColor"
     }
   ],
   "dynamicHeight": "FIXED",
@@ -40,7 +37,7 @@
   "labelAlignment": "left",
   "labelPosition": "Top",
   "labelStyle": "",
-  "labelTextColor": "{{appsmith.theme.colors.primaryColor}}",
+  "labelTextColor": "#16233b",
   "labelTextSize": "1.25rem",
   "labelWidth": 5,
   "leftColumn": 0,

@@ -57,7 +57,7 @@
     }
   },
   "menuItemsSource": "STATIC",
-  "menuVariant": "PRIMARY",
+  "menuVariant": "SECONDARY",
   "mobileBottomRow": 4,
   "mobileLeftColumn": 0,
   "mobileRightColumn": 8,

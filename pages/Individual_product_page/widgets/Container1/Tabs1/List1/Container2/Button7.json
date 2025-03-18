@@ -18,19 +18,29 @@
     }
   ],
   "dynamicHeight": "FIXED",
-  "dynamicTriggerPathList": [],
+  "dynamicPropertyPathList": [
+    {
+      "key": "onClick"
+    }
+  ],
+  "dynamicTriggerPathList": [
+    {
+      "key": "onClick"
+    }
+  ],
   "isDefaultClickDisabled": true,
   "isDisabled": false,
   "isLoading": false,
   "isVisible": true,
   "key": "d0catyvzzo",
-  "leftColumn": 11,
+  "leftColumn": 10,
   "minWidth": 120,
   "mobileBottomRow": 9,
   "mobileLeftColumn": 18,
   "mobileRightColumn": 34,
   "mobileTopRow": 5,
   "needsErrorInfo": false,
+  "onClick": "{{navigateTo('Individual_product_page', {\n  item: currentItem.id\n}, 'SAME_WINDOW');\ngetProductbyId.run();\ngetAlt.run();\ngetReviews.run()}}\n",
   "parentColumnSpace": 11.0633544921875,
   "parentId": "m3rf36j62p",
   "parentRowSpace": 10,
@@ -39,9 +49,9 @@
   "renderMode": "CANVAS",
   "resetFormOnClick": false,
   "responsiveBehavior": "hug",
-  "rightColumn": 64,
-  "text": "{{currentItem.brand, currentItem.name}}",
-  "topRow": 4,
+  "rightColumn": 63,
+  "text": "{{currentItem.brand}} {{currentItem.name}}",
+  "topRow": 0,
   "type": "BUTTON_WIDGET",
   "version": 1,
   "widgetId": "lacvfsbuem",

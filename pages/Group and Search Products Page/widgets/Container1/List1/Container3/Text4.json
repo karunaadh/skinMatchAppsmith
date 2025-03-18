@@ -11,9 +11,6 @@
       "key": "truncateButtonColor"
     },
     {
-      "key": "fontFamily"
-    },
-    {
       "key": "borderRadius"
     },
     {
@@ -25,13 +22,13 @@
   ],
   "dynamicHeight": "FIXED",
   "dynamicTriggerPathList": [],
-  "fontFamily": "{{appsmith.theme.fontFamily.appFont}}",
+  "fontFamily": "Roboto",
   "fontSize": "1rem",
   "fontStyle": "",
   "isLoading": false,
   "isVisible": true,
   "key": "34rdi81szq",
-  "leftColumn": 4,
+  "leftColumn": 3,
   "maxDynamicHeight": 9000,
   "minDynamicHeight": 4,
   "minWidth": 450,
@@ -44,7 +41,7 @@
   "parentId": "7sdfta492k",
   "renderMode": "CANVAS",
   "responsiveBehavior": "fill",
-  "rightColumn": 17,
+  "rightColumn": 15,
   "shouldTruncate": false,
   "text": "${{currentItem.price}}",
   "textAlign": "LEFT",

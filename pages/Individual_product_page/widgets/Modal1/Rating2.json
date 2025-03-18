@@ -1,13 +1,9 @@
 {
-  "activeColor": "{{appsmith.theme.colors.primaryColor}}",
+  "activeColor": "#eab308",
   "animateLoading": true,
   "bottomRow": 5,
   "defaultRate": 3,
-  "dynamicBindingPathList": [
-    {
-      "key": "activeColor"
-    }
-  ],
+  "dynamicBindingPathList": [],
   "dynamicHeight": "AUTO_HEIGHT",
   "dynamicTriggerPathList": [],
   "inactiveColor": "#E0DEDE",

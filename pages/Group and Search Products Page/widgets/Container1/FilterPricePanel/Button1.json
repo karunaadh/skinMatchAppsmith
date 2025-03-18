@@ -1,10 +1,10 @@
 {
   "animateLoading": true,
   "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-  "bottomRow": 28,
+  "bottomRow": 27,
   "boxShadow": "none",
   "buttonColor": "{{appsmith.theme.colors.primaryColor}}",
-  "buttonVariant": "PRIMARY",
+  "buttonVariant": "SECONDARY",
   "disabledWhenInvalid": false,
   "dynamicBindingPathList": [
     {
@@ -29,7 +29,7 @@
   "isLoading": false,
   "isVisible": true,
   "key": "gkczicvs1d",
-  "leftColumn": 20,
+  "leftColumn": 17,
   "minWidth": 120,
   "mobileBottomRow": 28,
   "mobileLeftColumn": 24,
@@ -45,9 +45,9 @@
   "renderMode": "CANVAS",
   "resetFormOnClick": false,
   "responsiveBehavior": "hug",
-  "rightColumn": 64,
+  "rightColumn": 61,
   "text": "Apply Filters",
-  "topRow": 24,
+  "topRow": 22,
   "type": "BUTTON_WIDGET",
   "version": 1,
   "widgetId": "8jc15bll3y",

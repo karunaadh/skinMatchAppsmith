@@ -167,6 +167,24 @@
     },
     {
       "key": "schema.__root_schema__.children.imageURL.accentColor"
+    },
+    {
+      "key": "schema.__root_schema__.children.averageScore.defaultValue"
+    },
+    {
+      "key": "schema.__root_schema__.children.averageScore.borderRadius"
+    },
+    {
+      "key": "schema.__root_schema__.children.averageScore.accentColor"
+    },
+    {
+      "key": "schema.__root_schema__.children.alternativeProductsId.defaultValue"
+    },
+    {
+      "key": "schema.__root_schema__.children.alternativeProductsId.borderRadius"
+    },
+    {
+      "key": "schema.__root_schema__.children.alternativeProductsId.accentColor"
     }
   ],
   "dynamicHeight": "FIXED",
@@ -224,6 +242,66 @@
       "cellBorderRadius": "{{((sourceData, formData, fieldState) => (appsmith.theme.borderRadius.appBorderRadius))(update_form.sourceData, update_form.formData, update_form.fieldState)}}",
       "cellBoxShadow": "none",
       "children": {
+        "alternativeProductsId": {
+          "accentColor": "{{((sourceData, formData, fieldState) => ((appsmith.theme.colors.primaryColor)))(update_form.sourceData, update_form.formData, update_form.fieldState)}}",
+          "accessor": "alternativeProductsId",
+          "borderRadius": "{{((sourceData, formData, fieldState) => ((appsmith.theme.borderRadius.appBorderRadius)))(update_form.sourceData, update_form.formData, update_form.fieldState)}}",
+          "boxShadow": "none",
+          "children": {},
+          "dataType": "array",
+          "defaultValue": "{{((sourceData, formData, fieldState) => (sourceData.alternativeProductsId))(update_form.sourceData, update_form.formData, update_form.fieldState)}}",
+          "fieldType": "Multiselect",
+          "identifier": "alternativeProductsId",
+          "isCustomField": false,
+          "isDisabled": false,
+          "isFilterable": false,
+          "isRequired": false,
+          "isVisible": true,
+          "label": "Alternative Products Id",
+          "labelTextSize": "0.875rem",
+          "options": [
+            {
+              "label": "Blue",
+              "value": "BLUE"
+            },
+            {
+              "label": "Green",
+              "value": "GREEN"
+            },
+            {
+              "label": "Red",
+              "value": "RED"
+            }
+          ],
+          "originalIdentifier": "alternativeProductsId",
+          "position": 6,
+          "serverSideFiltering": false,
+          "sourceData": [
+            2
+          ]
+        },
+        "averageScore": {
+          "accentColor": "{{((sourceData, formData, fieldState) => ((appsmith.theme.colors.primaryColor)))(update_form.sourceData, update_form.formData, update_form.fieldState)}}",
+          "accessor": "averageScore",
+          "borderRadius": "{{((sourceData, formData, fieldState) => ((appsmith.theme.borderRadius.appBorderRadius)))(update_form.sourceData, update_form.formData, update_form.fieldState)}}",
+          "boxShadow": "none",
+          "children": {},
+          "dataType": "number",
+          "defaultValue": "{{((sourceData, formData, fieldState) => (sourceData.averageScore))(update_form.sourceData, update_form.formData, update_form.fieldState)}}",
+          "fieldType": "Number Input",
+          "iconAlign": "left",
+          "identifier": "averageScore",
+          "isCustomField": false,
+          "isDisabled": false,
+          "isRequired": false,
+          "isSpellCheck": false,
+          "isVisible": true,
+          "label": "Average Score",
+          "labelTextSize": "0.875rem",
+          "originalIdentifier": "averageScore",
+          "position": 5,
+          "sourceData": 3.5
+        },
         "brand": {
           "accentColor": "{{((sourceData, formData, fieldState) => ((appsmith.theme.colors.primaryColor)))(update_form.sourceData, update_form.formData, update_form.fieldState)}}",
           "accessor": "brand",

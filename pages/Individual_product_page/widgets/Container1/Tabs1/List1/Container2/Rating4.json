@@ -1,7 +1,7 @@
 {
   "activeColor": "#eab308",
   "animateLoading": true,
-  "bottomRow": 4,
+  "bottomRow": 17,
   "defaultRate": "{{currentItem.averageScore}}",
   "dynamicBindingPathList": [
     {
@@ -34,7 +34,7 @@
   "rightColumn": 63,
   "size": "LARGE",
   "tooltips": "",
-  "topRow": 0,
+  "topRow": 13,
   "type": "RATE_WIDGET",
   "widgetId": "vbektytf24",
   "widgetName": "Rating4"

@@ -1,16 +1,24 @@
 {
   "animateLoading": true,
   "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-  "bottomRow": 5,
+  "bottomRow": 10,
   "boxShadow": "none",
-  "buttonColor": "{{appsmith.theme.colors.primaryColor}}",
+  "buttonColor": "#d4d4d8",
   "buttonVariant": "TERTIARY",
   "dynamicBindingPathList": [
+    {
+      "key": "borderRadius"
+    }
+  ],
+  "dynamicPropertyPathList": [
+    {
+      "key": "isVisible"
+    },
     {
       "key": "buttonColor"
     },
     {
-      "key": "borderRadius"
+      "key": "onClick"
     }
   ],
   "dynamicTriggerPathList": [
@@ -18,28 +26,28 @@
       "key": "onClick"
     }
   ],
-  "iconName": "arrow-left",
+  "iconName": "heart",
   "isDisabled": false,
   "isLoading": false,
-  "isVisible": true,
-  "key": "p54drwwogk",
-  "leftColumn": 1,
+  "isVisible": "true",
+  "key": "wzr6nn0ks7",
+  "leftColumn": 5,
   "minWidth": 50,
   "mobileBottomRow": 4,
-  "mobileLeftColumn": 56,
-  "mobileRightColumn": 60,
+  "mobileLeftColumn": 60,
+  "mobileRightColumn": 64,
   "mobileTopRow": 0,
   "needsErrorInfo": false,
-  "onClick": "{{navigateTo('Group and Search Products Page', {}, 'SAME_WINDOW');}}",
-  "parentColumnSpace": 8.58203125,
+  "onClick": "{{toggleFavs.run().then(() => {\n  getFavs.run();\n  storeValue('favs', getFavs.data);\n});}}",
+  "parentColumnSpace": 12.580078125,
   "parentId": "y4hg2xh4fe",
   "parentRowSpace": 10,
   "renderMode": "CANVAS",
   "responsiveBehavior": "hug",
-  "rightColumn": 3,
-  "topRow": 1,
+  "rightColumn": 9,
+  "topRow": 6,
   "type": "ICON_BUTTON_WIDGET",
   "version": 1,
-  "widgetId": "xntvgu38om",
-  "widgetName": "IconButton4"
+  "widgetId": "ocncrvye05",
+  "widgetName": "IconButton6"
 }

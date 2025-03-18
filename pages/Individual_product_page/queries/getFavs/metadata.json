@@ -1,6 +1,6 @@
 {
-  "gitSyncId": "67c77e8497527c2134c46e49_84aeada5-68c8-4a22-8d2d-f92f6d627acb",
-  "id": "Individual_product_page_getAverageScore",
+  "gitSyncId": "67c77e8497527c2134c46e49_22d61b50-3877-4930-9870-aef98dcfc2f6",
+  "id": "Individual_product_page_getFavs",
   "pluginId": "restapi-plugin",
   "pluginType": "API",
   "unpublishedAction": {
@@ -16,7 +16,7 @@
       "httpMethod": "GET",
       "httpVersion": "HTTP11",
       "paginationType": "NONE",
-      "path": "/reviews/{{currentItem.id}}/average",
+      "path": "/users/{{appsmith.store.loggedUser}}/favs",
       "pluginSpecifiedTemplates": [
         {
           "value": true
@@ -38,7 +38,7 @@
       }
     ],
     "executeOnLoad": false,
-    "name": "getAverageScore",
+    "name": "getFavs",
     "pageId": "Individual_product_page",
     "userSetOnLoad": false
   }
