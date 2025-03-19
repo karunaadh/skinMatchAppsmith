@@ -112,18 +112,11 @@
       "key": "boxShadow"
     },
     {
-      "key": "isVisible"
-    },
-    {
       "key": "backgroundColor"
     }
   ],
   "dynamicHeight": "AUTO_HEIGHT",
-  "dynamicPropertyPathList": [
-    {
-      "key": "isVisible"
-    }
-  ],
+  "dynamicPropertyPathList": [],
   "dynamicTriggerPathList": [
     {
       "key": "onTabSelected"
@@ -132,7 +125,7 @@
   "flexVerticalAlignment": "stretch",
   "isCanvas": true,
   "isLoading": false,
-  "isVisible": "{{appsmith.store.isAuthenticated}}",
+  "isVisible": true,
   "key": "hrvh0u4tcn",
   "leftColumn": 10,
   "maxDynamicHeight": 9000,
