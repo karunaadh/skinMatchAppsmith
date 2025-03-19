@@ -132,7 +132,7 @@
   "flexVerticalAlignment": "stretch",
   "isCanvas": true,
   "isLoading": false,
-  "isVisible": "{{LoginRequired}}",
+  "isVisible": "{{appsmith.store.isAuthenticated}}",
   "key": "hrvh0u4tcn",
   "leftColumn": 10,
   "maxDynamicHeight": 9000,
