@@ -12,6 +12,9 @@
     },
     {
       "key": "borderRadius"
+    },
+    {
+      "key": "text"
     }
   ],
   "dynamicPropertyPathList": [
@@ -38,7 +41,7 @@
   "mobileRightColumn": 43,
   "mobileTopRow": 2,
   "needsErrorInfo": false,
-  "onClick": "{{storeValue(\"skinType\", \"Combonation Skin\");storeValue('skinId', 3);}}",
+  "onClick": "{{storeValue(\"skinType\", \"Combination\");storeValue('skinId', 3);}}",
   "originalBottomRow": 32,
   "originalTopRow": 24,
   "parentColumnSpace": 4.45703125,
@@ -50,7 +53,7 @@
   "resetFormOnClick": false,
   "responsiveBehavior": "hug",
   "rightColumn": 40,
-  "text": "Combo Skin",
+  "text": "{{getSkincareCombo.data.description}}",
   "topRow": 23,
   "type": "BUTTON_WIDGET",
   "version": 1,

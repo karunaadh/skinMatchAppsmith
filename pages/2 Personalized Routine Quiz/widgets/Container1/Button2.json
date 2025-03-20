@@ -12,6 +12,9 @@
     },
     {
       "key": "borderRadius"
+    },
+    {
+      "key": "text"
     }
   ],
   "dynamicPropertyPathList": [
@@ -38,7 +41,7 @@
   "mobileRightColumn": 43,
   "mobileTopRow": 2,
   "needsErrorInfo": false,
-  "onClick": "{{storeValue(\"skinType\", \"Dry Skin\");\nstoreValue('skinId', 2);}}",
+  "onClick": "{{storeValue(\"skinType\", \"Dry\");storeValue('skinId', 2);}}",
   "originalBottomRow": 32,
   "originalTopRow": 24,
   "parentColumnSpace": 4.45703125,
@@ -50,7 +53,7 @@
   "resetFormOnClick": false,
   "responsiveBehavior": "hug",
   "rightColumn": 24,
-  "text": "Dry Skin",
+  "text": "{{getSkincareDry.data.description}}",
   "topRow": 23,
   "type": "BUTTON_WIDGET",
   "version": 1,

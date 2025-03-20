@@ -12,6 +12,9 @@
     },
     {
       "key": "borderRadius"
+    },
+    {
+      "key": "text"
     }
   ],
   "dynamicPropertyPathList": [
@@ -50,7 +53,7 @@
   "resetFormOnClick": false,
   "responsiveBehavior": "hug",
   "rightColumn": 56,
-  "text": "Oily Skin",
+  "text": "{{getSkincareOily.data.description}}",
   "tooltip": "",
   "topRow": 23,
   "type": "BUTTON_WIDGET",
