@@ -3,11 +3,14 @@
   "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
   "bottomRow": 10,
   "boxShadow": "none",
-  "buttonColor": "#d4d4d8",
+  "buttonColor": "{{appsmith.store.buttonClicked ? '#d4d4d8' : '#ef4444'}}",
   "buttonVariant": "TERTIARY",
   "dynamicBindingPathList": [
     {
       "key": "borderRadius"
+    },
+    {
+      "key": "buttonColor"
     }
   ],
   "dynamicPropertyPathList": [
@@ -16,9 +19,6 @@
     },
     {
       "key": "buttonColor"
-    },
-    {
-      "key": "onClick"
     }
   ],
   "dynamicTriggerPathList": [
@@ -38,7 +38,7 @@
   "mobileRightColumn": 64,
   "mobileTopRow": 0,
   "needsErrorInfo": false,
-  "onClick": "{{toggleFavs.run().then(() => {\n  getFavs.run();\n  storeValue('favs', getFavs.data);\n});}}",
+  "onClick": "{{toggleFavs.run().then(() => {\n  getFavs.run();\n  storeValue('favs', getFavs.data);\n});\nstoreValue('favColour', 'false');}}",
   "parentColumnSpace": 12.580078125,
   "parentId": "y4hg2xh4fe",
   "parentRowSpace": 10,
