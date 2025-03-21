@@ -4,22 +4,28 @@
   "bottomRow": 31,
   "boxShadow": "none",
   "buttonColor": "{{appsmith.theme.colors.primaryColor}}",
-  "buttonVariant": "SECONDARY",
+  "buttonVariant": "{{appsmith.store.skinId == 1 ? \"PRIMARY\":\"TERTIARY\"}}\n",
   "disabledWhenInvalid": false,
   "dynamicBindingPathList": [
-    {
-      "key": "buttonColor"
-    },
     {
       "key": "borderRadius"
     },
     {
       "key": "text"
+    },
+    {
+      "key": "buttonColor"
+    },
+    {
+      "key": "buttonVariant"
     }
   ],
   "dynamicPropertyPathList": [
     {
       "key": "onClick"
+    },
+    {
+      "key": "buttonVariant"
     }
   ],
   "dynamicTriggerPathList": [

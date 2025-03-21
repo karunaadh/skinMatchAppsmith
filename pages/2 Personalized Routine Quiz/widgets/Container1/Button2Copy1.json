@@ -4,7 +4,7 @@
   "bottomRow": 31,
   "boxShadow": "none",
   "buttonColor": "{{appsmith.theme.colors.primaryColor}}",
-  "buttonVariant": "SECONDARY",
+  "buttonVariant": "{{appsmith.store.skinId == 3 ? \"PRIMARY\":\"TERTIARY\"}}",
   "disabledWhenInvalid": false,
   "dynamicBindingPathList": [
     {
@@ -15,11 +15,20 @@
     },
     {
       "key": "text"
+    },
+    {
+      "key": "buttonVariant"
     }
   ],
   "dynamicPropertyPathList": [
     {
       "key": "onClick"
+    },
+    {
+      "key": "buttonColor"
+    },
+    {
+      "key": "buttonVariant"
     }
   ],
   "dynamicTriggerPathList": [
