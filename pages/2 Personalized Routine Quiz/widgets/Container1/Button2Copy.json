@@ -4,7 +4,7 @@
   "bottomRow": 31,
   "boxShadow": "none",
   "buttonColor": "{{appsmith.theme.colors.primaryColor}}",
-  "buttonVariant": "{{appsmith.store.skinId == 1 ? \"PRIMARY\":\"TERTIARY\"}}\n",
+  "buttonVariant": "{{appsmith.store.skinId == 1 ? \"PRIMARY\":\"SECONDARY\"}}\n",
   "disabledWhenInvalid": false,
   "dynamicBindingPathList": [
     {
