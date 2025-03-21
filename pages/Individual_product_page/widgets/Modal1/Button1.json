@@ -32,7 +32,7 @@
   "mobileRightColumn": 47,
   "mobileTopRow": 18,
   "needsErrorInfo": false,
-  "onClick": "{{deleteReview.run()}}",
+  "onClick": "{{deleteReview.run().catch(() => {\n  showAlert('No review exists', 'error');\n});}}",
   "originalBottomRow": 39,
   "originalTopRow": 35,
   "parentId": "5g4sbqz3pu",
