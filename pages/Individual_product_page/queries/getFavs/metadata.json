@@ -37,7 +37,7 @@
         "key": "path"
       }
     ],
-    "executeOnLoad": false,
+    "executeOnLoad": true,
     "name": "getFavs",
     "pageId": "Individual_product_page",
     "userSetOnLoad": false
