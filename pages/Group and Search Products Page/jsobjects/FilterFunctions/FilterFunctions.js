@@ -1,11 +1,4 @@
 export default {
-	onOpen: async () => {
-		await storeValue('search', appsmith.store?.search || '');
-		await storeValue('filter', appsmith.store?.filter || {});
-		await storeValue('priceSliderValue', appsmith.store?.priceSliderValue || '150'); // Default max price
-		await storeValue('sortBy', appsmith.store?.sortBy || ''); 
-	},
-
 	// Function to handle search as user types
 	onSearchChange: async (searchTerm) => {
 		await storeValue('search', searchTerm);
@@ -44,16 +37,23 @@ export default {
 		storeValue('filter', currentFilters);
 	},
 
-	// Function to reset all filters
+	// Function to reset all filters and restore defaults
 	resetFilters: async () => {
-		await storeValue('filter', {}); // Clear all filters
-		await storeValue('priceSliderValue', '150'); // Reset price slider to default
-		await storeValue('sortBy', ''); // Reset sort order to default
-		await resetWidget('filter');
-		await resetWidget('priceSliderValue');
-		await resetWidget('sortBy');
-		await this.applyFilters();
+		// Reset selected filter values
+		resetWidget('CategoryFilter');
+		resetWidget('BrandFilter');
+		resetWidget('SkinConcernFilter');
+		resetWidget('IngredientsFilter');
+		resetWidget('SkinTypeFilter');
+		resetWidget('sortBy');
+		resetWidget('priceSliderValue');
+
+		// Fetch all products and reset the filter state
+		const response = await getAllProducts.run();
+		storeValue('filteredProducts', response); // Store all products
+		resetWidget('lst_productList'); // Refresh the product list widget
 	},
+
 
 	// Function to apply filters and fetch filtered products
 	applyFilters: async () => {
@@ -91,39 +91,5 @@ export default {
 		}));
 	},
 
-	// Filter options data
-	filterOptions: [
-		{
-			"label": "Category",
-			"value": "category",
-			"children": [
-				{ "label": "Toner", "value": "Toner" },
-				{ "label": "Sunscreen", "value": "Sunscreen" },
-				{ "label": "Cleanser", "value": "Cleanser" },
-				{ "label": "Exfoliator", "value": "Exfoliator" },
-				{ "label": "Moisturizer", "value": "Moisturizer" }
-			]
-		},
-		{
-			"label": "Brand",
-			"value": "brands",
-			"children": getAllBrands.data.map(brand => ({ label: brand, value: brand }))
-		},
-		{
-			"label": "Skin Concern",
-			"value": "concerns",
-			"children": getAllConcerns.data.map(concern => ({ label: concern.description, value: concern.concernId }))
-		},
-		{
-			"label": "Ingredients to Avoid",
-			"value": "avoidIngredients",
-			"children": getAllIngredients.data.map(ingredient => ({ label: ingredient.ingredientName, value: ingredient.ingredientId }))
-		},
-		{
-			"label": "Skin Types",
-			"value": "types",
-			"children": getAllSkinTypes.data.map(type => ({ label: type.description, value: type.skintypeId }))
-		}
-	]
 };
 

@@ -6,11 +6,6 @@
     "pageId": "Group and Search Products Page",
     "pluginId": "js-plugin",
     "pluginType": "JS",
-    "variables": [
-      {
-        "name": "filterOptions",
-        "value": "[{\n  \"label\": \"Category\",\n  \"value\": \"category\",\n  \"children\": [{\n    \"label\": \"Toner\",\n    \"value\": \"Toner\"\n  }, {\n    \"label\": \"Sunscreen\",\n    \"value\": \"Sunscreen\"\n  }, {\n    \"label\": \"Cleanser\",\n    \"value\": \"Cleanser\"\n  }, {\n    \"label\": \"Exfoliator\",\n    \"value\": \"Exfoliator\"\n  }, {\n    \"label\": \"Moisturizer\",\n    \"value\": \"Moisturizer\"\n  }]\n}, {\n  \"label\": \"Brand\",\n  \"value\": \"brands\",\n  \"children\": getAllBrands.data.map(brand => ({\n    label: brand,\n    value: brand\n  }))\n}, {\n  \"label\": \"Skin Concern\",\n  \"value\": \"concerns\",\n  \"children\": getAllConcerns.data.map(concern => ({\n    label: concern.description,\n    value: concern.concernId\n  }))\n}, {\n  \"label\": \"Ingredients to Avoid\",\n  \"value\": \"avoidIngredients\",\n  \"children\": getAllIngredients.data.map(ingredient => ({\n    label: ingredient.ingredientName,\n    value: ingredient.ingredientId\n  }))\n}, {\n  \"label\": \"Skin Types\",\n  \"value\": \"types\",\n  \"children\": getAllSkinTypes.data.map(type => ({\n    label: type.description,\n    value: type.skintypeId\n  }))\n}]"
-      }
-    ]
+    "variables": []
   }
 }

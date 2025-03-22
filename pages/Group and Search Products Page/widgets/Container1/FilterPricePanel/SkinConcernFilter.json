@@ -61,7 +61,7 @@
   "placeholderText": "Select option(s)",
   "renderMode": "CANVAS",
   "responsiveBehavior": "fill",
-  "rightColumn": 64,
+  "rightColumn": 63,
   "topRow": 17,
   "type": "MULTI_SELECT_TREE_WIDGET",
   "version": 1,

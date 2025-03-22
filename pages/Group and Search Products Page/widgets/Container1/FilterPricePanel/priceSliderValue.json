@@ -40,7 +40,7 @@
   "mobileRightColumn": 51,
   "mobileTopRow": 29,
   "needsErrorInfo": false,
-  "onChange": "{{utils.updatePriceSlider(priceSliderValue.value)}}",
+  "onChange": "",
   "originalBottomRow": 40,
   "originalTopRow": 32,
   "parentColumnSpace": 14.8125,
