@@ -112,31 +112,17 @@ export default {
 		{
 			"label": "Skin Concern",
 			"value": "concerns",
-			"children": [
-				{ "label": "Wrinkles", "value": "wrinkles" },
-				{ "label": "Pores", "value": "pores" },
-				{ "label": "Hyperpigmentation", "value": "hyperpigmentation" },
-				{ "label": "Acne", "value": "acne" },
-				{ "label": "Irritation", "value": "irritation" },
-				{ "label": "Dullness", "value": "dull skin" }
-			]
+			"children": getAllConcerns.data.map(concern => ({ label: concern.description, value: concern.concernId }))
 		},
 		{
-			"label": "Allergy",
+			"label": "Ingredients to Avoid",
 			"value": "avoidIngredients",
-			"children": [
-				{ "label": "Fragrance", "value": "Fragrance" },
-				{ "label": "Parabens", "value": "Parabens" }
-			]
+			"children": getAllIngredients.data.map(ingredient => ({ label: ingredient.ingredientName, value: ingredient.ingredientId }))
 		},
 		{
 			"label": "Skin Types",
 			"value": "types",
-			"children": [
-				{ "label": "Dry", "value": "dry" },
-				{ "label": "Oily", "value": "oily" },
-				{ "label": "Combination", "value": "combination" }
-			]
+			"children": getAllSkinTypes.data.map(type => ({ label: type.description, value: type.skintypeId }))
 		}
 	]
 };
