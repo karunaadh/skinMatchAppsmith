@@ -16,7 +16,7 @@
       "httpMethod": "GET",
       "httpVersion": "HTTP11",
       "paginationType": "NONE",
-      "path": "/products/filter1",
+      "path": "/products/filterI",
       "pluginSpecifiedTemplates": [
         {
           "value": true
@@ -25,11 +25,23 @@
       "queryParameters": [
         {
           "key": "maxPrice",
-          "value": "{{priceSliderValue.value}}"
+          "value": "150"
         },
         {
           "key": "sortBy",
           "value": "{{sortBy.selectedOptionValue}}"
+        },
+        {
+          "key": "brands",
+          "value": "{{BrandFilter.selectedOptionValues.join(\",\")}}"
+        },
+        {
+          "key": "avoidIngredients",
+          "value": ""
+        },
+        {
+          "key": "types",
+          "value": ""
         }
       ],
       "timeoutInMillisecond": 10000
@@ -43,10 +55,13 @@
     },
     "dynamicBindingPathList": [
       {
-        "key": "queryParameters[0].value"
+        "key": "path"
       },
       {
         "key": "queryParameters[1].value"
+      },
+      {
+        "key": "queryParameters[2].value"
       }
     ],
     "executeOnLoad": false,

@@ -4,7 +4,7 @@
   "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
   "bottomRow": 48,
   "boxShadow": "none",
-  "defaultOptionValue": "",
+  "defaultOptionValue": "l2h",
   "dynamicBindingPathList": [
     {
       "key": "borderRadius"
