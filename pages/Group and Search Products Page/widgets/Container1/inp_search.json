@@ -49,7 +49,7 @@
   "mobileRightColumn": 26,
   "mobileTopRow": 3,
   "needsErrorInfo": false,
-  "onTextChanged": "{{ storeValue('search', self.text); utils.fetchFilteredProducts(); }}\n",
+  "onTextChanged": "{{ resetWidget('List1')}}\n",
   "parentColumnSpace": 5.586181640625,
   "parentId": "1h7mpupqwc",
   "parentRowSpace": 10,
