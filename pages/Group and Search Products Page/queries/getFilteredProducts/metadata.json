@@ -80,7 +80,7 @@
         "key": "queryParameters[5].value"
       }
     ],
-    "executeOnLoad": false,
+    "executeOnLoad": true,
     "name": "getFilteredProducts",
     "pageId": "Group and Search Products Page",
     "userSetOnLoad": false

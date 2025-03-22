@@ -36,7 +36,7 @@
   "mobileRightColumn": 40,
   "mobileTopRow": 24,
   "needsErrorInfo": false,
-  "onClick": "{{FilterFunctions.applyFilters();\n}}",
+  "onClick": "{{getFilteredProducts.run()\n}}",
   "parentColumnSpace": 2.9864501953125,
   "parentId": "z5ssxdeaxc",
   "parentRowSpace": 10,

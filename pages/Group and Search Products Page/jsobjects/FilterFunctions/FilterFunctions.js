@@ -1,17 +1,26 @@
 export default {
+	//Load products
+	onLoad: () => {
+		// Fetch all products and reset the filter state
+		const response = getAllProducts.data;
+		storeValue('filteredProducts', response); // Store all products
+	},
+
 	// Function to handle search as user types
 	onSearchChange: (searchTerm) => {
 		// Get the current list of products
-		const currentProducts = appsmith.store.filteredProducts || getAllProducts.data;
+		const currentProducts = appsmith.store.filteredProducts;
 
 		// Filter products based on the search term
 		if (searchTerm.length >= 2) {
+			console.log(">2")
 			// Only search if 2 or more characters are entered
 			const searchResults = currentProducts.filter(product =>											 product.name.toLowerCase().includes(searchTerm.toLowerCase())
 																									);
 			//Return search results
 			return searchResults;
 		} else {
+			console.log("else<2")
 			return appsmith.store.filteredProducts;
 		}
 	},
@@ -27,18 +36,29 @@ export default {
 		resetWidget('sortBy');
 		resetWidget('priceSliderValue');
 
-		// Fetch all products and reset the filter state
-		const response = getAllProducts.data;
-		storeValue('filteredProducts', response); // Store all products
-		resetWidget('lst_productList'); // Refresh the product list widget
+		// // Fetch all products and reset the filter state
+		// const response = getAllProducts.data;
+		// storeValue('filteredProducts', response); // Store all products
+		// resetWidget('List1'); // Refresh the product list widget
 	},
 
 	// Function to apply filters and fetch filtered products
 	applyFilters: () => {
-		// Call the API to get filtered products
+		//Set Parameters
+		const params = {
+			maxPrice: priceSliderValue.value,
+			sortBy: sortBy.selectedOptionValue,
+			brands: BrandFilter.selectedOptionValues.join(","),
+			avoidIngredients: IngredientsFilter.selectedOptionValues.join(","),
+			types: SkinTypeFilter.selectedOptionValues.join(","),
+			concerns: SkinConcernFilter.selectedOptionValues.join(","),
+		};
+
+		//Run filter
+		getFilteredProducts.run(params);
 		const response = getFilteredProducts.data;
 		storeValue('filteredProducts', response);
-		resetWidget('lst_productList'); // Refresh the product list widget
+		resetWidget('List1'); // Refresh the product list widget
 	},
 };
 

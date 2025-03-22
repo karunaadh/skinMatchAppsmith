@@ -97,7 +97,7 @@
   "itemSpacing": 8,
   "key": "gsozdk4us1",
   "leftColumn": 0,
-  "listData": "{{FilterFunctions.onSearchChange(inp_search.text)|| getAllProducts.data}}",
+  "listData": "{{ getFilteredProducts.data.filter(product => new RegExp(inp_search.text, 'i').test(product.name)) }}\n",
   "mainCanvasId": "rx9yr97axu",
   "mainContainerId": "8cy5u1gy19",
   "minWidth": 450,
