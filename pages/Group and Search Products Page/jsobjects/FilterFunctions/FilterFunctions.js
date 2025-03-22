@@ -52,7 +52,7 @@ export default {
 		await resetWidget('filter');
 		await resetWidget('priceSliderValue');
 		await resetWidget('sortBy');
-		await applyFilters();
+		await this.applyFilters();
 	},
 
 	// Function to apply filters and fetch filtered products
@@ -84,14 +84,14 @@ export default {
 
 	// Function to process filter options
 	getProcessedFilterOptions: () => {
-		return filterOptions.map(category => ({
+		return this.filterOptions.map(category => ({
 			label: category.label,
 			value: category.value,
 			children: this.getSelectOptions(category.children, 'label', 'value')
 		}));
 	},
 
-	// Raw filter options data
+	// Filter options data
 	filterOptions: [
 		{
 			"label": "Category",
@@ -126,3 +126,4 @@ export default {
 		}
 	]
 };
+

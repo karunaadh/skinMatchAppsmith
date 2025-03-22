@@ -22,7 +22,16 @@
           "value": true
         }
       ],
-      "queryParameters": [],
+      "queryParameters": [
+        {
+          "key": "maxPrice",
+          "value": "{{priceSliderValue.value}}"
+        },
+        {
+          "key": "sortBy",
+          "value": "{{sortBy.selectedOptionValue}}"
+        }
+      ],
       "timeoutInMillisecond": 10000
     },
     "confirmBeforeExecute": false,
@@ -32,7 +41,14 @@
       "name": "SkincareDB",
       "pluginId": "restapi-plugin"
     },
-    "dynamicBindingPathList": [],
+    "dynamicBindingPathList": [
+      {
+        "key": "queryParameters[0].value"
+      },
+      {
+        "key": "queryParameters[1].value"
+      }
+    ],
     "executeOnLoad": false,
     "name": "getFilteredProducts",
     "pageId": "Group and Search Products Page",

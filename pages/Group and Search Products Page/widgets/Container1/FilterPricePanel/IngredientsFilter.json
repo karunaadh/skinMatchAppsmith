@@ -1,23 +1,27 @@
 {
   "accentColor": "{{appsmith.theme.colors.primaryColor}}",
+  "allowClear": false,
   "animateLoading": true,
   "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-  "bottomRow": 48,
+  "bottomRow": 31,
   "boxShadow": "none",
   "defaultOptionValue": "",
   "dynamicBindingPathList": [
+    {
+      "key": "accentColor"
+    },
     {
       "key": "borderRadius"
     },
     {
       "key": "labelTextColor"
+    },
+    {
+      "key": "options"
     }
   ],
   "dynamicHeight": "FIXED",
   "dynamicPropertyPathList": [
-    {
-      "key": "sourceData"
-    },
     {
       "key": "onOptionChange"
     }
@@ -27,15 +31,15 @@
       "key": "onOptionChange"
     }
   ],
+  "expandAll": false,
   "isDisabled": false,
-  "isFilterable": false,
   "isLoading": false,
   "isRequired": false,
   "isVisible": true,
-  "key": "pezkabf77f",
+  "key": "440on8hm8s",
   "labelAlignment": "left",
   "labelPosition": "Top",
-  "labelText": "Sort by Price",
+  "labelText": "Ingredients to Avoid",
   "labelTextColor": "{{appsmith.theme.colors.primaryColor}}",
   "labelTextSize": "0.875rem",
   "labelWidth": 5,
@@ -43,28 +47,24 @@
   "maxDynamicHeight": 9000,
   "minDynamicHeight": 4,
   "minWidth": 450,
-  "mobileBottomRow": 46,
-  "mobileLeftColumn": 19,
-  "mobileRightColumn": 39,
-  "mobileTopRow": 39,
+  "mobileBottomRow": 41,
+  "mobileLeftColumn": 0,
+  "mobileRightColumn": 17,
+  "mobileTopRow": 34,
+  "mode": "SHOW_ALL",
   "needsErrorInfo": false,
-  "onOptionChange": "{{FilterFunctions.updateSortOrder(sortBy.selectedOptionValue)}}",
-  "optionLabel": "label",
-  "optionValue": "value",
-  "originalBottomRow": 27,
-  "originalTopRow": 20,
-  "parentColumnSpace": 14.203125,
+  "onOptionChange": "\n",
+  "options": "{{FilterFunctions.filterOptions[3].children}}",
+  "parentColumnSpace": 14.8125,
   "parentId": "z5ssxdeaxc",
   "parentRowSpace": 10,
-  "placeholderText": "Select option",
+  "placeholderText": "Select option(s)",
   "renderMode": "CANVAS",
   "responsiveBehavior": "fill",
   "rightColumn": 64,
-  "serverSideFiltering": false,
-  "sourceData": "[\n  {\n    \"label\": \"Low to High\",\n    \"value\": \"l2h\"\n  },\n  {\n    \"label\": \"High to Low\",\n    \"value\": \"h2l\"\n  }\n]",
-  "topRow": 41,
-  "type": "SELECT_WIDGET",
+  "topRow": 25,
+  "type": "MULTI_SELECT_TREE_WIDGET",
   "version": 1,
-  "widgetId": "h1wkuiv8pg",
-  "widgetName": "sortBy"
+  "widgetId": "4yjeswnqg4",
+  "widgetName": "IngredientsFilter"
 }
