@@ -54,7 +54,7 @@
   "mode": "SHOW_ALL",
   "needsErrorInfo": false,
   "onOptionChange": "\n",
-  "options": "{{FilterFunctions.filterOptions[4].children}}",
+  "options": "{{getAllSkinTypes.data.map(type => ({ label: type.description, value: type.skintypeId }))}}\n",
   "parentColumnSpace": 14.8125,
   "parentId": "z5ssxdeaxc",
   "parentRowSpace": 10,

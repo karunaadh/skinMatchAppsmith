@@ -54,7 +54,7 @@
   "mode": "SHOW_ALL",
   "needsErrorInfo": false,
   "onOptionChange": "\n",
-  "options": "{{FilterFunctions.filterOptions[3].children}}",
+  "options": "{{getAllIngredients.data.map(ingredient => ({ label: ingredient.ingredientName, value: ingredient.ingredientId }))}}",
   "parentColumnSpace": 14.8125,
   "parentId": "z5ssxdeaxc",
   "parentRowSpace": 10,

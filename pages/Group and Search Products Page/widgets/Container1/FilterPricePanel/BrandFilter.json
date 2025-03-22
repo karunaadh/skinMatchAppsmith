@@ -54,7 +54,7 @@
   "mode": "SHOW_ALL",
   "needsErrorInfo": false,
   "onOptionChange": "\n",
-  "options": "{{FilterFunctions.filterOptions[1].children}}",
+  "options": "{{getAllBrands.data.map(brand => ({ label: brand, value: brand }))}}",
   "parentColumnSpace": 14.8125,
   "parentId": "z5ssxdeaxc",
   "parentRowSpace": 10,

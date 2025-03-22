@@ -54,7 +54,7 @@
   "mode": "SHOW_ALL",
   "needsErrorInfo": false,
   "onOptionChange": "\n",
-  "options": "{{FilterFunctions.filterOptions[2].children}}",
+  "options": "{{getAllConcerns.data.map(concern => ({ label: concern.description, value: concern.concernId }))}}",
   "parentColumnSpace": 14.8125,
   "parentId": "z5ssxdeaxc",
   "parentRowSpace": 10,

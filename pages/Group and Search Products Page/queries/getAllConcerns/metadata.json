@@ -33,7 +33,7 @@
       "pluginId": "restapi-plugin"
     },
     "dynamicBindingPathList": [],
-    "executeOnLoad": false,
+    "executeOnLoad": true,
     "name": "getAllConcerns",
     "pageId": "Group and Search Products Page",
     "userSetOnLoad": false
