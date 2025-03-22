@@ -11,11 +11,13 @@ export default {
 																									);
 			//Return search results
 			return searchResults;
+		} else {
+			return appsmith.store.filteredProducts;
 		}
 	},
 
 	// Function to reset all filters and restore defaults
-	resetFilters: async () => {
+	resetFilters: () => {
 		// Reset selected filter values
 		resetWidget('CategoryFilter');
 		resetWidget('BrandFilter');
@@ -26,15 +28,15 @@ export default {
 		resetWidget('priceSliderValue');
 
 		// Fetch all products and reset the filter state
-		const response = await getAllProducts.run();
+		const response = getAllProducts.data;
 		storeValue('filteredProducts', response); // Store all products
 		resetWidget('lst_productList'); // Refresh the product list widget
 	},
 
 	// Function to apply filters and fetch filtered products
-	applyFilters: async () => {
+	applyFilters: () => {
 		// Call the API to get filtered products
-		const response = await getFilteredProducts.run();
+		const response = getFilteredProducts.data;
 		storeValue('filteredProducts', response);
 		resetWidget('lst_productList'); // Refresh the product list widget
 	},
