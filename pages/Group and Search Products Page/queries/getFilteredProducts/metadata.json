@@ -25,7 +25,7 @@
       "queryParameters": [
         {
           "key": "maxPrice",
-          "value": "150"
+          "value": "{{priceSliderValue.value}}"
         },
         {
           "key": "sortBy",
@@ -37,11 +37,15 @@
         },
         {
           "key": "avoidIngredients",
-          "value": ""
+          "value": "{{IngredientsFilter.selectedOptionValues.join(\",\")}}"
         },
         {
           "key": "types",
-          "value": ""
+          "value": "{{SkinTypeFilter.selectedOptionValues.join(\",\")}}"
+        },
+        {
+          "key": "concerns",
+          "value": "{{SkinConcernFilter.selectedOptionValues.join(\",\")}}"
         }
       ],
       "timeoutInMillisecond": 10000
@@ -58,10 +62,22 @@
         "key": "path"
       },
       {
+        "key": "queryParameters[0].value"
+      },
+      {
         "key": "queryParameters[1].value"
       },
       {
         "key": "queryParameters[2].value"
+      },
+      {
+        "key": "queryParameters[3].value"
+      },
+      {
+        "key": "queryParameters[4].value"
+      },
+      {
+        "key": "queryParameters[5].value"
       }
     ],
     "executeOnLoad": false,
