@@ -54,7 +54,7 @@
   "mode": "SHOW_ALL",
   "needsErrorInfo": false,
   "onOptionChange": "\n",
-  "options": "{{utils.filterOptions}}",
+  "options": "{{FilterFunctions.filterOptions}}",
   "parentColumnSpace": 14.8125,
   "parentId": "z5ssxdeaxc",
   "parentRowSpace": 10,

@@ -48,7 +48,7 @@
   "mobileRightColumn": 39,
   "mobileTopRow": 39,
   "needsErrorInfo": false,
-  "onOptionChange": "{{utils.updateSortOrder(sortBy.selectedOptionValue)}}",
+  "onOptionChange": "{{FilterFunctions.updateSortOrder(sortBy.selectedOptionValue)}}",
   "optionLabel": "label",
   "optionValue": "value",
   "originalBottomRow": 27,
