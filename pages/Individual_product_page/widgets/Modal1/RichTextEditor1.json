@@ -22,7 +22,7 @@
   "isDefaultClickDisabled": true,
   "isDisabled": false,
   "isLoading": false,
-  "isRequired": false,
+  "isRequired": true,
   "isVisible": true,
   "key": "yb2izbjtpl",
   "labelAlignment": "left",
