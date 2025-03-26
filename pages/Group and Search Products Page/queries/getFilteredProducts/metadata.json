@@ -48,7 +48,7 @@
           "value": "{{SkinConcernFilter.selectedOptionValues.join(\",\")}}"
         },
         {
-          "key": "category",
+          "key": "categories",
           "value": "{{CategoryFilter.selectedOptionValues.join(\",\")}}"
         }
       ],
