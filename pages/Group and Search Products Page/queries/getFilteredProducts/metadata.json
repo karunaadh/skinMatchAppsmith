@@ -46,6 +46,10 @@
         {
           "key": "concerns",
           "value": "{{SkinConcernFilter.selectedOptionValues.join(\",\")}}"
+        },
+        {
+          "key": "category",
+          "value": "{{CategoryFilter.selectedOptionValues.join(\",\")}}"
         }
       ],
       "timeoutInMillisecond": 10000
@@ -78,6 +82,9 @@
       },
       {
         "key": "queryParameters[5].value"
+      },
+      {
+        "key": "queryParameters[6].value"
       }
     ],
     "executeOnLoad": true,

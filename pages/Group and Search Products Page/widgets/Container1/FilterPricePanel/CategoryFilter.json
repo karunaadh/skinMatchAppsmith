@@ -15,6 +15,9 @@
     },
     {
       "key": "labelTextColor"
+    },
+    {
+      "key": "options"
     }
   ],
   "dynamicHeight": "FIXED",
@@ -51,7 +54,7 @@
   "mode": "SHOW_ALL",
   "needsErrorInfo": false,
   "onOptionChange": "\n",
-  "options": "[\n  { \"label\": \"Toner\", \"value\": \"Toner\" },\n  { \"label\": \"Sunscreen\", \"value\": \"Sunscreen\" },\n  { \"label\": \"Cleanser\", \"value\": \"Cleanser\" },\n  { \"label\": \"Exfoliator\", \"value\": \"Exfoliator\" },\n  { \"label\": \"Moisturizer\", \"value\": \"Moisturizer\" }\n]\n",
+  "options": "{{getAllCategories.data.map(cat => ({ label: cat.categoryName, value: cat.categoryId }))}}\n",
   "parentColumnSpace": 14.8125,
   "parentId": "z5ssxdeaxc",
   "parentRowSpace": 10,
