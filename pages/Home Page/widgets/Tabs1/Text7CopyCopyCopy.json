@@ -1,8 +1,7 @@
 {
   "animateLoading": true,
   "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-  "borderWidth": "",
-  "bottomRow": 38,
+  "bottomRow": 11,
   "dynamicBindingPathList": [
     {
       "key": "truncateButtonColor"
@@ -22,7 +21,7 @@
   "isLoading": false,
   "isVisible": true,
   "key": "snvpb9xecb",
-  "leftColumn": 5,
+  "leftColumn": 1,
   "maxDynamicHeight": 9000,
   "minDynamicHeight": 4,
   "minWidth": 450,
@@ -31,23 +30,23 @@
   "mobileRightColumn": 21,
   "mobileTopRow": 2,
   "needsErrorInfo": false,
-  "originalBottomRow": 38,
-  "originalTopRow": 34,
+  "originalBottomRow": 11,
+  "originalTopRow": 5,
   "overflow": "NONE",
   "parentColumnSpace": 9.0390625,
   "parentId": "k56vv90gai",
   "parentRowSpace": 10,
   "renderMode": "CANVAS",
   "responsiveBehavior": "fill",
-  "rightColumn": 53,
+  "rightColumn": 41,
   "shouldTruncate": false,
-  "text": "",
+  "text": "Our misson at SkinMatch is to find the best skincare product for you! By identifying your needs and concerns and recommending products by ingredients that help you glow!",
   "textAlign": "LEFT",
-  "textColor": "#231F20",
-  "topRow": 34,
+  "textColor": "#5f7491",
+  "topRow": 5,
   "truncateButtonColor": "{{appsmith.theme.colors.primaryColor}}",
   "type": "TEXT_WIDGET",
   "version": 1,
-  "widgetId": "gtl7z4ll3a",
-  "widgetName": "Summary_and_Statement_Purpose"
+  "widgetId": "2okhgojuge",
+  "widgetName": "Text7CopyCopyCopy"
 }

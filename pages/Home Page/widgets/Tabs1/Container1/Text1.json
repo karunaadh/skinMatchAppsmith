@@ -1,7 +1,7 @@
 {
   "animateLoading": true,
   "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-  "bottomRow": 31,
+  "bottomRow": 23,
   "dynamicBindingPathList": [
     {
       "key": "truncateButtonColor"
@@ -21,7 +21,7 @@
   "isLoading": false,
   "isVisible": true,
   "key": "rye7ht7ahm",
-  "leftColumn": 0,
+  "leftColumn": 11,
   "maxDynamicHeight": 9000,
   "minDynamicHeight": 4,
   "minWidth": 450,
@@ -30,7 +30,7 @@
   "mobileRightColumn": 17,
   "mobileTopRow": 10,
   "needsErrorInfo": false,
-  "originalBottomRow": 31,
+  "originalBottomRow": 23,
   "originalTopRow": 18,
   "overflow": "NONE",
   "parentColumnSpace": 12.267578125,
@@ -38,10 +38,10 @@
   "parentRowSpace": 10,
   "renderMode": "CANVAS",
   "responsiveBehavior": "fill",
-  "rightColumn": 40,
+  "rightColumn": 52,
   "shouldTruncate": false,
-  "text": "Its easy to get overwhelmed by the amount of skincare products in the market. \n\nOur misson at SkinMatch is to find the best skincare product for you! By identifying your needs and concerns and recommending products by ingredients that help you glow!\n\n",
-  "textAlign": "LEFT",
+  "text": "Don't get overwhelmed by the amount of skincare products in the market! Try our free quiz to get your list of personalized skincare products!",
+  "textAlign": "CENTER",
   "textColor": "{{appsmith.theme.colors.primaryColor}}",
   "topRow": 18,
   "truncateButtonColor": "{{appsmith.theme.colors.primaryColor}}",
