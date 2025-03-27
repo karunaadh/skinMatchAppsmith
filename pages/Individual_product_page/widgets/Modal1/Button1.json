@@ -15,6 +15,7 @@
       "key": "borderRadius"
     }
   ],
+  "dynamicPropertyPathList": [],
   "dynamicTriggerPathList": [
     {
       "key": "onClick"
@@ -32,7 +33,7 @@
   "mobileRightColumn": 47,
   "mobileTopRow": 18,
   "needsErrorInfo": false,
-  "onClick": "{{deleteReview.run().catch(() => {\n  showAlert('No review exists', 'error');\n});}}",
+  "onClick": "{{deleteReview.run().catch(() => {\n  showAlert('No review exists', 'error');\n});\ngetProductbyId.run();\ncloseModal(Modal1.name);\ngetReviews.run()}}",
   "originalBottomRow": 39,
   "originalTopRow": 35,
   "parentId": "5g4sbqz3pu",

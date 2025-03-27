@@ -31,7 +31,7 @@
   "mobileRightColumn": 21,
   "mobileTopRow": 0,
   "needsErrorInfo": false,
-  "onClick": "{{navigateTo('Home Page', {}, 'SAME_WINDOW');}}",
+  "onClick": "",
   "parentColumnSpace": 14.822265625,
   "parentId": "u5yyx9inye",
   "parentRowSpace": 10,

@@ -43,7 +43,7 @@
   "mobileRightColumn": 63,
   "mobileTopRow": 18,
   "needsErrorInfo": false,
-  "onClick": "{{putReview.run();\ngetReviews.run();\ncloseModal(Modal1.name);}}",
+  "onClick": "{{putReview.run();\ngetReviews.run();\ngetProductbyId.run();\ncloseModal(Modal1.name);}}",
   "originalBottomRow": 39,
   "originalTopRow": 35,
   "parentId": "5g4sbqz3pu",
