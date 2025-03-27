@@ -11,7 +11,7 @@
           "value": "application/json"
         }
       ],
-      "body": "{\n            \"skinType\" : {{appsmith.store.skinId}},\n            \"avoidIngredients\": {{MultiSelect1.selectedOptionValues}},\n            \"budget\" : {{appsmith.store.budget}},\n            \"user\" : {{appsmith.store.loggedUser}},\n\t\t\t\t\t\t\"concerns\": {{appsmith.store.concernIds}}\n        }",
+      "body": "{\n            \"skinType\" : {{appsmith.store.skinId}},\n            \"avoidIngredients\": {{MultiSelect1.selectedOptionValues}},\n            \"budget\" : {{Number(appsmith.store.budget)}},\n            \"user\" : {{appsmith.store.loggedUser}},\n\t\t\t\t\t\t\"concerns\": {{appsmith.store.concernIds}}\n        }\n",
       "bodyFormData": [],
       "encodeParamsToggle": true,
       "formData": {

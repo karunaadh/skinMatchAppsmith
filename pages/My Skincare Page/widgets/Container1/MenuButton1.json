@@ -21,6 +21,7 @@
       "key": "menuColor"
     }
   ],
+  "dynamicPropertyPathList": [],
   "dynamicTriggerPathList": [
     {
       "key": "menuItems.menuItem2.onClick"

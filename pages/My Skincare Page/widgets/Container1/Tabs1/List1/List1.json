@@ -85,7 +85,16 @@
       "key": "listData"
     }
   ],
-  "dynamicTriggerPathList": [],
+  "dynamicPropertyPathList": [
+    {
+      "key": "onItemClick"
+    }
+  ],
+  "dynamicTriggerPathList": [
+    {
+      "key": "onItemClick"
+    }
+  ],
   "enhancements": true,
   "flexVerticalAlignment": "start",
   "gridType": "vertical",
@@ -106,6 +115,7 @@
   "mobileRightColumn": 27,
   "mobileTopRow": 66,
   "needsErrorInfo": false,
+  "onItemClick": "{{closeModal('').then(() => {\n  closeModal('');\n}).catch(() => {\n  showAlert('kzxmcldkmc', 'error');\n});}}",
   "originalBottomRow": 80,
   "originalTopRow": 48,
   "pageSize": 4,

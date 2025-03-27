@@ -1,7 +1,7 @@
 {
   "animateLoading": true,
   "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-  "bottomRow": 13,
+  "bottomRow": 14,
   "boxShadow": "none",
   "buttonColor": "{{appsmith.theme.colors.primaryColor}}",
   "buttonVariant": "TERTIARY",
@@ -51,7 +51,7 @@
   "responsiveBehavior": "hug",
   "rightColumn": 63,
   "text": "{{currentItem.brand}} {{currentItem.name}}",
-  "topRow": 0,
+  "topRow": 4,
   "type": "BUTTON_WIDGET",
   "version": 1,
   "widgetId": "lacvfsbuem",
