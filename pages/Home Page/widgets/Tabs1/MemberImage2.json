@@ -1,0 +1,38 @@
+{
+  "animateLoading": true,
+  "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+  "bottomRow": 19,
+  "boxShadow": "none",
+  "defaultImage": "https://assets.appsmith.com/widgets/default.png",
+  "dynamicBindingPathList": [
+    {
+      "key": "borderRadius"
+    }
+  ],
+  "enableDownload": false,
+  "enableRotation": false,
+  "flexVerticalAlignment": "start",
+  "image": "",
+  "imageShape": "RECTANGLE",
+  "isLoading": false,
+  "isVisible": true,
+  "key": "s3poach50y",
+  "leftColumn": 17,
+  "maxZoomLevel": 1,
+  "mobileBottomRow": 20,
+  "mobileLeftColumn": 1,
+  "mobileRightColumn": 13,
+  "mobileTopRow": 8,
+  "needsErrorInfo": false,
+  "objectFit": "cover",
+  "parentColumnSpace": 12.01953125,
+  "parentId": "k56vv90gai",
+  "parentRowSpace": 10,
+  "renderMode": "CANVAS",
+  "rightColumn": 26,
+  "topRow": 8,
+  "type": "IMAGE_WIDGET",
+  "version": 1,
+  "widgetId": "t4824szhvz",
+  "widgetName": "MemberImage2"
+}

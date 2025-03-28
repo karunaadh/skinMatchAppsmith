@@ -1,7 +1,7 @@
 {
   "animateLoading": true,
   "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-  "bottomRow": 30,
+  "bottomRow": 24,
   "dynamicBindingPathList": [
     {
       "key": "truncateButtonColor"
@@ -21,7 +21,7 @@
   "isLoading": false,
   "isVisible": true,
   "key": "snvpb9xecb",
-  "leftColumn": 1,
+  "leftColumn": 46,
   "maxDynamicHeight": 9000,
   "minDynamicHeight": 4,
   "minWidth": 450,
@@ -30,23 +30,23 @@
   "mobileRightColumn": 21,
   "mobileTopRow": 2,
   "needsErrorInfo": false,
-  "originalBottomRow": 30,
-  "originalTopRow": 15,
+  "originalBottomRow": 25,
+  "originalTopRow": 20,
   "overflow": "NONE",
   "parentColumnSpace": 9.0390625,
   "parentId": "k56vv90gai",
   "parentRowSpace": 10,
   "renderMode": "CANVAS",
   "responsiveBehavior": "fill",
-  "rightColumn": 18,
+  "rightColumn": 55,
   "shouldTruncate": false,
-  "text": "Karuna Adhikari\nEric (Jialuo) Chen\nNaeer Khan \nLea Kwon\nAnoushka Paul\nAditi Ponemone\nPragya Prakash\nAnna Wang",
-  "textAlign": "LEFT",
+  "text": "Lea Kwon",
+  "textAlign": "CENTER",
   "textColor": "#5f7491",
-  "topRow": 15,
+  "topRow": 20,
   "truncateButtonColor": "{{appsmith.theme.colors.primaryColor}}",
   "type": "TEXT_WIDGET",
   "version": 1,
-  "widgetId": "4l7w8sg6hk",
-  "widgetName": "Text7CopyCopy"
+  "widgetId": "amzrk2w2kr",
+  "widgetName": "Name4"
 }
