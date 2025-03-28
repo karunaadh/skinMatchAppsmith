@@ -10,7 +10,7 @@
   "children": [
     {
       "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-      "bottomRow": 820,
+      "bottomRow": 830,
       "boxShadow": "{{appsmith.theme.boxShadow.appBoxShadow}}",
       "canExtend": true,
       "detachFromLayout": true,
@@ -47,7 +47,7 @@
       "rightColumn": 175.171875,
       "shouldScrollContents": false,
       "tabId": "tab1",
-      "tabName": "My Routine",
+      "tabName": "Routine",
       "topRow": 0,
       "type": "CANVAS_WIDGET",
       "version": 1,
@@ -137,7 +137,7 @@
   "mobileRightColumn": 39,
   "mobileTopRow": 9,
   "needsErrorInfo": false,
-  "originalBottomRow": 61,
+  "originalBottomRow": 101,
   "originalTopRow": 12,
   "parentColumnSpace": 7.298828125,
   "parentId": "2jlduz4y1z",
@@ -152,8 +152,8 @@
       "id": "tab1",
       "index": 1,
       "isDuplicateLabel": false,
-      "isVisible": "{{ !getRecProducts.data }}",
-      "label": "My Routine",
+      "isVisible": "{{getRecProducts.data != undefined}}",
+      "label": "Routine",
       "positioning": "vertical",
       "widgetId": "x90b66s38p"
     },
