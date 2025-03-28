@@ -9,11 +9,17 @@
   "dynamicBindingPathList": [
     {
       "key": "buttonColor"
+    },
+    {
+      "key": "isDisabled"
     }
   ],
   "dynamicPropertyPathList": [
     {
       "key": "onClick"
+    },
+    {
+      "key": "isDisabled"
     }
   ],
   "dynamicTriggerPathList": [
@@ -22,7 +28,7 @@
     }
   ],
   "isDefaultClickDisabled": true,
-  "isDisabled": false,
+  "isDisabled": "{{MultiSelect1.selectedOptionValues.length == 0 || MultiSelect1.selectedOptionValues.length > 3 }}",
   "isLoading": false,
   "isVisible": true,
   "key": "if8qjdnh3h",
@@ -33,7 +39,7 @@
   "mobileRightColumn": 61,
   "mobileTopRow": 39,
   "needsErrorInfo": false,
-  "onClick": "{{MultiSelect1.selectedOptionValues.length === 0 \n? showAlert(\"Please select at least one concern\", \"error\") \n: (MultiSelect1.selectedOptionValues.length > 3? showAlert(\"Please select a maximum of 3 concerns\", \"error\") \n\t : storeValue(\"concerns\", MultiSelect1.selectedOptionLabels), storeValue(\"concernIds\", MultiSelect1.selectedOptionValues),\n\t navigateTo(\"4 Personalized Routine Quiz\")\n\t) }}",
+  "onClick": "{{storeValue(\"concerns\", MultiSelect1.selectedOptionLabels), storeValue(\"concernIds\", MultiSelect1.selectedOptionValues),\n\t navigateTo(\"4 Personalized Routine Quiz\")\n\t) }}",
   "originalBottomRow": 25,
   "originalTopRow": 21,
   "parentColumnSpace": 10.22021484375,
@@ -46,6 +52,7 @@
   "responsiveBehavior": "hug",
   "rightColumn": 63,
   "text": "Next",
+  "tooltip": "Please select 1-3 concerns!",
   "topRow": 26,
   "type": "BUTTON_WIDGET",
   "version": 1,
