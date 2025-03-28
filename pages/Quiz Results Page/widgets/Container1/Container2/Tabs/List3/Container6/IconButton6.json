@@ -1,0 +1,60 @@
+{
+  "animateLoading": true,
+  "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+  "bottomRow": 4,
+  "boxShadow": "none",
+  "buttonColor": "{{ getFavs.data?.some(product => product.id === currentItem.id) ? '#ef4444' : '#d4d4d8' }}",
+  "buttonVariant": "TERTIARY",
+  "dynamicBindingPathList": [
+    {
+      "key": "borderRadius"
+    },
+    {
+      "key": "buttonColor"
+    }
+  ],
+  "dynamicHeight": "FIXED",
+  "dynamicPropertyPathList": [
+    {
+      "key": "isVisible"
+    },
+    {
+      "key": "buttonColor"
+    },
+    {
+      "key": "onClick"
+    }
+  ],
+  "dynamicTriggerPathList": [
+    {
+      "key": "onClick"
+    }
+  ],
+  "iconName": "heart",
+  "isDisabled": false,
+  "isLoading": false,
+  "isVisible": "true",
+  "key": "wzr6nn0ks7",
+  "leftColumn": 53,
+  "minWidth": 50,
+  "mobileBottomRow": 4,
+  "mobileLeftColumn": 60,
+  "mobileRightColumn": 64,
+  "mobileTopRow": 0,
+  "needsErrorInfo": false,
+  "onClick": " {{toggleFavs.run({prodId: currentItem.id}).then(() => {\n  getFavs.run();\n});\n}}",
+  "originalBottomRow": 11,
+  "originalTopRow": 7,
+  "parentColumnSpace": 12.580078125,
+  "parentId": "kpympstpx2",
+  "parentRowSpace": 10,
+  "renderMode": "CANVAS",
+  "responsiveBehavior": "hug",
+  "rightColumn": 63,
+  "tooltip": "",
+  "topRow": 0,
+  "type": "ICON_BUTTON_WIDGET",
+  "version": 1,
+  "widgetId": "9un5e3qoia",
+  "widgetName": "IconButton6"
+}

@@ -152,7 +152,7 @@
       "id": "tab1",
       "index": 1,
       "isDuplicateLabel": false,
-      "isVisible": "{{getRecProducts.data != undefined}}",
+      "isVisible": "{{ getRecProducts.isLoading}}",
       "label": "Routine",
       "positioning": "vertical",
       "widgetId": "x90b66s38p"

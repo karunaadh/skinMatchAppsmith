@@ -28,7 +28,7 @@
   "mobileRightColumn": 16,
   "mobileTopRow": 0,
   "needsErrorInfo": false,
-  "objectFit": "cover",
+  "objectFit": "contain",
   "parentId": "kpympstpx2",
   "renderMode": "CANVAS",
   "rightColumn": 10,
