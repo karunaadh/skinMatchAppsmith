@@ -33,13 +33,7 @@
   "renderMode": "CANVAS",
   "rightColumn": 62,
   "size": "LARGE",
-  "tooltips": [
-    "Terrible",
-    "Bad",
-    "Neutral",
-    "Good",
-    "Great"
-  ],
+  "tooltips": "",
   "topRow": 0,
   "type": "RATE_WIDGET",
   "widgetId": "vp034xg3p7",

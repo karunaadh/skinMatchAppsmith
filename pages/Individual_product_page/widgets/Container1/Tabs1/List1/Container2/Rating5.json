@@ -36,7 +36,7 @@
   "renderMode": "CANVAS",
   "rightColumn": 64,
   "size": "LARGE",
-  "tooltips": "[\n  \"Terrible\",\n  \"Bad\",\n  \"Neutral\",\n  \"Good\",\n  \"Great\"\n]",
+  "tooltips": "",
   "topRow": 0,
   "type": "RATE_WIDGET",
   "widgetId": "nr91gn2ztb",
