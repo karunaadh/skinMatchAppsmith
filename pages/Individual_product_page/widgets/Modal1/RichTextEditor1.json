@@ -3,7 +3,7 @@
   "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
   "bottomRow": 32,
   "boxShadow": "{{appsmith.theme.boxShadow.appBoxShadow}}",
-  "defaultText": "Enter your text here",
+  "defaultText": "{{ getReviews.data.find(r => r.user.userId === appsmith.store.loggedUser)?.reviewBody }}",
   "dynamicBindingPathList": [
     {
       "key": "borderRadius"
@@ -13,6 +13,9 @@
     },
     {
       "key": "labelTextColor"
+    },
+    {
+      "key": "defaultText"
     }
   ],
   "dynamicHeight": "FIXED",
