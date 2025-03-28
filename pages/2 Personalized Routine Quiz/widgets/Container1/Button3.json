@@ -9,6 +9,14 @@
   "dynamicBindingPathList": [
     {
       "key": "buttonColor"
+    },
+    {
+      "key": "isDisabled"
+    }
+  ],
+  "dynamicPropertyPathList": [
+    {
+      "key": "isDisabled"
     }
   ],
   "dynamicTriggerPathList": [
@@ -17,7 +25,7 @@
     }
   ],
   "isDefaultClickDisabled": true,
-  "isDisabled": false,
+  "isDisabled": "{{appsmith.store.skinId === '' || \nappsmith.store.skinId === undefined }}",
   "isLoading": false,
   "isVisible": true,
   "key": "if8qjdnh3h",
