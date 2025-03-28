@@ -39,7 +39,7 @@
   "mobileRightColumn": 61,
   "mobileTopRow": 39,
   "needsErrorInfo": false,
-  "onClick": "{{storeValue(\"concerns\", MultiSelect1.selectedOptionLabels), storeValue(\"concernIds\", MultiSelect1.selectedOptionValues),\n\t navigateTo(\"4 Personalized Routine Quiz\")\n\t) }}",
+  "onClick": "{{appsmith.storeValue(\"concerns\", MultiSelect1.selectedOptionLabels), appsmith.storeValue(\"concernIds\", MultiSelect1.selectedOptionValues),\n\t navigateTo(\"4 Personalized Routine Quiz\")\n }}",
   "originalBottomRow": 25,
   "originalTopRow": 21,
   "parentColumnSpace": 10.22021484375,
