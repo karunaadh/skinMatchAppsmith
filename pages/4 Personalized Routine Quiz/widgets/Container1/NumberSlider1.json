@@ -2,10 +2,13 @@
   "accentColor": "{{appsmith.theme.colors.primaryColor}}",
   "animateLoading": true,
   "bottomRow": 25,
-  "defaultValue": 10,
+  "defaultValue": "{{appsmith.store.budget}}",
   "dynamicBindingPathList": [
     {
       "key": "accentColor"
+    },
+    {
+      "key": "defaultValue"
     }
   ],
   "dynamicTriggerPathList": [],

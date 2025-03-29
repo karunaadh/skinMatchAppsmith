@@ -46,7 +46,7 @@
   "responsiveBehavior": "fill",
   "rightColumn": 59,
   "shouldTruncate": false,
-  "text": " What is your spending budget for 1 product ?",
+  "text": " What is your spending budget for your whole routine (5 products) ?",
   "textAlign": "CENTER",
   "textColor": "{{appsmith.theme.colors.primaryColor}}",
   "topRow": 8,

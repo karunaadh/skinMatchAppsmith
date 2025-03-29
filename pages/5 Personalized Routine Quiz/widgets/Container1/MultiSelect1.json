@@ -4,7 +4,7 @@
   "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
   "bottomRow": 17,
   "boxShadow": "none",
-  "defaultOptionValue": "",
+  "defaultOptionValue": "{{ ((options, serverSideFiltering) => ( appsmith.store.irritants))(MultiSelect1.options, MultiSelect1.serverSideFiltering) }}",
   "dynamicBindingPathList": [
     {
       "key": "accentColor"
@@ -14,6 +14,9 @@
     },
     {
       "key": "sourceData"
+    },
+    {
+      "key": "defaultOptionValue"
     }
   ],
   "dynamicHeight": "FIXED",
@@ -23,11 +26,17 @@
     },
     {
       "key": "onDropdownClose"
+    },
+    {
+      "key": "onOptionChange"
     }
   ],
   "dynamicTriggerPathList": [
     {
       "key": "onDropdownClose"
+    },
+    {
+      "key": "onOptionChange"
     }
   ],
   "isDisabled": false,
@@ -51,7 +60,8 @@
   "mobileRightColumn": 25,
   "mobileTopRow": 15,
   "needsErrorInfo": false,
-  "onDropdownClose": "{{storeValue(\"irritants\", MultiSelect1.selectedOptionLabels);}}",
+  "onDropdownClose": "\n",
+  "onOptionChange": "",
   "optionLabel": "ingredientName",
   "optionValue": "ingredientId",
   "parentColumnSpace": 12.580078125,
