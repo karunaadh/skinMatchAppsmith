@@ -5,58 +5,12 @@
   "borderColor": "#ffffff",
   "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
   "borderWidth": "2",
-  "bottomRow": 31,
+  "bottomRow": 50,
   "boxShadow": "{{appsmith.theme.boxShadow.appBoxShadow}}",
   "children": [
     {
       "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-      "bottomRow": 100,
-      "boxShadow": "{{appsmith.theme.boxShadow.appBoxShadow}}",
-      "canExtend": true,
-      "detachFromLayout": true,
-      "dynamicBindingPathList": [
-        {
-          "key": "borderRadius"
-        },
-        {
-          "key": "boxShadow"
-        }
-      ],
-      "dynamicHeight": "AUTO_HEIGHT",
-      "dynamicTriggerPathList": [],
-      "flexLayers": [],
-      "isDisabled": false,
-      "isLoading": false,
-      "isVisible": true,
-      "key": "ad594xdixj",
-      "leftColumn": 0,
-      "maxDynamicHeight": 9000,
-      "minDynamicHeight": 4,
-      "minHeight": 150,
-      "minWidth": 450,
-      "mobileBottomRow": 150,
-      "mobileLeftColumn": 0,
-      "mobileRightColumn": 202.939453125,
-      "mobileTopRow": 0,
-      "needsErrorInfo": false,
-      "parentColumnSpace": 1,
-      "parentId": "btf9suwiqz",
-      "parentRowSpace": 1,
-      "renderMode": "CANVAS",
-      "responsiveBehavior": "fill",
-      "rightColumn": 202.939453125,
-      "shouldScrollContents": false,
-      "tabId": "tab1",
-      "tabName": "Product Description",
-      "topRow": 0,
-      "type": "CANVAS_WIDGET",
-      "version": 1,
-      "widgetId": "bb8v3vdzkk",
-      "widgetName": "Canvas6"
-    },
-    {
-      "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-      "bottomRow": 270,
+      "bottomRow": 290,
       "boxShadow": "{{appsmith.theme.boxShadow.appBoxShadow}}",
       "canExtend": true,
       "detachFromLayout": true,
@@ -227,7 +181,7 @@
   "mobileTopRow": 10,
   "needsErrorInfo": false,
   "onTabSelected": "",
-  "originalBottomRow": 59,
+  "originalBottomRow": 31,
   "originalTopRow": 16,
   "parentColumnSpace": 8.455810546875,
   "parentId": "y4hg2xh4fe",
@@ -238,17 +192,9 @@
   "shouldScrollContents": true,
   "shouldShowTabs": true,
   "tabsObj": {
-    "tab1": {
-      "id": "tab1",
-      "index": 0,
-      "isVisible": true,
-      "label": "Product Description",
-      "positioning": "vertical",
-      "widgetId": "bb8v3vdzkk"
-    },
     "tab2": {
       "id": "tab2",
-      "index": 1,
+      "index": 0,
       "isVisible": true,
       "label": "Ingredients",
       "positioning": "vertical",
@@ -256,14 +202,14 @@
     },
     "tabgzv4lol07w": {
       "id": "tabgzv4lol07w",
-      "index": 3,
+      "index": 2,
       "isVisible": true,
       "label": "Reviews",
       "widgetId": "uq8i53azjd"
     },
     "tabyhxakn8lkv": {
       "id": "tabyhxakn8lkv",
-      "index": 2,
+      "index": 1,
       "isVisible": true,
       "label": "Similar Products",
       "widgetId": "i19v2f8e95"
