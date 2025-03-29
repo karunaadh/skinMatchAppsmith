@@ -1,7 +1,7 @@
 {
   "animateLoading": true,
   "borderRadius": "1.5rem",
-  "bottomRow": 13,
+  "bottomRow": 14,
   "boxShadow": "none",
   "buttonColor": "#16233b",
   "buttonVariant": "PRIMARY",
@@ -38,7 +38,7 @@
   "responsiveBehavior": "hug",
   "rightColumn": 18,
   "text": "Write a review",
-  "topRow": 9,
+  "topRow": 10,
   "type": "BUTTON_WIDGET",
   "version": 1,
   "widgetId": "9wpclqss5x",
