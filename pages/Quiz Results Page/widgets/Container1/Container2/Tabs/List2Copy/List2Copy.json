@@ -112,7 +112,7 @@
   "parentColumnSpace": 2.509485363960266,
   "parentId": "cc097kjn6x",
   "parentRowSpace": 10,
-  "primaryKeys": "{{List2Copy.listData.map((currentItem, currentIndex) => currentItem[\"id\"] )}}",
+  "primaryKeys": "{{List2Copy.listData.map((currentItem, currentIndex) => currentItem[\"ingredientId\"] )}}",
   "renderMode": "CANVAS",
   "requiresFlatWidgetChildren": true,
   "responsiveBehavior": "fill",

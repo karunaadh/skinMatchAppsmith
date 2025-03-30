@@ -115,7 +115,7 @@
   "parentColumnSpace": 12.387553215026855,
   "parentId": "cc097kjn6x",
   "parentRowSpace": 10,
-  "primaryKeys": "{{List4.listData.map((currentItem, currentIndex) => currentItem[\"id\"] )}}",
+  "primaryKeys": "{{List4.listData.map((currentItem, currentIndex) => currentItem[\"concernId\"] )}}",
   "renderMode": "CANVAS",
   "requiresFlatWidgetChildren": true,
   "responsiveBehavior": "fill",
