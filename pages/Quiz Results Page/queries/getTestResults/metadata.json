@@ -1,6 +1,6 @@
 {
   "gitSyncId": "67ddc33354151b575cdc9073_b4b0f2cf-5f53-4c7c-ac80-84322da5a3d4",
-  "id": "Quiz Results Page_Api1",
+  "id": "Quiz Results Page_getTestResults",
   "pluginId": "restapi-plugin",
   "pluginType": "API",
   "unpublishedAction": {
@@ -16,7 +16,7 @@
       "httpMethod": "GET",
       "httpVersion": "HTTP11",
       "paginationType": "NONE",
-      "path": "/users/{{appsmith.store.loggedUser}}/avoid",
+      "path": "/test-results",
       "pluginSpecifiedTemplates": [
         {
           "value": true
@@ -32,13 +32,9 @@
       "name": "SkincareDB",
       "pluginId": "restapi-plugin"
     },
-    "dynamicBindingPathList": [
-      {
-        "key": "path"
-      }
-    ],
-    "executeOnLoad": false,
-    "name": "Api1",
+    "dynamicBindingPathList": [],
+    "executeOnLoad": true,
+    "name": "getTestResults",
     "pageId": "Quiz Results Page",
     "userSetOnLoad": false
   }
