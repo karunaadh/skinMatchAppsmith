@@ -97,7 +97,7 @@
   "itemSpacing": 8,
   "key": "4jgcwffg50",
   "leftColumn": 0,
-  "listData": "{{get}}",
+  "listData": "{{appsmith.store.irritantsName}}",
   "mainCanvasId": "mcsr9d0r9q",
   "mainContainerId": "510lmk27c0",
   "minWidth": 450,

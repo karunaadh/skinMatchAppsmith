@@ -33,7 +33,7 @@
   "mobileRightColumn": 32,
   "mobileTopRow": 25,
   "needsErrorInfo": false,
-  "onClick": "{{postTestResults.run();\nnavigateTo('Quiz Results Page', {}, 'SAME_WINDOW');storeValue(\"irritants\", MultiSelect1.selectedOptionValues);storeValue(\"irritants\", MultiSelect1.selectedOptionValues);\n}}",
+  "onClick": "{{postTestResults.run();\nnavigateTo('Quiz Results Page', {}, 'SAME_WINDOW');storeValue(\"irritants\", MultiSelect1.selectedOptionValues);storeValue(\"irritantsName\", MultiSelect1.selectedOptionLabels);\n}}",
   "originalBottomRow": 27,
   "originalTopRow": 23,
   "parentColumnSpace": 8.29638671875,

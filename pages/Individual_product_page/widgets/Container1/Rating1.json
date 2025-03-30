@@ -1,7 +1,7 @@
 {
   "activeColor": "#eab308",
   "animateLoading": true,
-  "bottomRow": 10,
+  "bottomRow": 11,
   "defaultRate": "{{getProductbyId.data.averageScore}}",
   "dynamicBindingPathList": [
     {
@@ -37,7 +37,7 @@
   "rightColumn": 23,
   "size": "LARGE",
   "tooltips": "",
-  "topRow": 6,
+  "topRow": 7,
   "type": "RATE_WIDGET",
   "widgetId": "g61qp3mug5",
   "widgetName": "Rating1"

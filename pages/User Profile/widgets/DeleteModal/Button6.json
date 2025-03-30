@@ -29,7 +29,7 @@
   "mobileRightColumn": 63,
   "mobileTopRow": 18,
   "needsErrorInfo": false,
-  "onClick": "{{DeleteUser.run().then(() => {\n  showAlert('Successfully deleted account!', '');\n  clearStore();\n  navigateTo('Registration_Login Page', {}, 'SAME_WINDOW');\n  closeModal(DeleteModal.name);\n}).catch(() => {\n  showAlert('Error deleting account! Try again later.', 'error');\n});}}",
+  "onClick": "{{DeleteUser.run().then(() => {\n  showAlert('Successfully deleted account!', '');\n  clearStore();\n  navigateTo('Registration_Login Page', {}, 'SAME_WINDOW');\n  closeModal(DeleteModal.name);\n  clearStore();\n}).catch(() => {\n  showAlert('Error deleting account! Try again later.', 'error');\n});}}",
   "originalBottomRow": 23,
   "originalTopRow": 19,
   "parentId": "i4az4y6jk6",
