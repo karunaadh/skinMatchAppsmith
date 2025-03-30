@@ -1,8 +1,7 @@
 {
   "animateLoading": true,
   "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-  "borderWidth": "",
-  "bottomRow": 76,
+  "bottomRow": 25,
   "dynamicBindingPathList": [
     {
       "key": "truncateButtonColor"
@@ -22,7 +21,7 @@
   "isLoading": false,
   "isVisible": true,
   "key": "snvpb9xecb",
-  "leftColumn": 49,
+  "leftColumn": 17,
   "maxDynamicHeight": 9000,
   "minDynamicHeight": 4,
   "minWidth": 450,
@@ -31,23 +30,23 @@
   "mobileRightColumn": 21,
   "mobileTopRow": 2,
   "needsErrorInfo": false,
-  "originalBottomRow": 76,
-  "originalTopRow": 72,
+  "originalBottomRow": 25,
+  "originalTopRow": 20,
   "overflow": "NONE",
   "parentColumnSpace": 9.0390625,
   "parentId": "k56vv90gai",
   "parentRowSpace": 10,
   "renderMode": "CANVAS",
   "responsiveBehavior": "fill",
-  "rightColumn": 64,
+  "rightColumn": 26,
   "shouldTruncate": false,
-  "text": "",
-  "textAlign": "LEFT",
-  "textColor": "#231F20",
-  "topRow": 72,
+  "text": "Eric (Jialuo) Chen",
+  "textAlign": "CENTER",
+  "textColor": "#5f7491",
+  "topRow": 20,
   "truncateButtonColor": "{{appsmith.theme.colors.primaryColor}}",
   "type": "TEXT_WIDGET",
   "version": 1,
-  "widgetId": "71nmt51jm5",
-  "widgetName": "Disclaimer_Paragraph"
+  "widgetId": "k6el28t78e",
+  "widgetName": "Name2"
 }
