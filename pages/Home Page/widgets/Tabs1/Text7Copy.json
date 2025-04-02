@@ -1,7 +1,7 @@
 {
   "animateLoading": true,
   "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-  "bottomRow": 135,
+  "bottomRow": 98,
   "dynamicBindingPathList": [
     {
       "key": "truncateButtonColor"
@@ -17,7 +17,7 @@
   "dynamicTriggerPathList": [],
   "fontFamily": "{{appsmith.theme.fontFamily.appFont}}",
   "fontSize": "0.875rem",
-  "fontStyle": "ITALIC,BOLD",
+  "fontStyle": "",
   "isLoading": false,
   "isVisible": true,
   "key": "snvpb9xecb",
@@ -30,8 +30,8 @@
   "mobileRightColumn": 21,
   "mobileTopRow": 2,
   "needsErrorInfo": false,
-  "originalBottomRow": 134,
-  "originalTopRow": 92,
+  "originalBottomRow": 116,
+  "originalTopRow": 103,
   "overflow": "NONE",
   "parentColumnSpace": 9.0390625,
   "parentId": "k56vv90gai",
@@ -40,10 +40,10 @@
   "responsiveBehavior": "fill",
   "rightColumn": 48,
   "shouldTruncate": false,
-  "text": "Our team aims to develop a user-friendly web application that recommends skincare products based on personalized user profiles. This integrated platform enables users to discover products tailored to their unique skin types and concerns, while also serving as a centralized hub for community reviews.\n\nSummary of functionalities \nThere are five key functionalities. The first one is product filtering and comparison which allows users to filter and group products based on budget, ingredients, and brand, simplifying the shopping experience. Ingredient analysis is the second functionality that provides insights into product ingredients to help users make informed decisions. There is a quiz where users can input details about their skin and receive a customized routine and tailored product recommendations. Additionally, there is a skincare hub, a dashboard where users can manage their personalized routine and favorite products. Furthermore, the website has a review system where users can share feedback, fostering an interactive skincare community\n\n\nDisclaimer \nThis website is a student project created for educational purposes only. The work presented here may be incomplete, subject to revision, and should not be considered professional skincare advice. \n\n\n",
+  "text": "Our team aims to develop a user-friendly web application that recommends skincare products based on personalized user profiles. This integrated platform enables users to discover products tailored to their unique skin types and concerns, while also serving as a centralized hub for community reviews.",
   "textAlign": "LEFT",
   "textColor": "#5f7491",
-  "topRow": 93,
+  "topRow": 92,
   "truncateButtonColor": "{{appsmith.theme.colors.primaryColor}}",
   "type": "TEXT_WIDGET",
   "version": 1,
