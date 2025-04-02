@@ -40,7 +40,7 @@
   "renderMode": "CANVAS",
   "resetFormOnClick": false,
   "responsiveBehavior": "hug",
-  "rightColumn": 9,
+  "rightColumn": 15,
   "text": "Back",
   "topRow": 26,
   "type": "BUTTON_WIDGET",

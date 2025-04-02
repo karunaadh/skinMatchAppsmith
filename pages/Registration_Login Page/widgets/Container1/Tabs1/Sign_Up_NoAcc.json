@@ -44,7 +44,7 @@
   "renderMode": "CANVAS",
   "resetFormOnClick": false,
   "responsiveBehavior": "hug",
-  "rightColumn": 31,
+  "rightColumn": 26,
   "text": "Don't have Account? Sign up now!",
   "topRow": 25,
   "type": "BUTTON_WIDGET",

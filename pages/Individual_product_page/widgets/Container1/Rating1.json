@@ -1,7 +1,7 @@
 {
   "activeColor": "#eab308",
   "animateLoading": true,
-  "bottomRow": 10,
+  "bottomRow": 13,
   "defaultRate": "{{getProductbyId.data.averageScore}}",
   "dynamicBindingPathList": [
     {
@@ -28,16 +28,16 @@
   "mobileRightColumn": 28,
   "mobileTopRow": 41,
   "needsErrorInfo": false,
-  "originalBottomRow": 11,
-  "originalTopRow": 7,
+  "originalBottomRow": 15,
+  "originalTopRow": 9,
   "parentColumnSpace": 14.8125,
   "parentId": "y4hg2xh4fe",
   "parentRowSpace": 10,
   "renderMode": "CANVAS",
-  "rightColumn": 23,
+  "rightColumn": 34,
   "size": "LARGE",
   "tooltips": "",
-  "topRow": 6,
+  "topRow": 9,
   "type": "RATE_WIDGET",
   "widgetId": "g61qp3mug5",
   "widgetName": "Rating1"
