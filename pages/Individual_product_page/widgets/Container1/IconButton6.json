@@ -1,7 +1,7 @@
 {
   "animateLoading": true,
   "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-  "bottomRow": 13,
+  "bottomRow": 10,
   "boxShadow": "none",
   "buttonColor": "{{ getFavs.data?.some(product => product.id === Number(appsmith.URL.queryParams.item))? '#ef4444' : '#d4d4d8'}}",
   "buttonVariant": "TERTIARY",
@@ -51,7 +51,7 @@
   "responsiveBehavior": "hug",
   "rightColumn": 9,
   "tooltip": "",
-  "topRow": 9,
+  "topRow": 6,
   "type": "ICON_BUTTON_WIDGET",
   "version": 1,
   "widgetId": "ocncrvye05",

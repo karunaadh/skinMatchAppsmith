@@ -1,7 +1,7 @@
 {
   "animateLoading": true,
   "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-  "bottomRow": 23,
+  "bottomRow": 22,
   "dynamicBindingPathList": [
     {
       "key": "truncateButtonColor"
@@ -21,7 +21,7 @@
   "isLoading": false,
   "isVisible": true,
   "key": "rye7ht7ahm",
-  "leftColumn": 6,
+  "leftColumn": 0,
   "maxDynamicHeight": 9000,
   "minDynamicHeight": 4,
   "minWidth": 450,
@@ -38,7 +38,7 @@
   "parentRowSpace": 10,
   "renderMode": "CANVAS",
   "responsiveBehavior": "fill",
-  "rightColumn": 58,
+  "rightColumn": 64,
   "shouldTruncate": false,
   "text": "Don't get overwhelmed by the amount of skincare products in the market! Try our free quiz to get your list of personalized skincare products!",
   "textAlign": "CENTER",

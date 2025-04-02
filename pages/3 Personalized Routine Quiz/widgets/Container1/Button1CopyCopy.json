@@ -4,7 +4,7 @@
   "bottomRow": 30,
   "boxShadow": "0 1px 3px 0 rgba(0, 0, 0, 0.1), 0 1px 2px 0 rgba(0, 0, 0, 0.06)",
   "buttonColor": "{{appsmith.theme.colors.primaryColor}}",
-  "buttonVariant": "PRIMARY",
+  "buttonVariant": "SECONDARY",
   "disabledWhenInvalid": false,
   "dynamicBindingPathList": [
     {
@@ -40,7 +40,7 @@
   "renderMode": "CANVAS",
   "resetFormOnClick": false,
   "responsiveBehavior": "hug",
-  "rightColumn": 15,
+  "rightColumn": 14,
   "text": "Back",
   "topRow": 26,
   "type": "BUTTON_WIDGET",
