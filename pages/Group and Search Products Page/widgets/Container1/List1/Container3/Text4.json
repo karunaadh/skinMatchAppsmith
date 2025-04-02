@@ -41,7 +41,7 @@
   "parentId": "7sdfta492k",
   "renderMode": "CANVAS",
   "responsiveBehavior": "fill",
-  "rightColumn": 15,
+  "rightColumn": 19,
   "shouldTruncate": false,
   "text": "${{currentItem.price}}",
   "textAlign": "LEFT",

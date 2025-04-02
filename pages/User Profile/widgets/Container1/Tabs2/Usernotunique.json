@@ -47,7 +47,7 @@
   "parentRowSpace": 10,
   "renderMode": "CANVAS",
   "responsiveBehavior": "fill",
-  "rightColumn": 34,
+  "rightColumn": 38,
   "shouldTruncate": false,
   "text": "Username is not unique!",
   "textAlign": "LEFT",

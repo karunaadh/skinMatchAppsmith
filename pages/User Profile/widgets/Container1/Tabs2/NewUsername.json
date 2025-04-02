@@ -57,7 +57,7 @@
   "renderMode": "CANVAS",
   "resetOnSubmit": true,
   "responsiveBehavior": "fill",
-  "rightColumn": 31,
+  "rightColumn": 49,
   "showStepArrows": false,
   "tooltip": "Value must only include letters or numbers",
   "topRow": 0,

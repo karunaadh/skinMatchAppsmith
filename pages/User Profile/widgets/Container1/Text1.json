@@ -43,7 +43,7 @@
   "parentId": "mu32m1er9t",
   "renderMode": "CANVAS",
   "responsiveBehavior": "fill",
-  "rightColumn": 42,
+  "rightColumn": 55,
   "shouldTruncate": false,
   "text": "{{appsmith.store.loggedUser}}'s Profile\n",
   "textAlign": "LEFT",
