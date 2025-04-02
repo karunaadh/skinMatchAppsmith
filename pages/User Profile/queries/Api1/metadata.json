@@ -1,6 +1,6 @@
 {
-  "gitSyncId": "67ddc33354151b575cdc9073_b4dde785-586a-4756-a87e-59eb15ca8109",
-  "id": "My Skincare Page_getFavsCopy",
+  "gitSyncId": "67ddc33354151b575cdc9073_3429a2e0-422d-484e-8744-fa3034491f55",
+  "id": "User Profile_Api1",
   "pluginId": "restapi-plugin",
   "pluginType": "API",
   "unpublishedAction": {
@@ -16,7 +16,7 @@
       "httpMethod": "GET",
       "httpVersion": "HTTP11",
       "paginationType": "NONE",
-      "path": "/users/{{appsmith.store.loggedUser}}/favs",
+      "path": "/users/SkinExpert",
       "pluginSpecifiedTemplates": [
         {
           "value": true
@@ -32,14 +32,10 @@
       "name": "SkincareDB",
       "pluginId": "restapi-plugin"
     },
-    "dynamicBindingPathList": [
-      {
-        "key": "path"
-      }
-    ],
+    "dynamicBindingPathList": [],
     "executeOnLoad": false,
-    "name": "getFavsCopy",
-    "pageId": "My Skincare Page",
+    "name": "Api1",
+    "pageId": "User Profile",
     "userSetOnLoad": false
   }
 }

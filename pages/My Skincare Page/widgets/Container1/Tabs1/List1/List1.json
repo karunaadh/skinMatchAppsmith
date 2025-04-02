@@ -118,7 +118,7 @@
   "onItemClick": "{{closeModal('').then(() => {\n  closeModal('');\n}).catch(() => {\n  showAlert('kzxmcldkmc', 'error');\n});}}",
   "originalBottomRow": 75,
   "originalTopRow": 32,
-  "pageSize": 3,
+  "pageSize": 1,
   "parentColumnSpace": 12.580078125,
   "parentId": "x90b66s38p",
   "parentRowSpace": 10,

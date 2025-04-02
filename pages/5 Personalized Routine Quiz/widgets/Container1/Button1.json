@@ -11,11 +11,7 @@
       "key": "buttonColor"
     }
   ],
-  "dynamicPropertyPathList": [
-    {
-      "key": "onClick"
-    }
-  ],
+  "dynamicPropertyPathList": [],
   "dynamicTriggerPathList": [
     {
       "key": "onClick"
@@ -33,7 +29,7 @@
   "mobileRightColumn": 32,
   "mobileTopRow": 25,
   "needsErrorInfo": false,
-  "onClick": "{{postTestResults.run();\nnavigateTo('Quiz Results Page', {}, 'SAME_WINDOW');storeValue(\"irritants\", MultiSelect1.selectedOptionValues);storeValue(\"irritantsName\", MultiSelect1.selectedOptionLabels);\n}}",
+  "onClick": "{{postTestResults.run().then(() => {\n  navigateTo('Quiz Results Page', {}, 'SAME_WINDOW');\n});\nstoreValue(\"irritants\", MultiSelect1.selectedOptionValues);\nstoreValue(\"irritantsName\", MultiSelect1.selectedOptionLabels);}}",
   "originalBottomRow": 27,
   "originalTopRow": 23,
   "parentColumnSpace": 8.29638671875,

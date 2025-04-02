@@ -74,7 +74,7 @@
     }
   },
   "menuItemsSource": "STATIC",
-  "menuVariant": "PRIMARY",
+  "menuVariant": "SECONDARY",
   "mobileBottomRow": 4,
   "mobileLeftColumn": 0,
   "mobileRightColumn": 8,
@@ -85,7 +85,7 @@
   "parentRowSpace": 10,
   "placement": "CENTER",
   "renderMode": "CANVAS",
-  "rightColumn": 10,
+  "rightColumn": 7,
   "sourceData": [],
   "topRow": 1,
   "type": "MENU_BUTTON_WIDGET",

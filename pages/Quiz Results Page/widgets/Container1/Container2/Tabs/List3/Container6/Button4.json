@@ -50,7 +50,7 @@
   "resetFormOnClick": false,
   "responsiveBehavior": "hug",
   "rightColumn": 63,
-  "text": "{{currentItem.brand}}{{currentItem.name}}",
+  "text": "{{currentItem.brand}}\n{{currentItem.name}}",
   "topRow": 4,
   "type": "BUTTON_WIDGET",
   "version": 1,
