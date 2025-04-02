@@ -1,7 +1,7 @@
 {
   "appIsExample": false,
   "appLayout": {
-    "type": "MOBILE"
+    "type": "TABLET_LARGE"
   },
   "applicationVersion": 2,
   "collapseInvisibleWidgets": true,
@@ -59,6 +59,6 @@
     }
   ],
   "unpublishedAppLayout": {
-    "type": "MOBILE"
+    "type": "TABLET_LARGE"
   }
 }
