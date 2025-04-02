@@ -116,7 +116,7 @@
   "mobileTopRow": 66,
   "needsErrorInfo": false,
   "onItemClick": "{{closeModal('').then(() => {\n  closeModal('');\n}).catch(() => {\n  showAlert('kzxmcldkmc', 'error');\n});}}",
-  "originalBottomRow": 85,
+  "originalBottomRow": 75,
   "originalTopRow": 32,
   "pageSize": 3,
   "parentColumnSpace": 12.580078125,
