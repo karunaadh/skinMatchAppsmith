@@ -3,7 +3,7 @@
   "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
   "bottomRow": 32,
   "boxShadow": "{{appsmith.theme.boxShadow.appBoxShadow}}",
-  "defaultText": "{{ getReviews.data.find(r => r.user.userId === appsmith.store.loggedUser)?.reviewBody }}",
+  "defaultText": "{{ getReviews.data.find(r => r.reviewId.userId === appsmith.store.loggedUser)?.reviewBody }}",
   "dynamicBindingPathList": [
     {
       "key": "borderRadius"
