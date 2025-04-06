@@ -97,7 +97,7 @@
   "itemSpacing": 8,
   "key": "ky2p6h6gjj",
   "leftColumn": 18,
-  "listData": "{{getReviews.data.map((item)=>{return{ score : item.score,\n\t\t\t\t\treviewBody:item.reviewBody,\nuser: item.user.userId,\ndate: item.date,\nproduct: item.product\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n};\n  });\n}}",
+  "listData": "{{getReviews.data.map((item)=>{return{ score : item.score,\n\t\t\t\t\treviewBody:item.reviewBody,\nuser: item.reviewId.userId,\ndate: item.date,\nproduct: item.product\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n};\n  });\n}}",
   "mainCanvasId": "cebucnfze3",
   "mainContainerId": "3mse5sy4uf",
   "minWidth": 450,

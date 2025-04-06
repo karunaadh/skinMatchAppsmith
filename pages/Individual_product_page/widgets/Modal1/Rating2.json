@@ -1,7 +1,7 @@
 {
   "activeColor": "#eab308",
   "animateLoading": true,
-  "bottomRow": 7,
+  "bottomRow": 5,
   "defaultRate": 3,
   "dynamicBindingPathList": [],
   "dynamicHeight": "AUTO_HEIGHT",
@@ -23,7 +23,7 @@
   "mobileRightColumn": 48,
   "mobileTopRow": 1,
   "needsErrorInfo": false,
-  "originalBottomRow": 5,
+  "originalBottomRow": 7,
   "originalTopRow": 1,
   "parentColumnSpace": 10.8125,
   "parentId": "5g4sbqz3pu",
