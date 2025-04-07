@@ -1,10 +1,10 @@
 export default {
 	//Load products
-	onLoad: () => {
-		// Fetch all products and reset the filter state
-		const response = getAllProducts.data;
-		storeValue('filteredProducts', response); // Store all products
-	},
+	// onLoad: () => {
+	// // Fetch all products and reset the filter state
+	// const response = getAllProducts.data;
+	// storeValue('filteredProducts', response); // Store all products
+	// },
 
 	// Function to handle search as user types
 	onSearchChange: (searchTerm) => {
@@ -39,7 +39,7 @@ export default {
 		// // Fetch all products and reset the filter state
 		// const response = getAllProducts.data;
 		// storeValue('filteredProducts', response); // Store all products
-		// resetWidget('List1'); // Refresh the product list widget
+		resetWidget('List1'); // Refresh the product list widget
 	},
 
 	// Function to apply filters and fetch filtered products
@@ -57,7 +57,7 @@ export default {
 		//Run filter
 		getFilteredProducts.run(params);
 		const response = getFilteredProducts.data;
-		storeValue('filteredProducts', response);
+		// storeValue('filteredProducts', response);
 		resetWidget('List1'); // Refresh the product list widget
 	},
 };
