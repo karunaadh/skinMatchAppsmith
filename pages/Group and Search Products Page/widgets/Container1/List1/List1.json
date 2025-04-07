@@ -97,7 +97,7 @@
   "itemSpacing": 8,
   "key": "gsozdk4us1",
   "leftColumn": 0,
-  "listData": "{{ getFilteredProducts.data.filter(product => new RegExp(inp_search.text, 'i').test(product.name)) }}\n",
+  "listData": "{{ getFilteredProducts.data.filter(product => {\n\t//Get search term\n\tconst searchTerm = inp_search.text;\n\n\t//Set regex\n\tconst regex = new RegExp(searchTerm.replace(/[.*+?^=!:${}()|\\[\\]\\/\\\\]/g, \"\\\\$&\"), 'i');\n\n\t//Check both name and brand\n\treturn regex.test(product.name) || regex.test(product.brand);\n}) }}\n",
   "mainCanvasId": "rx9yr97axu",
   "mainContainerId": "8cy5u1gy19",
   "minWidth": 450,
