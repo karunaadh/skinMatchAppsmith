@@ -1,7 +1,7 @@
 {
   "animateLoading": true,
   "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-  "bottomRow": 148,
+  "bottomRow": 146,
   "dynamicBindingPathList": [
     {
       "key": "fontFamily"
@@ -24,8 +24,8 @@
   "mobileRightColumn": 21,
   "mobileTopRow": 2,
   "needsErrorInfo": false,
-  "originalBottomRow": 152,
-  "originalTopRow": 132,
+  "originalBottomRow": 148,
+  "originalTopRow": 130,
   "overflow": "NONE",
   "parentColumnSpace": 9.0390625,
   "parentId": "k56vv90gai",
@@ -37,7 +37,7 @@
   "text": "There are five key functionalities. The first one is product filtering and comparison which allows users to filter and group products based on budget, ingredients, and brand, simplifying the shopping experience. Ingredient analysis is the second functionality that provides insights into product ingredients to help users make informed decisions. There is a quiz where users can input details about their skin and receive a customized routine and tailored product recommendations. Additionally, there is a skincare hub, a dashboard where users can manage their personalized routine and favorite products. Furthermore, the website has a review system where users can share feedback, fostering an interactive skincare community\n",
   "textAlign": "LEFT",
   "textColor": "#5f7491",
-  "topRow": 130,
+  "topRow": 128,
   "truncateButtonColor": "{{appsmith.theme.colors.primaryColor}}",
   "type": "TEXT_WIDGET",
   "version": 1,

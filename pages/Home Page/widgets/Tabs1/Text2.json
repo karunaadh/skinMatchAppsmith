@@ -1,7 +1,7 @@
 {
   "animateLoading": true,
   "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-  "bottomRow": 121,
+  "bottomRow": 119,
   "dynamicBindingPathList": [
     {
       "key": "fontFamily"
@@ -27,8 +27,8 @@
   "mobileRightColumn": 16,
   "mobileTopRow": 93,
   "needsErrorInfo": false,
-  "originalBottomRow": 123,
-  "originalTopRow": 119,
+  "originalBottomRow": 121,
+  "originalTopRow": 117,
   "overflow": "NONE",
   "parentColumnSpace": 14.5,
   "parentId": "k56vv90gai",
@@ -40,7 +40,7 @@
   "text": "Summary of Functions:",
   "textAlign": "LEFT",
   "textColor": "{{appsmith.theme.colors.primaryColor}}",
-  "topRow": 117,
+  "topRow": 115,
   "truncateButtonColor": "{{appsmith.theme.colors.primaryColor}}",
   "type": "TEXT_WIDGET",
   "version": 1,

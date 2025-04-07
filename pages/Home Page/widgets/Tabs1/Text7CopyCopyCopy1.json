@@ -1,7 +1,7 @@
 {
   "animateLoading": true,
   "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-  "bottomRow": 178,
+  "bottomRow": 176,
   "dynamicBindingPathList": [
     {
       "key": "fontFamily"
@@ -24,8 +24,8 @@
   "mobileRightColumn": 21,
   "mobileTopRow": 2,
   "needsErrorInfo": false,
-  "originalBottomRow": 183,
-  "originalTopRow": 173,
+  "originalBottomRow": 178,
+  "originalTopRow": 168,
   "overflow": "NONE",
   "parentColumnSpace": 9.0390625,
   "parentId": "k56vv90gai",
@@ -37,7 +37,7 @@
   "text": "This website is a student project created for educational purposes only. The work presented here may be incomplete, subject to revision, and should not be considered professional skincare advice. \n\n\n",
   "textAlign": "LEFT",
   "textColor": "#5f7491",
-  "topRow": 168,
+  "topRow": 166,
   "truncateButtonColor": "{{appsmith.theme.colors.primaryColor}}",
   "type": "TEXT_WIDGET",
   "version": 1,
