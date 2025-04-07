@@ -1,15 +1,8 @@
 {
   "animateLoading": true,
   "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-  "bottomRow": 105,
-  "dynamicBindingPathList": [
-    {
-      "key": "truncateButtonColor"
-    },
-    {
-      "key": "borderRadius"
-    }
-  ],
+  "bottomRow": 125,
+  "dynamicBindingPathList": [],
   "dynamicHeight": "AUTO_HEIGHT",
   "dynamicTriggerPathList": [],
   "fontFamily": "Montserrat",
@@ -27,8 +20,8 @@
   "mobileRightColumn": 21,
   "mobileTopRow": 2,
   "needsErrorInfo": false,
-  "originalBottomRow": 105,
-  "originalTopRow": 101,
+  "originalBottomRow": 127,
+  "originalTopRow": 123,
   "overflow": "NONE",
   "parentColumnSpace": 9.0390625,
   "parentId": "k56vv90gai",
@@ -40,7 +33,7 @@
   "text": "Product Filtering\n",
   "textAlign": "LEFT",
   "textColor": "#5f7491",
-  "topRow": 101,
+  "topRow": 121,
   "truncateButtonColor": "{{appsmith.theme.colors.primaryColor}}",
   "type": "TEXT_WIDGET",
   "version": 1,

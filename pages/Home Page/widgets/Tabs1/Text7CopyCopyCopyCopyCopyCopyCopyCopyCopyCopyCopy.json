@@ -1,15 +1,8 @@
 {
   "animateLoading": true,
   "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-  "bottomRow": 233,
-  "dynamicBindingPathList": [
-    {
-      "key": "truncateButtonColor"
-    },
-    {
-      "key": "borderRadius"
-    }
-  ],
+  "bottomRow": 289,
+  "dynamicBindingPathList": [],
   "dynamicHeight": "AUTO_HEIGHT",
   "dynamicTriggerPathList": [],
   "fontFamily": "Montserrat",
@@ -27,8 +20,8 @@
   "mobileRightColumn": 21,
   "mobileTopRow": 2,
   "needsErrorInfo": false,
-  "originalBottomRow": 227,
-  "originalTopRow": 212,
+  "originalBottomRow": 295,
+  "originalTopRow": 267,
   "overflow": "NONE",
   "parentColumnSpace": 9.0390625,
   "parentId": "k56vv90gai",
@@ -40,7 +33,7 @@
   "text": "[1] N. Purohit, \"How to make a skincare routine app? (development process),\" IdeaUsher, https://ideausher.com/blog/what-is-a-skincare-app-how-to-develop-a-skincare-app-everything-you-need-to-know-about-the-app-development-process/ (accessed Apr. 7, 2025). \n[2]\"US skincare and cosmetics: Consumer Habits & Preferences,\" Standard Insights, https://standard-insights.com/blog/us-skincare-and-cosmetics/ (accessed Apr. 7, 2025). \n[3]D. Herich, \"What consumers want from skin care,\" Global Cosmetic Industry, https://www.gcimagazine.com/brands-products/skin-care/article/21848792/what-consumers-want-from-skin-care (accessed Apr. 7, 2025).  \n[4]K. Doolan, \"New beauty consumer insights from social listening,\" CosmeticsDesign, https://www.cosmeticsdesign-europe.com/Article/2023/09/20/New-beauty-consumer-insights-from-social-listening/ (accessed Apr. 7, 2025). \n\n",
   "textAlign": "LEFT",
   "textColor": "#5f7491",
-  "topRow": 212,
+  "topRow": 261,
   "truncateButtonColor": "{{appsmith.theme.colors.primaryColor}}",
   "type": "TEXT_WIDGET",
   "version": 1,

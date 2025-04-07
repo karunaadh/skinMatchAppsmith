@@ -1,15 +1,8 @@
 {
   "animateLoading": true,
   "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-  "bottomRow": 125,
-  "dynamicBindingPathList": [
-    {
-      "key": "truncateButtonColor"
-    },
-    {
-      "key": "borderRadius"
-    }
-  ],
+  "bottomRow": 168,
+  "dynamicBindingPathList": [],
   "dynamicHeight": "AUTO_HEIGHT",
   "dynamicTriggerPathList": [],
   "fontFamily": "Montserrat",
@@ -27,8 +20,8 @@
   "mobileRightColumn": 21,
   "mobileTopRow": 2,
   "needsErrorInfo": false,
-  "originalBottomRow": 125,
-  "originalTopRow": 120,
+  "originalBottomRow": 173,
+  "originalTopRow": 167,
   "overflow": "NONE",
   "parentColumnSpace": 9.0390625,
   "parentId": "k56vv90gai",
@@ -40,7 +33,7 @@
   "text": "Ingredients are examined and analyzed to provide insights to help the user make informed decisions.[2,4]\n",
   "textAlign": "LEFT",
   "textColor": "#5f7491",
-  "topRow": 120,
+  "topRow": 163,
   "truncateButtonColor": "{{appsmith.theme.colors.primaryColor}}",
   "type": "TEXT_WIDGET",
   "version": 1,

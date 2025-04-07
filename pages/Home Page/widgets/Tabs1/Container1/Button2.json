@@ -33,7 +33,7 @@
   "renderMode": "CANVAS",
   "resetFormOnClick": false,
   "responsiveBehavior": "hug",
-  "rightColumn": 16,
+  "rightColumn": 20,
   "text": "SkinMatch",
   "topRow": 0,
   "type": "BUTTON_WIDGET",

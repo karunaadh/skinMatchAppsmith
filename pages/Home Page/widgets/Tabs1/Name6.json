@@ -1,16 +1,10 @@
 {
   "animateLoading": true,
   "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-  "bottomRow": 48,
+  "bottomRow": 49,
   "dynamicBindingPathList": [
     {
-      "key": "truncateButtonColor"
-    },
-    {
       "key": "fontFamily"
-    },
-    {
-      "key": "borderRadius"
     }
   ],
   "dynamicHeight": "AUTO_HEIGHT",
@@ -30,7 +24,7 @@
   "mobileRightColumn": 21,
   "mobileTopRow": 2,
   "needsErrorInfo": false,
-  "originalBottomRow": 51,
+  "originalBottomRow": 50,
   "originalTopRow": 45,
   "overflow": "NONE",
   "parentColumnSpace": 9.0390625,
@@ -43,7 +37,7 @@
   "text": "Aditi Ponemone",
   "textAlign": "CENTER",
   "textColor": "#5f7491",
-  "topRow": 43,
+  "topRow": 44,
   "truncateButtonColor": "{{appsmith.theme.colors.primaryColor}}",
   "type": "TEXT_WIDGET",
   "version": 1,

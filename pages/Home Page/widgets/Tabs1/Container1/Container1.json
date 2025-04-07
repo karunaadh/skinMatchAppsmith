@@ -53,16 +53,16 @@
   "containerStyle": "card",
   "dynamicBindingPathList": [
     {
-      "key": "boxShadow"
-    },
-    {
-      "key": "borderColor"
+      "key": "isVisible"
     },
     {
       "key": "backgroundColor"
     },
     {
-      "key": "isVisible"
+      "key": "borderColor"
+    },
+    {
+      "key": "boxShadow"
     }
   ],
   "dynamicHeight": "AUTO_HEIGHT",
