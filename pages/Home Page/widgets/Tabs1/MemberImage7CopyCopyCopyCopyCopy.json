@@ -1,7 +1,7 @@
 {
   "animateLoading": true,
   "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-  "bottomRow": 43,
+  "bottomRow": 161,
   "boxShadow": "none",
   "defaultImage": "https://assets.appsmith.com/widgets/default.png",
   "dynamicBindingPathList": [
@@ -9,15 +9,16 @@
       "key": "borderRadius"
     }
   ],
+  "dynamicTriggerPathList": [],
   "enableDownload": false,
   "enableRotation": false,
   "flexVerticalAlignment": "start",
-  "image": "",
+  "image": "file:///C:/Users/naeer/Desktop/MIE%20350/Dashboard%20Image.png",
   "imageShape": "RECTANGLE",
   "isLoading": false,
   "isVisible": true,
   "key": "s3poach50y",
-  "leftColumn": 17,
+  "leftColumn": 2,
   "maxZoomLevel": 1,
   "mobileBottomRow": 20,
   "mobileLeftColumn": 1,
@@ -25,16 +26,16 @@
   "mobileTopRow": 8,
   "needsErrorInfo": false,
   "objectFit": "cover",
-  "originalBottomRow": 43,
-  "originalTopRow": 32,
+  "originalBottomRow": 161,
+  "originalTopRow": 150,
   "parentColumnSpace": 12.01953125,
   "parentId": "k56vv90gai",
   "parentRowSpace": 10,
   "renderMode": "CANVAS",
-  "rightColumn": 26,
-  "topRow": 32,
+  "rightColumn": 11,
+  "topRow": 150,
   "type": "IMAGE_WIDGET",
   "version": 1,
-  "widgetId": "aur2vnxhgx",
-  "widgetName": "MemberImage6"
+  "widgetId": "0w6krkhx1f",
+  "widgetName": "MemberImage7CopyCopyCopyCopyCopy"
 }

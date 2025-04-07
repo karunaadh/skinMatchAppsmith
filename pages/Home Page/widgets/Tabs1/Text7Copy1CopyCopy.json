@@ -1,7 +1,7 @@
 {
   "animateLoading": true,
   "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-  "bottomRow": 81,
+  "bottomRow": 101,
   "dynamicBindingPathList": [
     {
       "key": "truncateButtonColor"
@@ -18,7 +18,7 @@
   "isLoading": false,
   "isVisible": true,
   "key": "snvpb9xecb",
-  "leftColumn": 25,
+  "leftColumn": 21,
   "maxDynamicHeight": 9000,
   "minDynamicHeight": 4,
   "minWidth": 450,
@@ -27,23 +27,23 @@
   "mobileRightColumn": 21,
   "mobileTopRow": 2,
   "needsErrorInfo": false,
-  "originalBottomRow": 81,
-  "originalTopRow": 75,
+  "originalBottomRow": 101,
+  "originalTopRow": 95,
   "overflow": "NONE",
   "parentColumnSpace": 9.0390625,
   "parentId": "k56vv90gai",
   "parentRowSpace": 10,
   "renderMode": "CANVAS",
   "responsiveBehavior": "fill",
-  "rightColumn": 35,
+  "rightColumn": 40,
   "shouldTruncate": false,
-  "text": "Our Mission",
+  "text": "Summary of Functions ",
   "textAlign": "LEFT",
   "textColor": "#5f7491",
-  "topRow": 75,
+  "topRow": 95,
   "truncateButtonColor": "{{appsmith.theme.colors.primaryColor}}",
   "type": "TEXT_WIDGET",
   "version": 1,
-  "widgetId": "98cl2q3c9x",
-  "widgetName": "Text7Copy1Copy"
+  "widgetId": "4n6jwgb0b7",
+  "widgetName": "Text7Copy1CopyCopy"
 }
