@@ -1,7 +1,7 @@
 {
   "animateLoading": true,
   "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-  "bottomRow": 142,
+  "bottomRow": 137,
   "dynamicBindingPathList": [
     {
       "key": "truncateButtonColor"
@@ -27,8 +27,8 @@
   "mobileRightColumn": 21,
   "mobileTopRow": 2,
   "needsErrorInfo": false,
-  "originalBottomRow": 142,
-  "originalTopRow": 138,
+  "originalBottomRow": 137,
+  "originalTopRow": 133,
   "overflow": "NONE",
   "parentColumnSpace": 9.0390625,
   "parentId": "k56vv90gai",
@@ -40,7 +40,7 @@
   "text": "Skincare Routine Quiz ",
   "textAlign": "LEFT",
   "textColor": "#5f7491",
-  "topRow": 138,
+  "topRow": 133,
   "truncateButtonColor": "{{appsmith.theme.colors.primaryColor}}",
   "type": "TEXT_WIDGET",
   "version": 1,

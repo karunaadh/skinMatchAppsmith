@@ -1,7 +1,7 @@
 {
   "animateLoading": true,
   "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-  "bottomRow": 176,
+  "bottomRow": 171,
   "dynamicBindingPathList": [
     {
       "key": "truncateButtonColor"
@@ -27,8 +27,8 @@
   "mobileRightColumn": 21,
   "mobileTopRow": 2,
   "needsErrorInfo": false,
-  "originalBottomRow": 176,
-  "originalTopRow": 172,
+  "originalBottomRow": 171,
+  "originalTopRow": 167,
   "overflow": "NONE",
   "parentColumnSpace": 9.0390625,
   "parentId": "k56vv90gai",
@@ -40,7 +40,7 @@
   "text": "Interactive Skincare Community ",
   "textAlign": "LEFT",
   "textColor": "#5f7491",
-  "topRow": 172,
+  "topRow": 167,
   "truncateButtonColor": "{{appsmith.theme.colors.primaryColor}}",
   "type": "TEXT_WIDGET",
   "version": 1,

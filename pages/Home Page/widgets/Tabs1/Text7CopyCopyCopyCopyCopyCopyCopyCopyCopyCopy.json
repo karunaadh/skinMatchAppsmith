@@ -1,7 +1,7 @@
 {
   "animateLoading": true,
   "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-  "bottomRow": 105,
+  "bottomRow": 201,
   "dynamicBindingPathList": [
     {
       "key": "truncateButtonColor"
@@ -13,8 +13,8 @@
   "dynamicHeight": "AUTO_HEIGHT",
   "dynamicTriggerPathList": [],
   "fontFamily": "Montserrat",
-  "fontSize": "1rem",
-  "fontStyle": "BOLD",
+  "fontSize": "0.875rem",
+  "fontStyle": "ITALIC",
   "isLoading": false,
   "isVisible": true,
   "key": "snvpb9xecb",
@@ -27,8 +27,8 @@
   "mobileRightColumn": 21,
   "mobileTopRow": 2,
   "needsErrorInfo": false,
-  "originalBottomRow": 105,
-  "originalTopRow": 101,
+  "originalBottomRow": 201,
+  "originalTopRow": 193,
   "overflow": "NONE",
   "parentColumnSpace": 9.0390625,
   "parentId": "k56vv90gai",
@@ -37,13 +37,13 @@
   "responsiveBehavior": "fill",
   "rightColumn": 49,
   "shouldTruncate": false,
-  "text": "Product Filtering\n",
+  "text": "1.https://www.skinknowing.com/\n2.https://www.skinalyzeai.com\n\n\n\n",
   "textAlign": "LEFT",
   "textColor": "#5f7491",
-  "topRow": 101,
+  "topRow": 193,
   "truncateButtonColor": "{{appsmith.theme.colors.primaryColor}}",
   "type": "TEXT_WIDGET",
   "version": 1,
-  "widgetId": "s3cdf88q2d",
-  "widgetName": "Text7CopyCopyCopyCopyCopy1"
+  "widgetId": "r37oty5507",
+  "widgetName": "Text7CopyCopyCopyCopyCopyCopyCopyCopyCopyCopy"
 }

@@ -1,7 +1,7 @@
 {
   "animateLoading": true,
   "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-  "bottomRow": 147,
+  "bottomRow": 142,
   "dynamicBindingPathList": [
     {
       "key": "truncateButtonColor"
@@ -27,8 +27,8 @@
   "mobileRightColumn": 21,
   "mobileTopRow": 2,
   "needsErrorInfo": false,
-  "originalBottomRow": 147,
-  "originalTopRow": 142,
+  "originalBottomRow": 142,
+  "originalTopRow": 137,
   "overflow": "NONE",
   "parentColumnSpace": 9.0390625,
   "parentId": "k56vv90gai",
@@ -40,7 +40,7 @@
   "text": "Users can complete a quiz and receive a customized routine and tailored product recommendations. [1,5]\n",
   "textAlign": "LEFT",
   "textColor": "#5f7491",
-  "topRow": 142,
+  "topRow": 137,
   "truncateButtonColor": "{{appsmith.theme.colors.primaryColor}}",
   "type": "TEXT_WIDGET",
   "version": 1,

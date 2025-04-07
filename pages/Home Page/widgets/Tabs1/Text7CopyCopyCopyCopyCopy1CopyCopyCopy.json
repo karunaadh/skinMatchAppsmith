@@ -1,7 +1,7 @@
 {
   "animateLoading": true,
   "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-  "bottomRow": 159,
+  "bottomRow": 154,
   "dynamicBindingPathList": [
     {
       "key": "truncateButtonColor"
@@ -27,8 +27,8 @@
   "mobileRightColumn": 21,
   "mobileTopRow": 2,
   "needsErrorInfo": false,
-  "originalBottomRow": 159,
-  "originalTopRow": 155,
+  "originalBottomRow": 154,
+  "originalTopRow": 150,
   "overflow": "NONE",
   "parentColumnSpace": 9.0390625,
   "parentId": "k56vv90gai",
@@ -40,7 +40,7 @@
   "text": "Skincare Dashboard ",
   "textAlign": "LEFT",
   "textColor": "#5f7491",
-  "topRow": 155,
+  "topRow": 150,
   "truncateButtonColor": "{{appsmith.theme.colors.primaryColor}}",
   "type": "TEXT_WIDGET",
   "version": 1,

@@ -1,7 +1,7 @@
 {
   "animateLoading": true,
   "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-  "bottomRow": 59,
+  "bottomRow": 58,
   "dynamicBindingPathList": [
     {
       "key": "truncateButtonColor"
@@ -27,8 +27,8 @@
   "mobileRightColumn": 21,
   "mobileTopRow": 2,
   "needsErrorInfo": false,
-  "originalBottomRow": 59,
-  "originalTopRow": 53,
+  "originalBottomRow": 58,
+  "originalTopRow": 52,
   "overflow": "NONE",
   "parentColumnSpace": 9.0390625,
   "parentId": "k56vv90gai",
@@ -40,7 +40,7 @@
   "text": "Our team aims to develop a user-friendly web application that recommends skincare products based on personalized user profiles. This integrated platform enables users to discover products tailored to their unique skin types and concerns, while also serving as a centralized hub for community reviews.\n",
   "textAlign": "LEFT",
   "textColor": "#5f7491",
-  "topRow": 53,
+  "topRow": 52,
   "truncateButtonColor": "{{appsmith.theme.colors.primaryColor}}",
   "type": "TEXT_WIDGET",
   "version": 1,

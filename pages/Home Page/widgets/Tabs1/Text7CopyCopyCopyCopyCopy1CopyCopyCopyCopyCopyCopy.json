@@ -1,7 +1,7 @@
 {
   "animateLoading": true,
   "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-  "bottomRow": 105,
+  "bottomRow": 210,
   "dynamicBindingPathList": [
     {
       "key": "truncateButtonColor"
@@ -18,7 +18,7 @@
   "isLoading": false,
   "isVisible": true,
   "key": "snvpb9xecb",
-  "leftColumn": 12,
+  "leftColumn": 10,
   "maxDynamicHeight": 9000,
   "minDynamicHeight": 4,
   "minWidth": 450,
@@ -27,23 +27,23 @@
   "mobileRightColumn": 21,
   "mobileTopRow": 2,
   "needsErrorInfo": false,
-  "originalBottomRow": 105,
-  "originalTopRow": 101,
+  "originalBottomRow": 216,
+  "originalTopRow": 212,
   "overflow": "NONE",
   "parentColumnSpace": 9.0390625,
   "parentId": "k56vv90gai",
   "parentRowSpace": 10,
   "renderMode": "CANVAS",
   "responsiveBehavior": "fill",
-  "rightColumn": 49,
+  "rightColumn": 25,
   "shouldTruncate": false,
-  "text": "Product Filtering\n",
+  "text": "References ",
   "textAlign": "LEFT",
   "textColor": "#5f7491",
-  "topRow": 101,
+  "topRow": 206,
   "truncateButtonColor": "{{appsmith.theme.colors.primaryColor}}",
   "type": "TEXT_WIDGET",
   "version": 1,
-  "widgetId": "s3cdf88q2d",
-  "widgetName": "Text7CopyCopyCopyCopyCopy1"
+  "widgetId": "lg6b9zif88",
+  "widgetName": "Text7CopyCopyCopyCopyCopy1CopyCopyCopyCopyCopyCopy"
 }

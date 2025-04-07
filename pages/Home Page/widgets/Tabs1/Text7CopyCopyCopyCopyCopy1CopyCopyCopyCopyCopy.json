@@ -1,7 +1,7 @@
 {
   "animateLoading": true,
   "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-  "bottomRow": 105,
+  "bottomRow": 192,
   "dynamicBindingPathList": [
     {
       "key": "truncateButtonColor"
@@ -27,23 +27,23 @@
   "mobileRightColumn": 21,
   "mobileTopRow": 2,
   "needsErrorInfo": false,
-  "originalBottomRow": 105,
-  "originalTopRow": 101,
+  "originalBottomRow": 188,
+  "originalTopRow": 184,
   "overflow": "NONE",
   "parentColumnSpace": 9.0390625,
   "parentId": "k56vv90gai",
   "parentRowSpace": 10,
   "renderMode": "CANVAS",
   "responsiveBehavior": "fill",
-  "rightColumn": 49,
+  "rightColumn": 27,
   "shouldTruncate": false,
-  "text": "Product Filtering\n",
+  "text": "Relevant Links :",
   "textAlign": "LEFT",
   "textColor": "#5f7491",
-  "topRow": 101,
+  "topRow": 188,
   "truncateButtonColor": "{{appsmith.theme.colors.primaryColor}}",
   "type": "TEXT_WIDGET",
   "version": 1,
-  "widgetId": "s3cdf88q2d",
-  "widgetName": "Text7CopyCopyCopyCopyCopy1"
+  "widgetId": "pee0tbba39",
+  "widgetName": "Text7CopyCopyCopyCopyCopy1CopyCopyCopyCopyCopy"
 }
