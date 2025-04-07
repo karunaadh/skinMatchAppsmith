@@ -1,7 +1,7 @@
 {
   "animateLoading": true,
   "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-  "bottomRow": 5,
+  "bottomRow": 10,
   "boxShadow": "none",
   "buttonColor": "{{appsmith.theme.colors.primaryColor}}",
   "buttonVariant": "TERTIARY",
@@ -18,7 +18,7 @@
       "key": "onClick"
     }
   ],
-  "iconName": "search",
+  "iconName": "heart",
   "isDisabled": false,
   "isLoading": false,
   "isVisible": true,
@@ -30,17 +30,17 @@
   "mobileRightColumn": 60,
   "mobileTopRow": 0,
   "needsErrorInfo": false,
-  "onClick": "{{navigateTo('Group and Search Products Page', {}, 'SAME_WINDOW');}}",
+  "onClick": "{{navigateTo('My Skincare Page', {}, 'SAME_WINDOW');}}",
   "parentColumnSpace": 8.58203125,
   "parentId": "y4hg2xh4fe",
   "parentRowSpace": 10,
   "renderMode": "CANVAS",
   "responsiveBehavior": "hug",
   "rightColumn": 4,
-  "tooltip": "Explore Page",
-  "topRow": 1,
+  "tooltip": "My Skincare Page",
+  "topRow": 6,
   "type": "ICON_BUTTON_WIDGET",
   "version": 1,
-  "widgetId": "xntvgu38om",
-  "widgetName": "IconButton4"
+  "widgetId": "2v2gn9obcp",
+  "widgetName": "IconButton4Copy"
 }
