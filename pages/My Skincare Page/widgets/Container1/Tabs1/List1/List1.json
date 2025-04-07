@@ -107,7 +107,7 @@
   "hasMetaWidgets": true,
   "isCanvas": true,
   "isLoading": false,
-  "isVisible": "{{getRecProducts.data != undefined || getRecProducts.data.length > 0}}",
+  "isVisible": "{{ getRecProducts.data !== undefined && getRecProducts.data !== null && getRecProducts.data.length > 0 }}",
   "itemBackgroundColor": "#FFFFFF",
   "itemSpacing": 8,
   "key": "gsozdk4us1",

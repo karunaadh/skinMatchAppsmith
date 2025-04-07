@@ -53,7 +53,7 @@
   "isCanvas": true,
   "isDeprecated": false,
   "isLoading": false,
-  "isVisible": "{{getRecProducts.data === undefined || getRecProducts.data.length === 0 }}",
+  "isVisible": "{{ getRecProducts.data === undefined || getRecProducts.data.status === 500 || getRecProducts.data.length === 0}}\n",
   "key": "f09x2k3nap",
   "leftColumn": 13,
   "maxDynamicHeight": 9000,
