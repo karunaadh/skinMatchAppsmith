@@ -53,7 +53,7 @@
   "isCanvas": true,
   "isDeprecated": false,
   "isLoading": false,
-  "isVisible": "{{getRecProducts.data === undefined || getRecProducts.data.length === 0}}",
+  "isVisible": "{{getRecProducts.data === undefined || getRecProducts.data.length === 0 }}",
   "key": "f09x2k3nap",
   "leftColumn": 13,
   "maxDynamicHeight": 9000,
@@ -67,7 +67,7 @@
     "selectionBGCSSVar": "--on-canvas-ui-widget-selection",
     "selectionColorCSSVar": "--on-canvas-ui-widget-focus"
   },
-  "originalBottomRow": 68,
+  "originalBottomRow": 67,
   "originalTopRow": 51,
   "parentColumnSpace": 2.05078125,
   "parentId": "zqo2eo63ie",
