@@ -9,7 +9,7 @@
   "animateLoading": true,
   "backgroundColor": "transparent",
   "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-  "bottomRow": 56,
+  "bottomRow": 76,
   "boxShadow": "{{appsmith.theme.boxShadow.appBoxShadow}}",
   "children": [
     {
@@ -83,11 +83,17 @@
     },
     {
       "key": "listData"
+    },
+    {
+      "key": "isVisible"
     }
   ],
   "dynamicPropertyPathList": [
     {
       "key": "onItemClick"
+    },
+    {
+      "key": "isVisible"
     }
   ],
   "dynamicTriggerPathList": [
@@ -101,7 +107,7 @@
   "hasMetaWidgets": true,
   "isCanvas": true,
   "isLoading": false,
-  "isVisible": true,
+  "isVisible": "{{getRecProducts.data != undefined || getRecProducts.data.length > 0}}",
   "itemBackgroundColor": "#FFFFFF",
   "itemSpacing": 8,
   "key": "gsozdk4us1",
@@ -116,8 +122,8 @@
   "mobileTopRow": 66,
   "needsErrorInfo": false,
   "onItemClick": "{{closeModal('').then(() => {\n  closeModal('');\n}).catch(() => {\n  showAlert('kzxmcldkmc', 'error');\n});}}",
-  "originalBottomRow": 56,
-  "originalTopRow": 32,
+  "originalBottomRow": 76,
+  "originalTopRow": 47,
   "pageSize": 2,
   "parentColumnSpace": 12.580078125,
   "parentId": "x90b66s38p",
@@ -129,7 +135,7 @@
   "rightColumn": 64,
   "selectedItemView": "{{{}}}",
   "templateHeight": 160,
-  "topRow": 27,
+  "topRow": 47,
   "triggeredItemView": "{{{}}}",
   "type": "LIST_WIDGET_V2",
   "widgetId": "gvo912lwb7",

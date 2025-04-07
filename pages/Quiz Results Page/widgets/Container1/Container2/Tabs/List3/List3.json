@@ -83,6 +83,14 @@
     },
     {
       "key": "listData"
+    },
+    {
+      "key": "isVisible"
+    }
+  ],
+  "dynamicPropertyPathList": [
+    {
+      "key": "isVisible"
     }
   ],
   "dynamicTriggerPathList": [],
@@ -92,7 +100,7 @@
   "hasMetaWidgets": true,
   "isCanvas": true,
   "isLoading": false,
-  "isVisible": true,
+  "isVisible": "{{getRecProducts.data != undefined || getRecProducts.data.length > 0}}",
   "itemBackgroundColor": "#FFFFFF",
   "itemSpacing": 8,
   "key": "560p4j9c19",
@@ -106,7 +114,7 @@
   "mobileRightColumn": 41,
   "mobileTopRow": 4,
   "needsErrorInfo": false,
-  "pageSize": 3,
+  "pageSize": 4,
   "parentColumnSpace": 5.190152406692505,
   "parentId": "zqo2eo63ie",
   "parentRowSpace": 10,

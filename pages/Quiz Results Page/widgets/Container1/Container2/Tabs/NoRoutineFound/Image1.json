@@ -1,0 +1,39 @@
+{
+  "animateLoading": true,
+  "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+  "bottomRow": 14,
+  "boxShadow": "none",
+  "defaultImage": "https://img.icons8.com/?size=100&id=3UrcEbOXMrLj&format=png&color=000000",
+  "dynamicBindingPathList": [
+    {
+      "key": "borderRadius"
+    }
+  ],
+  "dynamicTriggerPathList": [],
+  "enableDownload": false,
+  "enableRotation": false,
+  "flexVerticalAlignment": "start",
+  "image": "",
+  "imageShape": "RECTANGLE",
+  "isLoading": false,
+  "isVisible": true,
+  "key": "18sssxsnud",
+  "leftColumn": 0,
+  "maxZoomLevel": 1,
+  "mobileBottomRow": 40,
+  "mobileLeftColumn": 26,
+  "mobileRightColumn": 38,
+  "mobileTopRow": 28,
+  "needsErrorInfo": false,
+  "objectFit": "cover",
+  "parentColumnSpace": 2.05078125,
+  "parentId": "w4ttjpfpta",
+  "parentRowSpace": 10,
+  "renderMode": "CANVAS",
+  "rightColumn": 28,
+  "topRow": 0,
+  "type": "IMAGE_WIDGET",
+  "version": 1,
+  "widgetId": "hbwpbxf8mo",
+  "widgetName": "Image1"
+}
