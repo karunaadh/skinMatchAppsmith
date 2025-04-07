@@ -1,7 +1,7 @@
 {
   "animateLoading": true,
   "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-  "bottomRow": 19,
+  "bottomRow": 13,
   "dynamicBindingPathList": [
     {
       "key": "truncateButtonColor"
@@ -30,7 +30,7 @@
   "mobileRightColumn": 46,
   "mobileTopRow": 31,
   "needsErrorInfo": false,
-  "originalBottomRow": 19,
+  "originalBottomRow": 15,
   "originalTopRow": 0,
   "overflow": "NONE",
   "parentColumnSpace": 2.05078125,
@@ -38,7 +38,7 @@
   "parentRowSpace": 10,
   "renderMode": "CANVAS",
   "responsiveBehavior": "fill",
-  "rightColumn": 63,
+  "rightColumn": 64,
   "shouldTruncate": false,
   "text": "Based on your quiz responses, we couldn't find any recommended products. \n\nPlease retake the quiz to get new recommendations!",
   "textAlign": "LEFT",
