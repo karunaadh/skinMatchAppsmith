@@ -26,6 +26,8 @@
   "mobileTopRow": 188,
   "needsErrorInfo": false,
   "objectFit": "cover",
+  "originalBottomRow": 200,
+  "originalTopRow": 188,
   "parentColumnSpace": 13.30859375,
   "parentId": "k56vv90gai",
   "parentRowSpace": 10,
