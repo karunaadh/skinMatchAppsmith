@@ -1,0 +1,49 @@
+{
+  "animateLoading": true,
+  "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+  "bottomRow": 241,
+  "boxShadow": "none",
+  "buttonColor": "#d4d4d8",
+  "buttonVariant": "PRIMARY",
+  "disabledWhenInvalid": false,
+  "dynamicBindingPathList": [
+    {
+      "key": "borderRadius"
+    }
+  ],
+  "dynamicTriggerPathList": [
+    {
+      "key": "onClick"
+    }
+  ],
+  "isDefaultClickDisabled": true,
+  "isDisabled": false,
+  "isLoading": false,
+  "isVisible": true,
+  "key": "f3kva7o1qq",
+  "leftColumn": 28,
+  "minWidth": 120,
+  "mobileBottomRow": 197,
+  "mobileLeftColumn": 3,
+  "mobileRightColumn": 19,
+  "mobileTopRow": 193,
+  "needsErrorInfo": false,
+  "onClick": "{{showAlert('This website is a student project created for educational purposes only. The work presented here may be incomplete, subject to revision, and should not be considered professional skincare advice.', 'warning');}}",
+  "originalBottomRow": 235,
+  "originalTopRow": 231,
+  "parentColumnSpace": 13.30859375,
+  "parentId": "k56vv90gai",
+  "parentRowSpace": 10,
+  "placement": "CENTER",
+  "recaptchaType": "V3",
+  "renderMode": "CANVAS",
+  "resetFormOnClick": false,
+  "responsiveBehavior": "hug",
+  "rightColumn": 38,
+  "text": "Disclaimer",
+  "topRow": 237,
+  "type": "BUTTON_WIDGET",
+  "version": 1,
+  "widgetId": "xekkmqbb2e",
+  "widgetName": "Button3"
+}

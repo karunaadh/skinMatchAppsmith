@@ -1,13 +1,10 @@
 {
   "animateLoading": true,
   "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-  "bottomRow": 98,
+  "bottomRow": 201,
   "dynamicBindingPathList": [
     {
       "key": "truncateButtonColor"
-    },
-    {
-      "key": "fontFamily"
     },
     {
       "key": "borderRadius"
@@ -15,13 +12,13 @@
   ],
   "dynamicHeight": "AUTO_HEIGHT",
   "dynamicTriggerPathList": [],
-  "fontFamily": "{{appsmith.theme.fontFamily.appFont}}",
+  "fontFamily": "Montserrat",
   "fontSize": "0.875rem",
-  "fontStyle": "",
+  "fontStyle": "ITALIC",
   "isLoading": false,
   "isVisible": true,
   "key": "snvpb9xecb",
-  "leftColumn": 0,
+  "leftColumn": 12,
   "maxDynamicHeight": 9000,
   "minDynamicHeight": 4,
   "minWidth": 450,
@@ -30,23 +27,23 @@
   "mobileRightColumn": 21,
   "mobileTopRow": 2,
   "needsErrorInfo": false,
-  "originalBottomRow": 116,
-  "originalTopRow": 103,
+  "originalBottomRow": 201,
+  "originalTopRow": 193,
   "overflow": "NONE",
   "parentColumnSpace": 9.0390625,
   "parentId": "k56vv90gai",
   "parentRowSpace": 10,
   "renderMode": "CANVAS",
   "responsiveBehavior": "fill",
-  "rightColumn": 48,
+  "rightColumn": 49,
   "shouldTruncate": false,
-  "text": "Our team aims to develop a user-friendly web application that recommends skincare products based on personalized user profiles. This integrated platform enables users to discover products tailored to their unique skin types and concerns, while also serving as a centralized hub for community reviews.",
+  "text": "1.https://www.skinknowing.com/\n2.https://www.skinalyzeai.com\n\n\n\n",
   "textAlign": "LEFT",
   "textColor": "#5f7491",
-  "topRow": 92,
+  "topRow": 193,
   "truncateButtonColor": "{{appsmith.theme.colors.primaryColor}}",
   "type": "TEXT_WIDGET",
   "version": 1,
-  "widgetId": "mjpo99qqsy",
-  "widgetName": "Text7Copy"
+  "widgetId": "r37oty5507",
+  "widgetName": "Text7CopyCopyCopyCopyCopyCopyCopyCopyCopyCopy"
 }

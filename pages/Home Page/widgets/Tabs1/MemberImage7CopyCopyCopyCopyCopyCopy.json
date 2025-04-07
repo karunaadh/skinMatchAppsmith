@@ -1,7 +1,7 @@
 {
   "animateLoading": true,
   "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-  "bottomRow": 42,
+  "bottomRow": 177,
   "boxShadow": "none",
   "defaultImage": "https://assets.appsmith.com/widgets/default.png",
   "dynamicBindingPathList": [
@@ -9,15 +9,16 @@
       "key": "borderRadius"
     }
   ],
+  "dynamicTriggerPathList": [],
   "enableDownload": false,
   "enableRotation": false,
   "flexVerticalAlignment": "start",
-  "image": "",
+  "image": "https://www.iconpacks.net/icons/2/free-review-like-icon-2800-thumb.png",
   "imageShape": "RECTANGLE",
   "isLoading": false,
   "isVisible": true,
   "key": "s3poach50y",
-  "leftColumn": 3,
+  "leftColumn": 2,
   "maxZoomLevel": 1,
   "mobileBottomRow": 20,
   "mobileLeftColumn": 1,
@@ -25,16 +26,16 @@
   "mobileTopRow": 8,
   "needsErrorInfo": false,
   "objectFit": "cover",
-  "originalBottomRow": 42,
-  "originalTopRow": 31,
+  "originalBottomRow": 177,
+  "originalTopRow": 166,
   "parentColumnSpace": 12.01953125,
   "parentId": "k56vv90gai",
   "parentRowSpace": 10,
   "renderMode": "CANVAS",
-  "rightColumn": 12,
-  "topRow": 31,
+  "rightColumn": 11,
+  "topRow": 166,
   "type": "IMAGE_WIDGET",
   "version": 1,
-  "widgetId": "lijm25hy6g",
-  "widgetName": "MemberImage5"
+  "widgetId": "6vnrp1q26a",
+  "widgetName": "MemberImage7CopyCopyCopyCopyCopyCopy"
 }
